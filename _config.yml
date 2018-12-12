@@ -1,0 +1,67 @@
+# Site Info
+title: "Alex Snow Finance Journey"
+tagline: "Alex Snow Finance Journey"
+description: 'Alex Snow Finance Journey . Made by <a href="https://alexsnow.github.io" target="_blank">Alex Snow Finance Journey</a>.'
+baseurl: ""
+url: 'https://alexsnow348.github.io'
+logo: '/public/logo.png'
+
+# Site configurations
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+categories:
+tag:
+version: 1.0.0
+
+
+# About/contact
+author:
+  name: 'AlexSnow Finance Journey'
+  description: Passionate <strong> finance and data science lover </strong>, learning to be a giant.
+  gravatar: a320402fa9d8fb397013d6f56da76b97 # md5 hash of your email address
+  contact:
+    linkedin:  https://www.linkedin.com/in/wuthmonehninhlaing/
+
+    # facebook:  <hide>
+    #twitter:
+
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Categories : '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  Projects:
+    - '/projects/index.html'
+
+
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-99559049-1' # leave blank if you don't want google analytics
+disqus_short_name: 'alexsnow' # leave blank if you don't want disqus
