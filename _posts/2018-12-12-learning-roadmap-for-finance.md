@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Learning road-map for Finance"
-categories:  ["Financial Engineering"]
+categories:  ["Learning"]
 tag: [Book, Online Course]
 ---
 
