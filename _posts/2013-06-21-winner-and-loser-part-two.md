@@ -2,7 +2,7 @@
 layout: post
 title: "အောင်နိုင်သူ နှင့် ရှုံးနိမ့်သူ အပိုင်း (၂)"
 categories:  ["Burmese","Notes to read"]
-tag: [Notes in Burmese]
+tag: ["Life rules"]
 ---
 
 ၁၆။ အောင်နိုင်သူဟာ နှင်းခဲတွေပေါ်မှာ လမ်းလျှောက်တယ်။

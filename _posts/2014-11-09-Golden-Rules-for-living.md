@@ -2,7 +2,7 @@
 layout: post
 title: "ဘဝခရီးလမ်း ၊ ရွှေစည်းကမ်း (Golden Rules for living)"
 categories:  ["Burmese","Poems"]
-tag: [Poems in Burmese]
+tag: ["Life rules"]
 ---
 
 If you open it, close it.

@@ -2,7 +2,7 @@
 layout: post
 title: "A True Friend မိတ်ဆွေစစ်"
 categories:  ["Burmese"]
-tag: [Notes in Burmese]
+tag: [Friendship]
 ---
 
 A - Accepts you as you are.

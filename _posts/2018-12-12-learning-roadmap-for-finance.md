@@ -2,7 +2,7 @@
 layout: post
 title: "My learning strategy for becoming a quant"
 categories:  ["Reflection Journal"]
-tag: [Reflection]
+tag: [Roadmap]
 ---
 
 > If you want to involve in  the field which is unfamiliar to you, first thing to do is to *know and understand* the field.

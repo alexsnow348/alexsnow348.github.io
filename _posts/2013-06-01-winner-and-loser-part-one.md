@@ -2,7 +2,7 @@
 layout: post
 title: "အောင်နိုင်သူ နှင့် ရှုံးနိမ့်သူ  အပိုင်း (၁)"
 categories:  ["Burmese","Notes to read"]
-tag: [Notes in Burmese]
+tag: ["Life rules"]
 ---
 ၁။ အောင်နိုင်သူဟာ စကားကို အလုပ်နဲ့ သက်သေပြတက်တယ်။
    ရှုံးနိမ့်သူက ဆင်ခြေဆင်လက်နဲ့ ကာကွယ်တယ်။

@@ -2,7 +2,7 @@
 layout: post
 title: "ပြိုင်ပွဲ စိတ်ထား (Competition Attitude)"
 categories:  ["Burmese","Reflection Journal"]
-tag: [Reflection in Burmese]
+tag: ['Competition']
 ---
 
 
