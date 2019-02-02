@@ -11,7 +11,7 @@ title: Projects
 
 * <strong><a href ="https://github.com/alexsnow348/FX-Key-Eco-Event" target="_blank">Forex key economic events notification</a></strong>
 
-	Simple notification engine for alerting key economic events for the trading purposes. The engine alert before 3 mins with an SMS using Twilio SMS service.
+	A notification engine for alerting key economic events for the trading purposes. The engine sends out the notification before 3 mins ahead to the registered phone to alert the user that there are keys economic announcement is going to make soon. The information can be utilized to strategize for trading purposes.
 
 * <strong><a href ="https://github.com/alexsnow348/facetag" target="_blank">FaceTag: Face Recognition system</a></strong>
 
