@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ဘဝအတွက်အတွေးဆယ်ချက်"
+title: "Aloneness vs Loneliness"
 categories:  ["Burmese","Notes to read"]
 tag: ["Aloneness"]
 ---
