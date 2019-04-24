@@ -7,15 +7,11 @@ title: Projects
 * <strong><a href ="https://github.com/alexsnow348/FiniMini" target="_blank">FiniMini: The new way to becoming your own financial adviser</a></strong>
 
 	Everyone has some **savings** in the pocket.<br />
-	And everyone loves to **grow**	 it, but don’t know how.<br />
+	Everyone loves to **grow** it, but don’t know how.<br />
 	Seeking advice from professionals is **not cheap and easy**. <br />
-	
 	So, why not **learn-by-yourself**! <br />
 
-	You just need to
-	1. **Know the Market**:  Daily  3 minutes up-to-date market news with easy to understand contents.
-	2. **Get the Skill**: The step-by-step learning plan guide based on personal preferences.
-	3. **Be your own personal finance advisor**: The platform for invest-by-yourself.
+
 
 ## 2018
 * <strong><a href ="https://github.com/alexsnow348/investment-for-all" target="_blank">Investment for all (immigrants and illegal workers)</a></strong>
