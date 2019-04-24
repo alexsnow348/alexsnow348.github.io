@@ -7,8 +7,9 @@ title: Projects
 * <strong><a href ="https://github.com/alexsnow348/FiniMini" target="_blank">FiniMini: The new way to becoming your own financial adviser</a></strong>
 
 	Everyone has some **savings** in the pocket.<br />
-	And everyone loves to **grow** it, but don’t know how.<br />
+	And everyone loves to **grow**	 it, but don’t know how.<br />
 	Seeking advice from professionals is **not cheap and easy**. <br />
+	
 	So, why not **learn-by-yourself**! <br />
 
 	You just need to
