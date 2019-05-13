@@ -34,4 +34,4 @@ Leonardo da Vinci (an Italian polymath of the Renaissance)
 
 
 
-Declamation - (https://www.finimize.com)မှ ကောက်နှုတ်တင်ပြသည်။
+Declaration - (https://www.finimize.com)မှ ကောက်နှုတ်တင်ပြသည်။
