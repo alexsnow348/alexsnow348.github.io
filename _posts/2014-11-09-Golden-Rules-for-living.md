@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ဘဝခရီးလမ်း ၊ ရွှေစည်းကမ်း (Golden Rules for living)"
-categories:  ["Burmese","Poems"]
+categories:  ["Poems"]
 tag: ["Life rules"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "အောင်နိုင်သူ နှင့် ရှုံးနိမ့်သူ  အပိုင်း (၁)"
-categories:  ["Burmese","Notes to read"]
+categories:  ["Notes to read"]
 tag: ["Life rules"]
 ---
 ၁။ အောင်နိုင်သူဟာ စကားကို အလုပ်နဲ့ သက်သေပြတက်တယ်။

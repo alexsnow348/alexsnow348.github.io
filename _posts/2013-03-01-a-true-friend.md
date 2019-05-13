@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A True Friend မိတ်ဆွေစစ်"
-categories:  ["Burmese"]
+categories:  ["Notes to read"]
 tag: [Friendship]
 ---
 

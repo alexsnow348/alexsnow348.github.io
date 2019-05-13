@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "အောင်နိုင်သူ နှင့် ရှုံးနိမ့်သူ အပိုင်း (၂)"
-categories:  ["Burmese","Notes to read"]
+categories:  ["Notes to read"]
 tag: ["Life rules"]
 ---
 
