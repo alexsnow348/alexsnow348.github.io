@@ -5,15 +5,12 @@ categories:  ["News"]
 tag: ["3 Minutes Global News"]
 ---
 
-
-
-
-![US import  tariffs on China](images/20190513.jpg)
-
-
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 
 အရင် အပတ် သောကြာနေ့ တွင် US ( အမေရိက ) သည် တရုတ်နိုင်ငံသို့ US Dollar (အ မေရိကန် ဒေါလာ) $ 200 billion ( ကန် ဒေါလာ ၂၀၀ ဘီလီယံအထိ ) ကုန်ကြမူ ရှိနိုင် သော တရုတ် နိုင်ငံ ထုတ်ကုန်းမျာကို အခွန်း ရာခိုင်နှုန်း လက်ရှိ 10 % (၁၀  ရာခိုင်နှုန်း) မှ 25 % ( ၂၅ ရာခိုင်နှုန်း ) သို့ တို့မြင့် ကောက်ခံ။
+<!-- more -->
+
+<img src="http://drive.google.com/uc?export=view&id=1-3Ne_zUiIrX5hMXZ0HDSGzScE2PddACT" alt="Google Logo">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 
