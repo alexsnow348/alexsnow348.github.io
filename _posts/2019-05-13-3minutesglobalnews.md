@@ -24,14 +24,15 @@ tag: ["3 Minutes Global News"]
 
 English Version
 
-"Man has much power of discourse which for the most part is vain and false; animals have but little, but it is useful and true, and a small truth is better than a great lie."<br />
-Leonardo da Vinci (an Italian polymath of the Renaissance)
+The weak are vulnerable to the lure of money.
+And weakness has little to do with wealth.<br />
+Celtic Wisdom for Business
+
 
 မြန်မာ ဘာသာပြန်
 
-လူသားများသည် သတင်းအချက်အလက်များကို  ထုတ်ဖော် ပြောနိုင် စွမ်း အများစုံ ရှိသူများဖြစ်သည်။ သို့ပေးမဲ့ အများစုမှာ သတင်းမှားများသာ ဖြစ်ကြ၍ အကျိုးသက်ရောက်မှု မရှိပါ။ တိရစ္ဆာန် များသည် ထုတ်ဖော်ပြောနိုင်စွမ်း နည်းပါသော်လည် သတင်းမှန်များသာ ဖြစ်၍ သတင်းမှားများထက် အကျိုးရှိပါသည်။<br />
-Leonardo da Vinci (an Italian polymath of the Renaissance)
+ငွေရဲ့ ဖြားယောင်းမှုကို အားနည်းသူက မခံနိုင်။
+အားနည်းချက်ကို စည်းစိမ်ဥစ္စာနဲ့ ဘယ်လို့ မှ လုပ်မ မေးနိုင်။<br />
+- Celtic စီးပွားရေး အဆို
 
-
-
-Declaration - (https://www.finimize.com)မှ ကောက်နှုတ်တင်ပြသည်။
+Credit - https://www.finimize.com မှ ကောက်နှုတ်တင်ပြသည်။
