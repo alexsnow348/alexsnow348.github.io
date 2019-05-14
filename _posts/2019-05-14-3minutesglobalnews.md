@@ -35,4 +35,4 @@ Celtic Wisdom for Business
 Celtic စီးပွားရေး အဆို
 
 
-Credit -  https://www.usatoday.com/story/news/politics/2019/05/13/tariffs-china-slaps-duties-60-billion-us-goods/1187110001/ မှ ကောက်နှုတ်တင်ပြသည်။
+Reference -  https://www.usatoday.com/story/news/politics/2019/05/13/tariffs-china-slaps-duties-60-billion-us-goods/1187110001/ မှ ကောက်နှုတ်တင်ပြသည်။
