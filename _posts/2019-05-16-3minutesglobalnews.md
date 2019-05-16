@@ -27,12 +27,12 @@ tag: ["3 Minutes Global News"]
 English Version
 
 Loud talk, little ideas.
-- Celtic Wisdom for Business
+Celtic Wisdom for Business
 
 မြန်မာ ဘာသာပြန်
 
 လေကျယ်လေ အိုင်ဒီယာသေးလေ။
-- Celtic စီးပွားရေး အဆို
+Celtic စီးပွားရေး အဆို
 
 
 Reference - https://www.ft.com/content/379dd484-771f-11e9-be7d-6d846537acab မှ ကောက်နှုတ်တင်ပြသည်။
