@@ -1,4 +1,4 @@
-## Personal blog, built using Jekyll and ruby
+## Personal blog for my finance journey
 
   Please visit the blog [here](https://alexsnow348.github.io/).
 ### Home
@@ -6,6 +6,6 @@
 ### Blog
 ![Blog](site_screenshot/blog.png "Blog Page")
 ### Catalog
-![Catalog](site_screenshot/catalog.png "Catalog Page")
+![Categories](site_screenshot/catalog.png "Categories Page")
 ### Tags
 ![Tags](site_screenshot/tag.png "Tags Page")
