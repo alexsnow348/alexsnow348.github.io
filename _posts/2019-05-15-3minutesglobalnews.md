@@ -23,11 +23,11 @@ Quanta Computer သည်  US - China (အမေရိကန် - တရုတ�
 **ဒီကနေ့ မှတ်သားဖွယ် အဆို။**
 
 English Version
-Be seen in the company of a known liar and a rogue, and you will be counted as one.
+Be seen in the company of a known liar and a rogue, and you will be counted as one.<br />
 - Celtic Wisdom for Business
 
 မြန်မာ ဘာသာပြန်
-လူလိမ်နဲ့ လူယုတ်တွေရဲ့ အစုအဝေးမှာ ခင်ဗျား ကို တွေ့နေရရင် ခင်ဗျားကိုလည်း 'ပုတ်ထဲကပဲ' လို့ ထင်ကြလိမ့်မယ်။
+လူလိမ်နဲ့ လူယုတ်တွေရဲ့ အစုအဝေးမှာ ခင်ဗျား ကို တွေ့နေရရင် ခင်ဗျားကိုလည်း 'ပုတ်ထဲကပဲ' လို့ ထင်ကြလိမ့်မယ်။<br />
 - Celtic စီးပွားရေး အဆို
 
 
