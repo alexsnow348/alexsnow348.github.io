@@ -5,7 +5,7 @@ categories:  ["News"]
 tag: ["3 Minutes Global News"]
 ---
 
-# ခေါင်းစဉ် - အမေရိက နှင့် Huawei
+### ခေါင်းစဉ် - အမေရိက နှင့် Huawei
 
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 
