@@ -12,7 +12,7 @@ tag: ["3 Minutes Global News"]
 US သည် တရုတ်နိုင်ငံ ၏ ဖုန်းနှင့် နည်းပညာ ဆိုင်ရာ ပစ္စည်း များကို အဓိက ထုတ်လုပ်နေသော Huawei (ကုမ္ပဏီအမည်) အား သူ နိုင်ငံအတွင်း  ပစ္စည်း ရောင်းချခွင့် ပိတ်ပင်း။
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1EZwLYl1aDI5J8KCpdXJcNLPUn7IQQIay" alt="US delays tariff on EU cars">
+<img src="http://drive.google.com/uc?export=view&id=1EZwLYl1aDI5J8KCpdXJcNLPUn7IQQIay" alt="US vs Huawei">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 
@@ -42,4 +42,4 @@ Celtic Wisdom for Business
 သတိမထား၊ ဂရုမစိုက်။<br />
 Celtic စီးပွားရေး အဆို
 
-Reference - https://www.ft.com/con…/ea36fade-7784-11e9-be7d-6d846537acab မှ ကောက်နှုတ်တင်ပြသည်။
+Reference - https://www.ft.com/content/ea36fade-7784-11e9-be7d-6d846537acab မှ ကောက်နှုတ်တင်ပြသည်။
