@@ -5,7 +5,7 @@ categories:  ["News"]
 tag: ["3 Minutes Global News"]
 ---
 
-### ခေါင်းစဉ် - Quanta Computer နှင့် US-China (အမေရိကန် - တရုတ် ) စီးပွားရေးစစ်ပွဲ
+### Quanta Computer နှင့် US-China (အမေရိကန် - တရုတ် ) စီးပွားရေးစစ်ပွဲ
 
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 
