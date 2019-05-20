@@ -12,7 +12,7 @@ tag: ["3 Minutes Global News"]
 IMF ကအခွန် လျှော့ပေါ့ကောက်ခံရန်နှင့် အခြေခံအဆောက်အဦများ အား ဦးစားပေ အဆင့်မြှင့်တင်ရန် ဂျာမဏီကို တိုက်တွန်း။
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1f-Faxqc6ojKZEyzZHrv0Tz3RYPUQkpmo" alt="US vs Huawei continue">
+<img src="http://drive.google.com/uc?export=view&id=1f-Faxqc6ojKZEyzZHrv0Tz3RYPUQkpmo" alt="IMF vs Germany">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 
