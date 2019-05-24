@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "၃ မိနစ် ကမ္ဘာ့စီးပွားရေး သတင်း (မေ လ၊ ၂၄ ရက်၊ ၂၀၁၉)" 
+title: "၃ မိနစ် ကမ္ဘာ့စီးပွားရေး သတင်း (မေ လ၊ ၂၄ ရက်၊ ၂၀၁၉)"
 categories:  ["News"]
 tag: ["3 Minutes Global News"]
 ---
@@ -17,7 +17,7 @@ Shinjiro Koizumi သည် စကားပြောကောင်းသူ တ�
 ပြည်သူတွေ က လိုလာနေခြင်းပင်ဖြစ်ပါတယ်။
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1DXR8oih6bVKgBqovWleCdHp0jBEapEHV" alt="Young adults - Millennials Vs Financial Advice">
+<img src="http://drive.google.com/uc?export=view&id=1DXR8oih6bVKgBqovWleCdHp0jBEapEHV" alt="Japan's next Prime minister Vs Japanese politics">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 
