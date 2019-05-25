@@ -49,6 +49,5 @@ Celtic Wisdom for Business
 Celtic စီးပွားရေး အဆို
 
 Reference -
-Reference -
 1. https://www.economist.com/britain/2019/05/24/british-politics-after-theresa-may
 မှ ကောက်နှုတ်တင်ပြသည်။
