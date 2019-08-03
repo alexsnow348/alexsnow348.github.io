@@ -4,12 +4,36 @@ title: Projects
 ---
 
 ## 2019
-* <strong><a href ="https://github.com/alexsnow348/FiniMini" target="_blank">FiniMini: The new way to becoming your own financial adviser</a></strong>
+* <strong><a href ="https://www.facebook.com/obsm2019/" target="_blank">Online Business School for Myanmar - OBSM</a></strong>
 
-	Everyone has some **savings** in the pocket.<br />
-	Everyone loves to **grow** it, but don’t know how.<br />
-	Seeking advice from professionals is **not cheap and easy**. <br />
-	So, why not **learn-by-yourself**! <br />
+	Millennials like me and young adults are on their ways to filling their pocket with savings. But when we look for the places to grow our savings, we simply could not find places where it gonna treat us like a grown up.
+
+	Coming from the computer science background, I have no ideas about how I can grow my savings. When I tried to look for professionals advice, I figured that it is way over my level of expense for such services.
+
+	Then, I realized that we are still young and we can always fill the knowledge gap if we have interest and willingness to grow our self first.
+	So, our mission becomes-  To educate ourselves and youths like me to become our own financial advisor.
+
+	အခုခေတ်မှာဆိုရင် မိမိတို့လိုလူငယ်တွေမှာ မိမိတို့စုမိဆောင်မိတာလေ တွေကို တိုးပွားအောင် လုပ်နိုင်ဖို့ရာ လုပ်မဲ့ နည်းလမ်း တွေကို ရှားရတာ အရမ်းခက်ပါတယ်။
+	အထူသဖြင့် မြန်မာနိုင်ငံမှာဆိုရင် ကိုယ့်ကို လိမ်းသွားမဲ့ စီးပွားရေးလုပ်ငန်းတွေက ခပ်များများရယ်ပါ။
+
+	ဘယ် စီးပွားရေးကို မိမိတို့  ရင်နှီးမြှပ်နှံ့ သင့်လဲ လို့ ဆုံဖြတ်နိုင်ဖို့ ကြပြန်တော့လဲ လိုအပ်တဲ့ စီးပွားရေး အသိပညာ တွေ မိမိ တို့ လူငယ်တွေစီ မှာ အရမ်းနည်းပါးနေပါတယ်။
+
+	အဲဒါကြောင့် မို့လို့ ဒီ page လေက လူငယ်တွေ စီးပွားရေးနဲ့ ဆိုင်တဲ့ အသိပညာ တိုးပွားလာဖို့ နဲ့ မိမိတို့ အနာဂတ် အတွက် ပိုမို့ အောင်မွန်လာရန် လူငယ်တွေ ကိုယ်တိုင် ကြိုးစားရာမှာ အထောက်အကူ တစ်ခုအဖြင့် တည်ထောင်းလိုက်ခြင်းဖြစ်ပါတယ်။
+
+
+* <strong><a href ="https://www.facebook.com/fyby2019" target="_blank">For Youth, By Youth - FYBY</a></strong>
+
+	A place for sharing experiences as a youth.<br />
+	A place for reading useful knowledge.<br />
+	A place for sharing life challenges.<br />
+	A place for helping each other to grow.<br />
+	This is what  For Youth, By Youth - FYBY is intended for.<br />
+
+	မြန်မာလူငယ်များ အသိပညာ တိုးပွားလာရန်၊<br />
+	တန်းဖိုးရှိ၊ ဘဝ ခွန်းအားပေး စာပေးများ ဖတ်ခြင်း အစပျို့ပေးနိုင်ရန်၊<br />
+	လူငယ်များ ကြုံတွေ့ ရင်ဆိုင်ရမည့် အခက်အခဲ့များအား အတူတကွ ရင်ဖွင့် တိုင်းပင် အကူးအညီးပေးနိုင်ရန်၊<br />
+	လူငယ်များ ဘဝ တိုးတက်ရေးလုပ်ဆောင်ရာဝယ် အထောက်အကူ တစ်ခု ဖြစ်စေရန်<br />
+	စသော ဦးတည်ချက်များဖြင့် For Youth, By Youth - FYBY အား တည်ထောင်းလိုက်ပါတယ်။<br />
 
 
 
