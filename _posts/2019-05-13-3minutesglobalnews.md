@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ်   ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၃ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories: ["3 Minutes Global News"]
 ---
 
 ### အမေရိက နှင့် တရုတ် စီးပွားရေးစစ်ပွဲ

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (မေ လ၊ ၁၉ ရက်၊ ၂၀၁၉)"
-categories:  ["Thought"]
-tag: ["3 Minutes Thought"]
+categories:   ["3 Minutes Thought"]
 ---
 
 ###  ဆင်းရဲနွမ်းပါးမှု နဲ့ မြန်မာနိုင်ငံ
@@ -52,10 +51,10 @@ Celtic Wisdom for Business
 ပြီးတော့ အမှန်တရားကို ယုံကြည်။<br />
 Celtic စီးပွားရေး အဆို
 
-
 Reference -
-1. https://www.weforum.org/agenda/2016/01/poverty-the-past-present-and-future/<br />
-2. https://www.economist.com/economic-and-financial-indicators/2014/08/30/poverty-in-asia<br />
-3. https://www.weforum.org/agenda/2015/01/what-is-the-experience-of-extreme-poverty/<br />
-4. https://www.weforum.org/agenda/2018/11/how-can-countries-reduce-poverty-faster/<br />
-တို့မှ ကောက်နှုတ်တင်ပြသည်။
+1. [poverty-the-past-present-and-future](https://www.weforum.org/agenda/2016/01/poverty-the-past-present-and-future/){:target="_blank"}
+2. [poverty-in-asia]( https://www.economist.com/economic-and-financial-indicators/2014/08/30/poverty-in-asia){:target="_blank"}
+3. [what-is-the-experience-of-extreme-poverty](https://www.weforum.org/agenda/2015/01/what-is-the-experience-of-extreme-poverty/){:target="_blank"}
+4. [how-can-countries-reduce-poverty-faster](https://www.weforum.org/agenda/2018/11/how-can-countries-reduce-poverty-faster/){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

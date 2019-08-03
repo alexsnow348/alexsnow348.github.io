@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (ဇွန် လ၊ ၃၀ ရက်၊ ၂၀၁၉)"
-categories:  ["Thought"]
-tag: ["3 Minutes Thought"]
+categories:  ["3 Minutes Thought"]
 ---
 
 ###  A Rich Man's World (လူချမ်းသာတို့ စုဝေးရာ)
@@ -61,8 +60,7 @@ Celtic Wisdom for Business
 - လားရာအမြင်။<br />
 Celtic စီးပွားရေး အဆို
 
-
 Reference -
-1. https://www.economist.com/…/a-rare-peep-at-the-finances-of-…
+1. [a-rare-peep-at-the-finances-of-britains-001](https://www.economist.com/britain/2019/06/29/a-rare-peep-at-the-finances-of-britains-001){:target="_blank"}
+
 မှ ကောက်နှုတ်တင်ပြသည်။
-တို့မှ ကောက်နှုတ်တင်ပြသည်။

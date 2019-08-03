@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (ဇူလိုင် လ၊ ၂၆ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories: ["3 Minutes Global News"]
 ---
 
 ### Britain’s new prime minister: Boris Johnson  (ဗြိတိန်ရဲ့ဝန်ကြီးချုပ်အသစ်)
@@ -51,5 +50,6 @@ Celtic Wisdom for Business
 Celtic စီးပွားရေး အဆို
 
 Reference -
-1. https://www.economist.com/britain/2019/07/25/ditching-the-gags-and-his-enemies-boris-johnson-claims-his-prize
+1. [ditching-the-gags-and-his-enemies-boris-johnson-claims-his-prize](https://www.economist.com/britain/2019/07/25/ditching-the-gags-and-his-enemies-boris-johnson-claims-his-prize){:target="_blank"}
+
 မှ ကောက်နှုတ်တင်ပြသည်။

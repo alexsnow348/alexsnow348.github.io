@@ -44,18 +44,18 @@ author:
 nav:
   Home:
     - '/'
-  Blog:
+  Blogs:
     - '/blog/'
-    - { Categories : '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - { FYBY : '/blog/fyby/' }
+    - { OBSM: '/blog/obsm/' }
   Projects:
     - '/projects/index.html'
 
 
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+tag_page: '/blog/obsm/'
+category_page: '/blog/fyby/'
 
 hero:
   image: /public/img/we_will_be_giants_by_yalestewart.jpg

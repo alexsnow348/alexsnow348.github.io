@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၄ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories:   ["3 Minutes Global News"]
 ---
 
 ### အမေရိက နှင့် တရုတ် စီးပွားရေးစစ်ပွဲ အဆက်
@@ -37,4 +36,7 @@ Celtic Wisdom for Business
 Celtic စီးပွားရေး အဆို
 
 
-Reference -  https://www.usatoday.com/story/news/politics/2019/05/13/tariffs-china-slaps-duties-60-billion-us-goods/1187110001/ မှ ကောက်နှုတ်တင်ပြသည်။
+Reference -
+1. [US import back tariff on China]( https://www.usatoday.com/story/news/politics/2019/05/13/tariffs-china-slaps-duties-60-billion-us-goods/1187110001/){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

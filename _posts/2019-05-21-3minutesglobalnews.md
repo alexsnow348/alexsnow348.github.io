@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၁ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories:  ["3 Minutes Global News"]
 ---
 
 ### Huawei ၏ ကံကြမ္မာ (Fate of Huawei)
@@ -41,9 +40,9 @@ Celtic Wisdom for Business
 ဂရုစိုက်မနေနဲ့။<br />
 Celtic စီးပွားရေး အဆို
 
+ Reference -
+ 1. [holding-out-on-huawei]( https://www.economist.com/business/2019/05/20/holding-out-on-huawei){:target="_blank"}
+ 2. [Fate of Huawei]( https://www.ft.com/content/b1fe7b16-7af3-11e9-81d2-f785092ab560){:target="_blank"}
+ 3. [Fate of Huawei-2]( https://www.ft.com/content/aaf868e6-7ac5-11e9-81d2-f785092ab560){:target="_blank"}
 
-Reference -
-1. https://www.economist.com/business/2019/05/20/holding-out-on-huawei
-2. https://www.ft.com/content/b1fe7b16-7af3-11e9-81d2-f785092ab560
-3. https://www.ft.com/content/aaf868e6-7ac5-11e9-81d2-f785092ab560
- မှ ကောက်နှုတ်တင်ပြသည်။
+  မှ ကောက်နှုတ်တင်ပြသည်။

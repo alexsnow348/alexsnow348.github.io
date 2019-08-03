@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၆ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories: ["3 Minutes Global News"]
 ---
 
 ### အမေရိက နှင့် European Union (ဥရောပ) ထုတ်ကား
@@ -37,4 +36,7 @@ Celtic Wisdom for Business
 Celtic စီးပွားရေး အဆို
 
 
-Reference - https://www.ft.com/content/379dd484-771f-11e9-be7d-6d846537acab မှ ကောက်နှုတ်တင်ပြသည်။
+Reference -
+1. [US delays tariff on EU cars]( https://www.ft.com/content/379dd484-771f-11e9-be7d-6d846537acab){:target="_blank"}
+
+မှ ကောက်နှုတ်တင်ပြသည်။

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၂ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories: ["3 Minutes Global News"]
 ---
 
 ### လူငယ် နှင့် ငွေကြေး စီမံခန့်ခွဲမှု ဆိုင်ရာ အကြံအဉာဏ် (Young adults - Millennials Vs Financial Advice)
@@ -46,9 +45,9 @@ Celtic Wisdom for Business
 ဒီတော့ ပေးသင့်သလောက်ပေး။<br />
 Celtic စီးပွားရေး အဆို
 
-
 Reference -
-1. https://www.economist.com/business/2019/05/20/holding-out-on-huawei
-2. https://www.ft.com/content/b1fe7b16-7af3-11e9-81d2-f785092ab560
-3. https://www.ft.com/content/aaf868e6-7ac5-11e9-81d2-f785092ab560
+1. [Young adults - Millennials Vs Financial Advice]( https://www.ft.com/content/1390be10-4404-11e9-b83b-0c525dad548f){:target="_blank"}
+2. [Young adults - Millennials Vs Financial Advice-2]( https://www.ft.com/content/1b931788-7be1-11e9-81d2-f785092ab560){:target="_blank"}
+3. [open-money](https://www.open-money.co.uk/){:target="_blank"}
+
  မှ ကောက်နှုတ်တင်ပြသည်။

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (ဇွန် လ၊  ၉ ရက်၊ ၂၀၁၉)"
-categories:  ["Thought"]
-tag: ["3 Minutes Thought"]
+categories: ["3 Minutes Thought"]
 ---
 
 ###   ကုန်ဈေးနှုန်း မြင့်တက်မှု နှင့် လုပ်အားခ တိုးမြင့်မှု (Price Inflation Vs Wage Growth)
@@ -54,8 +53,11 @@ Celtic Wisdom for Business
 Celtic စီးပွားရေး အဆို
 
 
+
+
 Reference -
-1. https://www.economist.com/finance-and-economics/2018/06/30/the-rich-world-needs-higher-real-wage-growth
-2. https://www.sciencedirect.com/science/article/pii/S2212567113000348
+1. [the-rich-world-needs-higher-real-wage-growth](https://www.economist.com/finance-and-economics/2018/06/30/the-rich-world-needs-higher-real-wage-growth){:target="_blank"}
+2. [Price Inflation Vs Wage Growth](https://www.sciencedirect.com/science/article/pii/S2212567113000348){:target="_blank"}
 3. ကုန်ဈေးနှှုန်း တက်ခြင်း၊ ကျခြင်း နှင့် တန့်ခြင်း (ဒေါက်တာ ခင်မောင်ညို အ တွေးအမြင် စာစဉ် ၁၇၈ )
-တို့မှ ကောက်နှုတ်တင်ပြသည်။
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

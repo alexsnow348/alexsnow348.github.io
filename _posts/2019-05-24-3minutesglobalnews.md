@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာ့စီးပွားရေး သတင်း (မေ လ၊ ၂၄ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories: ["3 Minutes Global News"]
 ---
 
 ### ဂျပန်ရဲ့လာမယ့်ဝန်ကြီးချုပ် နှင့် ဂျပန်နိုင်ငံရေး (Japan's next Prime minister Vs Japanese politics)
@@ -50,6 +49,8 @@ Celtic Wisdom for Business
 ဘာမှ မရှိပေမဲ့ တန်ဖိုး မဖြတ်နိုင်ဘူး။<br />
 Celtic စီးပွားရေး အဆို
 
+
 Reference -
-1. https://www.economist.com/asia/2019/05/23/a-political-dynast-is-favoured-to-be-japans-next-prime-minister
-မှ ကောက်နှုတ်တင်ပြသည်။
+1. [Ia-political-dynast-is-favoured-to-be-japans-next-prime-minister](https://www.economist.com/asia/2019/05/23/a-political-dynast-is-favoured-to-be-japans-next-prime-minister){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

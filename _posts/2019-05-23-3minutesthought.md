@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (မေ လ၊ ၂၃ ရက်၊ ၂၀၁၉)"
-categories:  ["Thought"]
-tag: ["3 Minutes Thought"]
+categories:  ["3 Minutes Thought"]
 ---
 
 ###  တရုတ်, ဂျပန်, အမေရိကား နှင့်  ကုန်သွယ်ရေးစစ်ပွဲသမိုင်း (China, Japan, America Vs Trade War History)
@@ -54,5 +53,6 @@ Celtic စီးပွားရေး အဆို
 
 
 Reference -
-https://www.economist.com/finance-and-economics/2019/05/21/as-the-trade-war-heats-up-china-looks-to-japans-past-for-lessons
-မှ ကောက်နှုတ်တင်ပြသည်။
+1. [as-the-trade-war-heats-up-china-looks-to-japans-past-for-lessons](https://www.economist.com/finance-and-economics/2019/05/21/as-the-trade-war-heats-up-china-looks-to-japans-past-for-lessons){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၇ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories:  ["3 Minutes Global News"]
 ---
 
 ### အမေရိက နှင့် Huawei
@@ -42,4 +41,7 @@ Celtic Wisdom for Business
 သတိမထား၊ ဂရုမစိုက်။<br />
 Celtic စီးပွားရေး အဆို
 
-Reference - https://www.ft.com/content/ea36fade-7784-11e9-be7d-6d846537acab မှ ကောက်နှုတ်တင်ပြသည်။
+Reference -
+1. [US vs Huawei](https://www.ft.com/content/ea36fade-7784-11e9-be7d-6d846537acab){:target="_blank"}
+
+မှ ကောက်နှုတ်တင်ပြသည်။

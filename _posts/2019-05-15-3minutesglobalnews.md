@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၅ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories:  ["3 Minutes Global News"]
 ---
 
 ### Quanta Computer နှင့် US-China (အမေရိကန် - တရုတ် ) စီးပွားရေးစစ်ပွဲ
@@ -32,6 +31,7 @@ Be seen in the company of a known liar and a rogue, and you will be counted as o
 လူလိမ်နဲ့ လူယုတ်တွေရဲ့ အစုအဝေးမှာ ခင်ဗျား ကို တွေ့နေရရင် ခင်ဗျားကိုလည်း 'ပုတ်ထဲကပဲ' လို့ ထင်ကြလိမ့်မယ်။<br />
 - Celtic စီးပွားရေး အဆို
 
+Reference -
+1. [Quanta Computer expect expense rises]( https://www.ft.com/content/7037a796-7622-11e9-be7d-6d846537acab){:target="_blank"}
 
-
-Reference - https://www.ft.com/content/7037a796-7622-11e9-be7d-6d846537acab  မှ ကောက်နှုတ်တင်ပြသည်။
+ မှ ကောက်နှုတ်တင်ပြသည်။

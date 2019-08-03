@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၀ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories: ["3 Minutes Global News"]
 ---
 
 ### IMF (နိုင်ငံတကာငွေကြေးရန်ပုံငွေအဖွဲ့) နှင့်  Germany (ဂျာမနီ)
@@ -44,3 +43,10 @@ Reference -
 1. https://www.ft.com/content/e18f8952-7895-11e9-bbad-7c18c0ea0201
 2. https://www.imf.org/en/Countries/DEU
 တို့မှ ကောက်နှုတ်တင်ပြသည်။
+
+
+Reference -
+1. [IMF vs Germany](https://www.ft.com/content/e18f8952-7895-11e9-bbad-7c18c0ea0201){:target="_blank"}
+2. [IMF](https://www.imf.org/en/Countries/DEU){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

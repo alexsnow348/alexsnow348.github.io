@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၅ ရက်၊ ၂၀၁၉)"
-categories:  ["News"]
-tag: ["3 Minutes Global News"]
+categories:  ["3 Minutes Global News"]
 ---
 
 ### ဗြိတိသျှဝန်ကြီးချုပ် Vs ဗြိတိသျှပါလီမန် (Theresa May Vs British Parliament)
@@ -48,6 +47,8 @@ Celtic Wisdom for Business
 ဖြစ်ပါစေ။<br />
 Celtic စီးပွားရေး အဆို
 
+
 Reference -
-1. https://www.economist.com/britain/2019/05/24/british-politics-after-theresa-may
-မှ ကောက်နှုတ်တင်ပြသည်။
+1. [british-politics-after-theresa-may]( https://www.economist.com/britain/2019/05/24/british-politics-after-theresa-may){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

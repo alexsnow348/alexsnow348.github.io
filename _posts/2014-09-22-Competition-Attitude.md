@@ -2,7 +2,6 @@
 layout: post
 title: "ပြိုင်ပွဲ စိတ်ထား (Competition Attitude)"
 categories:  ["Reflection Journal"]
-tag: ['Competition']
 ---
 
 

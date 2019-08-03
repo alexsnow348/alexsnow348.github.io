@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (မေ လ၊ ၂၇ ရက်၊ ၂၀၁၉)"
-categories:  ["Thought"]
-tag: ["3 Minutes Thought"]
+categories:  ["3 Minutes Thought"]
 ---
 ###   လျှပ်စစ်ဓါတ်အား vs မြန်မာပြည်သူ့ ဝင်ငွေ (Electricity vs Myanmar's GDP per head )
 
@@ -42,8 +41,8 @@ Celtic Wisdom for Business
 မဟုတ်ရင် သူများက ဝင်ဂရုစိုက်သွားလိမ့်မယ်။<br />
 Celtic စီးပွားရေး အဆို
 
-
 Reference -
-1. https://www.economist.com/banyan/2012/10/18/area-of-darkness
-2. http://www-personal.umich.edu/~brianmin/Min_DemocLight_04282008lr.pdf
-တို့မှ ကောက်နှုတ်တင်ပြသည်။
+1. [area-of-darkness](https://www.economist.com/banyan/2012/10/18/area-of-darkness){:target="_blank"}
+2. [Electricity vs Myanmar's GDP per head](http://www-personal.umich.edu/~brianmin/Min_DemocLight_04282008lr.pdf){:target="_blank"}
+
+ မှ ကောက်နှုတ်တင်ပြသည်။

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "အောင်နိုင်သူ နှင့် ရှုံးနိမ့်သူ အပိုင်း (၂)"
-categories:  ["Notes to read"]
-tag: ["Life rules"]
+categories:  ["Life journey"]
 ---
 
 ၁၆။ အောင်နိုင်သူဟာ နှင်းခဲတွေပေါ်မှာ လမ်းလျှောက်တယ်။
