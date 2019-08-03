@@ -6,7 +6,8 @@ tag: ["Journey to Financial Freedom"]
 
 ### Journey to Financial Freedom - Episode Three: The mystery of money (1)
 
-အအားလုံး မင်္ဂလာပါ။
+အားလုံး မင်္ဂလာပါ။
+
 OBSM ကနေ ကြိုဆိုပါတယ်။
 
 မြန်မာနိုင်ငံမှာ အလုပ်လုပ်နေကြတဲ့ လူငယ်များရဲ့ အလုပ်စစ ဝင်ခြင်း လစာ (fresh graduate ) က ၁ သိန်းက နေ ၃ သိန်း လောက် ရပါတယ်။
