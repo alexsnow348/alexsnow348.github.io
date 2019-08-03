@@ -51,6 +51,6 @@ Celtic စီးပွားရေး အဆို
 
 
 Reference -
-1. [Ia-political-dynast-is-favoured-to-be-japans-next-prime-minister](https://www.economist.com/asia/2019/05/23/a-political-dynast-is-favoured-to-be-japans-next-prime-minister){:target="_blank"}
+1. [a-political-dynast-is-favoured-to-be-japans-next-prime-minister](https://www.economist.com/asia/2019/05/23/a-political-dynast-is-favoured-to-be-japans-next-prime-minister){:target="_blank"}
 
  မှ ကောက်နှုတ်တင်ပြသည်။
