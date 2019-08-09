@@ -60,4 +60,4 @@ For it is part of the scheme of things,<br />
 And the mind can manage it,<br />
 And the mind will become stronger for the practice.<br />
 
-- Jonathan Wilson-Fuller
+Jonathan Wilson-Fuller
