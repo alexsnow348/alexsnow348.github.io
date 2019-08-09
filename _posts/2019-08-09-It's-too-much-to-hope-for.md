@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It's too much to hope for...."
+title: "It's too much to hope for..."
 categories:  ["Life journey"]
 ---
 
