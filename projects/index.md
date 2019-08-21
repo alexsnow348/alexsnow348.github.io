@@ -47,9 +47,6 @@ title: Projects
 
 	A notification engine for alerting key economic events for the trading purposes. The engine sends out the notification before 3 mins ahead to the registered phone to alert the user that there are keys economic announcement is going to make soon. The information can be utilized to strategize for trading purposes.
 
-* <strong><a href ="https://github.com/alexsnow348/facetag" target="_blank">FaceTag: Face Recognition system</a></strong>
-
-	Face Recognition system trained for 81 people. Accuracy is around 70% achieved. Trained the model based on <a href ="https://github.com/davidsandberg/facenet" target="_blank">FaceNet</a> model which  is inspired by Inception & Inception-ResNet (CNNs).
 
 ## 2017
 * <strong><a href="https://wuthmone.shinyapps.io/ann_predictor_app/" target="_blank">Currency Exchange Rate Predictor</a></strong>
