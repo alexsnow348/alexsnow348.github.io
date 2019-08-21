@@ -1,0 +1,54 @@
+---
+layout: post
+title: "၃ မိနစ် ကမ္ဘာ့စီးပွားရေး သတင်း (သြဂုတ် လ၊ ၂၁ ရက်၊ ၂၀၁၉)"
+categories: ["3 Minutes Global News"]
+---
+
+### How recessions start (စီးပွားရေး ကျဆင်းမှု အခြေခံ)
+
+**၁။ ဘာတွေဖြစ်နေတာလဲ။**
+
+အခု ဆိုရင် လူတော်တော်များများက recession  ကို ကြုံတွေ့ နိုင်သည် ဟု တွေးကာ google တွင် recession search term က အရမ်း popular ဖြစ်နေပါတယ်။
+
+<!-- more -->
+<img src="http://drive.google.com/uc?export=view&id=1TzLNTuYEIZMtIpDPuhdY_bmcXJkLEPIT" alt="How recessions start">
+
+**၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
+
+Recession ဆိုတာ စီးပွားရေး အရ တိုးတက်မှု ရှိလာရမည့် နေရာမှာ အဲလိုမဟုတ်ပဲ 2   consecutive quarters တိုင်းတိုင်း ကျဆင်းမြဲ ကျဆင်းလာခြင်းကို ပြောတာပါ။
+
+၂၀၁၉ နှစ် first quarter မှာ နိုင်ငံတော်တော်များများမှာ စီးပွားရေး ကျဆင်းလာမှု ကို ကြုံတွေ့ ခဲ့ပြီး second quarter မှာလဲ ကျဆင်မှု ထပ်မှန် ကြုံ့တွေပါက recession ဆီကို ဦတည်းနေပါတယ်။
+
+အခုဆိုရင်  US-China trade နဲ့ Brexit  တို့ရဲ့ မသေးချာ မရေးရာမူများကြောင့် စီးပွားရေး ပညာရှင်းများက recession ဖြစ်လာချေ အလာအလာ အရမ်းများနေလို့ ထင်းမြင်နေကြပါတယ်။
+
+**၃။ ဘာလို့ စိတ်ဝင်စားမှု ပေးရမှာလဲ။**
+
+
+Recession ဖြစ်ပြီးဆိုပါက လူတော်တော်များက gold တို့လို နောက်ပိုင် စီးပွားရေး ပြန်လည်တိုးတက်လာချိန်မှာ အလွယ်တကူ ပြန်လည် ရောင်းချလွယ်ထားမိုကို ဦးစားပေး စုဆောင်လာကြပါတော့တယ်။
+
+လုပ်ငန်းတော်တော်များများက သူတို့ လုပ်ငန်း activities က နည်းပါတာတော့မယ် ဖြစ်တဲ့ အတွက် ဝန်းထမ်း လျှော့ချမှု များ (lay off )ကို လုပ်ဆောင်လာကြပါလိမ့်မယ်။ 2008 တုန်းလိုမျိုး အလုပ် ရှားဖွေးမှု ပိုမိုပြီး ခက်ခဲလာပါလိမ့်မယ်။
+
+ အဲဒါကြောင့် မိုလို့ မိမိ လူငယ်များ အမြဲတမ်း industry-relevant ဖြစ်နေအောင် အမြဲတမ်း upskilling လုပ်ကြပါမယ် ဆိုပါက မိမိ တို့ရဲ့ lay off chance က နည်းသွားနိုင်ပါလိမ့်မယ်။
+
+
+
+**ဒီကနေ့ မှတ်သားဖွယ် အဆို။**
+
+English Version
+
+Falling is easier than rising.<br />
+But having fallen many times, it is easier to rise.<br />
+
+Celtic Wisdom for Business
+
+မြန်မာ ဘာသာပြန်
+
+အကျဟာ အတက်ထက် ပိုလွယ်တယ်။<br />
+ခဏခဏ ကျပြီးရင်တော့ တက်ဖို့ လွယ်လာတတ်ပါတယ်။<br />
+
+Celtic စီးပွားရေး အဆို
+
+Reference -
+1. [The onset of a downturn is as much a matter of mood as of money](https://www.economist.com/finance-and-economics/2019/08/20/the-onset-of-a-downturn-is-as-much-a-matter-of-mood-as-of-money){:target="_blank"}
+
+မှ ကောက်နှုတ်တင်ပြသည်။
