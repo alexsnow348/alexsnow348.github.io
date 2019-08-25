@@ -21,6 +21,15 @@ title: Projects
 	အဲဒါကြောင့် မို့လို့ ဒီ page လေက လူငယ်တွေ စီးပွားရေးနဲ့ ဆိုင်တဲ့ အသိပညာ တိုးပွားလာဖို့ နဲ့ မိမိတို့ အနာဂတ် အတွက် ပိုမို့ အောင်မွန်လာရန် လူငယ်တွေ ကိုယ်တိုင် ကြိုးစားရာမှာ အထောက်အကူ တစ်ခုအဖြင့် တည်ထောင်းလိုက်ခြင်းဖြစ်ပါတယ်။
 
 
+* <strong><a href ="https://www.facebook.com/kayinmoneyexchange" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲဒိုင် -  Kayin Money Exchange</a></strong>
+
+	Now, You can easily transfer money to loved ones from Kayin State, Myanmar together with us in Malaysia.
+	We provide in-village delivery services to your loved ones villages especially for the places where no ones is willing to serve.
+
+	မြန်မာနိုင်ငံ ကရင်ပြည်နယ် လှိုင်ဘွဲ မြို့ မှာ ရှိတဲ့ ဆင်းကူး၊ နို့ထဘောင်၊ ကျောက်တောင် ကျေးရွာ တာပေါင်ကျေးနယ် အုပ်စု များ သို့ ယုံကြည် စိတ်ချ စွာ တိုက်ရိုက် ငွေလွှဲ နိုင်ကြပါပြီ။
+
+
+
 * <strong><a href ="https://www.facebook.com/fyby2019" target="_blank">For Youth, By Youth - FYBY</a></strong>
 
 	A place for sharing experiences as a youth.<br />
