@@ -8,7 +8,7 @@ categories:  ["3 Minutes Thought"]
 
 **၁။ Depression ဆိုတာ ဘာတွေဖြစ်နေခြင်းကို ပြောပါသလဲ။**
 
-Depression လို ခေါ်တဲ့ စိတ်ဓာတ်ကျခြင်း ရောဂါကုိ လူအများစုက လူချမ်းသားတွေ နဲ့ လူလတ်တန်းစား တွေမှာ ရှိကြတယ် လို့ အများက ထင်ကြပါတယ်။
+Depression လို ခေါ်တဲ့ စိတ်ဓာတ်ကျခြင်း ရောဂါကို လူအများစုက လူချမ်းသားတွေ နဲ့ လူလတ်တန်းစား တွေမှာ ရှိကြတယ် လို့ အများက ထင်ကြပါတယ်။
 
 For most of the 20th century, the view that “mental health” or "depression" was exclusively a problem of the wealthier west was widely held.
 
