@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "၃ မိနစ် အတွေးအမြင် (သြဂုတ် လ၊ ၂၈ ရက်၊ ၂၀၁၉)း"
+title: "၃ မိနစ် အတွေးအမြင် (သြဂုတ် လ၊ ၂၈ ရက်၊ ၂၀၁၉)"
 categories:  ["3 Minutes Thought"]
 ---
 
@@ -9,7 +9,6 @@ categories:  ["3 Minutes Thought"]
 **၁။ Depression ဆိုတာ ဘာတွေဖြစ်နေခြင်းကို ပြောပါသလဲ။**
 
 Depression လို ခေါ်တဲ့ စိတ်ဓာတ်ကျခြင်း ရောဂါက လူအများစုက လူချမ်းသားတွေ နဲ့ လူလတ်တန်းစား တွေမှာ ရှိကြတယ် လို့ အများက ထင်ကြပါတယ်။
-
 For most of the 20th century, the view that “mental health” or "depression" was exclusively a problem of the wealthier west was widely held.
 
 ဆင်းရဲသားတွေမှာက မိသာစု အချင်ချင် ရင်းနှီးနွေးထွေးမှုရှိတာကြောင့် လူချမ်းသားတွေ မှာသာ တွေ့ရတတ်တဲ့ စိတ်ဓာတ်ကျခြင်း ကို တွေ့ရတာ နည်းတယ်လို့ ယူဆကြပါတယ်။ လူချမ်းသားတစ်ယောက်စီမှတော့ တစ်ယောက်တည်း အထီးကျန်းခြင်း၊ အလုပ် က ပေးတဲ့ စိတ်ဖိစီးမှု တွေများခြင်း၊ ရုပ်ပိုင်းဆိုင် ကြွယ်ဝနေခြင်း စတာတွေကြောင့် ဆင်းရဲသားများထက် ပိုပြီး depression ဖြစ်ကြတယ်လို့ ဆိုပါတယ်။
@@ -63,6 +62,7 @@ while the other might bring only tears.<br />
 
 Celtic စီးပွားရေး အဆို
 
+#3minutesthought_alexsnow
 
 Reference -
 1. [Busting the myth that depression doesn't affect people in poor countries](https://www.theguardian.com/society/2019/apr/30/busting-the-myth-that-depression-doesnt-affect-people-in-poor-countries){:target="_blank"}
