@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Episode One: Intro"
+title: "Episode One: Intro - မိတ်ဆက််"
 tag: ["Journey to Financial Freedom"]
 ---
 
-### Journey to Financial Freedom - Episode One: Intro
+### Journey to Financial Freedom - Episode One: Intro - မိတ်ဆက်
 
 အားလုံး မဂ်လာပါ။
 

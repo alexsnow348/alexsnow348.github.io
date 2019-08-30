@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode Three: The mystery of money (3)"
+title: "Episode Three: The mystery of money (3) - ငွေ ဝင်္ကပါ (အပိုင်း ၃)"
 tag: ["Journey to Financial Freedom"]
 ---
 

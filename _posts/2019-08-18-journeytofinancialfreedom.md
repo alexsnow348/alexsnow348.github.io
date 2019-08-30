@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode Four: Money in Circulation"
+title: "Episode Four: Money in Circulation - ငွေ သံသရာ "
 tag: ["Journey to Financial Freedom"]
 ---
 

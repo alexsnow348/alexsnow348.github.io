@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode Five: Financial System in Myanmar"
+title: "Episode Five: Financial System in Myanmar - မြန်မာနိုင်ငံ၏ ဘဏ္ဍာရေးစနစ်"
 tag: ["Journey to Financial Freedom"]
 ---
 

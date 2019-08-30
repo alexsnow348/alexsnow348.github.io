@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Episode Three: The mystery of money (1)"
+title: "Episode Three: The mystery of money (1)- ငွေ ဝင်္ကပါ (အပိုင်း ၁)"
 tag: ["Journey to Financial Freedom"]
 ---
 
-### Journey to Financial Freedom - Episode Three: The mystery of money (1)
+### Journey to Financial Freedom - Episode Three: The mystery of money (1) - ငွေ ဝင်္ကပါ (အပိုင်း ၁)
 
 အားလုံး မင်္ဂလာပါ။
 
