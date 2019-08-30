@@ -10,8 +10,8 @@ title: Projects
 
 	Coming from the computer science background, I have no ideas about how I can grow my savings. When I tried to look for professionals advice, I figured that it is way over my level of expense for such services.
 
-	Then, I realized that we are still young and we can always fill the knowledge gap if we have interest and willingness to grow our self first.
-	So, our mission becomes-  To educate ourselves and youths like me to become our own financial advisor.
+	Then, I realized that we are still young and we can always fill the knowledge gap if we have interest and willingness to grow ourselves first.
+	So, our mission becomes-  To educate ourselves and youths like us to become our own financial adviser.
 
 	အခုခေတ်မှာဆိုရင် မိမိတို့လိုလူငယ်တွေမှာ မိမိတို့စုမိဆောင်မိတာလေ တွေကို တိုးပွားအောင် လုပ်နိုင်ဖို့ရာ လုပ်မဲ့ နည်းလမ်း တွေကို ရှားရတာ အရမ်းခက်ပါတယ်။
 	အထူသဖြင့် မြန်မာနိုင်ငံမှာဆိုရင် ကိုယ့်ကို လိမ်းသွားမဲ့ စီးပွားရေးလုပ်ငန်းတွေက ခပ်များများရယ်ပါ။
@@ -24,7 +24,7 @@ title: Projects
 * <strong><a href ="https://www.facebook.com/kayinmoneyexchange" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲဒိုင် -  Kayin Money Exchange</a></strong>
 
 	Now, You can easily transfer money to loved ones from Kayin State, Myanmar together with us in Malaysia.
-	We provide in-village delivery services to your loved ones villages especially for the places where no one is willing to serve.
+	We provide in-village delivery services to your loved ones especially for the places where no one is willing to serve.
 
 	မြန်မာနိုင်ငံ ကရင်ပြည်နယ် လှိုင်ဘွဲ မြို့ မှာ ရှိတဲ့ ဆင်းကူး၊ နို့ထဘောင်၊ ကျောက်တောင် ကျေးရွာ တာပေါင်ကျေးနယ် အုပ်စု များ သို့ ယုံကြည် စိတ်ချ စွာ တိုက်ရိုက် ငွေလွှဲ နိုင်ကြပါပြီ။
 
