@@ -11,7 +11,8 @@ title: Projects
 	Coming from the computer science background, I have no ideas about how I can grow my savings. When I tried to look for professionals advice, I figured that it is way over my level of expense for such services.
 
 	Then, I realized that we are still young and we can always fill the knowledge gap if we have interest and willingness to grow ourselves first.
-	So, our mission becomes-  To educate ourselves and youths like us to become our own financial adviser.
+	So, our mission becomes -
+	> **To educate ourselves and youths like us to become our own financial adviser.**
 
 	အခုခေတ်မှာဆိုရင် မိမိတို့လိုလူငယ်တွေမှာ မိမိတို့စုမိဆောင်မိတာလေ တွေကို တိုးပွားအောင် လုပ်နိုင်ဖို့ရာ လုပ်မဲ့ နည်းလမ်း တွေကို ရှားရတာ အရမ်းခက်ပါတယ်။
 	အထူသဖြင့် မြန်မာနိုင်ငံမှာဆိုရင် ကိုယ့်ကို လိမ်းသွားမဲ့ စီးပွားရေးလုပ်ငန်းတွေက ခပ်များများရယ်ပါ။
