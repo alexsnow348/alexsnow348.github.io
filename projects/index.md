@@ -24,8 +24,8 @@ title: Projects
 
 * <strong><a href ="https://www.facebook.com/kayinmoneyexchange" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲဒိုင် -  Kayin Money Exchange</a></strong>
 
-	Now, You can easily transfer money to loved ones from Kayin State, Myanmar together with us in Malaysia.
-	We provide in-village delivery services to your loved ones especially for the places where no one is willing to serve.
+	This is the platform for the community by the community where participants can easily transfer money to loved ones from Kayin State, Myanmar whereby
+	the platform provide in-village delivery services especially for the places where no one is willing to serve.
 
 	မြန်မာနိုင်ငံ ကရင်ပြည်နယ် လှိုင်ဘွဲ မြို့ မှာ ရှိတဲ့ ဆင်းကူး၊ နို့ထဘောင်၊ ကျောက်တောင် ကျေးရွာ တာပေါင်ကျေးနယ် အုပ်စု များ သို့ ယုံကြည် စိတ်ချ စွာ တိုက်ရိုက် ငွေလွှဲ နိုင်ကြပါပြီ။
 
