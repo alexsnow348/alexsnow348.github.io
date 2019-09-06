@@ -22,7 +22,7 @@ title: Projects
 	အဲဒါကြောင့် မို့လို့ ဒီ page လေက လူငယ်တွေ စီးပွားရေးနဲ့ ဆိုင်တဲ့ အသိပညာ တိုးပွားလာဖို့ နဲ့ မိမိတို့ အနာဂတ် အတွက် ပိုမို့ အောင်မွန်လာရန် လူငယ်တွေ ကိုယ်တိုင် ကြိုးစားရာမှာ အထောက်အကူ တစ်ခုအဖြင့် တည်ထောင်းလိုက်ခြင်းဖြစ်ပါတယ်။
 
 
-* <strong><a href ="https://www.facebook.com/kayinmoneyexchange" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲဒိုင် -  Kayin Money Exchange</a></strong>
+* <strong><a href ="https://www.facebook.com/kayinmoneytransfercommunity/" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲရွာ -  Kayin Money Transfer Community</a></strong>
 
 	This is the platform **for the community by the community** where participants can easily transfer money to loved ones from Kayin State, Myanmar whereby
 	the platform provide in-village delivery services especially for the places where no one is willing to serve.
