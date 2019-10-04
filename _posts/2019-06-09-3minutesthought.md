@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (ဇွန် လ၊  ၉ ရက်၊ ၂၀၁၉)"
-categories: ["3 Minutes Thought"]
+tag: ["3 Minutes Thought"]
 ---
 
 ###   ကုန်ဈေးနှုန်း မြင့်တက်မှု နှင့် လုပ်အားခ တိုးမြင့်မှု (Price Inflation Vs Wage Growth)

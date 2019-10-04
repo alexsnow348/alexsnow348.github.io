@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၀ ရက်၊ ၂၀၁၉)"
-categories: ["3 Minutes Global News"]
+tag: ["3 Minutes Global News"]
 ---
 
 ### IMF (နိုင်ငံတကာငွေကြေးရန်ပုံငွေအဖွဲ့) နှင့်  Germany (ဂျာမနီ)

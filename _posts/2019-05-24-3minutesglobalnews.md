@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာ့စီးပွားရေး သတင်း (မေ လ၊ ၂၄ ရက်၊ ၂၀၁၉)"
-categories: ["3 Minutes Global News"]
+tag: ["3 Minutes Global News"]
 ---
 
 ### ဂျပန်ရဲ့လာမယ့်ဝန်ကြီးချုပ် နှင့် ဂျပန်နိုင်ငံရေး (Japan's next Prime minister Vs Japanese politics)

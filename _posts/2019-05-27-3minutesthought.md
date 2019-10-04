@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (မေ လ၊ ၂၇ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Thought"]
+tag:  ["3 Minutes Thought"]
 ---
 ###   လျှပ်စစ်ဓါတ်အား vs မြန်မာပြည်သူ့ ဝင်ငွေ (Electricity vs Myanmar's GDP per head )
 

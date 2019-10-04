@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (ဇွန် လ၊ ၃၀ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Thought"]
+tag:  ["3 Minutes Thought"]
 ---
 
 ###  A Rich Man's World (လူချမ်းသာတို့ စုဝေးရာ)

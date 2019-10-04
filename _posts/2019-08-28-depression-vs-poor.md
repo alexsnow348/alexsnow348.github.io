@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (သြဂုတ် လ၊ ၂၈ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Thought"]
+tag:  ["3 Minutes Thought"]
 ---
 
 ###  Myth: Depression doesn't affect poor people (လူမွဲမှာ ငိုနေရမဲ့ အချိန်မရှိ)

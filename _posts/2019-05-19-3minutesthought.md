@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် အတွေးအမြင် (မေ လ၊ ၁၉ ရက်၊ ၂၀၁၉)"
-categories:   ["3 Minutes Thought"]
+tag:   ["3 Minutes Thought"]
 ---
 
 ###  ဆင်းရဲနွမ်းပါးမှု နဲ့ မြန်မာနိုင်ငံ

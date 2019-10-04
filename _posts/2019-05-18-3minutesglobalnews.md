@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၈ ရက်၊ ၂၀၁၉)"
-categories: ["3 Minutes Global News"]
+tag: ["3 Minutes Global News"]
 ---
 
 ### အမေရိက နှင့် Huawei အဆက်

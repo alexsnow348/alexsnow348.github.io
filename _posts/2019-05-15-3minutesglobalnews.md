@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၁၅ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Global News"]
+tag:  ["3 Minutes Global News"]
 ---
 
 ### Quanta Computer နှင့် US-China (အမေရိကန် - တရုတ် ) စီးပွားရေးစစ်ပွဲ
