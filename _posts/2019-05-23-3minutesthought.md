@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "၃ မိနစ် အတွေးအမြင် (မေ လ၊ ၂၃ ရက်၊ ၂၀၁၉)"
-tag:  ["3 Minutes Thought"]
+title: "တရုတ်, ဂျပန်, အမေရိကား နှင့်  ကုန်သွယ်ရေးစစ်ပွဲသမိုင်း (China, Japan, America Vs Trade War History)"
+tag:  ["၃ မိနစ် အတွေးအမြင််း"]
 ---
 
 ###  တရုတ်, ဂျပန်, အမေရိကား နှင့်  ကုန်သွယ်ရေးစစ်ပွဲသမိုင်း (China, Japan, America Vs Trade War History)

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (ဇူလိုင် လ၊ ၂၆ ရက်၊ ၂၀၁၉)"
-tag: ["3 Minutes Global News"]
+title: "ဗြိတိန်ရဲ့ဝန်ကြီးချုပ်အသစ် Boris Johnson"
+tag: ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း"]
 ---
 
-### Britain’s new prime minister: Boris Johnson  (ဗြိတိန်ရဲ့ဝန်ကြီးချုပ်အသစ်)
+### Britain’s new prime minister: Boris Johnson (ဗြိတိန်ရဲ့ဝန်ကြီးချုပ်အသစ်)
 
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 

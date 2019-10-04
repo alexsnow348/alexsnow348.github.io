@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Episode Five: Financial System in Myanmar - မြန်မာနိုင်ငံ၏ ဘဏ္ဍာရေးစနစ်"
-tag: ["Journey to Financial Freedom"]
+title: "မြန်မာနိုင်ငံ၏ ဘဏ္ဍာရေးစနစ် - Financial System in Myanmar"
+tag: ["လူငယ်မှသည့် လူချမ်းသားစီသိ"]
 ---
 
-### Journey to Financial Freedom - Episode Five: Financial System in Myanmar ( မြန်မာနိုင်ငံ၏ ဘဏ္ဍာရေးစနစ်)
+### မြန်မာနိုင်ငံ၏ ဘဏ္ဍာရေးစနစ် - Financial System in Myanmar
 
 အားလုံး မင်္ဂလာပါ။
 

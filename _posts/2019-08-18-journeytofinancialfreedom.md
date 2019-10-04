@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Episode Four: Money in Circulation - ငွေ သံသရာ "
-tag: ["Journey to Financial Freedom"]
+title: "ငွေ သံဿရာ - Money in Circulation"
+tag: ["လူငယ်မှသည့် လူချမ်းသားစီသို့"]
 ---
 
-### Journey to Financial Freedom - Episode Four: Money in Circulation ( ငွေ သံသရာ)
+### ငွေ သံဿရာ - Money in Circulation
 
 အားလုံး မင်္ဂလာပါ။
 

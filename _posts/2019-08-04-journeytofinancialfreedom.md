@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Episode Three: The mystery of money (3) - ငွေ ဝင်္ကပါ (အပိုင်း ၃)"
-tag: ["Journey to Financial Freedom"]
+title: "ငွေ ဝင်္ကပါ (အပိုင်း ၃) - The mystery of money (3)"
+tag: ["လူငယ်မှသည့် လူချမ်းသားစီသိ"]
 ---
 
-### Journey to Financial Freedom - Episode Three: The mystery of money (3)- ငွေ ဝင်္ကပါ (အပိုင်း ၃)
+### ငွေ ဝင်္ကပါ (အပိုင်း ၃) - The mystery of money (3)
 
 အားလုံး မင်္ဂလာပါ။
 

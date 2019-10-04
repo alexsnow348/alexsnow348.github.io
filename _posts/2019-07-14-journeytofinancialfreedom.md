@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Episode Two: Monthly Budgeting - လစဉ် ဝင်ငွေ ထွက်ငွေ စာရင်း"
-tag: ["Journey to Financial Freedom"]
+title: "လစဉ် ဝင်ငွေ ထွက်ငွေ စာရင်း - Monthly Budgeting"
+tag: ["လူငယ်မှသည့် လူချမ်းသားစီသိ"]
 ---
 
-### Journey to Financial Freedom - Episode Two: Monthly Budgeting - လစဉ် ဝင်ငွေ ထွက်ငွေ စာရင်း
+### လစဉ် ဝင်ငွေ ထွက်ငွေ စာရင်း - Monthly Budgeting
 
 အားလုံး မင်္ဂလာပါ။
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၅ ရက်၊ ၂၀၁၉)"
-tag:  ["3 Minutes Global News"]
+title: "ဗြိတိသျှဝန်ကြီးချုပ် Vs ဗြိတိသျှပါလီမန် (Theresa May Vs British Parliament)"
+tag:  ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း"]
 ---
 
 ### ဗြိတိသျှဝန်ကြီးချုပ် Vs ဗြိတိသျှပါလီမန် (Theresa May Vs British Parliament)
