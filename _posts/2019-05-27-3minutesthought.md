@@ -3,7 +3,6 @@ layout: post
 title: "လျှပ်စစ်ဓါတ်အား vs မြန်မာပြည်သူ့ ဝင်ငွေ (Electricity vs Myanmar's GDP per head )"
 tag:  ["၃ မိနစ် အတွေးအမြင်"]
 ---
-###  လျှပ်စစ်ဓါတ်အား vs မြန်မာပြည်သူ့ ဝင်ငွေ (Electricity vs Myanmar's GDP per head )
 
 **၁။ မြန်မာနိုင်ငံ ရဲ့ မီးလာမှု အခြေအနေ ဘယ်လိုရှိသလဲ။**
 

@@ -4,9 +4,6 @@ title: "A Rich Man's World (လူချမ်းသာတို့ စုဝေ
 tag:  ["၃ မိနစ် အတွေးအမြင်"]
 ---
 
-###  A Rich Man's World (လူချမ်းသာတို့ စုဝေးရာ)
-
-
 **၁။ Why rich become richer?**
 
 

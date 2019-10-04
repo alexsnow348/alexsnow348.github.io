@@ -4,8 +4,6 @@ title: "ငွေ သံဿရာ - Money in Circulation"
 tag: ["လူငယ်မှသည့် လူချမ်းသားစီသို့"]
 ---
 
-### ငွေ သံဿရာ - Money in Circulation
-
 အားလုံး မင်္ဂလာပါ။
 
 OBSM ကကြိုဆိုပါတယ်။
