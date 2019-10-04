@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "တရုတ်, ဂျပန်, အမေရိကား နှင့်  ကုန်သွယ်ရေးစစ်ပွဲသမိုင်း (China, Japan, America Vs Trade War History)"
-tag:  ["၃ မိနစ် အတွေးအမြင််"]
+tag: ["၃ မိနစ် အတွေးအမြင်"]
 ---
 
 ###  တရုတ်, ဂျပန်, အမေရိကား နှင့်  ကုန်သွယ်ရေးစစ်ပွဲသမိုင်း (China, Japan, America Vs Trade War History)
