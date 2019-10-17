@@ -24,7 +24,7 @@ title: Projects
 
 * <strong><a href ="https://www.facebook.com/kayinmoneytransfercommunity/" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲရွာ -  Kayin Money Transfer Community</a></strong>
 
-	This is the platform **for the community by the community** where participants can easily transfer money to loved ones from Kayin State, Myanmar whereby
+	This is the platform **for the community by the community** where participants can easily transfer money to loved ones in Kayin State, Myanmar whereby
 	the platform provide in-village delivery services especially for the places where no one is willing to serve.
 
 	မြန်မာနိုင်ငံ ကရင်ပြည်နယ် လှိုင်ဘွဲ မြို့ မှာ ရှိတဲ့ ဆင်းကူး၊ နို့ထဘောင်၊ ကျောက်တောင် ကျေးရွာ တာပေါင်ကျေးနယ် အုပ်စု များ သို့ ယုံကြည် စိတ်ချ စွာ တိုက်ရိုက် ငွေလွှဲ နိုင်ကြပါပြီ။
@@ -51,6 +51,8 @@ title: Projects
 * <strong><a href ="https://github.com/alexsnow348/investment-for-all" target="_blank">Investment for all (immigrants and illegal workers)</a></strong>
 
 	The project aims to solve the problem where minority: immigrants and illegal workers do not have enough privileged to participate in the market. Can we make a room for them where they can invest and grow their savings for themselves? This project plans to tickle above question and hopefully will come out with a solution for their problem.
+
+	မလေးရှားမှာ ရောက်ရှိနေတဲ့ မြန်မာ အလုပ်သမားများရဲ့ ဘဝ တိုးတက်ရေးအတွက် သူတို့ရဲ့ တစ််နေတာ လုပ်အားခများအား  ပြန်လည် ရင်နှီးမြှပ်နှံ့မှု လုပ်ဆောင်နိုင်မည့် နေရာတစ်ခု တည်ထောင်ရန်အတွက် ဦးတည်ပြီး ဒီပရောဂျက် ကို စတင်လိုက်ပါသည်။
 
 
 * <strong><a href ="https://github.com/alexsnow348/FX-Key-Eco-Event" target="_blank">Forex key economic events notification</a></strong>

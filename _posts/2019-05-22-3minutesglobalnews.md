@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၂ ရက်၊ ၂၀၁၉)"
-categories: ["3 Minutes Global News"]
+title: "လူငယ် နှင့် ငွေကြေး စီမံခန့်ခွဲမှု ဆိုင်ရာ အကြံအဉာဏ် (Young adults - Millennials Vs Financial Advice)"
+tag: ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း"]
 ---
-
-### လူငယ် နှင့် ငွေကြေး စီမံခန့်ခွဲမှု ဆိုင်ရာ အကြံအဉာဏ် (Young adults - Millennials Vs Financial Advice)
 
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 
