@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "၃ မိနစ် အတွေးအမြင် (ဇွန် လ၊ ၃၀ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Thought"]
+title: "A Rich Man's World (လူချမ်းသာတို့ စုဝေးရာ)"
+tag:  ["၃ မိနစ် အတွေးအမြင်"]
 ---
-
-###  A Rich Man's World (လူချမ်းသာတို့ စုဝေးရာ)
-
 
 **၁။ Why rich become richer?**
 

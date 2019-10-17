@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း (မေ လ၊ ၂၁ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Global News"]
+title: "Huawei ၏ ကံကြမ္မာ (Fate of Huawei)"
+tag:  ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း"]
 ---
-
-### Huawei ၏ ကံကြမ္မာ (Fate of Huawei)
 
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 

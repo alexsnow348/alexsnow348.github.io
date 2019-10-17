@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "၃ မိနစ် ကမ္ဘာ့စီးပွားရေး သတင်း (သြဂုတ် လ၊ ၂၁ ရက်၊ ၂၀၁၉)"
-categories: ["3 Minutes Global News"]
+title: "စီးပွားရေး ကျဆင်းမှု အခြေခံ - How recessions start "
+tag: ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတင်း"]
 ---
-
-### How recessions start (စီးပွားရေး ကျဆင်းမှု အခြေခံ)
 
 **၁။ ဘာတွေဖြစ်နေတာလဲ။**
 

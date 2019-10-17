@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "၃ မိနစ် အတွေးအမြင် (သြဂုတ် လ၊ ၂၈ ရက်၊ ၂၀၁၉)"
-categories:  ["3 Minutes Thought"]
+title: "လူမွဲမှာ ငိုနေရမဲ့ အချိန်မရှိ - Myth: Depression doesn't affect poor people"
+tag:  ["၃ မိနစ် အတွေးအမြင်"]
 ---
-
-###  Myth: Depression doesn't affect poor people (လူမွဲမှာ ငိုနေရမဲ့ အချိန်မရှိ)
 
 **၁။ Depression ဆိုတာ ဘာတွေဖြစ်နေခြင်းကို ပြောပါသလဲ။**
 

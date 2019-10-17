@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Episode Six: The Economic Importance of Policy Interest Rates (ဗဟိုဘဏ် ပေါ်လစီအတိုးနှုန်းရဲ့ အရေးပါမှု)"
-tag: ["Journey to Financial Freedom"]
+title: "ဗဟိုဘဏ် ပေါ်လစီအတိုးနှုန်းရဲ့ အရေးပါမှု - The Economic Importance of Policy Interest Rates"
+tag: ["လူငယ်မှသည့် လူချမ်းသားစီသို့"]
 ---
-
-### Journey to Financial Freedom - Episode Six: The Economic Importance of Policy Interest Rates (ဗဟိုဘဏ် ပေါ်လစီအတိုးနှုန်းရဲ့ အရေးပါမှု )
 
 အားလုံး မင်္ဂလာပါ။
 

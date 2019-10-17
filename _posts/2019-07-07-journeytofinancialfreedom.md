@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Episode One: Intro - မိတ်ဆက််"
-tag: ["Journey to Financial Freedom"]
+title: "မိတ်ဆက် - Intro"
+tag: ["လူငယ်မှသည့် လူချမ်းသားစီသို့"]
 ---
-
-### Journey to Financial Freedom - Episode One: Intro - မိတ်ဆက်
 
 အားလုံး မဂ်လာပါ။
 
