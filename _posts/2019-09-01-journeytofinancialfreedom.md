@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ဗဟိုဘဏ် ပေါ်လစီအတိုးနှုန်းရဲ့ အရေးပါမှု - The Economic Importance of Policy Interest Rates"
-tag: ["လူငယ်မှသည့် လူချမ်းသားစီသို့"]
+tag: ["လူငယ်မှသည် လူချမ်းသာဆီသို့"]
 ---
 
 အားလုံး မင်္ဂလာပါ။
