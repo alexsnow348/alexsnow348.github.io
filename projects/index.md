@@ -4,7 +4,7 @@ title: Projects
 ---
 
 ## 2019
-* <strong><a href ="https://www.facebook.com/obsm2019/" target="_blank">Online Business School for Myanmar - OBSM</a></strong>
+* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School for Myanmar Youths </a></strong>
 
 	Millennials like me and young adults are on their ways to filling their pocket with savings. But when we look for the places to grow our savings, we simply could not find places where it gonna treat us like a grown up.
 

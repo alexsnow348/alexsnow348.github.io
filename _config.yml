@@ -46,15 +46,15 @@ nav:
     - '/'
   Blogs:
     - '/blog/'
-    - { FYBY : '/blog/fyby/' }
-    - { OBSM: '/blog/obsm/' }
+    - { For Youth By Youth: '/blog/fyby/' }
+    - { Alex Snow School: '/blog/alexsnowschool/' }
   Projects:
     - '/projects/index.html'
 
 
 
 # Where are tags and categories displayed
-tag_page: '/blog/obsm/'
+tag_page: '/blog/alexsnowschool/'
 category_page: '/blog/fyby/'
 
 hero:
