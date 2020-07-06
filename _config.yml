@@ -46,8 +46,8 @@ nav:
     - '/'
   Blogs:
     - '/blog/'
-    - { For Youth By Youth: '/blog/fyby/' }
     - { Alex Snow School: '/blog/alexsnowschool/' }
+    - { For Youth By Youth: '/blog/fyby/' }
   Projects:
     - '/projects/index.html'
 
