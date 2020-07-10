@@ -1,4 +1,6 @@
-## Personal blog for my finance journey
+## Blog for Alex Snow School Learning Journey
+
+A Youths' run school for empowering the next generation towards Myanmar economic and technological advancement.
 
   Please visit the blog [here](https://alexsnow348.github.io/).
 ### Home
