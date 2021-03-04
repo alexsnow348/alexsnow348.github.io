@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6 {
   {% for tag in page.tags %}
     <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
   {% endfor %}
+  {% for tag in page.categories %}
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+  {% endfor %}
   {% endif %}
   <article>
     {{ content }}
