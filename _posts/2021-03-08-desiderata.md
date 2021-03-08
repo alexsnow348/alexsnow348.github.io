@@ -24,7 +24,7 @@ But let this not blind you to what virtue there is; \\
 many persons strive for high ideals, and everywhere life is full of heroism.
 
 Be yourself. Especially do not feign affection. \\
-Neither be cynical about love; for in the face of all aridity and disenchantment,\\ 
+Neither be cynical about love; for in the face of all aridity and disenchantment, \\ 
 it is as perennial as the grass.
 
 Take kindly the counsel of the years,\\
@@ -42,7 +42,7 @@ And whether or not it is clear to you, no doubt the universe is unfolding as it 
 Therefore be at peace with God, whatever you conceive Him to be.\\
 And whatever your labors and aspirations, in the noisy confusion of life, keep peace in your soul.\\
 With all its sham, drudgery and broken dreams, \\
-it is still a beautiful world. \\
+it is still a beautiful world. 
 
 Be cheerful. Strive to be happy.
 
