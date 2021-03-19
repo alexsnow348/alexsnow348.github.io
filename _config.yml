@@ -52,6 +52,8 @@ nav:
     - { For Youth By Youth: '/blog/fyby/' }
   Projects:
     - '/projects/index.html'
+  Certifications:
+    - '/certifications/index.html'
 
 
 
