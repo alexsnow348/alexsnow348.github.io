@@ -3,8 +3,6 @@ layout: page
 title: Certifications
 ---
 
-#### **Machine Learning and AI**
-
 **_[Course 1: AI For Everyone - April 2020](https://www.coursera.org/learn/ai-for-everyone){:target="\_blank"}_**
 
 1. [Htun Khaing Lynn](https://www.coursera.org/account/accomplishments/specialization/certificate/7F4956444XAS){:target="\_blank"}
