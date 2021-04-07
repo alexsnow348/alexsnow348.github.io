@@ -21,7 +21,12 @@ title: Projects
 
 
 ## 2019
-* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School for Myanmar Youths </a></strong>
+* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School for Myanmar Youths - Multiple Awards Winnig Project </a>
+  <br/>
+  <a href ="https://falling-walls.com/discover/videos/breaking-the-wall-of-the-skills-gap-for-stem-graduates/" target="_blank"> - Falling Wall Lab Myanmar 2020 Winner  </a>
+  <br/>
+  <a href ="https://rices.mmu.edu.my/files/RICES_Results.pdf" target="_blank"> - Gold Metal in Startup Category @ RICES MMU 2020</a>
+  </strong>
 
 	အခုခေတ်မှာ မိမိတို့လို့ ကျောင်းပြီးပြီးချင်း လူငယ်တွေ အလုပ်အကိုင် ရှာဖွေတဲ့အခါ မြန်မာနိုင်ငံမှာ လူငယ်များအတွက် အလုပ်အကိုင်အခွင့်အလမ် အရမ်းနည်းပါးနေပါတာကို သတိပြုမိပါတယ်။
 
