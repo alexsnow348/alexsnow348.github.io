@@ -47,6 +47,7 @@ it is still a beautiful world.
 
 ***Be cheerful***. ***Strive to be happy***.
 
+
 By Max Ehrmann © 1927
 
 <img src="http://drive.google.com/uc?export=view&id=12fEu0SNA9eWLUT-85Sk9A4KRDmGd1NLV" alt="Desiderata">
