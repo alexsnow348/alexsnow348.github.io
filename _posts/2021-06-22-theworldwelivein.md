@@ -9,7 +9,7 @@ tag: ["ကျွန်ုပ်တို့နေထိုင်သောကမ�
 Hyperinflation ဆိုတာဘာလဲ?
 <!-- more -->
 <p align="center">
-  <img  src="http://drive.google.com/uc?export=view&id=17ZF1GBT8kaCS0ncsxzcYX5Og8iLjVSuH" alt="The ten rules of ikigai">
+  <img  src="http://drive.google.com/uc?export=view&id=17ZF1GBT8kaCS0ncsxzcYX5Og8iLjVSuH" alt="Hyperinflation">
 </p>
 
 
