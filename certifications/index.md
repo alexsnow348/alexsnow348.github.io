@@ -204,3 +204,28 @@ title: Certifications
 153. [Hein Htet Nyi](https://www.coursera.org/account/accomplishments/certificate/H453PG4WQQV8){:target="\_blank"}
 154. [Kyaw Aung Tun](https://www.coursera.org/account/accomplishments/certificate/NUNDTNWHJX8R){:target="\_blank"}
 155. [Kyaw Thu Htun](https://www.coursera.org/account/accomplishments/certificate/VNMUG7HT9RAP){:target="\_blank"}
+156. [Aye Myat Myat Kyi](https://www.coursera.org/account/accomplishments/certificate/JRR2EAGT3JTQ){:target="\_blank"}
+157. [Ei Ei Nyein](https://www.coursera.org/account/accomplishments/certificate/YK79LNJV6LLL){:target="\_blank"}
+158. [Maung Maung](https://www.coursera.org/account/accomplishments/certificate/DK3DLLTFGDXF){:target="\_blank"}
+
+**_[Course 12: Python for Data Science, AI & Development - June 2021](https://www.coursera.org/learn/python-for-applied-data-science-ai){:target="\_blank"}_**
+
+{:start="159"}
+159. [Hein Htet Nyi](https://www.coursera.org/account/accomplishments/certificate/4AXJT47ERWG5){:target="\_blank"}
+160. [Pyae Phyo Kyaw](https://www.coursera.org/account/accomplishments/certificate/SVVE66EGNVED){:target="\_blank"}
+161. [Phyomin Myat](https://www.coursera.org/account/accomplishments/certificate/RS7VSXDZARDH){:target="\_blank"}
+162. [Kyaw Swar Thant](https://www.coursera.org/account/accomplishments/certificate/5G6BPR9FJKXV){:target="\_blank"}
+163. [Eain Phyo Thwe](https://www.coursera.org/account/accomplishments/certificate/HUB8RS49S3P4){:target="\_blank"}
+164. [Hein Htet Thu](https://www.coursera.org/account/accomplishments/certificate/H8N8U8FUA266){:target="\_blank"}
+165. [Htet Inzali](https://www.coursera.org/account/accomplishments/certificate/Q2WRRZ8PELV6){:target="\_blank"}
+166. [Kaung Wint Shein](https://www.coursera.org/account/accomplishments/certificate/K2TY68YM5KFF){:target="\_blank"}
+167. [Yoon Yamin Hlaing](https://www.coursera.org/account/accomplishments/certificate/MVBDPQFPRZBC){:target="\_blank"}
+168. [Htun Khaing Lynn](https://www.coursera.org/account/accomplishments/certificate/9Q2GJZYEDVKF){:target="\_blank"}
+169. [Sai Naing Lynn Oo](https://www.coursera.org/account/accomplishments/certificate/BYSM925VKTEV){:target="\_blank"}
+170. [SOE OO](https://www.coursera.org/account/accomplishments/certificate/3PN2FMZLBNSQ){:target="\_blank"}
+171. [Thang Belh Lian](https://www.coursera.org/account/accomplishments/certificate/2Z9USBQ36WXX){:target="\_blank"}
+172. [THET NAING TUN](https://www.coursera.org/account/accomplishments/certificate/6ZBUE7PV52C8){:target="\_blank"}
+173. [Ingyin Nyo](https://www.coursera.org/account/accomplishments/certificate/CX3JVKK8569U){:target="\_blank"}
+174. [Ei Ei Nyein](https://www.coursera.org/account/accomplishments/certificate/2699TVYEPPAE){:target="\_blank"}
+175. [Wut Hmone Hnin Hlaing](https://www.coursera.org/account/accomplishments/certificate/WLBJQG5NJWFT){:target="\_blank"}
+176. [HAY MAR MOE](https://www.coursera.org/account/accomplishments/certificate/S5YFEBE8CBKQ){:target="\_blank"}
