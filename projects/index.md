@@ -3,6 +3,17 @@ layout: page
 title: Projects
 ---
 
+## 2021
+* <strong><a href ="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">📚💸 တစ်ရက်တစ်ပုဒ် 🧠📚</a></strong>
+
+	နေစဥ် မြန်မာအချိန် ညနေ ၆:၃၀  မှာ Clubhouse မှတဆင့် အတူတူ ဆွေးနွေးလေ့လာ ကြတဲ့ အစီအစဥ်လေးပဲ ဖြစ်ပါတယ်။
+	အထူးသဖြင့် ခုလက်တလောမှာ ဖြစ်နေတဲ့ Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies တို့နှင့် ဆိုင်တဲ့ topics လေးတွေကို  ရွေးပြီး Telegram group မှာ Article လေးကို ကြိုရှယ်ပြီး အတူတူ  ပုံမှန်လေ့လာ ဆွေးနွေးနေကြတာပါ။
+	
+	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
+	စိတ်ဝင်စားသူများအားလုံးကို Clubhouse နှင့် Telegram Group ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
+
+	> ***တစ်ရက်နည်းနည်းစီ တဖြည်းဖြည်း အတူတူလေ့လာကြစို့။*** 
+
 ## 2020
 * <strong><a href ="https://www.facebook.com/MSMEsBridge/" target="_blank">တံတား - Bridge</a></strong>
 
