@@ -10,7 +10,7 @@ title: Projects
 	အထူးသဖြင့် ခုလက်တလောမှာ ဖြစ်နေတဲ့ Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies တို့နှင့် ဆိုင်တဲ့ topics လေးတွေကို  ရွေးပြီး Telegram group မှာ Article လေးကို ကြိုရှယ်ပြီး အတူတူ  ပုံမှန်လေ့လာ ဆွေးနွေးနေကြတာပါ။
 	
 	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
-	စိတ်ဝင်စားသူများအားလုံးကို Clubhouse နှင့် Telegram Group ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
+	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">Clubhouse</a> </strong> နှင့် <strong> <a href="https://t.me/joinchat/EW4Q86FaUhVjM2U1" target="_blank">Telegram Group</a> </strong> ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
 
 	> ***တစ်ရက်နည်းနည်းစီ တဖြည်းဖြည်း အတူတူလေ့လာကြစို့။*** 
 
