@@ -27,7 +27,7 @@ title: Projects
 	* the inconvenience use of current SME registration portal developed by the ministry.
 
 	The project plan to provide the following solutions which are -
-	* SME Consultation  - to make it easier in registration process and to incentivize SMEs easily for their benefits and incentives by integrating widely used Payment Processors (mobile digital e-wallet) such as  - WaveMoney and KBZPay.
+	* SME Consultation  - to make it easier in registration process and to incentivize SMEs easily for their benefits and incentives by integrating widely used Payment Processors (mobile digital e-wallets) such as  - WaveMoney and KBZPay.
 	* Knowledge Hub - by developing a community where digital literates youths can share the tips and techniques in the community.
 
 
