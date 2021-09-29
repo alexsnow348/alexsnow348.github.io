@@ -50,7 +50,7 @@ title: Projects
   <br/>
   <a href ="https://falling-walls.com/discover/videos/breaking-the-wall-of-the-skills-gap-for-stem-graduates/" target="_blank"> - Falling Wall Lab Myanmar 2020 Winner  </a>
   <br/>
-  <a href ="https://rices.mmu.edu.my/files/RICES_Results.pdf" target="_blank"> - Gold Metal in Startup Category @ RICES MMU 2020</a>
+  <a href ="https://rices.mmu.edu.my/files/RICES_Results.pdf" target="_blank"> - Gold Medal in Startup Category @ RICES MMU 2020</a>
   </strong>
 
 	Getting decent employment in STEM fields is still very difficult for fresh graduates from rural technical universities and even from some of the famous public technological  universities in Myanmar even though the private sectors are in need of manpower resources  for the technological know-how for digital transformation.
