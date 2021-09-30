@@ -8,13 +8,15 @@ title: Projects
 
 	This program is intended to learn and grow as a Burmese community with the concepts of **“For the community, by the community”** by sharing and discussing various topics which are related to Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies using Clubhouse social audio platform. 
 	
-	The panels discuss their views on various topics everyday at 6:30 pm Myanmar standard time zone.  Daily audiences range from 30 to 60 depending on the selected topics. Podcasts made from the discussion can be found in Spotify, Google Podcast and Anchor platforms.
+	The panels discuss their views on various topics everyday at 6:30 pm Myanmar standard time zone.  Daily audiences range from 30 to 60 depending on the selected topics. Podcasts made from the discussion can be found in <strong> <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82NGMyYWU0OC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexsnowschool" target="_blank">Anchor</a> </strong>platforms.
 
 	နေစဥ် မြန်မာအချိန် ညနေ ၆:၃၀  မှာ Clubhouse မှတဆင့် အတူတူ ဆွေးနွေးလေ့လာ ကြတဲ့ အစီအစဥ်လေးပဲ ဖြစ်ပါတယ်။
 	အထူးသဖြင့် ခုလက်တလောမှာ ဖြစ်နေတဲ့ Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies တို့နှင့် ဆိုင်တဲ့ topics လေးတွေကို  ရွေးပြီး Telegram group မှာ Article လေးကို ကြိုရှယ်ပြီး အတူတူ  ပုံမှန်လေ့လာ ဆွေးနွေးနေကြတာပါ။
 	
 	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
 	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">Clubhouse</a> </strong> နှင့် <strong> <a href="https://t.me/joinchat/EW4Q86FaUhVjM2U1" target="_blank">Telegram Group</a> </strong> ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
+
+	အရင်က ဆွေးနွေးထားတာတွေကိုလည်း Podcast အနေဖြင့် <strong> <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82NGMyYWU0OC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexsnowschool" target="_blank">Anchor</a> </strong>platforms တွေမှာ ပြန်လည် နာဆင်နိုင်ကြပါပြီး။
 
 	> ***တစ်ရက်နည်းနည်းစီ တဖြည်းဖြည်း အတူတူလေ့လာကြစို့။*** 
 
