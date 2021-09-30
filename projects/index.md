@@ -23,7 +23,7 @@ title: Projects
 ## 2020
 * <strong><a href ="https://www.facebook.com/MSMEsBridge/" target="_blank">တံတား - Bridge</a></strong>
 
-	The need for development in SME sectors in developing countries are common problems these days. The project lists down three main problems to tickle. The three main problems facing in Myanmar are -
+	The need for development in SME sectors in developing countries are common problems these days. The project lists down three main problems to tickle. The three main problems facing in Myanmar are-
 	* lack of awareness of SME and its benefits
 	* lack of trust in government
 	* the inconvenience use of current SME registration portal developed by the ministry.
