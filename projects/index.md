@@ -48,11 +48,11 @@ title: Projects
 
 
 ## 2019
-* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School for Myanmar Youths - Multiple Awards Winnig Project </a>
+* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School - Multiple Awards Winnig Project </a>
   <br/>
-  <a href ="https://falling-walls.com/discover/videos/breaking-the-wall-of-the-skills-gap-for-stem-graduates/" target="_blank"> - Falling Wall Lab Myanmar 2020 Winner  </a>
+  <a href ="https://www.freiheit.org/yangon/falling-walls-lab-myanmar-2020" target="_blank"> - Falling Wall Lab Myanmar 2020 Winner  </a>
   <br/>
-  <a href ="https://rices.mmu.edu.my/files/RICES_Results.pdf" target="_blank"> - Gold Medal in Startup Category @ RICES MMU 2020</a>
+  <a href ="https://drive.google.com/file/d/1E7oaWmE9dL6iKVsMDkV77UqsnjFA_fUY/view?usp=sharing" target="_blank"> - Gold Medal in Startup Category @ RICES MMU 2020</a>
   </strong>
 
 	Getting decent employment in STEM fields is still very difficult for fresh graduates from rural technical universities and even from some of the famous public technological  universities in Myanmar even though the private sectors are in need of manpower resources  for the technological know-how for digital transformation.
