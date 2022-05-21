@@ -51,6 +51,8 @@ nav:
     - '/blog/'
     - { Alex Snow School: '/blog/alexsnowschool/' }
     - { For Youth By Youth: '/blog/fyby/' }
+  Talks:
+    - '/talks/index.html'
   Projects:
     - '/projects/index.html'
   Certifications:
