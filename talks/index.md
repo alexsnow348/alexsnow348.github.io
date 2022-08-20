@@ -8,9 +8,7 @@ title: Talks
 
 	Most people heard of the terms AI/ML and don’t really grasp the basic idea. By using AutoML on Google Cloud, developers can build and train models with little AI/ML knowledge. The talk is based on GCP Cloud Vertex AI services especially using AutoML. The talk introduced Machine Learning general flow/pipelines and demo with “Predicting loan risk with AutoML”.
 
-	* Language  - <strong>Burmese</strong>
-	* Slides - <strong><a href ="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank">Download</a></strong>
-
+<iframe src="https://castbox.fm/app/castbox/player/id5041373?v=8.22.11&autoplay=1" frameborder="0" width="100%" height="500"></iframe>
 
 ## 2021
 * <strong><a href ="https://drive.google.com/file/d/1dIExMOXvcdwiDlgeXONoLbC93xj0_Asu/view?usp=sharing" target="_blank">Why Study Computer Science? and your future career prospects</a></strong>

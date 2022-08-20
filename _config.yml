@@ -53,6 +53,8 @@ nav:
     - { For Youth By Youth: '/blog/fyby/' }
   Talks:
     - '/talks/index.html'
+  Podcasts:
+    - '/podcasts/index.html'
   Projects:
     - '/projects/index.html'
   Certifications:
