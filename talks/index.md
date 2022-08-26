@@ -4,6 +4,16 @@ title: Talks
 ---
 
 ## 2022
+* <strong><a href ="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank">Episode 11 - Talking about Women in STEM</a></strong>
+
+	Under the topic, Talking about Women in STEM,  I shared detailed knowledge about STEM fields, the job opportunities in local and global markets and advised on how to start a career in one of the STEM fields. The podcast is organized by <a href ="https://www.freiheit.org/myanmar" target="_blank">**Friedrich Naumann Foundation - Yangon**</a>.
+
+
+	* Language  - <strong>Burmese</strong>
+	* Audio - <strong><a href ="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank">Listen</a></strong>
+
+
+
 * <strong><a href ="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank">Training ML Models Using AutoML on GCP</a></strong>
 
 	Most people heard of the terms AI/ML and don’t really grasp the basic idea. By using AutoML on Google Cloud, developers can build and train models with little AI/ML knowledge. The talk is based on GCP Cloud Vertex AI services especially using AutoML. The talk introduced Machine Learning general flow/pipelines and demo with “Predicting loan risk with AutoML”.
