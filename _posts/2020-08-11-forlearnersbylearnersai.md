@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What are forward propagation and backward propagation? - Htun Khaing Lynn မှ ရေးသားသည်။"
-tag: ["လေ့လာနေသူများမှ လေ့လာမည့်သူများဆီသို့ - Artificial Intelligence"]
+tag: ["လေ့လာနေသူများမှ လေ့လာမည့်သူများဆီသို့ - AI"]
 ---
 <br >
 ဒီနေ့ကိုကျော်အိမ်ပြန်ရောက်စဥ် ဇော်ဇော်တစ်ယောက် ပြုံးစိစိဖြင့် မြူးတူးနေသည်။

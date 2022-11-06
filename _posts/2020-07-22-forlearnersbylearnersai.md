@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Multi-Layer Neural Networks Work - Htun Khaing Lynn  မှ ရေးသားသည်။"
-tag: ["လေ့လာနေသူများမှ လေ့လာမည့်သူများဆီသို့ - Artificial Intelligence"]
+tag: ["လေ့လာနေသူများမှ လေ့လာမည့်သူများဆီသို့ - AI"]
 ---
 <br >
 ကိုကျော်အလုပ်မှ အိမ်ပြန်ရောက်လာသည် ရေမိုးချိုးစားသောက်အပြီး ဇော်ဇော်မှ အားကြိုးမာန်တက်ဖြင့် 
