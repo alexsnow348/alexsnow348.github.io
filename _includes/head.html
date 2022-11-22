@@ -1,66 +1,89 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap" rel="stylesheet">
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1"
+  />
 
-  <title >
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
+  <title>
+    {% if page.title == "Home" %} {{ site.title }} &middot; {{ site.tagline }}
+    {% else %} {{ page.title }} &middot; {{ site.title }} {% endif %}
   </title>
-
 
   <style type="text/css">
     .masthead .masthead-title .small {
       color: #680202;
-      font-family: 'Padauk', sans-serif;;
+      font-family: "Padauk", sans-serif;
     }
     * {
-      font-family: 'Padauk', sans-serif;;
+      font-family: "Padauk", sans-serif;
     }
     body {
-      font-family: 'Padauk', sans-serif;;
+      font-family: "Padauk", sans-serif;
       font-size: 16px;
     }
     body h1 {
-      font-family: 'Padauk', sans-serif;;
+      font-family: "Padauk", sans-serif;
     }
     body div h2 {
-      font-family: 'Padauk', sans-serif;;
+      font-family: "Padauk", sans-serif;
     }
-    body div div div h3  {
-      font-family: 'Padauk', sans-serif;;
+    body div div div h3 {
+      font-family: "Padauk", sans-serif;
     }
-    body div div div h4  {
-      font-family: 'Padauk', sans-serif;;
+    body div div div h4 {
+      font-family: "Padauk", sans-serif;
     }
-    body div div div h5  {
-      font-family: 'Padauk', sans-serif;;
+    body div div div h5 {
+      font-family: "Padauk", sans-serif;
     }
-    body div div div h6  {
-      font-family: 'Padauk', sans-serif;;
+    body div div div h6 {
+      font-family: "Padauk", sans-serif;
     }
-    body div small div  {
-      font-family: 'Padauk', sans-serif;;
+    body div small div {
+      font-family: "Padauk", sans-serif;
     }
-
-  
   </style>
 
   {% seo %}
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i"
+    rel="stylesheet"
+  />
 
   <!-- Icons -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico" />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS"
+    href="/atom.xml"
+  />
 
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-7B6HM6W1M2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-7B6HM6W1M2");
+  </script>
+</head>
