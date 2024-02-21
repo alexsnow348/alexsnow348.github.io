@@ -6,9 +6,7 @@ tag: ["လူငယ်မှသည် လူချမ်းသာဆီသို
 
 အားလုံး မင်္ဂလာပါ။
 
-OBSM က နေ ကြိုဆိုပါတယ်။
-
-ဒီအပတ် OBSM တို့ money ကို ဘယ်အရာက တန်ဖိုးသတ်မှတ် ပေးသလဲဆိုတာ လေ့လာကြည့်ကြရ အောင်။
+ဒီအပတ် မှာ money ကို ဘယ်အရာက တန်ဖိုးသတ်မှတ် ပေးသလဲဆိုတာ လေ့လာကြည့်ကြရ အောင်။
 
 What gives different kinds of money its value ?
 
@@ -30,7 +28,7 @@ Just so far as any commodity serves as money, it is because it is wanted, not fo
 
 This merely makes it all the more certain that money itself may be passed on, that someone may always be found who is willing to take it in exchange for goods or services.
 
-အခုဆိုရင် OBSM ရဲ့ reader တွေလဲ ပိုက်ဆံရဲ့ တန်ဖိုးအကြောင်းပိုမို နားလည်လာမယ်လို့ မျှော်လင့်ပါတယ်။ နောက်အပတ်မှာ ဆက်လက် ဆွေးနွေးကြတာပေါ့၊
+အခုဆိုရင် reader တွေလဲ ပိုက်ဆံရဲ့ တန်ဖိုးအကြောင်းပိုမို နားလည်လာမယ်လို့ မျှော်လင့်ပါတယ်။ နောက်အပတ်မှာ ဆက်လက် ဆွေးနွေးကြတာပေါ့၊
 
 စာဖတ်သူအားလုံးကိုကျေးဇူးတင်ပါတယ်။
 
