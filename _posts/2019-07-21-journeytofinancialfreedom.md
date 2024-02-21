@@ -17,7 +17,6 @@ OBSM ကနေ ကြိုဆိုပါတယ်။
 အဲ့လို ၁ လ ၆ သောင်းနှုန်းဆို တစ်နှစ်ကို မိမိတို့ ဆီမှာ အနည်းဆုံး ၇ သိန်း ၂ သောင်း စုမိနိုင်ပါတယ်။
 
 <!-- more -->
-<img src="http://drive.google.com/uc?export=view&id=1JeNpQy2MkPtbZ30TIoqHuEH6nXGsWzk5" alt="Episode Three: The mystery of money (1)">
 
 ဟုတ်ပါပြီ။ အဲ့လို စုဆောင်းထားတဲ့ ငွေ တွေကို မိမိ တို့ ဘာဆက်လုပ်သင့်လဲ။
 

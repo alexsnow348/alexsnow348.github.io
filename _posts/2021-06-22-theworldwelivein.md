@@ -8,9 +8,6 @@ tag: ["ကျွန်ုပ်တို့နေထိုင်သောကမ�
 
 Hyperinflation ဆိုတာဘာလဲ?
 <!-- more -->
-<p align="center">
-  <img  src="http://drive.google.com/uc?export=view&id=17ZF1GBT8kaCS0ncsxzcYX5Og8iLjVSuH" alt="Hyperinflation">
-</p>
 
 
 Phillip Cagan လိုခေါ်တဲ့ ဘောဂဗေဒ ပညာရှင်ကြီး ဟာ ၁၉၅၆ ခုနှစ်မှာ Hyperinflation ဆိုတဲ့ စကားလုံးကို စတင်မိတ်ဆတ်ခဲ့တယ်။ နိုင်ငံတစ်နိုင်ငံမှာ ကုန်စျေးနှုန်းဟာ တစ်လအတွင်း ၅၀%နဲ့ အထက် တက်ခဲ့မယ်ဆိုရင် Hyperinflation (ငွေကြေးအလွန်ဖောင်းပွခြင်း) ဖြစ်နေပြီ ဟုသတ်မှတ်ခဲ့တယ်။

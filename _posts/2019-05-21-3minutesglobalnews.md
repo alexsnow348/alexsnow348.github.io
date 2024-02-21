@@ -9,7 +9,6 @@ tag:  ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတ
 Huawei (ကုမ္ပဏီအမည်) သည် သူ့အပေါ် ကျရောက်လာတဲ့ US ရဲ့ ကုန်သွယ်မှုပိတ်ပင်မှု (trade ban) အတွက် ကြိုတင် ပြင်ဆင်ထားကြောင်း ပြောကြား။
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1z7LL5zgpDTTPIbjCzNMhp7NuOrMX7UEb" alt="Fate of Huawei">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 

@@ -14,8 +14,6 @@ OBSM က နေ ကြိုဆိုပါတယ်။
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1It9Oihi4lVBvuLaubXX5vAg9roY1edPr" alt="Episode One: Intro">
-
 
 **၁။ ပထမဆုံး အနေ နဲ့ မိမိ တို့ Financial Freedom ရ အောင်းလုပ်ချင်စိတ် ရှိပါသလာ?**
 

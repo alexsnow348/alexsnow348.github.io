@@ -16,8 +16,6 @@ money လို့ပြောဖို့ ဆိုရင် ပထမဦးဆ
 ပြီးတော့ နောက်လူတစ်ယောက်စီကို အလွယ်တကူ လဲလှယ်ပေးလို့ ရမဲ့ အရာမျိုး ဖြစ်ဖို့ လိုအပ်ပါတယ်။
 
 <!-- more -->
-<img src="http://drive.google.com/uc?export=view&id=1JeNpQy2MkPtbZ30TIoqHuEH6nXGsWzk5" alt="Episode Three: The mystery of money (2)">
-
 
 သူမှာ မရှိမဖြစ်လိုအပ်တဲ့ characteristics တွေ ကတော့
 

@@ -15,7 +15,6 @@ What gives different kinds of money its value ?
 လူတော်တော်များများက ပိုက်ဆံရဲ့ တန်ဖိုးကို သတ်မှတ်ပေးတာက ပြည်သူ့ အစိုးရကလို့ ထင်ကြပါတယ်။ ဘာလို့လဲ ဆိုတော့ အစိုးရကပဲ ပိုက်ဆံထုတ်ဝေ ဖြန့်ချိမှုတွေ လုပ်ဆောင်နေတာကို မြင်ရသိရပြီး ဒီထက်ပိုပြီး မတွေးကြတော့တာပါ။
 
 <!-- more -->
-<img src="http://drive.google.com/uc?export=view&id=1JeNpQy2MkPtbZ30TIoqHuEH6nXGsWzk5" alt="Episode Three: The mystery of money (2)">
 
 
 There is a widespread illusion that the essential characteristic of a coin

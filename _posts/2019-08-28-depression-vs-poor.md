@@ -15,7 +15,6 @@ For most of the 20th century, the view that “mental health” or "depression" 
 Others believed that the more communal nature of society and the stronger family ties in poor countries inoculated people against depression, which was linked to the loneliness, stress and materialistic culture of western life.
 
 <!-- more -->
-<img src="http://drive.google.com/uc?export=view&id=12f5e0aym4MH66n9zIXZCn-UKUFmhIa6v" alt="Episode Four: Money in Circulation">
 
 **၂။ ဆင်းရဲသားတွေ ဖြစ်လေ့ ရှိတဲ့ သူရဲ့ causes ဖြစ်ရပ်ခံ အကြောင်းအရင်းများက ဘာတွေလဲ။**
 

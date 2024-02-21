@@ -9,8 +9,6 @@ tag: ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတ�
 ဂျပန်နိုင်ငံတွင် Shinjiro Koizumi (ဂျပန်လူငယ် တစ်ယောက် နာမည်)သည် ၂၀၂၁ နှစ် ရွေးကောက် ပွဲ၌ အသစ် တက်လာမယ့် ဝန်ကြီးချုပ် ဖြစ်နိုင်ဖွယ်ရှိပါတယ်။
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1DXR8oih6bVKgBqovWleCdHp0jBEapEHV" alt="Japan's next Prime minister Vs Japanese politics">
-
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 
 Shinjiro Koizumi သည် စကားပြောကောင်းသူ တစ်ယောက် ဖြစ်ပါတယ်။

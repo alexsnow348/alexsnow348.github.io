@@ -10,10 +10,6 @@ categories:  ["Life rules"]
 
 <!-- more -->
 
-<p align="center">
-  <img  src="http://drive.google.com/uc?export=view&id=1jfB1-4aF3TI5srOU1-hq4CUpKFk0Liow" alt="The ten rules of ikigai">
-</p>
-
 
 {:start="3"}
 3. ***Don't fill your stomach.*** <br/> Less in more when it comes to eating for long life, too. According to **the 80 percent rule**, in order to stay healthier longer, we should **eat a little less than our hunger demands** instead of stuffing ourselves.

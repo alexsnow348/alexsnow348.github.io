@@ -20,7 +20,6 @@ and other phenomena that prevent them from being productive.
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1uKPek77LANMOjCFiUj4VGIOB04kIpfeX" alt="No Poverty: Why it matters">
 
 **၂။ ငါမှ ဆင်းရဲတာ မဟုတ်တာ ဘာလို့ ငါက သူများဆင်းရဲနေတာကို ကရုစိုက်ရမှာလဲ။<br />
 I’m not poor. Why should I care about other people’s economic situation?**

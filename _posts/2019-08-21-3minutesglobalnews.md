@@ -9,7 +9,6 @@ tag: ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတ�
 အခု ဆိုရင် လူတော်တော်များများက recession  ကို ကြုံတွေ့ နိုင်သည် ဟု တွေးကာ google တွင် recession search term က အရမ်း popular ဖြစ်နေပါတယ်။
 
 <!-- more -->
-<img src="http://drive.google.com/uc?export=view&id=1TzLNTuYEIZMtIpDPuhdY_bmcXJkLEPIT" alt="How recessions start">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 

@@ -11,11 +11,6 @@ tag: ["လေ့လာနေသူများမှ လေ့လာမည့်
 "ဟုတ်ပြီ...ကဲမနေ့ကျန်ခဲ့တာလေး ဆက်ရအောင်။ မနေ့ကပြောခဲ့တဲ့ထဲမှာ ကိုကျော်တို့က OR Gate ကိုSingle Layer Preceptronနဲ့ ဘယ်လိုလုပ်ရသဲသိပြီဟုတ်။ ဒါပေမယ့် Single layer Preceptron က ကိုကျော်တို့ OR တို့ AND တို့လို Linear function တွေကိုပဲလုပ်ဆောင်နိုင်တယ်"
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1sO50xEWZ1yyzr1vkuCLwNIJgtOvyFhfS" alt="OR Gate Function">
-*OR Gate Function*
-
-<img src="http://drive.google.com/uc?export=view&id=1E607s5TgIRdfOd_MdgdpvkHAjWWr8j9K" alt="AND Gate Function">
-*AND Gate Function*
 
 "ပုံမှာပြထားတဲ့ အတိုင်းဆို OR တို့ AND 
 တို့ကိုမျဥ်းတစ်ကြောင်းထဲနဲ့ဖြတ်ပြလိုက်လို့ရတယ်။ 
@@ -27,9 +22,6 @@ tag: ["လေ့လာနေသူများမှ လေ့လာမည့်
 (၂) Line တစ်ကြောင်းတည်းနဲ့ Classify လုပ်လို့ရတဲ့ကိစ္စတွေအတွက်လည်း အဆင်ပြေမယ်ထင်တယ်
 
 အာ...ငါ့ညီ က ဘယ်ဆိုးလို့လဲဟ...အေး..ဒါပေမယ့် Non linear functions တွေဖြစ်တဲ XOR လိုမျိုးကိုကျ မျဥ်းတစ်ကြောင်းထဲနဲ့ဘယ်လိုမှဖြတ်အောင်လုပ်လို့မရဘူး ပုံကိုကြည့်လိုက်"
-
-<img src="http://drive.google.com/uc?export=view&id=1A37kuv-TWdcuqc-m4rKag7Hzk9pspJOR" alt="XOR Gate Function">
-*XOR Gate Function*
 
 ဇော်ဇော် အနည်းငယ်တွေဝေသွားသည်။
 
@@ -50,9 +42,6 @@ tag: ["လေ့လာနေသူများမှ လေ့လာမည့်
 
 ဒါမျိုးရမယ်ပေါ့ ဒီအခါ ဟိုနေ့က Lecture ပြောခဲ့တဲ့အဆင့်တွေအတိုင်းပဲ input တွေ ကို Neuron ထဲပို့ရမယ် ဒါပေမယ့် ဝင်ရမယ့် Neuron က နှစ်လုံးဖြစ်သွားမယ်ပေါ့ ဒီပုံကိုကြည့်
 
-
-<img src="http://drive.google.com/uc?export=view&id=14XzKUefUaeG_Cz0b1E2vsl9RP0ExyEy_" alt="Neural Network architecture for XOR function">
-*Neural Network architecture for XOR function*
 
 အဲ့တော့ ဒီမှာ Neuron 1 နဲ့ 2ရှိမယ်နော် အဲ့တော့ အရင်နေ့ကပြောခဲ့တဲ့အတိုင်း Neuron ထဲကို input တစ်ခုဝင်ရင် ဘာ eq နဲ့တွက်ရမလဲ မှတ်မိသေးလား ဇော်ဇော် ပြီးတော့ ဒီneuron နှစ်ခုအတွက်ဆို Weight ဘယ်နခုရှိမလဲ ပြောကြည့်ပါဦး''
 
@@ -78,9 +67,6 @@ w1 = [1.5 0.5]
 "Ok ဟုတ်ပြီ ဒါဆို weight ကိုဆက်မယ် ခုနက ကိုကျော်ပြောခဲ့တယ်လေ နဲနဲထပ်မှတ်ရမယ်ဆိုတာ။ ဒီမှာမှတ်မယ် ဟိုနေ့က သင်ပေးတာက Neuron တစ်လုံးပဲရှိလို့ weight က input အရေအတွကအရ ယူရတာ ဒီမှာဆို neuron နှစ်လုံး ''
 
 
-<img src="http://drive.google.com/uc?export=view&id=14XzKUefUaeG_Cz0b1E2vsl9RP0ExyEy_" alt="Neural Network architecture for XOR function">
-*Neural Network architecture for XOR function*
-
 "အဲ့တော့ weight အရေအတွက်သာမက neuron အရေအတွက် အတွက်ပါစဥ်းစားရတော့မယ် ပုံကိုကြည့် x1 က neuron 1 ကိုလဲဝင်မယ် 2 ကိုလဲ ဝင်မယ် ဒါဆို ကြည့် w နောက်မှာ ဂဏန်းနှစ်လုံးပါလာတော့မယ်
 
 w11 နဲ့ w21 ဆိုပြီး တွေ့လိမ့်မယ် ဒါဆိုရင် ရှေ့ကဂဏန်းတစ်လုံးက neuron ရဲ့ နံပါတ် ဒုတိယတစ်လုံးက input ရဲ့ နံပါတ် ဒီတော့ x1 က neuron နှစ်လုံးကိုဝင်မှာဖြစ်တဲ့အတွက် x1 ရယ် neuron1 ရယ်တဲ့ သက်ဆိုင်တဲ့ w ကလဲနှစ်လုံးရှိမယ် w11 နဲ့ w21 ဒီတော့ဆက်ကြည့်မယ် input နံပါတ် 2, x 2အတွက်လဲတူတူပဲ သူကလဲ neuron 2လုံးစလုံးကိုဝင်မှာဖြစ်တဲ့အတွက် သူ့မှာလဲ w12 နဲ့ w22 ဆိုပြီးရှိလာလိမ့်မယ်။ ဒီတော့ weight တွေကို ကြေငြာလိုက်မယ် w11 = 1.5 w12 = 1 w21 = 0.5 w22 = 0.1 ရတယ် စသည်ဖြင့်ဆိုကြပါတော့''
@@ -89,8 +75,6 @@ w11 နဲ့ w21 ဆိုပြီး တွေ့လိမ့်မယ် ဒ
 
 "အဲ bias ကသိပ်စဥ်းစားစရာမလိုဘူး Neuron အရေအတွက်အလိုက် bias ရမယ်''
 
-<img src="http://drive.google.com/uc?export=view&id=14XzKUefUaeG_Cz0b1E2vsl9RP0ExyEy_" alt="Neural Network architecture for XOR function">
-*Neural Network architecture for XOR function*
 
 "ဒီပုံကိုကြည့် အလွှာလေးတွေတွေ့တယ်မလား ဘယ်နှလွှာ ရှိတယ်ထင်လဲ''
 
@@ -115,8 +99,6 @@ z1 = 1.2
 "အံမယ် ဘယ်ဆိုးလို့တုန်းဟ မှတ်မိသားပဲ။ ကဲ ဒါဆို ဒီမှာ sigmoid function လေးကိုသုံးပြီတွက်ပြမယ် 
 အဲ့တာဆို sigmoid function လေးကဘယ်လိုလုပ်သလဲဆို သူ့ထဲဝင်ဝင်လာတဲ့နံပါတ်က 0 ဆို 0.5, 0 ထက်ကြီးရင်ကြီးသလောက်  1 ဘက်ခြမ်းကိုကပ်မယ် , 0 ထက်ငယ်ရင် ငယ်သလောက် 0 ဘက်ခြမ်းကပ်မယ် ဆိုပြီးထုတ်ပေးမယ်အဲ့တော့ အောက်က ပုံအတိုင်းပေါ့ကွာ
 
-<img src="http://drive.google.com/uc?export=view&id=1_KoicEsmMoJGk52HObcvUb44hSHJmQ5O" alt="Sigmoid function">
-*Sigmoid function*
 
 ဒီတော့
 
@@ -144,8 +126,7 @@ a2 ≈ 1<br >
 
 အဲ့တော့ ခု a1 နဲ့ a2 ရလာပြီဆိုတော့ အကိုတို့ ပုံထဲမှာပါသလို နောက် တစ်လွှာဖြစ်တဲ့ output layer ကိုသွားဖို့အဆင်သင့်ဖြစ်ပြီပုံကိုကြည့်''
 
-<img src="http://drive.google.com/uc?export=view&id=14XzKUefUaeG_Cz0b1E2vsl9RP0ExyEy_" alt="Neural Network architecture for XOR function">
-*Neural Network architecture for XOR function*
+
 "ဒီမှာ output အလွှာမှာ neuron တစ်လုံးပဲရှိတော့တဲ့အတွက် Single layer preceptron နဲ့ ပြန်တူသွားပြီ အဲ့ တော့ weight ဘယ်နခု bias ဘယ်နခုရှိမယ်ထင်လဲ ညီ''
 
 "Weight နှစ်ခုနဲ့ bias တစ်ခုပေါ့ ဟုတ်လား''

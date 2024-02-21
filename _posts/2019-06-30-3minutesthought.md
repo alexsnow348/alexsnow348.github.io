@@ -16,8 +16,6 @@ tag:  ["၃ မိနစ် အတွေးအမြင်"]
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1CmIHHfULPZx8plTJtz-dRJ4rNsbq6_To" alt="A Rich Man's World">
-
 **၂။ Shortcut vs Rich-Dream?**
 
 ဒါအပြင် လူတော်တော်များများက အလွယ်နည်းလမ်းများဖြစ်တဲ့ quick rich နည်းလမ်းများနဲ့ ချမ်းသာနိုင်တယ်လို့ တွေးနေကြပါသေးတယ်။

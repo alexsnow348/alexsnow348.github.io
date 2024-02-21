@@ -10,7 +10,6 @@ Britain သည် သူရဲ့ လက်ရှိ European Union (EU) ကန�
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1vmOU8Lmu8cc875YnvEG0GEdYVQN3qXHM" alt="Britain’s new prime minister: Boris Johnson">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 

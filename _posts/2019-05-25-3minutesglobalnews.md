@@ -10,8 +10,6 @@ Theresa May (ဗြိတိသျှဝန်ကြီးချုပ်) က �
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1CPAUVisRlBybrCcr0bzw-aynsuft8xxW" alt="Theresa May Vs British Parliament">
-
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 
 Theresa May သည်   June 7th ( ဇွန်လ ၇ ရက်နေ့) တွင် ဝန်ကြီးချုပ် အဖြစ်မှ နှုတ်ထွက် မယ်လို မနေ့က ပြောလိုက်ပါတယ်။

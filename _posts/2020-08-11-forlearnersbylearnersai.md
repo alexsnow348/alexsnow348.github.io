@@ -94,7 +94,7 @@ Activation function က ReLU function သုံးမယ် အဲ့တော�
 
 "အဲ့ ReLU ဆိုတာဘယ်လိုမျိုးလဲ''
 
-<img src="http://drive.google.com/uc?export=view&id=1QZvvKXFNya8wT-W9SE04ldXHRX9DuX7Y" alt="ReLU">
+
 *ReLU*
 
 "သြော် ReLU ကf(x) = max(x,0) ဝင်လာတဲ့တန်ဖိုးက 0ထက်ကြီးရင် ဒီတိုင်းပြန်မယ် 0 ဒါမှမဟုတ် 0ထက်ငယ်ရင် 0 နားလည်လား''
@@ -173,8 +173,7 @@ dE[2]/da22 * da22/dz22 * dz22/da11
 dE/dw11 = - 0.0006
 
 (Chain rule ကိုပြန်လေ့လာပြီးတွက်ချကြည့်ပါခင်ဗျ)
-<img src="http://drive.google.com/uc?export=view&id=1uWIDpMB0zGSmI1YvTL2HoxBkvfAO8dch" alt="AND Gate Function">
-*Back Propagation Chain Rule*
+
 
 အဲ့တာဆို ΔW[1]11 ကိုတွက်မယ်
 
@@ -201,9 +200,6 @@ W[1]11(new) = 0.1 + 0.00006 = 0.100006
 "အေးကောင်းပြီခုတော့နားတော့ နောက် Gradient Descent ဆိုတဲ့ အကြောင်းပြောပြမယ် အားတင်းထား နောက်နေ့တွေကျရင် eq တွေသိပ်မပါတော့ဘူး ''
 
 "ဟုတ်ကိုကျော်ရေ''
-
-<img src="http://drive.google.com/uc?export=view&id=1F3AKxoNGUh7pJgCrALo-uuv1aY4Uo5Cq" alt="Neural Network architecture">
-*Neural Network Architecture*
 
 References:
 1. [Neural networks and Deep learning - Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning){:target="_blank"}

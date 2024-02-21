@@ -26,7 +26,6 @@ tag:  ["ကျွန်ုပ်တို့နေထိုင်သောကမ
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=126WCb6SaBxOYcjBZgk1ms1PjfVJzZjAm" alt=" How long it takes to start a business legally">
 
 အဲဒီအထဲမှာဆိုရင် အရင်နှစ်နဲ့ အခု မှာ Saudi Araba က တိုးမြင့်လာမှု အမြင့်ဆုံးပဲဖြစ်ပါတယ်။
 

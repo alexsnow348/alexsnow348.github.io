@@ -17,7 +17,6 @@ Monetary Policy ( ငွေကြေးဆိုင်ရာ မူဝါဒ) �
 
 Fiscal Policy (ဘဏ္ဍာရေးဆိုင်ရာ မူဝါဒ)ဆိုတာ ကတော့ ပြည်သူ့အစိုးရ ကိုယ်တိုင် ပါဝင် ဦးဆောင်ပြီး သူတို့ရဲ့ ဘဏ္ဍာရေး ဘတ်ဂျက်များကို အသုံးချပြီးတော့ ချမှတ်ပေးထားတဲ့ လုပ်ဆောင်ချက်များ ဖြစ်တယ်လို့ ပြောလို့ရပါတယ်။
 
-<img src="http://drive.google.com/uc?export=view&id=1P6iGSpNbjCsRGKNNfN0GMxlbSjHOQjFe" alt="Consumers behavior in pandemics">
 
 **၂။ COVID-19 စီးပွားရေး ကုစားမှု အစီအစဥ် မှာပါတဲ့ Monetary Stimulus Package (ငွေကြေးဆိုင်ရာလှုံ့ဆော်မှု အစီအစဥ်) တွေက ဘာတွေလဲ။**
 

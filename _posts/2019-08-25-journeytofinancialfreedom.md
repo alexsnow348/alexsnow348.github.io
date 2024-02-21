@@ -16,7 +16,6 @@ OBSM ကကြိုဆိုပါတယ်။
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1hfXEePxx0ygsVKwh18iuyxfs0gvJz2oy" alt="Financial System in Myanmar">
 
 မြန်မာ နိုင်ငံရဲ့ Financial System က Central Bank of Myanmar နှင့် Commercial banks တွေဖြင့် အဓိက တည်ဆောက် ထားတာပါ။ အဲဒါအပြင် တခြား အသေးစား ငွေချေး ပေးတဲ့ other financial institutions တွေလဲ ပါသေးပါတယ်။
 

@@ -9,7 +9,6 @@ tag: ["၃ မိနစ် ကမ္ဘာစီးပွားရေး သတ�
 အမေရိကန် သမ္မတ Donald Trump သည် European Union (ဥရောပ) မှ ထုတ်လုပ်တင်သွင်း သော Car  (ကား)အား  အခွန်ကောက်ခံမည် ဆုံးဖြတ်ချက် ကို 6 months (၆ လ) ထိ  နှောင့်နှေး။
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1JNVHb2aj63C-tIj5L7G6c4yLIbmTLECU" alt="US delays tariff on EU cars">
 
 **၂။ ဘာကို ဆိုလိုချင်တာလဲ။**
 

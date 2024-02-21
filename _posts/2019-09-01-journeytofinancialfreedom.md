@@ -13,8 +13,6 @@ OBSM တို့ ဒီအပတ်မှာတော့ မြန်မာန�
 
 <!-- more -->
 
-<img src="http://drive.google.com/uc?export=view&id=1QHWMfbruCTpUxqivcL49xb8fo0qsvRle" alt="The Economic Importance of Policy Interest Rates">
-
 အခု လက်ရှိ မြန်မာ နိုင်ငံ ရဲ့ policy interest rate ( ဘဏ်အချင်းချင်း ချေးတဲ့ အတိုးနှုန်း) က တနှစ်လျှင် ၁၀ ရာခိုင်နှုန်း ဖြစ်ပါတယ်။ ပြီးတော့ ဘဏ်မှာ ပိုက်ဆံ သွားစုရင် အနည်းဆုံး တစ်နှစ်ကို ၈ ရာခိုင်နှုန်း ပေးရမယ် ဆိုပြီး ပြောထားပါတယ်။
 
 ဥပမာ ဆိုပါစို့..။
