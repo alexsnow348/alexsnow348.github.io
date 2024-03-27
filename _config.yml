@@ -1,5 +1,5 @@
 # Site Info
-title: "Alex Snow Learning Journey"
+title: "လေ့လာမှု ခရီးစဥ်များ" 
 tagline: "Alex Snow Learning Journey"
 description: 'Alex Snow Learning Journey. Made by <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow</a>.'
 baseurl: ""
@@ -26,7 +26,6 @@ paginate_path: '/blog/page:num'
 permalink: pretty
 categories:
 tag:
-version: 1.0.0
 
 
 # About/contact
@@ -46,19 +45,17 @@ author:
 
 # Navigation (2nd level links supported)
 nav:
-  Home:
-    - '/'
-  Blogs:
+  ဆောင်းပါးများ:
     - '/blog/'
-    - { Alex Snow School: '/blog/alexsnowschool/' }
-    - { For Youth By Youth: '/blog/fyby/' }
-  Talks:
+    - { ကျောင်းနှင့် ဆိုင်ရာများ: '/blog/alexsnowschool/' }
+    - { လူငယ်မှသည့် လူငယ်ဆီသို့: '/blog/fyby/' }
+  ပြောခဲ့သောပွဲများ:
     - '/talks/index.html'
-  Podcasts:
+  အသံထွက်ဖတ်စာများ:
     - '/podcasts/index.html'
-  Projects:
+  ပရော်ဂျက်များ:
     - '/projects/index.html'
-  Certifications:
+  အောင်လက်မှတ်များ:
     - '/certifications/index.html'
 
 

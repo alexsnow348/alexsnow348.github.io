@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks
+title: ပြောခဲ့သောပွဲများ
 ---
 
 ## 2022

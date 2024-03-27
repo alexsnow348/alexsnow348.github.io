@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Certifications
+title: အောင်လက်မှတ်များ
 ---
 
 

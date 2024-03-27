@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: ပရော်ဂျက်များ
 ---
 
 ## 2022
