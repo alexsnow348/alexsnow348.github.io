@@ -1,112 +1,107 @@
 ---
 layout: post
 title: "A True Friend မိတ်ဆွေစစ်"
-categories:  ["Notes to read"]
+categories:  ["မှတ်စုများ"]
 ---
 
-A - Accepts you as you are.
+A - Accepts you as you are.\\
 
-     သင့်ကိုအရှိအတိုင်း လက်ခံသူ။
+သင့်ကိုအရှိအတိုင်း လက်ခံသူ။
 
-B - Believe in 'You'.
+B - Believe in 'You'.\\
 
-     သင့်ကို ယုံကြည်သူ။
+သင့်ကို ယုံကြည်သူ။\\
 
-C - Calls you just to say ' Hi '.
+C - Calls you just to say ' Hi '.\\
 
-    နေကောင်းရဲ့လား ဟု နှုတ်ခွန်းဆက်တတ်သူ။
+နေကောင်းရဲ့လား ဟု နှုတ်ခွန်းဆက်တတ်သူ။ \\
 
 <!-- more -->
-D - Doesn't give up on you.
+D - Doesn't give up on you.\\
 
+သုံးမရ ပါဘူး ဟု စွန့်မပစ်တက်သူ။\\
 
-    သုံးမရ ပါဘူး ဟု စွန့်မပစ်တက်သူ။
+E - Envisions the whole of you  ( even the unfinished parts ).\\
 
-E - Envisions the whole of you  ( even the unfinished parts ).
+သင့်လုပ်ဆောင်ချက်အားလုံး ( မပြီးသေးသော အစိတ်အပိုင်း အပါအဝင် ) ကို မှန်းမျှော်ပီတိဖြစ်နေသူ။\\
 
-    သင့်လုပ်ဆောင်ချက်အားလုံး ( မပြီးသေးသော အစိတ်အပိုင်း အပါအဝင် )
-    ကို မှန်းမျှော်ပီတိဖြစ်နေသူ။
+F - Forgives your mistakes.\\
+သင့်အမှား ကို ခွင့်လွတ်တတ်သူ။\\
 
-F - Forgives your mistakes.
+G - Gives unconditionally.\\
 
-    သင့်အမှား ကို ခွင့်လွတ်တတ်သူ။
+ခြွင်းချက်မရှိသော စေတနာ ကို ပေးတက်သူ။\\
 
-G - Gives unconditionally.
+H - Helps you.\\
 
-    ခြွင်းချက်မရှိသော စေတနာ ကို ပေးတက်သူ။
+ကူညီဖေးမသူ။\\
 
-H - Helps you.
+I - Invites you over.\\
 
-    ကူညီဖေးမသူ။
+နွေးထွေစွာ ကြိုဆိုဖိတ်ခေါ်တတ်သူ။\\
 
-I - Invites you over.
+J - Just ' be ' with you.\\
+သင့် နှင့် အတူ ရှိနေသူ ။\\
 
-    နွေးထွေစွာ ကြိုဆိုဖိတ်ခေါ်တတ်သူ။
+K - Keeps you close at heart.\\
+ရင်နှင့်အမျှ ရင်းနှီး သူ။\\
 
-J - Just ' be ' with you.
+L - Loves you for who you are.\\
 
-    သင့် နှင့် အတူ ရှိနေသူ ။
+ဆင်းရဲ ချမ်းသား မပါသော ချစ်ခြင်းဖြင့် ချစ်ခင်သူ။\\
 
-K - Keeps you close at heart.
+M - Makes a difference in your life.\\
 
-    ရင်နှင့်အမျှ ရင်းနှီး သူ။
+သင့်ဘ၀ မှာ သူရှိနေသည့် အတွက် ထူးထူး ခြားခြား ဖြစ်စေသူ။\\
 
-L - Loves you for who you are.
+N - Never judges.\\
 
-    ဆင်းရဲ ချမ်းသား မပါသော ချစ်ခြင်းဖြင့် ချစ်ခင်သူ။
+ဘယ်တော့ မှ အပြစ်ရှာ ဝေဖန်ခြင်း မပြုတတ်သူ။\\
 
-M - Makes a difference in your life.
+O - Offers support.\\
 
-    သင့်ဘ၀ မှာ သူရှိနေသည့် အတွက် ထူးထူး ခြားခြား ဖြစ်စေသူ။
+သင့်ဘက် မှ ရပ်တည်ထောက်ခံပေးသူ။\\
 
-N - Never judges.
+P - Picks you up.\\
 
-    ဘယ်တော့ မှ အပြစ်ရှာ ဝေဖန်ခြင်း မပြုတတ်သူ။
+ဝမ်းနည်းအားငယ် ခြင်းကို ဖြေသိပ့် ပေးသူ။\\
 
-O - Offers support.
+Q - Quiets your fears.\\
 
-    သင့်ဘက် မှ ရပ်တည်ထောက်ခံပေးသူ။
+ကြောက်ရွံ့ စိတ်ကို ပြေပျောက်စေ သူ။\\
 
-P - Picks you up.
+R - Raises your spirit.\\
 
-    ဝမ်းနည်းအားငယ် ခြင်းကို ဖြေသိပ့် ပေးသူ။
+စိတ်ဓာတ်ကို မြှင့်တင်ပေး သူ။\\
 
-Q - Quiets your fears.
+S - Says nice things about you.\\
 
-    ကြောက်ရွံ့ စိတ်ကို ပြေပျောက်စေ သူ။
+သင့် ကောင်းကွက်လေးများ ကို ရွေးချယ်ပြောတတ်သူ။\\
 
-R - Raises your spirit.
+T - Tells you the truth when you need to hear it.\\
 
-    စိတ်ဓာတ်ကို မြှင့်တင်ပေး သူ။
+သင့်က နားထောင်ဖို့ လိုအပ် တဲ့ အခါ အမှန်ကို ပြောတတ်သူ။\\
 
-S - Says nice things about you.
+U - Understands you.\\
 
-    သင့် ကောင်းကွက်လေးများ ကို ရွေးချယ်ပြောတတ်သူ။
+သင့်ကို နားလည်သူ။\\
 
-T - Tells you the truth when you need to hear it.
+V - Values you.\\
 
-    သင့်က နားထောင်ဖို့ လိုအပ် တဲ့ အခါ အမှန်ကို ပြောတတ်သူ။
+သင့်ကို တန်းဖို့ထား သူ။\\
 
-U - Understands you.
+W - Walks beside you.\\
 
-    သင့်ကို နားလည်သူ ။
+သင့်နံဘေး မှာ အတူ လျှောက်လှမ်းပေးသူ။\\
 
-V - Values you.
+X - Xplains things you don't understand.\\
 
-    သင့်ကို တန်းဖို့ထား သူ။
+သင့်နားမလည်သည့် အရာများကို ရှင်းပြပေးသူ။\\
 
-W - Walks beside you.
+Y - Yells when you won't listen and\\
 
-    သင့်နံဘေး မှာ အတူ လျှောက်လှမ်းပေးသူ။
+သူစကားကို နားမထောင်ပါက ကရုဏာဒေါသဖြင့် အော်တတ်သူ။\\
 
-X - Xplains things you don't understand.
+Z - Zaps you back to reality.\\
 
-    သင့်နားမလည်သည့် အရာများကို ရှင်းပြပေးသူ။
-
-Y - Yells when you won't listen and
-
-    သူစကားကို နားမထောင်ပါက ကရုဏာဒေါသဖြင့် အော်တတ်သူ။
-
-Z - Zaps you back to reality.
-
-    သင့်အား အမှန်တရား ဘက်သို့ ပိုဆောင်းသူ။     
+သင့်အား အမှန်တရား ဘက်သို့ ပိုဆောင်းသူ။     

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The ten rules of ikigai"
-categories:  ["Life rules"]
+categories:  ["ဘဝ စည်းကမ်း"]
 ---
 
 1. ***Stay active; don't retire.*** <br/>Those who give up the things they love doing and do well lose their purpose in life. Thats why it's so important **to keep doing things of value, making progress, bringing beauty or utility to others, helping out, and shaping the world around you**, even after your official professional activity has ended.

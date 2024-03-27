@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desiderata"
-categories:  ["Life journey"]
+categories:  ["ဘဝခရီးလမ်း"]
 ---
 
 ***GO PLACIDLY*** amid the noise and the haste, and remember what peace there may be in silence.\\

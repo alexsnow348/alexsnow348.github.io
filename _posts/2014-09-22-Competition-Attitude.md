@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ပြိုင်ပွဲ စိတ်ထား (Competition Attitude)"
-categories:  ["Reflection journal"]
+categories:  ["ပေါ်လာသမျှ အတွေးများ"]
 ---
 
 

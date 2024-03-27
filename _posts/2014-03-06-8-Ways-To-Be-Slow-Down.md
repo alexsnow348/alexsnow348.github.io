@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8 Ways To Be Slow Down"
-categories:  ["Notes to read"]
+categories:  ["မှတ်စုများ"]
 ---
 
 Every moment is a door way to meaning, purpose, and joy. The key is an  unhurried mind. An  unhurried mind is clam, alert, and ready for anything.

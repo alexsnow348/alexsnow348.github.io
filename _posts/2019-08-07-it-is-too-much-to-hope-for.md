@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "It's too much to hope for...."
-categories:  ["Life journey"]
+categories:  ["ဘဝခရီးလမ်း"]
 ---
 It is too much to hope for a life without pain,<br />
 It is wrong to expect a life without pain,<br />

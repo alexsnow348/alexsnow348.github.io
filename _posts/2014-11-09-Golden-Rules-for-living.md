@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ဘဝခရီးလမ်း ၊ ရွှေစည်းကမ်း (Golden Rules for living)"
-categories:  ["Life rules"]
+categories:  ["ဘဝ စည်းကမ်း"]
 ---
 
 If you open it, close it.
