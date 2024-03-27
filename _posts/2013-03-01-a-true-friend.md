@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A True Friend မိတ်ဆွေစစ်"
+title: "မိတ်ဆွေစစ်"
 categories:  ["မှတ်စုများ"]
 ---
 
