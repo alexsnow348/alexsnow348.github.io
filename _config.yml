@@ -1,7 +1,7 @@
 # Site Info
-title: "Alex Snow School Learning Journey"
-tagline: "Alex Snow School Learning Journey"
-description: 'Alex Snow School Learning Journey. Made by <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow School</a>.'
+title: "Alex Snow Learning Journey"
+tagline: "Alex Snow Learning Journey"
+description: 'Alex Snow Learning Journey. Made by <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow</a>.'
 baseurl: ""
 url: 'https://alexsnow348.github.io'
 logo: '/public/logo.png'
@@ -31,7 +31,7 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: 'Alex Snow Personal Learning Journey'
+  name: 'Alex Snow'
    
   # description: A Youths' run school <strong>for empowering the next generation </strong>towards Myanmar economic and technological advancement</strong>.
   description: <strong>ဘဝတစ််လျှောက် လေ့လာမိသမျှ၊ လုပ်မိသမျှ၊ တွေးမိသမျှတွေကို နောက်ပိုင်း အသက်ကြီးတဲ့အချိန် ရောက်လာတဲ့အခါ ပြန်လည်ဖတ်ပြီး ပြုံပျော်နိုင်ဖို့ မှတ်တမ်းတင်ထားတာတွေ စုထားတဲ့ နေရာလေဖြစ်ပါတယ်။</strong>
