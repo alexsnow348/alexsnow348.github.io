@@ -14,7 +14,7 @@ title: ပရော်ဂျက်များ
 	
 	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
 
-	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/%E1%80%9D%E1%80%91%E1%80%91%E1%80%99%E1%80%94-%E1%80%80%E1%80%81%E1%80%94%E1%80%81%E1%80%84" target="_blank">Clubhouse</a> </strong> နှင့် <strong> <a href="https://t.me/burmesenovelreading" target="_blank">Telegram Group</a> </strong> ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
+	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/%E1%80%9D%E1%80%91%E1%80%91%E1%80%99%E1%80%94-%E1%80%80%E1%80%81%E1%80%94%E1%80%81%E1%80%84" target="_blank">Clubhouse</a> </strong> ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
 
 	အရင်က စုဖတ်ဆွေးနွေးထားတာတွေကိုလည်း Podcast အနေဖြင့် <strong> <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iMGRjNDA1MC9wb2RjYXN0L3Jzcw" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexreadernotes" target="_blank">Anchor</a> </strong>platforms တွေမှာ ပြန်လည် နာဆင်နိုင်ကြပါပြီး။
 
@@ -29,7 +29,7 @@ title: ပရော်ဂျက်များ
 	အထူးသဖြင့် ခုလက်တလောမှာ ဖြစ်နေတဲ့ Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies တို့နှင့် ဆိုင်တဲ့ topics လေးတွေကို  ရွေးပြီး Telegram group မှာ Article လေးကို ကြိုရှယ်ပြီး အတူတူ  ပုံမှန်လေ့လာ ဆွေးနွေးနေကြတာပါ။
 	
 	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
-	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">Clubhouse</a> </strong> နှင့် <strong> <a href="https://t.me/alexsnowschoolchannel" target="_blank">Telegram</a> </strong> ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
+	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">Clubhouse</a> </strong> နှင့် ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
 
 	အရင်က ဆွေးနွေးထားတာတွေကိုလည်း Podcast အနေဖြင့် <strong> <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82NGMyYWU0OC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexsnowschool" target="_blank">Anchor</a> </strong>platforms တွေမှာ ပြန်လည် နာဆင်နိုင်ကြပါပြီး။
 
