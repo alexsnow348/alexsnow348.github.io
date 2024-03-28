@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ပြိုင်ပွဲ စိတ်ထား (Competition Attitude)"
+title: " 💪 ပြိုင်ပွဲ စိတ်ထား (Competition Attitude)"
 categories:  ["ပေါ်လာသမျှ အတွေးများ"]
 ---
 
