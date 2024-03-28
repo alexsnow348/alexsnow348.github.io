@@ -63,7 +63,7 @@ title: ပရော်ဂျက်များ
 
 
 ## 2019
-* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School - Multiple Awards Winnig Project </a>
+* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School - Multiple Awards Winning Project </a>
   <br/>
   <a href ="https://www.freiheit.org/yangon/falling-walls-lab-myanmar-2020" target="_blank"> - Falling Wall Lab Myanmar 2020 Winner  </a>
   <br/>
