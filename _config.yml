@@ -55,8 +55,11 @@ nav:
     - '/podcasts/index.html'
   ပရော်ဂျက်များ:
     - '/projects/index.html'
-  အောင်လက်မှတ်များ:
-    - '/certifications/index.html'
+  ကိုယ်ပိုင်း အောင်လက်မှတ်များ:
+    -  '/own-certifications/index.html' 
+  ကူညီးပေးခဲ့သော အောင်လက်မှတ်များ:
+    - '/together-certifications/index.html'
+    
 
 
 

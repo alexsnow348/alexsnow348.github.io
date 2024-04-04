@@ -1,8 +1,7 @@
 ---
 layout: page
-title: အောင်လက်မှတ်များ
+title: ကူညီးပေးခဲ့သော အောင်လက်မှတ်များ
 ---
-
 
 **_[Course 14: Google Cloud Big Data and Machine Learning Fundamentals - May 2022](https://www.coursera.org/learn/gcp-big-data-ml-fundamentals){:target="\_blank"}_**
 
