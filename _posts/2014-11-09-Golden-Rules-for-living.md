@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ဘဝခရီးလမ်း ၊ ရွှေစည်းကမ်း (Golden Rules for living)"
-categories:  ["ဘဝ စည်းကမ်း"]
+categories:  ["ဘဝခရီးလမ်း"]
 ---
 
 - သင် (တံခါး ) ဖွင့်ခဲ့တာလား ၊ တံခါး ပြန်ပိတ်သွား။
