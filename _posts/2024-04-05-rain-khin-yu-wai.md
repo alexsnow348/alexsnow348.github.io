@@ -55,3 +55,5 @@ categories:  ["မှတ်စုများ"]
 မသိခြင်း၊ မတတ်ခြင်းနှင့် ဆင်းရဲခြင်းတို့သည် အညမည ဆက်သွယ်၍များ နေလေသလား။
 
 (ရှေ့နေလိုက်ခြင်း ဝတ္ထုတိုမှ)
+
+- [PDF ဖြင့် ဖတ်ချင်သူများအတွက် ဒေါင်ရန်](https://drive.google.com/file/d/1aN_kloltvHbWzu_fSDLN2y4OZZQ9dvF8/view?usp=sharing){:target="_blank"}
