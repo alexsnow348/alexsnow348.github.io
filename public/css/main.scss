@@ -29,8 +29,12 @@
     src: url("font/myanmar-mn-bold.ttf");
   }
   
-  @font-face {
+@font-face {
     font-family: "century-burma";
     src: url("font/century-burma.ttf");
   }
   
+blockquote {
+  color: #318f79;
+  border-left: .1rem solid #318f79
+}
