@@ -32,7 +32,7 @@ categories: ["လေ့လာမှု"]
 အထက်ပါ ဖော်ပြချက်များမှ အဓိက highlight လုပ်ထားတဲ့ သုံးချက်မှာ လူတိုင်း နီးပါး လေ့လာမိဖို့ လိုအပ်ပါသည်။အထူးသဖြင့် လူတို့အကြောင်း နံ့နံ့ စပ်စပ် သိချင်လေလေ ဘောဂဗေဒကို ပိုမို လေ့လာသင့်လေလေ ဖြစ်သည်။ ဥပမာ တစ်ခု အနေနှင့် ပြောရမည်ဆိုလျှင် မိမိတို့ တစ်ဥိီးတစ်ယောက်စီတိုင်းသည် မိမိတို့ စိတ်ပါဝင်စားမှု၊ မိမိတို့အကျိုးကို မျှော်ကိုးပြီး အကောင်းဆုံးသော ဆုံးဖြတ်မှုကို ပြုလုပ်ကြသည် (optimizing individual) ဟု ဆိုနိုင်သည်။ တစ်နည်းအားဖြင့်ဆိုသော် rational ဖြစ်ကြသည်ဟုဆိုခြင်းဖြစ်သည်။ သို့သော်လည် behavioral economics သည် ထိုအချက်ကို မဟုတ်မှန်ကြောင်း၊ လူအများစုမှာ irrational ဖြစ်သော ဆုံးဖြတ် ချက်များစွာကို ပြုလုပ်နေကြသည်ဟု ထောက်ပြထားပါသည်။ economics ကို လေ့လာခြင်းအားဖြင့် မိမိကိုယ်မိမိ နားလည်မှု ကိုလဲ တိုးတက်လာစေပါသည်။ တကယ်လို့ ပိုမို စိတ်ဝင်စားပါက အောက်ပါ YouTube video နှင့် စာအုပ်ကို လေ့လာစေချင်ပါသည်။
 
 
-စိတ်ဝင်စားဖို့ကောင်းတဲ့ A New Career Direction with Lifelong Learning  ဆိုတာလေကို သဘောကျလို့ ရှယ်ပေးလိုက်ပါတယ်။
+ဘောဂဗေဒနဲ့ ပတ်သက်ပြီးတော့ စိတ်ဝင်စားဖို့ကောင်းတဲ့ Thinking, Fast and Slow  ဆိုတာလေကို သဘောကျလို့ ရှယ်ပေးလိုက်ပါတယ်။
 
 <div class="container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CjVQJdIrDJ0?si=bfTwmgDEpT03qYds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
