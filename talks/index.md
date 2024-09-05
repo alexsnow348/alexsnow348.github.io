@@ -3,6 +3,16 @@ layout: page
 title: ပြောခဲ့သောပွဲများ
 ---
 
+
+## 2024
+* <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">AI Engineer ဖြစ်ဖို့ ဘယ်လိုပြင်ဆင်ရမလဲ။</a></strong>
+
+	အခုလက်ရှိမှာ လူငယ်တွေအတွက် အလုပ်အကိုင်းအခွင့်အလမ်းပေါများလာသည့် AI Engineer တစ်ယောက်အနေနဲ့ အလုပ်အကိုင်းအတွက် ဘယ်လိုပြင်ဆင်မှုတွေ လုပ်ရမလဲဆိုတာကို မြန်မာလူငယ်များအတွက် ဦးတည်ပြီး ပြောထားတာ ဖြစ်ပါတယ်။
+
+	* Language  - <strong>Burmese</strong>
+	* Slides - <strong><a href ="https://drive.google.com/file/d/1lWQ5S4v1owEAjWH-3GgzBVIRfUQtdl_4/view?usp=drive_link" target="_blank">Download</a></strong>
+	* Video - <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">Watch</a></strong>
+
 ## 2022
 * <strong><a href ="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank">Episode 11 - Talking about Women in STEM</a></strong>
 
