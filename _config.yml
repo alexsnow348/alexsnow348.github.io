@@ -1,10 +1,10 @@
 # Site Info
-title: "လေ့လာမှု ခရီးစဥ်များ" 
+title: "လေ့လာမှု ခရီးစဥ်များ"
 tagline: "Alex Snow Learning Journey"
 description: 'Alex Snow Learning Journey. Made by <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow</a>.'
 baseurl: ""
-url: 'https://alexsnow348.github.io'
-logo: '/public/logo.png'
+url: "https://alexsnow348.github.io"
+logo: "/public/logo.png"
 
 # Site configurations
 plugins:
@@ -12,7 +12,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-font-awesome-sass
-
 
 markdown: kramdown
 kramdown:
@@ -22,50 +21,45 @@ sass:
   style: compressed
   sass_dir: _scss
 paginate: 3
-paginate_path: '/blog/page:num'
+paginate_path: "/blog/page:num"
 permalink: pretty
 categories:
 tag:
 
-
 # About/contact
 author:
-  name: 'Alex Snow'
-   
+  name: "Alex Snow"
+
   # description: A Youths' run school <strong>for empowering the next generation </strong>towards Myanmar economic and technological advancement</strong>.
   description: <strong>ဘဝတစ််လျှောက် လေ့လာမိသမျှ၊ လုပ်မိသမျှ၊ တွေးမိသမျှတွေကို နောက်ပိုင်း အသက်ကြီးတဲ့အချိန် ရောက်လာတဲ့အခါ ပြန်လည်ဖတ်ပြီး ပြုံးပျော်နိုင်ဖို့ မှတ်တမ်းတင်ထားတာတွေ စုထားတဲ့ နေရာ‌လေး ဖြစ်ပါတယ်။</strong>
   gravatar: a320402fa9d8fb397013d6f56da76b97 # md5 hash of your email address
   contact:
     github: https://github.com/alexsnowschool
-    linkedin:  https://www.linkedin.com/company/alex-snow-school-for-myanmar-youths/
-    facebook:  https://www.facebook.com/groups/alexsnowschool/
+    linkedin: https://www.linkedin.com/company/alex-snow-school-for-myanmar-youths/
+    facebook: https://www.facebook.com/groups/alexsnowschool/
     instagram: https://www.instagram.com/alexsnowschool/
     anchor: https://anchor.fm/alexsnowschool/
-
 
 # Navigation (2nd level links supported)
 nav:
   ဆောင်းပါးများ:
-    - '/blog/'
-    - { ကျောင်းနှင့် ဆိုင်ရာများ: '/blog/alexsnowschool/' }
-    - { လူငယ်မှသည့် လူငယ်ဆီသို့: '/blog/fyby/' }
+    - "/blog/"
+    - { ကျောင်းနှင့် ဆိုင်ရာများ: "/blog/alexsnowschool/" }
+    - { လူငယ်မှသည့် လူငယ်ဆီသို့: "/blog/fyby/" }
   ပြောခဲ့သောပွဲများ:
-    - '/talks/index.html'
+    - "/talks/index.html"
   အသံထွက်ဖတ်စာများ:
-    - '/podcasts/index.html'
+    - "/podcasts/index.html"
   ပရော်ဂျက်များ:
-    - '/projects/index.html'
+    - "/projects/index.html"
   ကိုယ်ပိုင် အောင်လက်မှတ်များ:
-    -  '/own-certifications/index.html' 
-  ကူညီပေးခဲ့သော အောင်လက်မှတ်များ:
-    - '/together-certifications/index.html'
-    
-
-
+    - "/own-certifications/index.html"
+  အတူတူစုစာလုပ် အောင်လက်မှတ်များ:
+    - "/together-certifications/index.html"
 
 # Where are tags and categories displayed
-tag_page: '/blog/alexsnowschool/'
-category_page: '/blog/fyby/'
+tag_page: "/blog/alexsnowschool/"
+category_page: "/blog/fyby/"
 
 hero:
   image: /public/img/we_will_be_giants_by_yalestewart.jpg
@@ -73,5 +67,5 @@ hero:
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token: 'UA-167038249-1' # leave blank if you don't want google analytics
+google_analytics_token: "UA-167038249-1" # leave blank if you don't want google analytics
 disqus_short_name: # leave blank if you don't want disqus
