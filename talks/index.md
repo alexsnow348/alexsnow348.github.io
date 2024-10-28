@@ -5,6 +5,17 @@ title: ပြောခဲ့သောပွဲများ
 
 
 ## 2024
+
+* <strong><a href ="https://youtu.be/JyQ-G134Fz4" target="_blank">The Usages Of AI in Daily Life</a></strong>
+
+	AI ကို နေစဥ်ဘဝမှာ ဘယ်လိုတွေ သုံးကြမလဲ။ AI ကို ဘယ်လိုနေရာတွေမှာ အသုံးချနေကြပြီးလဲ။ နေစဥ်ဘဝမှာ AI ကို လက်တွေ့  အသုံးချဖို့ သိထားသင့်သော skill များအကြောင်း လေ့လာကြမယ် စတာတွေကိုဆွေးနွေးထားပါတယ်နော်။
+
+	* Language  - <strong>Burmese</strong>
+	* Slides - <strong><a href ="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank">Download</a></strong>
+	* Video - <strong><a href ="https://youtu.be/JyQ-G134Fz4" target="_blank">Watch</a></strong>
+
+
+
 * <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">AI Engineer ဖြစ်ဖို့ ဘယ်လိုပြင်ဆင်ရမလဲ။</a></strong>
 
 	အခုလက်ရှိမှာ လူငယ်တွေအတွက် အလုပ်အကိုင်းအခွင့်အလမ်းပေါများလာသည့် AI Engineer တစ်ယောက်အနေနဲ့ အလုပ်အကိုင်းအတွက် ဘယ်လိုပြင်ဆင်မှုတွေ လုပ်ရမလဲဆိုတာကို မြန်မာလူငယ်များအတွက် ဦးတည်ပြီး ပြောထားတာ ဖြစ်ပါတယ်။
