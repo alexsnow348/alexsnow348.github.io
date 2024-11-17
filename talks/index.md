@@ -5,6 +5,14 @@ title: ပြောခဲ့သောပွဲများ
 
 
 ## 2024
+* <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Becoming a Life-long Learner and Reader</a></strong>
+
+	လူငယ်တွေအတွက် Becoming a Life-long Learner and Reader ဖြစ်လာဖို့ တိုက်တွန်းပြောပေးတဲ့ talk လေပဲဖြစ်ပါတယ်။ Richard Hamming ရဲ့ [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) ဆိုတဲ့ Talk လေးကို အခြေခံပြီးပြောပေးထားတာဖြစ်ပါတယ်။
+
+	* Language  - <strong>Burmese</strong>
+	* Slides - <strong><a href ="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank">Download</a></strong>
+	* Video - <strong><a href ="https://youtu.be/JyQ-G134Fz4" target="_blank">Watch</a></strong>
+
 
 * <strong><a href ="https://youtu.be/JyQ-G134Fz4" target="_blank">The Usages Of AI in Daily Life</a></strong>
 
