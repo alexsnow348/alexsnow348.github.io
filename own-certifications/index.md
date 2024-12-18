@@ -3,6 +3,18 @@ layout: page
 title: ကိုယ်ပိုင် အောင်လက်မှတ်များ
 ---
 
+## 2024
+
+{:start="67"}
+
+67. [Introduction to Generative AI](https://www.coursera.org/account/accomplishments/certificate/JREEOCFK0JPN){:target="\_blank"}
+68. [Operationalizing LLMs on Azure](https://www.coursera.org/account/accomplishments/certificate/2O8410PNY38V){:target="\_blank"}
+69. [GenAI and LLMs on AWS](https://www.coursera.org/account/accomplishments/certificate/IUKVAFP9B9I4){:target="\_blank"}
+70. [Advanced Data Engineering](https://www.coursera.org/account/accomplishments/certificate/FCBBRYQ1DSQJ){:target="\_blank"}
+71. [Open Source LLMOps Solutions](https://www.coursera.org/account/accomplishments/certificate/O9972TQRHK5W){:target="\_blank"}
+72. [Databricks to Local LLMs](https://www.coursera.org/account/accomplishments/certificate/KARJYVPJ3VK8){:target="\_blank"}
+73. [Large Language Model Operations (LLMOps) Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/LS3E2X5NKHNA){:target="\_blank"}
+
 
 ## 2023 
 
