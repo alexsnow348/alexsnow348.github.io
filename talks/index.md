@@ -5,6 +5,14 @@ title: Talks
 
 
 ## 2024
+
+* <strong><a href ="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank">The Use of AI/GenAI in Financial Markets: A Research and Data Perspective</a></strong>
+
+	The talk delves into the evolution of artificial intelligence, focusing on its applications in financial markets. It discusses how traditional AI models like LSTMs and newer generative models such as GANs and large language models (LLMs) like FinGPT enhance tasks like sentiment analysis, financial risk prediction, and data generation. The presentation also highlights the ethical concerns, regulatory challenges, and potential for optimization in applying AI technologies within financial sectors.
+
+	* Language  - <strong>Burmese</strong>
+	* Slides - <strong><a href ="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank">Download</a></strong>
+
 * <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Becoming a Life-long Learner and Reader: From AI/ML Engineer Perspective</a></strong>
 
 	လူငယ်တွေအတွက် Becoming a Life-long Learner and Reader: From AI/ML Engineer Perspective ဖြစ်လာဖို့ တိုက်တွန်းပြောပေးတဲ့ talk လေပဲဖြစ်ပါတယ်။ Richard Hamming ရဲ့ [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) ဆိုတဲ့ Talk လေးကို အခြေခံပြီးပြောပေးထားတာဖြစ်ပါတယ်။
