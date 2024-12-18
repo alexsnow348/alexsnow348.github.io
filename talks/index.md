@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ပြောခဲ့သောပွဲများ
+title: Talks
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ကိုယ်ပိုင် အောင်လက်မှတ်များ
+title: Certifications
 ---
 
 ## 2024
