@@ -16,6 +16,7 @@ title: Talks
 * <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Becoming a Life-long Learner and Reader: From AI/ML Engineer Perspective</a></strong>
 
 	The talk explores the philosophy and practical steps behind continuous personal and professional growth. Emphasizing curiosity, discipline, and a rejection of shortcuts, the talk draws inspiration from thought leaders like Richard Hamming. It introduces a structured framework for growth, focusing on micro (daily tasks), mezzo (milestones), and macro (long-term goals) planning. Practical tools and resources, such as AI engineering roadmaps and open-source models, are highlighted to help learners stay ahead in fields like AI and machine learning. The talk also encourages learning in public, engaging with high-quality research, and contributing to the community, while emphasizing the importance of balance and self-care in the journey of lifelong learning.
+	
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1vMYo4bSP2HRdlYonGH1FPGVgFIZBlxKP/view?usp=drive_link" target="_blank">Download</a></strong>
 	* Video - <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Watch</a></strong>
@@ -23,18 +24,20 @@ title: Talks
 
 * <strong><a href ="https://youtu.be/JyQ-G134Fz4" target="_blank">The Usages Of AI in Daily Life</a></strong>
 
-	AI ကို နေစဥ်ဘဝမှာ ဘယ်လိုတွေ သုံးကြမလဲ။ AI ကို ဘယ်လိုနေရာတွေမှာ အသုံးချနေကြပြီးလဲ။ နေစဥ်ဘဝမှာ AI ကို လက်တွေ့  အသုံးချဖို့ သိထားသင့်သော skill များအကြောင်း လေ့လာကြမယ် စတာတွေကိုဆွေးနွေးထားပါတယ်နော်။
-
+	This talk explores the evolution of Artificial Intelligence (AI) and its impact on daily life, from its origins to modern applications like generative AI. It highlights AI's role in social media, entertainment, education, healthcare, and more, while offering practical tips on leveraging AI effectively. A concise guide to understanding and embracing AI's transformative potential.
+	
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank">Download</a></strong>
 	* Video - <strong><a href ="https://youtu.be/JyQ-G134Fz4" target="_blank">Watch</a></strong>
 
 
 
-* <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">AI Engineer ဖြစ်ဖို့ ဘယ်လိုပြင်ဆင်ရမလဲ။</a></strong>
+* <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">Becoming an AI Engineer</a></strong>
 
-	အခုလက်ရှိမှာ လူငယ်တွေအတွက် အလုပ်အကိုင်းအခွင့်အလမ်းပေါများလာသည့် AI Engineer တစ်ယောက်အနေနဲ့ အလုပ်အကိုင်းအတွက် ဘယ်လိုပြင်ဆင်မှုတွေ လုပ်ရမလဲဆိုတာကို မြန်မာလူငယ်များအတွက် ဦးတည်ပြီး ပြောထားတာ ဖြစ်ပါတယ်။
+	**Summary of the Talk: Roadmap to Becoming an AI Engineer**  
 
+	This talk outlines a practical roadmap for aspiring AI engineers, whether transitioning from software engineering or starting fresh. It covers foundational programming skills, essential tools, and concepts in AI and machine learning. The session highlights key areas like LLMOps, deployment practices, and hands-on learning resources, guiding participants on where to begin and how to progress. Designed for learners at all levels, it offers actionable advice to help build a strong foundation and excel in AI engineering.
+	
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1lWQ5S4v1owEAjWH-3GgzBVIRfUQtdl_4/view?usp=drive_link" target="_blank">Download</a></strong>
 	* Video - <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">Watch</a></strong>
