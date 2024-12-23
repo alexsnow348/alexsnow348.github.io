@@ -34,8 +34,6 @@ title: Talks
 
 * <strong><a href ="https://youtu.be/nFkNfiUXZNg" target="_blank">Becoming an AI Engineer</a></strong>
 
-	**Summary of the Talk: Roadmap to Becoming an AI Engineer**  
-
 	This talk outlines a practical roadmap for aspiring AI engineers, whether transitioning from software engineering or starting fresh. It covers foundational programming skills, essential tools, and concepts in AI and machine learning. The session highlights key areas like LLMOps, deployment practices, and hands-on learning resources, guiding participants on where to begin and how to progress. Designed for learners at all levels, it offers actionable advice to help build a strong foundation and excel in AI engineering.
 	
 	* Language  - <strong>Burmese</strong>
