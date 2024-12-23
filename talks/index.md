@@ -3,7 +3,6 @@ layout: page
 title: Talks
 ---
 
-
 ## 2024
 
 * <strong><a href ="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank">The Use of AI/GenAI in Financial Markets: A Research and Data Perspective</a></strong>
@@ -12,6 +11,16 @@ title: Talks
 
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank">Download</a></strong>
+
+
+* <strong><a href ="https://youtu.be/0LtoRcXcudc" target="_blank">Streamlining AI: Knowledge Distillation for Smaller, Efficient Models</a></strong>
+
+	This talk explores the transformative potential of knowledge distillation in creating smaller, efficient AI models while preserving their performance. Delve into its role in flexible architectures, data augmentation, and resource-constrained applications like TinyML. The discussion covers key concepts, including the teacher-student framework, various distillation schemes, and objective loss functions. It also highlights practical tools like PyTorch's `torchdistill` library and examines real-world applications in NLP and object detection. Join us to uncover how knowledge distillation is shaping the future of efficient deep learning.
+	
+	* Language  - <strong>Burmese</strong>
+	* Slides - <strong><a href ="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank">Download</a></strong>
+	* Video - <strong><a href ="https://youtu.be/0LtoRcXcudc" target="_blank">Watch</a></strong>
+
 
 * <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Becoming a Life-long Learner and Reader: From AI/ML Engineer Perspective</a></strong>
 
@@ -53,7 +62,7 @@ title: Talks
 
 * <strong><a href ="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank">Training ML Models Using AutoML on GCP</a></strong>
 
-	Most people heard of the terms AI/ML and don’t really grasp the basic idea. By using AutoML on Google Cloud, developers can build and train models with little AI/ML knowledge. The talk is based on GCP Cloud Vertex AI services especially using AutoML. The talk introduced Machine Learning general flow/pipelines and demo with “Predicting loan risk with AutoML”.
+	Most people heard of the terms AI/ML and don't really grasp the basic idea. By using AutoML on Google Cloud, developers can build and train models with little AI/ML knowledge. The talk is based on GCP Cloud Vertex AI services especially using AutoML. The talk introduced Machine Learning general flow/pipelines and demo with “Predicting loan risk with AutoML”.
 
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank">Download</a></strong>
@@ -84,3 +93,47 @@ title: Talks
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1dXRG6f4BaWc4n4a0XmbRJCUkuACVlQHg/view?usp=sharing" target="_blank">Download</a></strong>
 	* Video - <strong><a href ="https://youtu.be/RUMMgeiEkVk" target="_blank">Watch</a></strong>
+
+## Posters
+<div class="photo-viewer">
+
+  <div class="photo">
+    <img src="/public/img/fin-ai-talk.jpg" style="width: 100%; height: auto;">
+  </div>
+
+   <div class="photo">
+    <img src="/public/img/kd.jpg" style="width: 100%; height: auto;">
+  </div>
+
+    <div class="photo">
+    <img src="/public/img/sa-mat.jpg" style="width: 100%; height: auto;">
+  </div>
+
+<div class="photo">
+    <img src="/public/img/woman-in-stem.jpg" style="width: 100%; height: auto;">
+  </div>
+
+  <div class="photo">
+    <img src="/public/img/life-long-learner.webp" style="width: 100%; height: auto;">
+  </div>
+
+  <div class="photo">
+    <img src="/public/img/brain.jpg" style="width: 100%; height: auto;">
+  </div>
+
+
+</div>
+
+<style>
+.photo-viewer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
