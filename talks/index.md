@@ -15,7 +15,7 @@ title: Talks
 
 * <strong><a href ="https://youtu.be/0LtoRcXcudc" target="_blank"> Knowledge Distillation : Making LLM model smaller - Streamlining AI</a></strong>
 
-	This talk explores the transformative potential of knowledge distillation in creating smaller, efficient AI models while preserving their performance. Delve into its role in flexible architectures, data augmentation, and resource-constrained applications like TinyML. The discussion covers key concepts, including the teacher-student framework, various distillation schemes, and objective loss functions. It also highlights practical tools like PyTorch's `torchdistill` library and examines real-world applications in NLP and object detection. Join us to uncover how knowledge distillation is shaping the future of efficient deep learning.
+	This talk explores the transformative potential of knowledge distillation in creating smaller, efficient AI models while preserving their performance. Delve into its role in flexible architectures, data augmentation, and resource-constrained applications like TinyML. The discussion covers key concepts, including the teacher-student framework, various distillation schemes, and objective loss functions. It also highlights practical tools like PyTorch's `torchdistill` library and examines real-world applications in NLP and object detection. 
 	
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank">Download</a></strong>
