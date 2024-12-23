@@ -15,8 +15,7 @@ title: Talks
 
 * <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Becoming a Life-long Learner and Reader: From AI/ML Engineer Perspective</a></strong>
 
-	လူငယ်တွေအတွက် Becoming a Life-long Learner and Reader: From AI/ML Engineer Perspective ဖြစ်လာဖို့ တိုက်တွန်းပြောပေးတဲ့ talk လေပဲဖြစ်ပါတယ်။ Richard Hamming ရဲ့ [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html) ဆိုတဲ့ Talk လေးကို အခြေခံပြီးပြောပေးထားတာဖြစ်ပါတယ်။
-
+	The talk explores the philosophy and practical steps behind continuous personal and professional growth. Emphasizing curiosity, discipline, and a rejection of shortcuts, the talk draws inspiration from thought leaders like Richard Hamming. It introduces a structured framework for growth, focusing on micro (daily tasks), mezzo (milestones), and macro (long-term goals) planning. Practical tools and resources, such as AI engineering roadmaps and open-source models, are highlighted to help learners stay ahead in fields like AI and machine learning. The talk also encourages learning in public, engaging with high-quality research, and contributing to the community, while emphasizing the importance of balance and self-care in the journey of lifelong learning.
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1vMYo4bSP2HRdlYonGH1FPGVgFIZBlxKP/view?usp=drive_link" target="_blank">Download</a></strong>
 	* Video - <strong><a href ="https://youtu.be/r1CkNRj6IUI" target="_blank">Watch</a></strong>
