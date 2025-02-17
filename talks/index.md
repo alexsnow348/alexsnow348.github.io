@@ -3,6 +3,16 @@ layout: page
 title: Talks
 ---
 
+## 2025
+* <strong><a href ="https://youtu.be/Fhe63hJNpfE" target="_blank">AI Tools for Work</a></strong>
+
+	This talk explores the basics introduction of AI evolution and how AI is working behind the scene. This talk also explores AI tools used for work.
+	
+	* Language  - <strong>Burmese</strong>
+	* Slides - <strong><a href ="https://drive.google.com/file/d/1rpXtwOLW8D8Y55AR-qBOZyTc8feBgn_h/view?usp=sharing" target="_blank">Download</a></strong>
+	* Video - <strong><a href ="https://youtu.be/Fhe63hJNpfE" target="_blank">Watch</a></strong>
+
+
 ## 2024
 
 * <strong><a href ="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank">The Use of AI/GenAI in Financial Markets: A Research and Data Perspective</a></strong>
@@ -15,7 +25,7 @@ title: Talks
 
 * <strong><a href ="https://youtu.be/0LtoRcXcudc" target="_blank"> Knowledge Distillation : Making LLM model smaller - Streamlining AI</a></strong>
 
-	This talk explores the transformative potential of knowledge distillation in creating smaller, efficient AI models while preserving their performance. Delve into its role in flexible architectures, data augmentation, and resource-constrained applications like TinyML. The discussion covers key concepts, including the teacher-student framework, various distillation schemes, and objective loss functions. It also highlights practical tools like PyTorch's `torchdistill` library and examines real-world applications in NLP and object detection. 
+	This talk explores the transformation potential of knowledge distillation in creating smaller, efficient AI models while preserving their performance. This talk also delve into its role in flexible architectures, data augmentation, and resource-constrained applications like TinyML. The discussion covers key concepts, including the teacher-student framework, various distillation schemes, and objective loss functions. It also highlights practical tools like PyTorch's `torchdistill` library and examines real-world applications in NLP and object detection. 
 	
 	* Language  - <strong>Burmese</strong>
 	* Slides - <strong><a href ="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank">Download</a></strong>
