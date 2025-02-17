@@ -106,6 +106,9 @@ title: Talks
 
 ## Posters
 <div class="photo-viewer">
+   <div class="photo">
+    <img src="/public/img/ai-tools-for-work.jpg" style="width: 100%; height: auto;">
+  </div>
 
   <div class="photo">
     <img src="/public/img/fin-ai-talk.jpg" style="width: 100%; height: auto;">
@@ -130,7 +133,6 @@ title: Talks
   <div class="photo">
     <img src="/public/img/brain.jpg" style="width: 100%; height: auto;">
   </div>
-
 
 </div>
 
