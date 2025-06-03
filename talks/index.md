@@ -117,7 +117,11 @@ title: Talks
 	* Video - <strong><a href ="https://youtu.be/RUMMgeiEkVk" target="_blank">Watch</a></strong>
 
 ## Posters
+
 <div class="photo-viewer">
+   <div class="photo">
+    <img src="/public/img/ai_unplugged_talk.jpg" style="width: 100%; height: auto;">
+  </div>
    <div class="photo">
     <img src="/public/img/ai-tools-for-work.jpg" style="width: 100%; height: auto;">
   </div>
