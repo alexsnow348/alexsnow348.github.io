@@ -4,6 +4,18 @@ title: Talks
 ---
 
 ## 2025
+* <strong><a href ="https://youtu.be/w6Sth-Josds" target="_blank">AI Unplugged: The Art of Prompt Engineering
+</a></strong>
+
+	This talk explores the fundamentals and art of prompt engineering. It also examines the impact of AI on society and emphasizes the importance of preparing the future workforce. The session was delivered to youth at the American Center in Yangon, Myanmar.
+	
+	* Language  - <strong>Burmese</strong>
+	* Video - <strong><a href ="https://youtu.be/w6Sth-Josds" target="_blank">Watch</a></strong>
+
+	<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSS3zMxmaWEehO7kS-OMPQ-VgCnbFJv2BFcsKAkD6EVZDHHov3xZR0cT1KlZG1Y9g/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<br/>
+
+
 * <strong><a href ="https://youtu.be/Fhe63hJNpfE" target="_blank">AI Tools for Work</a></strong>
 
 	This talk explores the basics introduction of AI evolution and how AI is working behind the scene. This talk also explores AI tools used for work.
