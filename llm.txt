@@ -1,0 +1,128 @@
+# Alex Snow Learning Journey (လေ့လာမှု ခရီးစဥ်များ)
+
+## Overview
+A personal learning journey blog documenting life experiences, thoughts, and lessons learned. This site is a collection of writings in Burmese (Myanmar) and English, created to reflect upon later in life.
+
+**Tagline:** Alex Snow Learning Journey  
+**URL:** https://alexsnow348.github.io  
+**Author:** Alex Snow  
+**Languages:** Burmese (Myanmar), English  
+
+## Site Description
+ဘဝတစ််လျှောက် လေ့လာမိသမျှ၊ လုပ်မိသမျှ၊ တွေးမိသမျှတွေကို နောက်ပိုင်း အသက်ကြီးတဲ့အချိန် ရောက်လာတဲ့အခါ ပြန်လည်ဖတ်ပြီး ပြုံးပျော်နိုင်ဖို့ မှတ်တမ်းတင်ထားတာတွေ စုထားတဲ့ နေရာ‌လေး ဖြစ်ပါတယ်။
+
+(Translation: A place where I collect all the things I've learned, done, and thought throughout my life, so that I can read them back and smile when I get older.)
+
+## Content Categories
+
+### Main Sections
+1. **ဆောင်းပါးများ (Articles/Blog Posts)**
+   - Path: `/blog/`
+   - Categories:
+     - ကျောင်းနှင့် ဆိုင်ရာများ (School-related): `/blog/alexsnowschool/`
+     - လူငယ်မှသည့် လူငယ်ဆီသို့ (From Youth to Youth): `/blog/fyby/`
+
+2. **ပြောခဲ့သောပွဲများ (Talks)**
+   - Path: `/talks/index.html`
+   - Public speaking engagements and presentations
+
+3. **အသံထွက်ဖတ်စာများ (Podcasts)**
+   - Path: `/podcasts/index.html`
+   - Audio content and readings
+
+4. **Writefulyours - စာပို့ကြစို့။**
+   - External link: https://writefullyours.my.canva.site/
+   - Letter writing project
+
+5. **ပရော်ဂျက်များ (Projects)**
+   - Path: `/projects/index.html`
+   - Personal and educational projects
+
+6. **ကိုယ်ပိုင် အောင်လက်မှတ်များ (Personal Certifications)**
+   - Path: `/own-certifications/index.html`
+   - Individual achievements and certifications
+
+7. **အတူတူစုစာလုပ် အောင်လက်မှတ်များ (Collaborative Certifications)**
+   - Path: `/together-certifications/index.html`
+   - Group learning achievements
+
+## Content Themes
+
+### Blog Post Topics Include:
+- Personal reflections and life lessons
+- Financial freedom journey (journeytofinancialfreedom series)
+- 3-minute global news summaries (3minutesglobalnews series)
+- Philosophical thoughts (3minutesthought series)
+- Youth empowerment and education
+- Personal growth and development
+- Letters to family members
+- Myanmar culture and traditions
+- Depression and mental health awareness
+- Competition and success mindset
+- Learning strategies and education
+
+### Notable Series:
+- **Journey to Financial Freedom** (2019-ongoing)
+- **3 Minutes Global News** (2019)
+- **3 Minutes Thought** (2019)
+
+## Technical Details
+
+### Technology Stack
+- **Platform:** Jekyll static site generator
+- **Hosting:** GitHub Pages
+- **Markdown:** Kramdown
+- **CSS:** SCSS/Sass
+- **Pagination:** 3 posts per page
+- **Plugins:**
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-font-awesome-sass
+
+### Site Structure
+- `_posts/`: Blog posts in Markdown format (YYYY-MM-DD-title.md)
+- `_layouts/`: Page templates (default, post, page)
+- `_includes/`: Reusable components (head, sidebar)
+- `_scss/`: Styling files
+- `public/`: Static assets (images, fonts, CSS)
+- `blog/`: Blog listing pages
+- `drafts/`: Work-in-progress posts
+
+### Post Naming Convention
+Posts follow Jekyll's standard naming: `YYYY-MM-DD-post-title.md`
+
+Posts can be in English or Burmese (Myanmar) language.
+
+## Social Media & Contact
+
+- **GitHub:** https://github.com/alexsnowschool
+- **LinkedIn:** https://www.linkedin.com/company/alex-snow-school-for-myanmar-youths/
+- **Facebook:** https://www.facebook.com/groups/alexsnowschool/
+- **Instagram:** https://www.instagram.com/alexsnowschool/
+- **Podcast:** https://anchor.fm/alexsnowschool/
+
+## About Alex Snow School
+A youth-run school for empowering the next generation towards Myanmar economic and technological advancement.
+
+## Purpose
+This blog serves as a digital archive of personal experiences, learnings, and reflections throughout life's journey. It's designed to be revisited in later years to reflect on growth and experiences.
+
+## Content Focus
+- Bilingual content (Burmese and English)
+- Personal development and self-improvement
+- Financial literacy and freedom
+- Education and learning strategies
+- Youth empowerment
+- Cultural reflections
+- Mental health awareness
+- Life philosophy and wisdom
+
+## RSS Feed
+Available at: `/atom.xml`
+
+## License
+See LICENSE.md for details
+
+---
+Last Updated: October 2025
