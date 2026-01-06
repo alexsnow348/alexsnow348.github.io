@@ -9,10 +9,11 @@
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid $lightgrey;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.95);
   @media (min-width: 30rem) {
     position: fixed;
     width: 100%;
+    z-index: 1000;
   }
   .masthead-title {
     margin-top: 0;
