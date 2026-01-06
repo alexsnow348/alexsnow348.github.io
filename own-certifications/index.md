@@ -3,6 +3,19 @@ layout: page
 title: Certifications
 ---
 
+## 2026
+
+{:start="76"}
+
+76. [Machine Learning Operations (MLOps) in Databricks](https://credentials.databricks.com/cbc46403-5788-4046-92c9-f6463a5522ca#acc.PUj02dph){:target="\_blank"}
+77. [Advanced Machine Learning Operations (MLOps) in Databricks](https://credentials.databricks.com/c6d55b78-da17-4b40-abde-8c3bba6a3370#acc.cT1BIwqy){:target="\_blank"}
+
+## 2025
+
+{:start="74"}
+74. [Databricks Fundamentals](https://credentials.databricks.com/0cae2f7c-75d3-41c8-9047-3fc0c46b515b#acc.4fvHZoUc){:target="\_blank"}
+75. [Lakehouse Architecture on Databricks](https://credentials.databricks.com/4417c642-1446-48de-9aee-43b1d1455aa4#acc.IOoPeHqh){:target="\_blank"}
+
 ## 2024
 
 {:start="67"}
