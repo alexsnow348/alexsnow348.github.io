@@ -41,6 +41,8 @@ nav:
     - "/services/"
   Articles:
     - "/articles/"
+  Case Studies:
+    - "/case-studies/"
   Certifications:
     - "/own-certifications/index.html"
   Projects:

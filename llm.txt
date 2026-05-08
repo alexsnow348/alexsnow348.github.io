@@ -26,8 +26,10 @@ AI and LLM consulting for German SMBs and cultural institutions (museums, galler
 
 ## Site Sections
 - /about/ — Full professional background, experience, education, certifications
-- /services/ — Consulting services for SMBs and cultural institutions
+- /services/ — Consulting services for SMBs and cultural institutions (English)
+- /leistungen/ — Consulting services in German (KMU & Kultureinrichtungen)
 - /articles/ — English articles on GenAI applications in art and museum contexts
+- /case-studies/ — Anonymised project case studies across automotive, industrial, telecom, and cultural sectors
 - /own-certifications/ — Searchable list of 81+ certifications with filters
 - /projects/ — Community and technical projects (2017–2022)
 - /talks/ — Public talks on AI, ML, and career development
@@ -35,6 +37,14 @@ AI and LLM consulting for German SMBs and cultural institutions (museums, galler
 ## Articles (English, AI × Art & Museum)
 - "How GenAI Is Transforming Museum Collection Cataloguing" — metadata enrichment, vision-language models, RAG pipelines
 - "RAG Systems for Provenance Research: Making Restitution Archives Searchable" — Nazi-era art displacement records, Fraktur OCR, semantic retrieval
+- "Multilingual Visitor Chatbots for German Museums: What Actually Works" — RAG-grounded chatbots, multilingual output, scoping and economics
+- "Starting With AI When You Have No Tech Team: A Guide for Small German Museums" — practical first steps, off-the-shelf tools, scoping for small institutions
+
+## Case Studies
+- Automotive: Real-time risk scoring MLOps pipeline (Germany)
+- Industrial: Computer vision QA pipeline for precision manufacturing (Germany)
+- Telecom: AI-driven network diagnostics reducing helpdesk resolution from 27h to 9h
+- Cultural: GenAI collection cataloguing for a regional museum (Germany)
 
 ## Contact
 LinkedIn: https://www.linkedin.com/in/wuthmonehninhlaing/
