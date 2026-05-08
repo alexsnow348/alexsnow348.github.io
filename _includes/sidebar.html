@@ -32,6 +32,16 @@
     </div>
   </div>
 
+  <div class="lang-switcher">
+    {% if page.lang == 'de' %}
+      <a href="{{ page.lang_alt | default: '/' }}" class="lang-btn">EN</a>
+      <span class="lang-btn lang-btn-active">DE</span>
+    {% else %}
+      <span class="lang-btn lang-btn-active">EN</span>
+      <a href="{{ page.lang_alt | default: '/de/' }}" class="lang-btn">DE</a>
+    {% endif %}
+  </div>
+
   <nav class="sidebar-nav">
     {% assign active_nav = site.nav %}
     {% if page.lang == 'de' %}{% assign active_nav = site.nav_de %}{% endif %}
@@ -76,15 +86,6 @@
     {% endfor %}
   </nav>
 
-  <div class="lang-switcher">
-    {% if page.lang == 'de' %}
-      <a href="{{ page.lang_alt | default: '/' }}" class="lang-btn">EN</a>
-      <span class="lang-btn lang-btn-active">DE</span>
-    {% else %}
-      <span class="lang-btn lang-btn-active">EN</span>
-      <a href="{{ page.lang_alt | default: '/de/' }}" class="lang-btn">DE</a>
-    {% endif %}
-  </div>
 
 </div>
 
@@ -94,8 +95,7 @@
     gap: 0.4rem;
     align-items: center;
     padding: 0.75rem 1rem;
-    border-top: 1px solid rgba(255,255,255,.1);
-    margin-top: 0.25rem;
+    border-bottom: 1px solid rgba(255,255,255,.1);
   }
 
   @media (min-width: 48em) {
