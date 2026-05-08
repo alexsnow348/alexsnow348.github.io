@@ -32,29 +32,18 @@
     </div>
   </div>
 
-  <div class="lang-switcher">
-    {% if page.lang == 'de' %}
-      <a href="{{ page.lang_alt | default: '/' }}" class="lang-btn">EN</a>
-      <span class="lang-btn lang-btn-active">DE</span>
-    {% else %}
-      <span class="lang-btn lang-btn-active">EN</span>
-      <a href="{{ page.lang_alt | default: '/de/' }}" class="lang-btn">DE</a>
-    {% endif %}
+  <div class="lang-switcher" data-page-lang="{{ page.lang }}" data-lang-alt="{{ page.lang_alt }}">
+    <button class="lang-btn" id="btn-en" onclick="switchLang('en')">EN</button>
+    <button class="lang-btn" id="btn-de" onclick="switchLang('de')">DE</button>
   </div>
 
-  <nav class="sidebar-nav">
-    {% assign active_nav = site.nav %}
-    {% if page.lang == 'de' %}{% assign active_nav = site.nav_de %}{% endif %}
-
-    {% for nav in active_nav %}
+  <!-- English nav -->
+  <nav class="sidebar-nav" id="nav-en">
+    {% for nav in site.nav %}
       {% assign is_relative = nav[1][0] | slice: 0 %}
       {% assign url = nav[1][0] %}
-      {% if is_relative == '/' %}
-        {% assign url = nav[1][0] | prepend: site.baseurl %}
-      {% endif %}
-
+      {% if is_relative == '/' %}{% assign url = nav[1][0] | prepend: site.baseurl %}{% endif %}
       {% assign sub_len = nav[1] | size | minus: 1 %}
-
       {% if sub_len > 0 %}
         <span class="foldable">
           <button class="foldable-toggle" type="button" aria-expanded="false">
@@ -63,29 +52,50 @@
           <span class="foldable-items">
             {% for i in (1..sub_len) %}
               {% for sub_nav in nav[1][i] %}
-                {% assign sub_is_relative = sub_nav[1] | slice: 0 %}
                 {% assign sub_url = sub_nav[1] %}
-                {% if sub_is_relative == '/' %}
-                  {% assign sub_url = sub_nav[1] | prepend: site.baseurl %}
-                {% endif %}
-                <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">
-                  {{ sub_nav[0] }}
-                </a>
+                {% if sub_nav[1] contains '/' %}{% assign sub_url = sub_nav[1] | prepend: site.baseurl %}{% endif %}
+                <a class="sidebar-nav-item sidebar-nav-item-sub {% if page.url == sub_nav[1] %}active{% endif %}" href="{{ sub_url }}">{{ sub_nav[0] }}</a>
               {% endfor %}
             {% endfor %}
           </span>
         </span>
       {% else %}
         <span>
-          <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">
-            {{ nav[0] }}
-          </a>
+          <a class="sidebar-nav-item {% if page.url == nav[1][0] %}active{% endif %}" href="{{ url }}">{{ nav[0] }}</a>
         </span>
       {% endif %}
-
     {% endfor %}
   </nav>
 
+  <!-- German nav -->
+  <nav class="sidebar-nav" id="nav-de" style="display:none;">
+    {% for nav in site.nav_de %}
+      {% assign is_relative = nav[1][0] | slice: 0 %}
+      {% assign url = nav[1][0] %}
+      {% if is_relative == '/' %}{% assign url = nav[1][0] | prepend: site.baseurl %}{% endif %}
+      {% assign sub_len = nav[1] | size | minus: 1 %}
+      {% if sub_len > 0 %}
+        <span class="foldable">
+          <button class="foldable-toggle" type="button" aria-expanded="false">
+            {{ nav[0] }} <span class="foldable-arrow">▸</span>
+          </button>
+          <span class="foldable-items">
+            {% for i in (1..sub_len) %}
+              {% for sub_nav in nav[1][i] %}
+                {% assign sub_url = sub_nav[1] %}
+                {% if sub_nav[1] contains '/' %}{% assign sub_url = sub_nav[1] | prepend: site.baseurl %}{% endif %}
+                <a class="sidebar-nav-item sidebar-nav-item-sub" href="{{ sub_url }}">{{ sub_nav[0] }}</a>
+              {% endfor %}
+            {% endfor %}
+          </span>
+        </span>
+      {% else %}
+        <span>
+          <a class="sidebar-nav-item" href="{{ url }}">{{ nav[0] }}</a>
+        </span>
+      {% endif %}
+    {% endfor %}
+  </nav>
 
 </div>
 
@@ -114,6 +124,8 @@
     transition: background 0.15s ease;
     color: rgba(255,255,255,0.5);
     border: 1px solid rgba(255,255,255,0.15);
+    background: none;
+    cursor: pointer;
   }
 
   .lang-btn:hover {
@@ -187,6 +199,56 @@
 </style>
 
 <script>
+  (function() {
+    var switcher  = document.querySelector('.lang-switcher');
+    var pageLang  = switcher ? switcher.dataset.pageLang  : '';
+    var langAlt   = switcher ? switcher.dataset.langAlt   : '';
+
+    // Determine active language: explicit page.lang wins, else use stored preference
+    var stored = localStorage.getItem('site-lang');
+    var activeLang = pageLang || stored || 'en';
+
+    // If page declares a lang, persist it
+    if (pageLang) localStorage.setItem('site-lang', pageLang);
+
+    function applyLang(lang) {
+      var navEn = document.getElementById('nav-en');
+      var navDe = document.getElementById('nav-de');
+      var btnEn = document.getElementById('btn-en');
+      var btnDe = document.getElementById('btn-de');
+      if (lang === 'de') {
+        navEn.style.display = 'none';
+        navDe.style.display = 'block';
+        btnDe.classList.add('lang-btn-active');
+        btnEn.classList.remove('lang-btn-active');
+      } else {
+        navDe.style.display = 'none';
+        navEn.style.display = 'block';
+        btnEn.classList.add('lang-btn-active');
+        btnDe.classList.remove('lang-btn-active');
+      }
+    }
+
+    applyLang(activeLang);
+
+    window.switchLang = function(lang) {
+      localStorage.setItem('site-lang', lang);
+      // If the page has an explicit alternate URL, navigate there
+      if (langAlt && pageLang && lang !== pageLang) {
+        window.location.href = langAlt;
+        return;
+      }
+      // Same page has no alternate — for DE preference, go to German home
+      // For EN preference, go to English home; unless already on a matching page
+      if (!pageLang) {
+        applyLang(lang);
+        return;
+      }
+      // pageLang matches selected lang — already on correct page
+      applyLang(lang);
+    };
+  })();
+
   document.querySelectorAll('.foldable-toggle').forEach(function(btn) {
     btn.addEventListener('click', function() {
       var span = btn.closest('.foldable');
