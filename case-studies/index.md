@@ -123,42 +123,9 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
 </style>
 
 <p class="cs-intro">
-  A selection of projects across automotive, industrial, telecom, and cultural sectors — showing what production AI actually looks like beyond the demo.
+  A selection of projects across industrial, telecom, and cultural sectors — showing what production AI actually looks like beyond the demo.
 </p>
 <p class="cs-note">All clients anonymised. Sector, team size, and outcomes are accurate.</p>
-
-<div class="cs-item">
-  <div class="cs-header">
-    <h2 class="cs-title">Real-Time Risk Scoring for Automotive Claims Processing</h2>
-    <div class="cs-tags">
-      <span class="cs-tag tag-automotive">Automotive</span>
-      <span class="cs-tag tag-mlops">MLOps</span>
-    </div>
-  </div>
-  <div class="cs-meta">Germany · Enterprise · MLOps Architect</div>
-
-  <p class="cs-body">
-    A large automotive services company processing hundreds of thousands of claims annually needed to automate risk assessment — reducing manual review time while maintaining accuracy under strict regulatory requirements. The existing pipeline had no versioning, no monitoring, and no rollback capability.
-  </p>
-
-  <span class="cs-section-label">Challenge</span>
-  <p class="cs-body">
-    Models were retrained ad hoc, deployed manually, and had no data drift detection. A single bad deployment could affect downstream claims processing for days before anyone noticed. The team had ML expertise but no MLOps infrastructure.
-  </p>
-
-  <span class="cs-section-label">What We Built</span>
-  <p class="cs-body">
-    End-to-end MLOps pipeline on Databricks: automated retraining triggers, model versioning via MLflow, staged deployment with A/B testing, real-time monitoring dashboards, and automated rollback on performance degradation. CI/CD pipelines ensured no model reached production without passing evaluation gates.
-  </p>
-
-  <span class="cs-section-label">Outcomes</span>
-  <ul class="cs-outcomes">
-    <li>Deployment cycle reduced from weeks to hours</li>
-    <li>Model degradation detected within hours instead of days</li>
-    <li>Zero unplanned rollbacks in the 6 months post-deployment</li>
-    <li>ML team self-sufficient on retraining and deployment within 8 weeks</li>
-  </ul>
-</div>
 
 <div class="cs-item">
   <div class="cs-header">

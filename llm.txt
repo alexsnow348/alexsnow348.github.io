@@ -41,7 +41,6 @@ AI and LLM consulting for German SMBs and cultural institutions (museums, galler
 - "Starting With AI When You Have No Tech Team: A Guide for Small German Museums" — practical first steps, off-the-shelf tools, scoping for small institutions
 
 ## Case Studies
-- Automotive: Real-time risk scoring MLOps pipeline (Germany)
 - Industrial: Computer vision QA pipeline for precision manufacturing (Germany)
 - Telecom: AI-driven network diagnostics reducing helpdesk resolution from 27h to 9h
 - Cultural: GenAI collection cataloguing for a regional museum (Germany)
