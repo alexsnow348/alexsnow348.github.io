@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Services
+description: "AI strategy, LLM application development, agentic workflow design, and MLOps consulting for German SMBs and cultural institutions. Based in Germany, serving the DACH region."
 ---
 
 <style>

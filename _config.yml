@@ -5,6 +5,7 @@ description: 'Practical AI, LLM, and Agentic Systems consulting for small and me
 baseurl: ""
 url: "https://diekulturki.de"
 logo: "/public/logo.png"
+image: "/public/logo.png"
 
 # Site configurations
 plugins:

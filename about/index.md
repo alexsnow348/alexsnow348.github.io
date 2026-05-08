@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germany. 9+ years in AI/ML across telecom, fintech, and industrial sectors. 81+ certifications. Helping SMBs and cultural institutions apply AI practically."
 ---
 
 <style>

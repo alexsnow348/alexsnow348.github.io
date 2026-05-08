@@ -28,6 +28,73 @@
   </style>
 
   {% seo %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://diekulturki.de/#person",
+        "name": "Alex Snow",
+        "alternateName": "Wuthmoneh Ninhlaing",
+        "url": "https://diekulturki.de",
+        "image": "https://www.gravatar.com/avatar/a320402fa9d8fb397013d6f56da76b97?s=400",
+        "jobTitle": "AI & LLM Consultant",
+        "description": "AI and LLM consultant helping German SMBs and cultural institutions apply machine learning and large language models — from strategy to production.",
+        "knowsAbout": ["Artificial Intelligence", "Large Language Models", "MLOps", "RAG Systems", "Agentic AI", "Databricks", "Museum Technology", "GenAI"],
+        "knowsLanguage": ["en", "de", "my"],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Stiftung Universität Hildesheim"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/wuthmonehninhlaing/",
+          "https://github.com/alexsnowschool"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "ControlExpert GmbH"
+        }
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://diekulturki.de/#service",
+        "name": "Alex Snow — AI & LLM Consulting",
+        "url": "https://diekulturki.de",
+        "description": "Practical AI, LLM, and agentic systems consulting for small and medium-sized businesses and cultural institutions in Germany and the DACH region.",
+        "provider": { "@id": "https://diekulturki.de/#person" },
+        "areaServed": {
+          "@type": "GeoCircle",
+          "geoMidpoint": { "@type": "GeoCoordinates", "addressCountry": "DE" },
+          "description": "Germany and DACH region"
+        },
+        "serviceType": ["AI Consulting", "LLM Development", "MLOps", "AI Strategy", "Museum Technology"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Consulting Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Strategy & Roadmapping" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "LLM Application Development" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Agentic Workflow Design" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MLOps & Model Deployment" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Workshops & Team Training" } }
+          ]
+        }
+      }{% if page.layout == "article" %},
+      {
+        "@type": "Article",
+        "headline": "{{ page.title | escape }}",
+        "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}",
+        "author": { "@id": "https://diekulturki.de/#person" },
+        "publisher": { "@id": "https://diekulturki.de/#person" },
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "url": "{{ site.url }}{{ page.url }}"{% if page.tags %},
+        "keywords": "{{ page.tags | join: ', ' }}"{% endif %}
+      }{% endif %}
+    ]
+  }
+  </script>
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css" />
 
