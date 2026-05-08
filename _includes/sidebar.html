@@ -33,7 +33,10 @@
   </div>
 
   <nav class="sidebar-nav">
-    {% for nav in site.nav %}
+    {% assign active_nav = site.nav %}
+    {% if page.lang == 'de' %}{% assign active_nav = site.nav_de %}{% endif %}
+
+    {% for nav in active_nav %}
       {% assign is_relative = nav[1][0] | slice: 0 %}
       {% assign url = nav[1][0] %}
       {% if is_relative == '/' %}
@@ -72,9 +75,60 @@
 
     {% endfor %}
   </nav>
+
+  <div class="lang-switcher">
+    {% if page.lang == 'de' %}
+      <a href="{{ page.lang_alt | default: '/' }}" class="lang-btn">EN</a>
+      <span class="lang-btn lang-btn-active">DE</span>
+    {% else %}
+      <span class="lang-btn lang-btn-active">EN</span>
+      <a href="{{ page.lang_alt | default: '/de/' }}" class="lang-btn">DE</a>
+    {% endif %}
+  </div>
+
 </div>
 
 <style>
+  .lang-switcher {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid rgba(255,255,255,.1);
+    margin-top: 0.25rem;
+  }
+
+  @media (min-width: 48em) {
+    .lang-switcher { padding-left: 1.5rem; padding-right: 1.5rem; }
+  }
+
+  .lang-btn {
+    font-family: "Inter", sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+    color: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+
+  .lang-btn:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+    text-decoration: none;
+  }
+
+  .lang-btn-active {
+    color: #fff;
+    background: rgba(206,148,47,0.3);
+    border-color: #CE942F;
+    cursor: default;
+  }
+
   .foldable {
     display: block;
   }

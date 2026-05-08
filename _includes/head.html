@@ -28,6 +28,10 @@
   </style>
 
   {% seo %}
+  {% if page.lang_alt %}
+  <link rel="alternate" hreflang="{% if page.lang == 'de' %}en{% else %}de{% endif %}" href="{{ site.url }}{{ page.lang_alt }}" />
+  <link rel="alternate" hreflang="{{ page.lang | default: 'en' }}" href="{{ site.url }}{{ page.url }}" />
+  {% endif %}
 
   <script type="application/ld+json">
   {

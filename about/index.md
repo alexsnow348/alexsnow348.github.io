@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+lang: en
+lang_alt: /de/uber-mich/
 description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germany. 9+ years in AI/ML across telecom, fintech, and industrial sectors. 81+ certifications. Helping SMBs and cultural institutions apply AI practically."
 ---
 

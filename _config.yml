@@ -57,6 +57,26 @@ nav:
     - { "Podcasts": "/podcasts/index.html" }
     - { "Together Certifications": "/together-certifications/index.html" }
 
+# German navigation
+nav_de:
+  Startseite:
+    - "/de/"
+  Leistungen:
+    - "/leistungen/"
+  Über mich:
+    - "/de/uber-mich/"
+  Fallstudien:
+    - "/de/fallstudien/"
+  Zertifizierungen:
+    - "/own-certifications/index.html"
+  Myanmar Content:
+    - "/blog/alexsnowschool/"
+    - { "Artikel (မြန်မာ)": "/blog/" }
+    - { "Tech & KI (မြန်မာ)": "/blog/alexsnowschool/" }
+    - { "For Youth, By Youth": "/blog/fyby/" }
+    - { "Podcasts": "/podcasts/index.html" }
+    - { "Together Certifications": "/together-certifications/index.html" }
+
 # Where are tags and categories displayed
 tag_page: "/blog/alexsnowschool/"
 category_page: "/blog/fyby/"

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Leistungen
+lang: de
+lang_alt: /services/
 description: "KI-Strategie, LLM-Entwicklung, agentische Systeme und MLOps-Beratung für deutsche KMU und Kultureinrichtungen. Praxisnah, produktionsreif, auf Ihr Unternehmen zugeschnitten."
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Case Studies
+lang: en
+lang_alt: /de/fallstudien/
 description: "Anonymised examples of AI and MLOps projects across automotive, industrial, and cultural sectors — real outcomes, real constraints, real production systems."
 ---
 
