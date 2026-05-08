@@ -20,11 +20,40 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-sans;
-  font-weight: 400;
+  font-weight: 600;
   color: $title-color;
   letter-spacing: -.025rem;
 }
 
-code {
+code, pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
   color: #666;
+}
+
+/* Small UI labels use Inter */
+.service-tag,
+.timeline-year,
+.home-eyebrow,
+.home-section-label,
+.section-label,
+.home-stat-label,
+.badge,
+.cert-badge,
+.filter-btn,
+.filter-label,
+.stat-label,
+.search-bar,
+.reset-btn {
+  font-family: $font-ui;
+}
+
+/* Sidebar & nav use Cormorant Garamond */
+.sidebar,
+.sidebar-nav,
+.sidebar-nav-item,
+.masthead,
+.masthead-title,
+.masthead-title a,
+.foldable-toggle {
+  font-family: $font-sans;
 }

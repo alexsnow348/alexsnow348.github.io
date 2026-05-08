@@ -4,712 +4,522 @@ title: Certifications
 ---
 
 <style>
-  /* Using site default fonts */
-
-  /* Root Variables - Updated to match Talks page theme */
-  :root {
-    --primary-color: #CE942F;
-    /* Gold from Year titles */
-    --secondary-color: #318F79;
-    /* Green from Page title */
-    --primary-gradient: linear-gradient(135deg, #CE942F 0%, #E6B55A 100%);
-    --secondary-gradient: linear-gradient(135deg, #318F79 0%, #43cea2 100%);
-    --success-gradient: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
-    --card-bg: #FFFFFF;
-    --card-border: rgba(206, 148, 47, 0.2);
-    /* Gold trace */
-    --text-primary: #333333;
-    --text-secondary: #726868;
-    --tag-bg: #F5F5F5;
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.05);
-    --shadow-lg: 0 10px 15px rgba(206, 148, 47, 0.1);
-    --transition: all 0.2s ease-in-out;
+  .cert-page {
+    max-width: 780px;
   }
 
-  /* Container Override for This Page */
-  .certifications-container {
-    max-width: 1400px !important;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* Stats row */
+  .cert-stats {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
   }
 
-
-
-  /* Stats Dashboard */
-  .stats-dashboard {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
-  }
-
-  .stat-card {
-    background: var(--card-bg);
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--card-border);
-    transition: var(--transition);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .stat-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--primary-gradient);
-  }
-
-  .stat-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-  }
-
-  .stat-value {
+  .cert-stat-num {
+    font-family: "Cormorant Garamond", Georgia, serif;
     font-size: 2rem;
     font-weight: 700;
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 0.5rem;
+    color: #CE942F;
     display: block;
+    line-height: 1;
+    margin-bottom: 0.2rem;
   }
 
-  .stat-label {
-    color: var(--text-secondary);
-    font-size: 0.75rem;
-    font-weight: 500;
+  .cert-stat-label {
+    font-family: "Inter", sans-serif;
+    font-size: 0.68rem;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    color: #aaa;
   }
 
-  /* Search and Filter Section */
-  .controls-section {
-    background: var(--card-bg);
-    border-radius: 16px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--card-border);
-  }
-
-  .search-bar {
+  /* Controls */
+  .cert-search {
     width: 100%;
-    padding: 0.875rem 1rem;
-    border: 2px solid var(--card-border);
-    border-radius: 12px;
-    font-size: 0.875rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    transition: var(--transition);
-    margin-bottom: 1.5rem;
-    background: white;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.85rem;
+    color: #333;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+    transition: border-color 0.15s ease;
   }
 
-  .search-bar:focus {
+  .cert-search:focus {
     outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(206, 148, 47, 0.15);
+    border-color: #CE942F;
   }
 
   .filter-group {
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.65rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.4rem;
+    align-items: start;
   }
 
-  .filter-group:last-child {
-    margin-bottom: 0;
-  }
-
-  .filter-label {
-    display: block;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 0.75rem;
-    font-size: 0.875rem;
+  .filter-group-label {
+    font-family: "Inter", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
+    color: #bbb;
+    padding-top: 0.25rem;
+    white-space: nowrap;
   }
 
-  .filter-buttons {
+  .filter-pills {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.35rem;
+    min-width: 0;
   }
 
-  .filter-btn {
-    padding: 0.4rem 0.875rem;
-    border: 2px solid var(--card-border);
-    background: white;
-    border-radius: 8px;
-    font-size: 0.8rem;
+  .filter-pill {
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
     font-weight: 500;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    background: #fff;
+    color: #666;
     cursor: pointer;
-    transition: var(--transition);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: var(--text-primary);
+    transition: all 0.15s ease;
   }
 
-  .filter-btn:hover {
-    border-color: var(--primary-color);
-    background: rgba(206, 148, 47, 0.08);
+  .filter-pill:hover {
+    border-color: #CE942F;
+    color: #CE942F;
   }
 
-  .filter-btn.active {
-    background: var(--primary-gradient);
-    color: white;
-    border-color: transparent;
-    box-shadow: var(--shadow-sm);
+  .filter-pill.active {
+    background: #CE942F;
+    border-color: #CE942F;
+    color: #fff;
   }
 
-  /* Reset Button */
-  .reset-btn {
-    padding: 0.75rem 1.5rem;
-    background: var(--primary-gradient);
-    color: white;
+  .cert-controls {
+    margin-bottom: 1.75rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .cert-controls-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    border-top: 1px solid #f5f5f5;
+    margin-top: 0.5rem;
+  }
+
+  .cert-count {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #bbb;
+  }
+
+  .reset-link {
+    font-family: "Inter", sans-serif;
+    font-size: 0.72rem;
+    color: #bbb;
+    background: none;
     border: none;
-    border-radius: 8px;
-    font-weight: 600;
     cursor: pointer;
-    transition: var(--transition);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.875rem;
-    margin-top: 1rem;
-    box-shadow: var(--shadow-sm);
+    padding: 0;
+    text-decoration: underline;
   }
 
-  .reset-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-    background-image: linear-gradient(135deg, #E6B55A 0%, #CE942F 100%);
-  }
+  .reset-link:hover { color: #CE942F; }
 
-  /* Results Info */
-  .results-info {
-    text-align: center;
-    margin: 1.5rem 0;
-    color: var(--text-secondary);
-    font-weight: 500;
-  }
-
-  /* Certifications Grid */
-  .certs-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
+  /* Year sections */
+  .cert-year-section {
     margin-bottom: 2rem;
   }
 
-  .cert-card {
-    background: var(--card-bg);
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: var(--shadow-sm);
-    border: 1px solid var(--card-border);
-    transition: var(--transition);
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    position: relative;
-    overflow: hidden;
+  .cert-year-section:last-child {
+    margin-bottom: 0;
   }
 
-  .cert-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: var(--primary-gradient);
-    transform: scaleX(0);
-    transition: var(--transition);
-  }
-
-  .cert-card:hover::before {
-    transform: scaleX(1);
-  }
-
-  .cert-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-    border-color: rgba(206, 148, 47, 0.4);
-  }
-
-  .cert-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 0.75rem;
-  }
-
-  .cert-number {
-    background: var(--primary-gradient);
-    color: white;
-    border-radius: 8px;
-    padding: 0.3rem 0.75rem;
-    font-size: 0.85rem;
+  .cert-year-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 0.65rem;
     font-weight: 700;
-    flex-shrink: 0;
-  }
-
-  .cert-title {
-    flex: 1;
-  }
-
-  .cert-title a {
-    color: var(--text-primary);
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.05rem;
-    line-height: 1.4;
-    display: block;
-    transition: var(--transition);
-  }
-
-  .cert-title a:hover {
-    color: var(--primary-color);
-  }
-
-  .cert-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    align-items: center;
-  }
-
-  .cert-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.35rem 0.75rem;
-    border-radius: 6px;
-    font-size: 0.85rem;
-    font-weight: 600;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    color: #CE942F;
+    margin: 0 0 0.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #f0e8d8;
+    line-height: 1.2;
   }
 
-  .badge-platform {
-    background: rgba(206, 148, 47, 0.1);
-    color: var(--primary-color);
+  /* Cert rows */
+  .cert-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background 0.1s ease;
   }
 
-  .badge-year {
-    background: rgba(49, 143, 121, 0.1);
-    color: var(--secondary-color);
+  .cert-row:last-child { border-bottom: none; }
+
+  .cert-row:hover { background: #fafaf8; }
+
+  .cert-title-link {
+    font-size: 0.9rem;
+    color: #222;
+    text-decoration: none;
+    line-height: 1.45;
+    flex: 1;
+    min-width: 0;
+    word-break: break-word;
+    transition: color 0.15s ease;
   }
 
-  .badge-category {
-    background: var(--tag-bg);
-    color: var(--text-primary);
+  .cert-title-link:hover { color: #CE942F; text-decoration: none; }
+
+  .cert-badges {
+    display: flex;
+    gap: 0.3rem;
+    flex-shrink: 0;
+    align-items: flex-start;
+    padding-top: 0.15rem;
   }
 
-  /* No Results State */
-  .no-results {
+  /* Badge colours by platform */
+  .badge {
+    font-family: "Inter", sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  .badge-coursera   { color: #1f6b5b; background: #d4f0e8; }
+  .badge-databricks { color: #1a5c8a; background: #d6ecf8; }
+  .badge-udacity    { color: #92650a; background: #fef3d6; }
+  .badge-ibm        { color: #5a3d8a; background: #ece5f8; }
+  .badge-bloomberg  { color: #5a3d8a; background: #ece5f8; }
+  .badge-other      { color: #888;    background: #f5f5f5; }
+
+  .badge-ml        { color: #8a3d3d; background: #f8e5e5; }
+  .badge-data      { color: #1a5c8a; background: #d6ecf8; }
+  .badge-ops       { color: #5a3d8a; background: #ece5f8; }
+  .badge-math      { color: #1f6b5b; background: #d4f0e8; }
+  .badge-finance   { color: #92650a; background: #fef3d6; }
+  .badge-web       { color: #888;    background: #f5f5f5; }
+  .badge-pm        { color: #92650a; background: #fef3d6; }
+  .badge-general   { color: #888;    background: #f5f5f5; }
+  .badge-art       { color: #7a4a2e; background: #f5e6d8; }
+
+  /* No results */
+  .cert-empty {
+    padding: 3rem 0;
+    color: #bbb;
+    font-size: 0.875rem;
+    font-family: "Inter", sans-serif;
     text-align: center;
-    padding: 4rem 2rem;
-    color: var(--text-secondary);
   }
 
-  .no-results-icon {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    opacity: 0.3;
-  }
-
-  .no-results h3 {
-    font-size: 1.5rem;
-    color: var(--text-primary);
-    margin-bottom: 0.5rem;
-  }
-
-  .no-results p {
-    font-size: 1rem;
-  }
-
-  /* Hidden class */
-  .hidden {
-    display: none !important;
-  }
-
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .stats-dashboard {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .certs-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .filter-buttons {
-      max-height: 200px;
-      overflow-y: auto;
-    }
-
-    .stat-value {
-      font-size: 2rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .stats-dashboard {
-      grid-template-columns: 1fr;
-    }
-
-    .certifications-container {
-      padding: 1rem 0.5rem;
-    }
-
-    .controls-section {
-      padding: 1.5rem;
-    }
-  }
-
-  /* Fade In Animation */
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .cert-card {
-    animation: fadeIn 0.3s ease-out;
+  @media (max-width: 600px) {
+    .cert-badges { display: none; }
+    .cert-stats { gap: 1.5rem; }
   }
 </style>
 
-<div class="certifications-container">
-  <!-- Stats Dashboard -->
-  <div class="stats-dashboard">
-    <div class="stat-card">
-      <span class="stat-value" id="total-count">77</span>
-      <span class="stat-label">Total Certifications</span>
+<div class="cert-page">
+
+  <div class="cert-stats">
+    <div>
+      <span class="cert-stat-num" id="stat-total">81</span>
+      <span class="cert-stat-label">Certifications</span>
     </div>
-    <div class="stat-card">
-      <span class="stat-value" id="years-span">13</span>
-      <span class="stat-label">Years of Learning</span>
+    <div>
+      <span class="cert-stat-num" id="stat-years"></span>
+      <span class="cert-stat-label">Years of Learning</span>
     </div>
-    <div class="stat-card">
-      <span class="stat-value" id="platforms-count">8+</span>
-      <span class="stat-label">Platforms</span>
+    <div>
+      <span class="cert-stat-num">8+</span>
+      <span class="cert-stat-label">Platforms</span>
     </div>
-    <div class="stat-card">
-      <span class="stat-value" id="current-year">2026</span>
-      <span class="stat-label">Latest Achievement</span>
+    <div>
+      <span class="cert-stat-num">2026</span>
+      <span class="cert-stat-label">Latest</span>
     </div>
   </div>
 
-  <!-- Controls Section -->
-  <div class="controls-section">
-    <input type="text" id="search-input" class="search-bar"
-      placeholder="🔍 Search certifications by title, platform, or category..." />
+  <div class="cert-controls">
+    <input type="text" id="cert-search" class="cert-search" placeholder="Search by title, platform, or topic…" />
 
     <div class="filter-group">
-      <span class="filter-label">📅 Filter by Year</span>
-      <div class="filter-buttons" id="year-filters"></div>
+      <span class="filter-group-label">Year</span>
+      <div class="filter-pills" id="year-filters"></div>
     </div>
-
     <div class="filter-group">
-      <span class="filter-label">🏢 Filter by Platform</span>
-      <div class="filter-buttons" id="platform-filters"></div>
+      <span class="filter-group-label">Platform</span>
+      <div class="filter-pills" id="platform-filters"></div>
     </div>
-
     <div class="filter-group">
-      <span class="filter-label">🏷️ Filter by Category</span>
-      <div class="filter-buttons" id="category-filters"></div>
+      <span class="filter-group-label">Topic</span>
+      <div class="filter-pills" id="category-filters"></div>
     </div>
 
-    <button class="reset-btn" id="reset-btn">🔄 Reset All Filters</button>
+    <div class="cert-controls-footer">
+      <span class="cert-count" id="cert-count"></span>
+      <button class="reset-link" id="reset-btn">Clear filters</button>
+    </div>
   </div>
 
-  <!-- Results Info -->
-  <div class="results-info" id="results-info"></div>
+  <div id="cert-list"></div>
+  <div class="cert-empty" id="cert-empty" style="display:none;">No certifications match your filters.</div>
 
-  <!-- Certifications Grid -->
-  <div class="certs-grid" id="certs-grid"></div>
-
-  <!-- No Results State -->
-  <div class="no-results hidden" id="no-results">
-    <div class="no-results-icon">🔍</div>
-    <h3>No certifications found</h3>
-    <p>Try adjusting your filters or search query</p>
-  </div>
 </div>
 
 <script>
-  // Certifications Data
-  const certifications = [
+const certifications = [
+  // 2026
+  { id: 81, title: "Modern and Contemporary Art and Design Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/QVI7I522LVCV", platform: "Coursera", year: 2026, category: "Art & Museum" },
+  { id: 80, title: "Machine Learning Model Deployment on Databricks", url: "https://credentials.databricks.com/a74f010a-d22f-4f3b-ac29-0d1f465d2fa6#acc.pqBUIady", platform: "Databricks", year: 2026, category: "ML/AI" },
+  { id: 79, title: "Machine Learning at Scale on Databricks", url: "https://credentials.databricks.com/914128bf-9a82-47ff-a6a2-aeda7d12ac49#acc.IQMwaO6t", platform: "Databricks", year: 2026, category: "ML/AI" },
+  { id: 78, title: "Advanced Machine Learning Operations (MLOps) on Databricks", url: "https://credentials.databricks.com/c6d55b78-da17-4b40-abde-8c3bba6a3370#acc.cT1BIwqy", platform: "Databricks", year: 2026, category: "Operations" },
+  { id: 77, title: "Machine Learning Operations (MLOps) on Databricks", url: "https://credentials.databricks.com/cbc46403-5788-4046-92c9-f6463a5522ca#acc.PUj02dph", platform: "Databricks", year: 2026, category: "Operations" },
 
-    // 2026
-    { id: 80, title: "Machine Learning Model Deployment on Databricks", url: "https://credentials.databricks.com/a74f010a-d22f-4f3b-ac29-0d1f465d2fa6#acc.pqBUIady", platform: "Databricks", year: 2026, category: "ML/AI" },
-    { id: 79, title: "Machine Learning at Scale on Databricks", url: "https://credentials.databricks.com/914128bf-9a82-47ff-a6a2-aeda7d12ac49#acc.IQMwaO6t", platform: "Databricks", year: 2026, category: "ML/AI" },
-    { id: 78, title: "Advanced Machine Learning Operations (MLOps) on Databricks", url: "https://credentials.databricks.com/c6d55b78-da17-4b40-abde-8c3bba6a3370#acc.cT1BIwqy", platform: "Databricks", year: 2026, category: "Operations" },
-    { id: 77, title: "Machine Learning Operations (MLOps) on Databricks", url: "https://credentials.databricks.com/cbc46403-5788-4046-92c9-f6463a5522ca#acc.PUj02dph", platform: "Databricks", year: 2026, category: "Operations" },
+  // 2025
+  { id: 76, title: "Machine Learning Model Development on Databricks", url: "https://credentials.databricks.com/6a8cdc66-9655-4b9c-9c6f-9eb27bb6af3f#acc.AQeYjtVS", platform: "Databricks", year: 2025, category: "ML/AI" },
+  { id: 75, title: "Lakehouse Architecture on Databricks", url: "https://credentials.databricks.com/4417c642-1446-48de-9aee-43b1d1455aa4#acc.IOoPeHqh", platform: "Databricks", year: 2025, category: "Data Engineering" },
+  { id: 74, title: "Databricks Fundamentals", url: "https://credentials.databricks.com/0cae2f7c-75d3-41c8-9047-3fc0c46b515b#acc.4fvHZoUc", platform: "Databricks", year: 2025, category: "Data Engineering" },
 
-    // 2025
-    { id: 76, title: "Machine Learning Model Development on Databricks", url: "https://credentials.databricks.com/6a8cdc66-9655-4b9c-9c6f-9eb27bb6af3f#acc.AQeYjtVS", platform: "Databricks", year: 2025, category: "ML/AI" },
-    { id: 75, title: "Lakehouse Architecture on Databricks", url: "https://credentials.databricks.com/4417c642-1446-48de-9aee-43b1d1455aa4#acc.IOoPeHqh", platform: "Databricks", year: 2025, category: "Data Engineering" },
-    { id: 74, title: "Databricks Fundamentals", url: "https://credentials.databricks.com/0cae2f7c-75d3-41c8-9047-3fc0c46b515b#acc.4fvHZoUc", platform: "Databricks", year: 2025, category: "Data Engineering" },
+  // 2024
+  { id: 73, title: "Advanced Data Engineering", url: "https://www.coursera.org/account/accomplishments/certificate/FCBBRYQ1DSQJ", platform: "Coursera", year: 2024, category: "Data Engineering" },
+  { id: 72, title: "Databricks to Local LLMs", url: "https://www.coursera.org/account/accomplishments/certificate/KARJYVPJ3VK8", platform: "Coursera", year: 2024, category: "ML/AI" },
+  { id: 71, title: "GenAI and LLMs on AWS", url: "https://www.coursera.org/account/accomplishments/certificate/IUKVAFP9B9I4", platform: "Coursera", year: 2024, category: "ML/AI" },
+  { id: 70, title: "Operationalizing LLMs on Azure", url: "https://www.coursera.org/account/accomplishments/certificate/2O8410PNY38V", platform: "Coursera", year: 2024, category: "ML/AI" },
+  { id: 69, title: "Introduction to Generative AI", url: "https://www.coursera.org/account/accomplishments/certificate/JREEOCFK0JPN", platform: "Coursera", year: 2024, category: "ML/AI" },
+  { id: 68, title: "Large Language Model Operations (LLMOps) Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/LS3E2X5NKHNA", platform: "Coursera", year: 2024, category: "Operations" },
+  { id: 67, title: "Open Source LLMOps Solutions", url: "https://www.coursera.org/account/accomplishments/certificate/O9972TQRHK5W", platform: "Coursera", year: 2024, category: "Operations" },
 
-    // 2024
-    { id: 73, title: "Advanced Data Engineering", url: "https://www.coursera.org/account/accomplishments/certificate/FCBBRYQ1DSQJ", platform: "Coursera", year: 2024, category: "Data Engineering" },
-    { id: 72, title: "Databricks to Local LLMs", url: "https://www.coursera.org/account/accomplishments/certificate/KARJYVPJ3VK8", platform: "Coursera", year: 2024, category: "ML/AI" },
-    { id: 71, title: "GenAI and LLMs on AWS", url: "https://www.coursera.org/account/accomplishments/certificate/IUKVAFP9B9I4", platform: "Coursera", year: 2024, category: "ML/AI" },
-    { id: 70, title: "Operationalizing LLMs on Azure", url: "https://www.coursera.org/account/accomplishments/certificate/2O8410PNY38V", platform: "Coursera", year: 2024, category: "ML/AI" },
-    { id: 69, title: "Introduction to Generative AI", url: "https://www.coursera.org/account/accomplishments/certificate/JREEOCFK0JPN", platform: "Coursera", year: 2024, category: "ML/AI" },
-    { id: 68, title: "Large Language Model Operations (LLMOps) Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/LS3E2X5NKHNA", platform: "Coursera", year: 2024, category: "Operations" },
-    { id: 67, title: "Open Source LLMOps Solutions", url: "https://www.coursera.org/account/accomplishments/certificate/O9972TQRHK5W", platform: "Coursera", year: 2024, category: "Operations" },
+  // 2023
+  { id: 66, title: "Mathematics for Machine Learning and Data Science Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/7S466J8FQTDL", platform: "Coursera", year: 2023, category: "Mathematics" },
+  { id: 65, title: "Probability and Statistics for Machine Learning and Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/N38SVJ5QFAL6", platform: "Coursera", year: 2023, category: "Mathematics" },
+  { id: 64, title: "Calculus for Machine Learning and Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/JW7S6YSVY9RD", platform: "Coursera", year: 2023, category: "Mathematics" },
+  { id: 63, title: "Linear Algebra for Machine Learning and Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/N26D2P6FG5ES", platform: "Coursera", year: 2023, category: "Mathematics" },
+  { id: 62, title: "DevOps Foundations Nano Degree", url: "https://www.udacity.com/certificate/e/8c0fc744-cca1-11ed-9c17-cbdede8b15de", platform: "Udacity", year: 2023, category: "Operations" },
 
-    // 2023
-    { id: 66, title: "Mathematics for Machine Learning and Data Science Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/7S466J8FQTDL", platform: "Coursera", year: 2023, category: "Mathematics" },
-    { id: 65, title: "Probability and Statistics for Machine Learning and Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/N38SVJ5QFAL6", platform: "Coursera", year: 2023, category: "Mathematics" },
-    { id: 64, title: "Calculus for Machine Learning and Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/JW7S6YSVY9RD", platform: "Coursera", year: 2023, category: "Mathematics" },
-    { id: 63, title: "Linear Algebra for Machine Learning and Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/N26D2P6FG5ES", platform: "Coursera", year: 2023, category: "Mathematics" },
-    { id: 62, title: "DevOps Foundations Nano Degree", url: "https://www.udacity.com/certificate/e/8c0fc744-cca1-11ed-9c17-cbdede8b15de", platform: "Udacity", year: 2023, category: "Operations" },
+  // 2022
+  { id: 61, title: "Database Creation and Modeling using MYSQL Workbench", url: "https://www.coursera.org/account/accomplishments/certificate/Y2QMVYAKX7SX", platform: "Coursera", year: 2022, category: "Data Engineering" },
+  { id: 60, title: "Create Your First NoSQL Database with MongoDB and Compass", url: "https://www.coursera.org/account/accomplishments/certificate/ADHRJV3VKLUU", platform: "Coursera", year: 2022, category: "Data Engineering" },
+  { id: 59, title: "Database Design with SQL Server Management Studio (SSMS)", url: "https://www.coursera.org/account/accomplishments/certificate/G6KTRT2YCEBK", platform: "Coursera", year: 2022, category: "Data Engineering" },
+  { id: 58, title: "Google Cloud Big Data and Machine Learning Fundamentals", url: "https://www.coursera.org/account/accomplishments/certificate/N3TCNV7ZGQ7S", platform: "Coursera", year: 2022, category: "ML/AI" },
 
-    // 2022
-    { id: 61, title: "Database Creation and Modeling using MYSQL Workbench", url: "https://www.coursera.org/account/accomplishments/certificate/Y2QMVYAKX7SX", platform: "Coursera", year: 2022, category: "Data Engineering" },
-    { id: 60, title: "Create Your First NoSQL Database with MongoDB and Compass", url: "https://www.coursera.org/account/accomplishments/certificate/ADHRJV3VKLUU", platform: "Coursera", year: 2022, category: "Data Engineering" },
-    { id: 59, title: "Database Design with SQL Server Management Studio (SSMS)", url: "https://www.coursera.org/account/accomplishments/certificate/G6KTRT2YCEBK", platform: "Coursera", year: 2022, category: "Data Engineering" },
-    { id: 58, title: "Google Cloud Big Data and Machine Learning Fundamentals", url: "https://www.coursera.org/account/accomplishments/certificate/N3TCNV7ZGQ7S", platform: "Coursera", year: 2022, category: "ML/AI" },
+  // 2021
+  { id: 57, title: "Python Project for Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/YGCWV32C9PBH", platform: "Coursera", year: 2021, category: "Data Engineering" },
+  { id: 56, title: "Analysing Covid-19 Geospatial data with Python", url: "https://www.coursera.org/account/accomplishments/certificate/VQF2N2YLQ39R", platform: "Coursera", year: 2021, category: "Data Engineering" },
+  { id: 55, title: "Python Geospatial Data Analysis", url: "https://www.coursera.org/account/accomplishments/certificate/8D8FJ8C392HB", platform: "Coursera", year: 2021, category: "Data Engineering" },
+  { id: 54, title: "Getting Started with Spatial Analysis in GeoDa", url: "https://www.coursera.org/account/accomplishments/certificate/38WBNK7X9QR6", platform: "Coursera", year: 2021, category: "Data Engineering" },
+  { id: 53, title: "Tools for Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/JN62YS9EMDQB", platform: "Coursera", year: 2021, category: "Data Engineering" },
+  { id: 52, title: "Decentralized Finance (DeFi) Infrastructure", url: "https://www.coursera.org/account/accomplishments/certificate/62TBG2MQ2RZM", platform: "Coursera", year: 2021, category: "Finance" },
+  { id: 51, title: "Blockchain and Cryptocurrency Explained", url: "https://www.coursera.org/account/accomplishments/certificate/RMXT3PPUD4VS", platform: "Coursera", year: 2021, category: "Finance" },
+  { id: 50, title: "The Future of Payment Technologies", url: "https://www.coursera.org/account/accomplishments/certificate/NGXW8ARA8EBS", platform: "Coursera", year: 2021, category: "Finance" },
+  { id: 49, title: "Stock Valuation with Comparable Companies Analysis", url: "https://www.coursera.org/account/accomplishments/certificate/6Y5MTUSELQ6J", platform: "Coursera", year: 2021, category: "Finance" },
+  { id: 48, title: "Natural Language Processing Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/QA3SAR3KF7QR", platform: "Coursera", year: 2021, category: "ML/AI" },
+  { id: 47, title: "Natural Language Processing with Attention Models", url: "https://www.coursera.org/account/accomplishments/certificate/ALEXUD2QT7ER", platform: "Coursera", year: 2021, category: "ML/AI" },
+  { id: 46, title: "Natural Language Processing with Probabilistic Models", url: "https://www.coursera.org/account/accomplishments/certificate/J6J5C5HUQ2AT", platform: "Coursera", year: 2021, category: "ML/AI" },
+  { id: 45, title: "Natural Language Processing with Sequence Models", url: "https://www.coursera.org/account/accomplishments/certificate/XQMFFRY9BW5A", platform: "Coursera", year: 2021, category: "ML/AI" },
+  { id: 44, title: "Python for Data Science, AI & Development", url: "https://www.coursera.org/account/accomplishments/certificate/WLBJQG5NJWFT", platform: "Coursera", year: 2021, category: "ML/AI" },
+  { id: 43, title: "Natural Language Processing with Classification and Vector Spaces", url: "https://www.coursera.org/account/accomplishments/certificate/TCY34AXUWS98", platform: "Coursera", year: 2021, category: "ML/AI" },
+  { id: 42, title: "Managing Project Risks and Changes", url: "https://www.coursera.org/account/accomplishments/certificate/PUVEPH8HJFKE", platform: "Coursera", year: 2021, category: "Project Management" },
+  { id: 41, title: "Budgeting and Scheduling Projects", url: "https://www.coursera.org/account/accomplishments/certificate/LK4QAUPV25EP", platform: "Coursera", year: 2021, category: "Project Management" },
 
-    // 2021
-    { id: 57, title: "Python Project for Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/YGCWV32C9PBH", platform: "Coursera", year: 2021, category: "Data Engineering" },
-    { id: 56, title: "Analysing Covid-19 Geospatial data with Python", url: "https://www.coursera.org/account/accomplishments/certificate/VQF2N2YLQ39R", platform: "Coursera", year: 2021, category: "Data Engineering" },
-    { id: 55, title: "Python Geospatial Data Analysis", url: "https://www.coursera.org/account/accomplishments/certificate/8D8FJ8C392HB", platform: "Coursera", year: 2021, category: "Data Engineering" },
-    { id: 54, title: "Getting Started with Spatial Analysis in GeoDa", url: "https://www.coursera.org/account/accomplishments/certificate/38WBNK7X9QR6", platform: "Coursera", year: 2021, category: "Data Engineering" },
-    { id: 53, title: "Tools for Data Science", url: "https://www.coursera.org/account/accomplishments/certificate/JN62YS9EMDQB", platform: "Coursera", year: 2021, category: "Data Engineering" },
-    { id: 52, title: "Decentralized Finance (DeFi) Infrastructure", url: "https://www.coursera.org/account/accomplishments/certificate/62TBG2MQ2RZM", platform: "Coursera", year: 2021, category: "Finance" },
-    { id: 51, title: "Blockchain and Cryptocurrency Explained", url: "https://www.coursera.org/account/accomplishments/certificate/RMXT3PPUD4VS", platform: "Coursera", year: 2021, category: "Finance" },
-    { id: 50, title: "The Future of Payment Technologies", url: "https://www.coursera.org/account/accomplishments/certificate/NGXW8ARA8EBS", platform: "Coursera", year: 2021, category: "Finance" },
-    { id: 49, title: "Stock Valuation with Comparable Companies Analysis", url: "https://www.coursera.org/account/accomplishments/certificate/6Y5MTUSELQ6J", platform: "Coursera", year: 2021, category: "Finance" },
-    { id: 48, title: "Natural Language Processing Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/QA3SAR3KF7QR", platform: "Coursera", year: 2021, category: "ML/AI" },
-    { id: 47, title: "Natural Language Processing with Attention Models", url: "https://www.coursera.org/account/accomplishments/certificate/ALEXUD2QT7ER", platform: "Coursera", year: 2021, category: "ML/AI" },
-    { id: 46, title: "Natural Language Processing with Probabilistic Models", url: "https://www.coursera.org/account/accomplishments/certificate/J6J5C5HUQ2AT", platform: "Coursera", year: 2021, category: "ML/AI" },
-    { id: 45, title: "Natural Language Processing with Sequence Models", url: "https://www.coursera.org/account/accomplishments/certificate/XQMFFRY9BW5A", platform: "Coursera", year: 2021, category: "ML/AI" },
-    { id: 44, title: "Python for Data Science, AI & Development", url: "https://www.coursera.org/account/accomplishments/certificate/WLBJQG5NJWFT", platform: "Coursera", year: 2021, category: "ML/AI" },
-    { id: 43, title: "Natural Language Processing with Classification and Vector Spaces", url: "https://www.coursera.org/account/accomplishments/certificate/TCY34AXUWS98", platform: "Coursera", year: 2021, category: "ML/AI" },
-    { id: 42, title: "Managing Project Risks and Changes", url: "https://www.coursera.org/account/accomplishments/certificate/PUVEPH8HJFKE", platform: "Coursera", year: 2021, category: "Project Management" },
-    { id: 41, title: "Budgeting and Scheduling Projects", url: "https://www.coursera.org/account/accomplishments/certificate/LK4QAUPV25EP", platform: "Coursera", year: 2021, category: "Project Management" },
+  // 2020
+  { id: 40, title: "Digital Transformation in Financial Services Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/ULJNYZAVA936", platform: "Coursera", year: 2020, category: "Finance" },
+  { id: 39, title: "Innovation Strategy: Developing Your Fintech strategy", url: "https://www.coursera.org/account/accomplishments/certificate/UVY6DQJJT73C", platform: "Coursera", year: 2020, category: "Finance" },
+  { id: 38, title: "FinTech and the Transformation in Financial Services", url: "https://www.coursera.org/account/accomplishments/certificate/5RDAGRS88M73", platform: "Coursera", year: 2020, category: "Finance" },
+  { id: 37, title: "Digital Competition in Financial Services", url: "https://www.coursera.org/account/accomplishments/certificate/N76A3FB3NVK5", platform: "Coursera", year: 2020, category: "Finance" },
+  { id: 36, title: "Deep Learning Specialization", url: "https://www.coursera.org/account/accomplishments/certificate/WNKV79G9HH3K", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 35, title: "Sequence Models", url: "https://www.coursera.org/account/accomplishments/certificate/VADEX523PYXY", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 34, title: "Convolutional Neural Networks", url: "https://www.coursera.org/account/accomplishments/certificate/GQ6NCRKBXKKS", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 33, title: "Art and Science of Machine Learning", url: "https://www.coursera.org/account/accomplishments/certificate/P5346QBMQEB4", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 32, title: "Machine Learning on Google Cloud Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/HVL3VQBL8QEY", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 31, title: "Avoid Overfitting Using Regularization in TensorFlow", url: "https://www.coursera.org/account/accomplishments/certificate/B4QJBF2UXFQU", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 30, title: "Feature Engineering", url: "https://www.coursera.org/account/accomplishments/certificate/X6UFA2XYVJMU", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 29, title: "Launching into Machine Learning", url: "https://www.coursera.org/account/accomplishments/certificate/BMY6PLWW9JAS", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 28, title: "Introduction to TensorFlow", url: "https://www.coursera.org/account/accomplishments/certificate/W6CSTBZ42Y48", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 27, title: "AI For Everyone", url: "https://www.coursera.org/account/accomplishments/certificate/5M3T59YYAAS2", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 26, title: "How Google does Machine Learning", url: "https://www.coursera.org/account/accomplishments/certificate/HWURNNW2UYZA", platform: "Coursera", year: 2020, category: "ML/AI" },
+  { id: 25, title: "Initiating and Planning Projects", url: "https://www.coursera.org/account/accomplishments/certificate/6MVJWZZ6ZPEZ", platform: "Coursera", year: 2020, category: "Project Management" },
 
-    // 2020
-    { id: 40, title: "Digital Transformation in Financial Services Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/ULJNYZAVA936", platform: "Coursera", year: 2020, category: "Finance" },
-    { id: 39, title: "Innovation Strategy: Developing Your Fintech strategy", url: "https://www.coursera.org/account/accomplishments/certificate/UVY6DQJJT73C", platform: "Coursera", year: 2020, category: "Finance" },
-    { id: 38, title: "FinTech and the Transformation in Financial Services", url: "https://www.coursera.org/account/accomplishments/certificate/5RDAGRS88M73", platform: "Coursera", year: 2020, category: "Finance" },
-    { id: 37, title: "Digital Competition in Financial Services", url: "https://www.coursera.org/account/accomplishments/certificate/N76A3FB3NVK5", platform: "Coursera", year: 2020, category: "Finance" },
-    { id: 36, title: "Deep Learning Specialization", url: "https://www.coursera.org/account/accomplishments/certificate/WNKV79G9HH3K", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 35, title: "Sequence Models", url: "https://www.coursera.org/account/accomplishments/certificate/VADEX523PYXY", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 34, title: "Convolutional Neural Networks", url: "https://www.coursera.org/account/accomplishments/certificate/GQ6NCRKBXKKS", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 33, title: "Art and Science of Machine Learning", url: "https://www.coursera.org/account/accomplishments/certificate/P5346QBMQEB4", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 32, title: "Machine Learning on Google Cloud Specialization", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/HVL3VQBL8QEY", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 31, title: "Avoid Overfitting Using Regularization in TensorFlow", url: "https://www.coursera.org/account/accomplishments/certificate/B4QJBF2UXFQU", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 30, title: "Feature Engineering", url: "https://www.coursera.org/account/accomplishments/certificate/X6UFA2XYVJMU", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 29, title: "Launching into Machine Learning", url: "https://www.coursera.org/account/accomplishments/certificate/BMY6PLWW9JAS", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 28, title: "Introduction to TensorFlow", url: "https://www.coursera.org/account/accomplishments/certificate/W6CSTBZ42Y48", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 27, title: "AI For Everyone", url: "https://www.coursera.org/account/accomplishments/certificate/5M3T59YYAAS2", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 26, title: "How Google does Machine Learning", url: "https://www.coursera.org/account/accomplishments/certificate/HWURNNW2UYZA", platform: "Coursera", year: 2020, category: "ML/AI" },
-    { id: 25, title: "Initiating and Planning Projects", url: "https://www.coursera.org/account/accomplishments/certificate/6MVJWZZ6ZPEZ", platform: "Coursera", year: 2020, category: "Project Management" },
+  // 2019
+  { id: 24, title: "MongoDB Aggregation Framework", url: "https://www.coursera.org/account/accomplishments/certificate/6JXUKAYD4QQY", platform: "Coursera", year: 2019, category: "Data Engineering" },
+  { id: 23, title: "Introduction to MongoDB", url: "https://www.coursera.org/account/accomplishments/certificate/B85SSLVKJD9K", platform: "Coursera", year: 2019, category: "Data Engineering" },
+  { id: 22, title: "Bloomberg Market Concepts", url: "https://drive.google.com/file/d/1OC1d1IXZWjml_cVTmZBchEL8H1HTDqQ2/view?usp=drive_link", platform: "Bloomberg", year: 2019, category: "Finance" },
 
-    // 2019
-    { id: 24, title: "MongoDB Aggregation Framework", url: "https://www.coursera.org/account/accomplishments/certificate/6JXUKAYD4QQY", platform: "Coursera", year: 2019, category: "Data Engineering" },
-    { id: 23, title: "Introduction to MongoDB", url: "https://www.coursera.org/account/accomplishments/certificate/B85SSLVKJD9K", platform: "Coursera", year: 2019, category: "Data Engineering" },
-    { id: 22, title: "Bloomberg Market Concepts", url: "https://drive.google.com/file/d/1OC1d1IXZWjml_cVTmZBchEL8H1HTDqQ2/view?usp=drive_link", platform: "Bloomberg", year: 2019, category: "Finance" },
+  // 2018
+  { id: 21, title: "Full Stack Web Developer Nano Degree", url: "https://graduation.udacity.com/confirm/DTGNJGEG", platform: "Udacity", year: 2018, category: "Web Development" },
+  { id: 20, title: "Stanford Introduction to Food and Health", url: "https://www.coursera.org/account/accomplishments/certificate/Z8DLQKYA4LUD", platform: "Coursera", year: 2018, category: "Other" },
+  { id: 19, title: "Computer Vision Nano Degree", url: "https://graduation.udacity.com/confirm/EMYNXV6R", platform: "Udacity", year: 2018, category: "ML/AI" },
+  { id: 18, title: "Structuring Machine Learning Projects", url: "https://www.coursera.org/account/accomplishments/certificate/29WN47SGHDB2", platform: "Coursera", year: 2018, category: "ML/AI" },
 
-    // 2018
-    { id: 21, title: "Full Stack Web Developer Nano Degree", url: "https://graduation.udacity.com/confirm/DTGNJGEG", platform: "Udacity", year: 2018, category: "Web Development" },
-    { id: 20, title: "Stanford Introduction to Food and Health", url: "https://www.coursera.org/account/accomplishments/certificate/Z8DLQKYA4LUD", platform: "Coursera", year: 2018, category: "Other" },
-    { id: 19, title: "Computer Vision Nano Degree", url: "https://graduation.udacity.com/confirm/EMYNXV6R", platform: "Udacity", year: 2018, category: "ML/AI" },
-    { id: 18, title: "Structuring Machine Learning Projects", url: "https://www.coursera.org/account/accomplishments/certificate/29WN47SGHDB2", platform: "Coursera", year: 2018, category: "ML/AI" },
+  // 2017
+  { id: 17, title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization", url: "https://www.coursera.org/account/accomplishments/certificate/9WV2J243AMWA", platform: "Coursera", year: 2017, category: "ML/AI" },
+  { id: 16, title: "Neural Networks and Deep Learning", url: "https://www.coursera.org/account/accomplishments/certificate/WJSQL5KFGX45", platform: "Coursera", year: 2017, category: "ML/AI" },
+  { id: 15, title: "IBM Blockchain Essentials", url: "https://www.credly.com/badges/938ae94e-0ae2-4e51-ab13-119760af76f5", platform: "IBM", year: 2017, category: "Finance" },
+  { id: 14, title: "Data Science Math Skills", url: "https://www.coursera.org/account/accomplishments/certificate/92FVKKTE72V9", platform: "Coursera", year: 2017, category: "Mathematics" },
+  { id: 13, title: "HTML, CSS, and Javascript for Web Developers", url: "https://www.coursera.org/account/accomplishments/certificate/PCE34P7YCLJ9", platform: "Coursera", year: 2017, category: "Web Development" },
+  { id: 12, title: "Python Data Structures", url: "https://www.coursera.org/account/accomplishments/certificate/FC82VCKQKUNP", platform: "Coursera", year: 2017, category: "Data Engineering" },
+  { id: 11, title: "Programming for Everybody", url: "https://www.coursera.org/account/accomplishments/certificate/YNG3TEU7HYZK", platform: "Coursera", year: 2017, category: "Other" },
 
-    // 2017
-    { id: 17, title: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization", url: "https://www.coursera.org/account/accomplishments/certificate/9WV2J243AMWA", platform: "Coursera", year: 2017, category: "ML/AI" },
-    { id: 16, title: "Neural Networks and Deep Learning", url: "https://www.coursera.org/account/accomplishments/certificate/WJSQL5KFGX45", platform: "Coursera", year: 2017, category: "ML/AI" },
-    { id: 15, title: "IBM Blockchain Essentials", url: "https://www.credly.com/badges/938ae94e-0ae2-4e51-ab13-119760af76f5", platform: "IBM", year: 2017, category: "Finance" },
-    { id: 14, title: "Data Science Math Skills", url: "https://www.coursera.org/account/accomplishments/certificate/92FVKKTE72V9", platform: "Coursera", year: 2017, category: "Mathematics" },
-    { id: 13, title: "HTML, CSS, and Javascript for Web Developers", url: "https://www.coursera.org/account/accomplishments/certificate/PCE34P7YCLJ9", platform: "Coursera", year: 2017, category: "Web Development" },
-    { id: 12, title: "Python Data Structures", url: "https://www.coursera.org/account/accomplishments/certificate/FC82VCKQKUNP", platform: "Coursera", year: 2017, category: "Data Engineering" },
-    { id: 11, title: "Programming for Everybody", url: "https://www.coursera.org/account/accomplishments/certificate/YNG3TEU7HYZK", platform: "Coursera", year: 2017, category: "Other" },
+  // 2016
+  { id: 10, title: "Exploratory Data Analysis", url: "https://www.coursera.org/account/accomplishments/certificate/DSCJD2ALH98V", platform: "Coursera", year: 2016, category: "Data Engineering" },
+  { id: 9,  title: "Getting and Cleaning Data", url: "https://www.coursera.org/account/accomplishments/certificate/7ZFSJ67CAZZS", platform: "Coursera", year: 2016, category: "Data Engineering" },
+  { id: 8,  title: "R Programming", url: "https://www.coursera.org/account/accomplishments/certificate/SYUJ7DFEZRR4", platform: "Coursera", year: 2016, category: "Data Engineering" },
+  { id: 7,  title: "The Data Scientist's Toolbox", url: "https://www.coursera.org/account/accomplishments/certificate/A6LDM5EVHFYD", platform: "Coursera", year: 2016, category: "Data Engineering" },
+  { id: 6,  title: "Ruby on Rails: An Introduction", url: "https://www.coursera.org/account/accomplishments/certificate/9DRJWCES5SML", platform: "Coursera", year: 2016, category: "Web Development" },
 
-    // 2016
-    { id: 10, title: "Exploratory Data Analysis", url: "https://www.coursera.org/account/accomplishments/certificate/DSCJD2ALH98V", platform: "Coursera", year: 2016, category: "Data Engineering" },
-    { id: 9, title: "Getting and Cleaning Data", url: "https://www.coursera.org/account/accomplishments/certificate/7ZFSJ67CAZZS", platform: "Coursera", year: 2016, category: "Data Engineering" },
-    { id: 8, title: "R Programming", url: "https://www.coursera.org/account/accomplishments/certificate/SYUJ7DFEZRR4", platform: "Coursera", year: 2016, category: "Data Engineering" },
-    { id: 7, title: "The Data Scientist's Toolbox", url: "https://www.coursera.org/account/accomplishments/certificate/A6LDM5EVHFYD", platform: "Coursera", year: 2016, category: "Data Engineering" },
-    { id: 6, title: "Ruby on Rails: An Introduction", url: "https://www.coursera.org/account/accomplishments/certificate/9DRJWCES5SML", platform: "Coursera", year: 2016, category: "Web Development" },
+  // 2015
+  { id: 5,  title: "A Brief History of Humankind", url: "https://www.coursera.org/account/accomplishments/certificate/QPWKJA8QTY", platform: "Coursera", year: 2015, category: "Other" },
 
-    // 2015
-    { id: 5, title: "A Brief History of Humankind", url: "https://www.coursera.org/account/accomplishments/certificate/QPWKJA8QTY", platform: "Coursera", year: 2015, category: "Other" },
+  // 2014
+  { id: 4,  title: "Critical Thinking in Global Challenges", url: "https://drive.google.com/file/d/1O40lbvI-25rC5qsD02I7V8HQDvv2Hnyv/view?usp=drive_link", platform: "Other", year: 2014, category: "Other" },
+  { id: 3,  title: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship", url: "https://www.coursera.org/account/accomplishments/certificate/6DEWRHQZW5", platform: "Coursera", year: 2014, category: "Other" },
+  { id: 2,  title: "Managing Your Time, Money, and Career: MBA Insights for Undergraduates", url: "https://www.coursera.org/account/accomplishments/certificate/VQPN92BVLS", platform: "Coursera", year: 2014, category: "Other" },
+  { id: 1,  title: "Learning How to Learn: Powerful mental tools to help you master tough subjects", url: "https://www.coursera.org/account/accomplishments/certificate/2LYSLYTWM7", platform: "Coursera", year: 2014, category: "Other" },
+];
 
-    // 2014
-    { id: 4, title: "Critical Thinking in Global Challenges", url: "https://drive.google.com/file/d/1O40lbvI-25rC5qsD02I7V8HQDvv2Hnyv/view?usp=drive_link", platform: "Other", year: 2014, category: "Other" },
-    { id: 3, title: "Developing Innovative Ideas for New Companies: The First Step in Entrepreneurship", url: "https://www.coursera.org/account/accomplishments/certificate/6DEWRHQZW5", platform: "Coursera", year: 2014, category: "Other" },
-    { id: 2, title: "Managing Your Time, Money, and Career: MBA Insights for Undergraduates", url: "https://www.coursera.org/account/accomplishments/certificate/VQPN92BVLS", platform: "Coursera", year: 2014, category: "Other" },
-    { id: 1, title: "Learning How to Learn: Powerful mental tools to help you master tough subjects", url: "https://www.coursera.org/account/accomplishments/certificate/2LYSLYTWM7", platform: "Coursera", year: 2014, category: "Other" },
-  ];
+// Dynamic years count from 2014 (first cert) to current year
+document.getElementById('stat-years').textContent = new Date().getFullYear() - 2014 + 1;
 
-  // State
-  let filters = {
-    year: 'All',
-    platform: 'All',
-    category: 'All',
-    search: ''
-  };
+const platformBadgeClass = {
+  'Coursera':   'badge-coursera',
+  'Databricks': 'badge-databricks',
+  'Udacity':    'badge-udacity',
+  'IBM':        'badge-ibm',
+  'Bloomberg':  'badge-bloomberg',
+  'Other':      'badge-other',
+};
 
-  // Get unique values
-  const years = ['All', ...new Set(certifications.map(c => c.year).sort((a, b) => b - a))];
-  const platforms = ['All', ...new Set(certifications.map(c => c.platform).sort())];
-  const categories = ['All', ...new Set(certifications.map(c => c.category).sort())];
+const categoryBadgeClass = {
+  'ML/AI':              'badge-ml',
+  'Data Engineering':   'badge-data',
+  'Operations':         'badge-ops',
+  'Mathematics':        'badge-math',
+  'Finance':            'badge-finance',
+  'Web Development':    'badge-web',
+  'Project Management': 'badge-pm',
+  'Art & Museum':       'badge-art',
+  'Other':              'badge-general',
+};
 
-  // Initialize
-  function init() {
-    renderFilters();
-    renderCertifications();
-    updateStats();
-    attachEventListeners();
+let state = { year: 'All', platform: 'All', category: 'All', search: '' };
+
+const years      = ['All', ...new Set(certifications.map(c => c.year).sort((a,b) => b-a))];
+const platforms  = ['All', ...new Set(certifications.map(c => c.platform).sort())];
+const categories = ['All', ...new Set(certifications.map(c => c.category).sort())];
+
+function buildPills(containerId, items, key) {
+  const el = document.getElementById(containerId);
+  el.innerHTML = items.map(v =>
+    `<button class="filter-pill ${state[key] == v ? 'active' : ''}" data-key="${key}" data-val="${v}">${v}</button>`
+  ).join('');
+}
+
+function filtered() {
+  return certifications.filter(c => {
+    if (state.year !== 'All' && c.year !== state.year) return false;
+    if (state.platform !== 'All' && c.platform !== state.platform) return false;
+    if (state.category !== 'All' && c.category !== state.category) return false;
+    if (state.search) {
+      const q = state.search.toLowerCase();
+      if (!c.title.toLowerCase().includes(q) &&
+          !c.platform.toLowerCase().includes(q) &&
+          !c.category.toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  const list = filtered();
+  const listEl  = document.getElementById('cert-list');
+  const emptyEl = document.getElementById('cert-empty');
+  const countEl = document.getElementById('cert-count');
+  const statEl  = document.getElementById('stat-total');
+
+  statEl.textContent = list.length;
+  countEl.textContent = list.length === certifications.length
+    ? `All ${certifications.length} certifications`
+    : `${list.length} of ${certifications.length} certifications`;
+
+  if (list.length === 0) {
+    listEl.innerHTML = '';
+    emptyEl.style.display = 'block';
+    return;
   }
+  emptyEl.style.display = 'none';
 
-  // Render filter buttons
-  function renderFilters() {
-    const yearFilters = document.getElementById('year-filters');
-    const platformFilters = document.getElementById('platform-filters');
-    const categoryFilters = document.getElementById('category-filters');
+  // Group by year descending
+  const byYear = {};
+  list.forEach(c => { (byYear[c.year] = byYear[c.year] || []).push(c); });
+  const sortedYears = Object.keys(byYear).sort((a,b) => b-a);
 
-    yearFilters.innerHTML = years.map(year =>
-      `<button class="filter-btn ${filters.year === year ? 'active' : ''}" data-filter="year" data-value="${year}">${year}</button>`
-    ).join('');
-
-    platformFilters.innerHTML = platforms.map(platform =>
-      `<button class="filter-btn ${filters.platform === platform ? 'active' : ''}" data-filter="platform" data-value="${platform}">${platform}</button>`
-    ).join('');
-
-    categoryFilters.innerHTML = categories.map(category =>
-      `<button class="filter-btn ${filters.category === category ? 'active' : ''}" data-filter="category" data-value="${category}">${category}</button>`
-    ).join('');
-  }
-
-  // Filter certifications
-  function getFilteredCertifications() {
-    return certifications.filter(cert => {
-      const yearMatch = filters.year === 'All' || cert.year === filters.year;
-      const platformMatch = filters.platform === 'All' || cert.platform === filters.platform;
-      const categoryMatch = filters.category === 'All' || cert.category === filters.category;
-      const searchMatch = filters.search === '' ||
-        cert.title.toLowerCase().includes(filters.search.toLowerCase()) ||
-        cert.platform.toLowerCase().includes(filters.search.toLowerCase()) ||
-        cert.category.toLowerCase().includes(filters.search.toLowerCase());
-
-      return yearMatch && platformMatch && categoryMatch && searchMatch;
-    });
-  }
-
-  // Render certifications
-  function renderCertifications() {
-    const grid = document.getElementById('certs-grid');
-    const noResults = document.getElementById('no-results');
-    const filtered = getFilteredCertifications();
-
-    if (filtered.length === 0) {
-      grid.classList.add('hidden');
-      noResults.classList.remove('hidden');
-    } else {
-      grid.classList.remove('hidden');
-      noResults.classList.add('hidden');
-
-      grid.innerHTML = filtered.map(cert => `
-      <div class="cert-card">
-        <div class="cert-header">
-          <span class="cert-number">#${cert.id}</span>
-          <div class="cert-title">
-            <a href="${cert.url}" target="_blank">${cert.title}</a>
+  listEl.innerHTML = sortedYears.map(year => `
+    <div class="cert-year-section">
+      <p class="cert-year-heading">${year}</p>
+      ${byYear[year].map(c => `
+        <div class="cert-row">
+          <a class="cert-title-link" href="${c.url}" target="_blank">${c.title}</a>
+          <div class="cert-badges">
+            <span class="badge ${platformBadgeClass[c.platform] || 'badge-other'}">${c.platform}</span>
+            <span class="badge ${categoryBadgeClass[c.category] || 'badge-general'}">${c.category}</span>
           </div>
         </div>
-        <div class="cert-meta">
-          <span class="cert-badge badge-platform">${cert.platform}</span>
-          <span class="cert-badge badge-year">${cert.year}</span>
-          <span class="cert-badge badge-category">${cert.category}</span>
-        </div>
-      </div>
-    `).join('');
-    }
+      `).join('')}
+    </div>
+  `).join('');
+}
 
-    updateResultsInfo(filtered.length);
-  }
+function rebuildPills() {
+  buildPills('year-filters',     years,      'year');
+  buildPills('platform-filters', platforms,  'platform');
+  buildPills('category-filters', categories, 'category');
+}
 
-  // Update stats
-  function updateStats() {
-    const filtered = getFilteredCertifications();
-    document.getElementById('total-count').textContent = filtered.length;
+document.addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-pill')) return;
+  const key = e.target.dataset.key;
+  const val = key === 'year' && e.target.dataset.val !== 'All'
+    ? parseInt(e.target.dataset.val) : e.target.dataset.val;
+  state[key] = val;
+  rebuildPills();
+  render();
+});
 
-    if (filters.year === 'All' && filters.platform === 'All' && filters.category === 'All' && filters.search === '') {
-      document.getElementById('years-span').textContent = '13';
-      document.getElementById('platforms-count').textContent = '8+';
-      document.getElementById('current-year').textContent = '2026';
-    }
-  }
+document.getElementById('cert-search').addEventListener('input', e => {
+  state.search = e.target.value.trim();
+  render();
+});
 
-  // Update results info
-  function updateResultsInfo(count) {
-    const info = document.getElementById('results-info');
-    const hasActiveFilters = filters.year !== 'All' || filters.platform !== 'All' || filters.category !== 'All' || filters.search !== '';
+document.getElementById('reset-btn').addEventListener('click', () => {
+  state = { year: 'All', platform: 'All', category: 'All', search: '' };
+  document.getElementById('cert-search').value = '';
+  rebuildPills();
+  render();
+});
 
-    if (hasActiveFilters) {
-      info.textContent = `Showing ${count} of ${certifications.length} certifications`;
-    } else {
-      info.textContent = `Showing all ${certifications.length} certifications`;
-    }
-  }
-
-  // Attach event listeners
-  function attachEventListeners() {
-    // Filter buttons
-    document.addEventListener('click', (e) => {
-      if (e.target.classList.contains('filter-btn')) {
-        const filterType = e.target.dataset.filter;
-        const value = e.target.dataset.value;
-
-        // Convert year to number if needed
-        filters[filterType] = filterType === 'year' && value !== 'All' ? parseInt(value) : value;
-
-        renderFilters();
-        renderCertifications();
-        updateStats();
-      }
-    });
-
-    // Search
-    const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('input', (e) => {
-      filters.search = e.target.value;
-      renderCertifications();
-      updateStats();
-    });
-
-    // Reset
-    document.getElementById('reset-btn').addEventListener('click', () => {
-      filters = {
-        year: 'All',
-        platform: 'All',
-        category: 'All',
-        search: ''
-      };
-      searchInput.value = '';
-      renderFilters();
-      renderCertifications();
-      updateStats();
-    });
-  }
-
-  // Initialize on page load
-  init();
+rebuildPills();
+render();
 </script>

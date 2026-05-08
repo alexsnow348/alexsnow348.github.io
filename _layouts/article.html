@@ -1,0 +1,171 @@
+---
+layout: default
+---
+
+<style>
+  .article-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .article-eyebrow {
+    font-family: "Inter", sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #CE942F;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .article-title {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.25;
+    margin: 0 0 0.75rem;
+  }
+
+  .article-meta {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #aaa;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .article-meta .meta-sep { color: #ddd; }
+
+  .article-body {
+    font-family: "Lora", Georgia, serif;
+    font-size: 0.975rem;
+    color: #333;
+    line-height: 1.9;
+    max-width: 680px;
+  }
+
+  .article-body h2 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #111;
+    margin: 2rem 0 0.75rem;
+  }
+
+  .article-body h3 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #111;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .article-body p { margin-bottom: 1.25rem; }
+
+  .article-body a {
+    color: #318F79;
+    text-decoration: none;
+    border-bottom: 1px solid #b8ddd5;
+  }
+
+  .article-body a:hover {
+    border-color: #318F79;
+    text-decoration: none;
+  }
+
+  .article-body blockquote {
+    border-left: 3px solid #CE942F;
+    margin: 1.5rem 0;
+    padding: 0.75rem 1.25rem;
+    background: #faf9f7;
+    border-radius: 0 4px 4px 0;
+    font-style: italic;
+    color: #555;
+  }
+
+  .article-body blockquote p { margin-bottom: 0; }
+
+  .article-body ul, .article-body ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .article-body li { margin-bottom: 0.4rem; }
+
+  .article-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .article-back {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #111;
+    text-decoration: none;
+    border-bottom: 2px solid #CE942F;
+    padding-bottom: 1px;
+  }
+
+  .article-back:hover { color: #CE942F; text-decoration: none; }
+
+  .article-tags {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .article-tag {
+    font-family: "Inter", sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    background: #f5e6d8;
+    color: #7a4a2e;
+  }
+</style>
+
+<div class="article-header">
+  <span class="article-eyebrow">AI × Art &amp; Museum</span>
+  <h1 class="article-title">{{ page.title }}</h1>
+  <div class="article-meta">
+    <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+    {% if page.read_time %}
+    <span class="meta-sep">·</span>
+    <span>{{ page.read_time }} min read</span>
+    {% endif %}
+    {% if page.author %}
+    <span class="meta-sep">·</span>
+    <span>{{ page.author }}</span>
+    {% endif %}
+  </div>
+</div>
+
+<div class="article-body">
+  {{ content }}
+</div>
+
+<div class="article-footer">
+  <a href="/articles/" class="article-back">← All Articles</a>
+  {% if page.tags %}
+  <div class="article-tags">
+    {% for tag in page.tags %}
+    <span class="article-tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>

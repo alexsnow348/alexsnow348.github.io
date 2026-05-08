@@ -21,7 +21,7 @@
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Cormorant Garamond", Georgia, serif;
   font-size: .875rem;
   /* 15px */
   color: rgba(255, 255, 255, .6);
@@ -236,6 +236,31 @@ a.sidebar-nav-item:focus {
     strong {
       color: $white;
       text-decoration: none;
+    }
+  }
+}
+
+.sidebar-contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  margin: 0;
+
+  a {
+    font-size: .75rem;
+    color: rgba(255, 255, 255, .75);
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    transition: color .2s ease;
+
+    &:hover {
+      color: $white;
+    }
+
+    i {
+      width: 14px;
+      text-align: center;
     }
   }
 }

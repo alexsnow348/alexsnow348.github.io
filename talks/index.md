@@ -3,439 +3,302 @@ layout: page
 title: Talks
 ---
 
-<div class="talks-container">
-  
-  <div class="year-section">
-    <h2 class="year-title">2025</h2>
-    <div class="talks-grid">
-      <!-- Talk 1: AI Unplugged -->
-      <div class="talk-card">
-        <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/w6Sth-Josds" title="AI Unplugged" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>AI Unplugged: The Art of Prompt Engineering</h3>
-          <p>This talk explores the fundamentals and art of prompt engineering. It also examines the impact of AI on society and emphasizes the importance of preparing the future workforce. Delivered to youth at the American Center in Yangon.</p>
-          <div class="meta">
-            <span class="badge">Burmese</span>
-          </div>
-          <!-- Keep slide link if it existed (this one had an iframe slide in original, keeping it simple for now or just video as requested) -->
-          <!-- Original had a slide iframe, but user asked for "youtube video". I'll focus on the video. -->
-        </div>
-      </div>
+<style>
+  .talks-intro {
+    font-family: "Lora", Georgia, serif;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.85;
+    margin-bottom: 2.5rem;
+    max-width: 560px;
+  }
 
-      <!-- Talk 2: AI Tools for Work -->
-      <div class="talk-card">
-        <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/Fhe63hJNpfE" title="AI Tools for Work" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>AI Tools for Work</h3>
-          <p>Explores the basics of AI evolution, how AI works behind the scenes, and AI tools used for work.</p>
-          <div class="meta">
-            <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-             <a href="https://drive.google.com/file/d/1rpXtwOLW8D8Y55AR-qBOZyTc8feBgn_h/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  .talk-year-label {
+    font-family: "Inter", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #CE942F;
+    margin: 2.5rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #f0e8d8;
+    display: block;
+  }
+
+  .talk-item {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #f5f5f5;
+  }
+
+  .talk-item:last-child { border-bottom: none; }
+
+  .talk-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 0.85rem;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #f5f5f5;
+  }
+
+  .talk-video iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: none;
+  }
+
+  .talk-title {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 0.25rem;
+    line-height: 1.35;
+  }
+
+  .talk-meta {
+    font-family: "Inter", sans-serif;
+    font-size: 0.72rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+  }
+
+  .talk-desc {
+    font-family: "Lora", Georgia, serif;
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.75;
+    margin: 0 0 0.65rem;
+  }
+
+  .talk-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .talk-link {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #CE942F;
+    text-decoration: none;
+    border-bottom: 1px solid #f0d9a8;
+    padding-bottom: 1px;
+    transition: border-color 0.15s ease;
+  }
+
+  .talk-link:hover {
+    border-color: #CE942F;
+    text-decoration: none;
+  }
+
+  .talk-lang {
+    font-family: "Inter", sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    background: #f5f5f5;
+    color: #888;
+  }
+
+  .talk-lang-en {
+    background: #d6ecf8;
+    color: #1a5c8a;
+  }
+
+  /* Posters section */
+  .posters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .poster-img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+    border: 1px solid #eee;
+  }
+
+  @media (max-width: 600px) {
+    .posters-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+
+<p class="talks-intro">
+  Public talks on AI, machine learning, and career development — mostly in Burmese for Myanmar's tech community, with occasional English sessions.
+</p>
+
+<span class="talk-year-label">2025</span>
+
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/w6Sth-Josds" title="AI Unplugged" allowfullscreen></iframe>
   </div>
-
-  <div class="year-section">
-    <h2 class="year-title">2024</h2>
-    <div class="talks-grid">
-      
-      <!-- Talk 3: Financial Markets (No Video, just Slides) -->
-      <div class="talk-card">
-        <div class="card-content">
-          <h3>The Use of AI/GenAI in Financial Markets</h3>
-          <p>Delves into the evolution of failure in financial markets, focusing on LSTMs, GANs, and LLMs like FinGPT for sentiment analysis and risk prediction. Highlights ethical and regulatory challenges.</p>
-          <div class="meta">
-            <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Talk 4: Knowledge Distillation -->
-      <div class="talk-card">
-        <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/0LtoRcXcudc" title="Knowledge Distillation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>Knowledge Distillation: Streamlining AI</h3>
-          <p>Explores creating smaller, efficient AI models via knowledge distillation. Covers teacher-student frameworks, distillation schemes, and applications in NLP and object detection.</p>
-          <div class="meta">
-            <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-
-       <!-- Talk 5: Life-long Learner -->
-      <div class="talk-card">
-        <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/r1CkNRj6IUI" title="Becoming a Life-long Learner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>Becoming a Life-long Learner and Reader</h3>
-          <p>Explores the philosophy behind continuous growth, drawing info from Richard Hamming. Introduces a structured framework for growth and emphasized learning in public.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/1vMYo4bSP2HRdlYonGH1FPGVgFIZBlxKP/view?usp=drive_link" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Talk 6: AI in Daily Life -->
-       <div class="talk-card">
-         <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/JyQ-G134Fz4" title="AI in Daily Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>The Usages Of AI in Daily Life</h3>
-          <p>Highlights AI's role in social media, entertainment, education, and healthcare. Offers practical tips on leveraging AI effectively.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-
-       <!-- Talk 7: Becoming AI Engineer -->
-       <div class="talk-card">
-         <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/nFkNfiUXZNg" title="Becoming an AI Engineer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>Becoming an AI Engineer</h3>
-          <p>A practical roadmap for aspiring AI engineers. Covers foundational skills, LLMOps, deployment, and learning resources.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/1lWQ5S4v1owEAjWH-3GgzBVIRfUQtdl_4/view?usp=drive_link" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
+  <h3 class="talk-title">AI Unplugged: The Art of Prompt Engineering</h3>
+  <div class="talk-meta">American Center, Yangon</div>
+  <p class="talk-desc">Fundamentals of prompt engineering and AI's impact on society — delivered to youth audiences with a focus on workforce readiness.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
   </div>
-
-  <div class="year-section">
-    <h2 class="year-title">2022</h2>
-    <div class="talks-grid">
-      <!-- Talk 8: Women in STEM (Soundcloud) -->
-       <div class="talk-card">
-         <!-- Soundcloud embed is tall usually, standardizing on buttons for audio unless requested, but let's try a small embed if possible, or stick to button which is cleaner for audio -->
-        <div class="card-content">
-          <h3>Talking about Women in STEM</h3>
-          <p>Shared knowledge about STEM fields, job opportunities, and career advice. Organized by Friedrich Naumann Foundation - Yangon.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank" class="btn btn-primary"><i class="fa fa-headphones"></i> Listen on SoundCloud</a>
-          </div>
-        </div>
-      </div>
-
-       <!-- Talk 9: AutoML (No Video) -->
-       <div class="talk-card">
-        <div class="card-content">
-          <h3>Training ML Models Using AutoML on GCP</h3>
-          <p>Introduction to Machine Learning pipelines and a demo on predicting loan risk using Google Cloud Vertex AI AutoML.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="year-section">
-    <h2 class="year-title">2021</h2>
-    <div class="talks-grid">
-       <!-- Talk 10: Computer Science (No Video) -->
-       <div class="talk-card">
-        <div class="card-content">
-          <h3>Why Study Computer Science?</h3>
-          <p>Career orientation talk for students at Albukhary International University, Malaysia. Discusses future career prospects in CS.</p>
-          <div class="meta">
-             <span class="badge badge-en">English</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/1dIExMOXvcdwiDlgeXONoLbC93xj0_Asu/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="year-section">
-    <h2 class="year-title">2020</h2>
-    <div class="talks-grid">
-      <!-- Talk 11: Data Impact (No Video) -->
-       <div class="talk-card">
-        <div class="card-content">
-          <h3>How Data impact Our Life</h3>
-          <p>Intended for students during the Pre-University Learning Festival held by Phandeeyer Institute, Myanmar.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-            <a href="https://drive.google.com/file/d/12u8Z84XNzc4HEBxGWuK4BqYmDjoz38Q_/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Talk 12: Age of ML & AI -->
-       <div class="talk-card">
-         <div class="video-wrapper">
-           <iframe src="https://www.youtube.com/embed/RUMMgeiEkVk" title="Age of ML & AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="card-content">
-          <h3>Age of ML & AI | Preparing for Jobs</h3>
-          <p>Covered demanding ML and AI roles, employment opportunities, requisite skill sets, and preparation strategies.</p>
-          <div class="meta">
-             <span class="badge">Burmese</span>
-          </div>
-          <div class="actions">
-             <a href="https://drive.google.com/file/d/1dXRG6f4BaWc4n4a0XmbRJCUkuACVlQHg/view?usp=sharing" target="_blank" class="btn btn-secondary"><i class="fa fa-slideshare"></i> Slides</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="year-section">
-    <h2 class="year-title">Posters</h2>
-    <div class="photo-viewer">
-       <div class="photo">
-        <img src="/public/img/ai_unplugged_talk.jpg" loading="lazy">
-      </div>
-       <div class="photo">
-        <img src="/public/img/ai-tools-for-work.jpg" loading="lazy">
-      </div>
-      <div class="photo">
-        <img src="/public/img/fin-ai-talk.jpg" loading="lazy">
-      </div>
-       <div class="photo">
-        <img src="/public/img/kd.jpg" loading="lazy">
-      </div>
-        <div class="photo">
-        <img src="/public/img/sa-mat.jpg" loading="lazy">
-      </div>
-    <div class="photo">
-        <img src="/public/img/woman-in-stem.jpg" loading="lazy">
-      </div>
-      <div class="photo">
-        <img src="/public/img/life-long-learner.webp" loading="lazy">
-      </div>
-      <div class="photo">
-        <img src="/public/img/brain.jpg" loading="lazy">
-      </div>
-    </div>
-  </div>
-
 </div>
 
-<style>
-/* Layout Containers */
-.talks-container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/Fhe63hJNpfE" title="AI Tools for Work" allowfullscreen></iframe>
+  </div>
+  <h3 class="talk-title">AI Tools for Work</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">How AI works behind the scenes and practical tools for professional use — from AI evolution basics to hands-on application.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1rpXtwOLW8D8Y55AR-qBOZyTc8feBgn_h/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-.year-section {
-  margin-bottom: 4rem;
-}
+<span class="talk-year-label">2024</span>
 
-.year-title {
-  border-bottom: 2px solid #ce942f; /* Theme Gold */
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-  color: #ce942f!important;
-  font-weight: 700;
-  display: inline-block;
-}
+<div class="talk-item">
+  <h3 class="talk-title">The Use of AI/GenAI in Financial Markets</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">LSTMs, GANs, and LLMs like FinGPT for sentiment analysis and risk prediction — with a look at ethical and regulatory challenges.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-/* Grid System */
-.talks-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Slightly wider for videos */
-  gap: 2rem;
-}
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/0LtoRcXcudc" title="Knowledge Distillation" allowfullscreen></iframe>
+  </div>
+  <h3 class="talk-title">Knowledge Distillation: Streamlining AI</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">Teacher-student frameworks for creating smaller, efficient AI models — covering distillation schemes and applications in NLP and object detection.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-/* Card Styling */
-.talk-card {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  overflow: hidden;
-}
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/r1CkNRj6IUI" title="Becoming a Life-long Learner" allowfullscreen></iframe>
+  </div>
+  <h3 class="talk-title">Becoming a Life-long Learner and Reader</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">A philosophy of continuous growth drawing from Richard Hamming — with a structured framework for learning in public.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1vMYo4bSP2HRdlYonGH1FPGVgFIZBlxKP/view?usp=drive_link" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-.talk-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
-  border-color: #ce942f;
-}
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/JyQ-G134Fz4" title="AI in Daily Life" allowfullscreen></iframe>
+  </div>
+  <h3 class="talk-title">The Usages of AI in Daily Life</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">AI's role in social media, entertainment, education, and healthcare — with practical tips for leveraging it effectively.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  height: 0;
-  background: #000;
-}
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/nFkNfiUXZNg" title="Becoming an AI Engineer" allowfullscreen></iframe>
+  </div>
+  <h3 class="talk-title">Becoming an AI Engineer</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">A practical roadmap for aspiring AI engineers — foundational skills, LLMOps, deployment, and learning resources.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1lWQ5S4v1owEAjWH-3GgzBVIRfUQtdl_4/view?usp=drive_link" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+<span class="talk-year-label">2022</span>
 
-.card-content {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
+<div class="talk-item">
+  <h3 class="talk-title">Talking about Women in STEM</h3>
+  <div class="talk-meta">Friedrich Naumann Foundation · Yangon</div>
+  <p class="talk-desc">Career advice and opportunities in STEM fields, organised by Friedrich Naumann Foundation Yangon.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank" class="talk-link">Listen on SoundCloud →</a>
+  </div>
+</div>
 
-.talk-card::before {
-  /* Removed side border as video headers look cleaner without it, or move it to bottom */
-  /* Re-adding it but maybe as a bottom border or top accent if no video? */
-  /* Let's use a top border for uniformity if needed, but the video covers the top. */
-  /* I will remove the side accent for a cleaner media-card look */
-}
+<div class="talk-item">
+  <h3 class="talk-title">Training ML Models Using AutoML on GCP</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">Introduction to ML pipelines with a hands-on demo predicting loan risk using Google Cloud Vertex AI AutoML.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-.card-content h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  line-height: 1.4;
-  margin-bottom: 0.75rem;
-  color: #333;
-  font-weight: 700;
-}
+<span class="talk-year-label">2021</span>
 
-.card-content p {
-  font-size: 0.95rem;
-  color: #666;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  flex-grow: 1;
-}
+<div class="talk-item">
+  <h3 class="talk-title">Why Study Computer Science?</h3>
+  <div class="talk-meta">Albukhary International University · Malaysia</div>
+  <p class="talk-desc">Career orientation for CS students — future prospects, job landscape, and what to expect from a CS career.</p>
+  <div class="talk-links">
+    <span class="talk-lang talk-lang-en">English</span>
+    <a href="https://drive.google.com/file/d/1dIExMOXvcdwiDlgeXONoLbC93xj0_Asu/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-/* Badges */
-.meta {
-  margin-bottom: 1.25rem;
-}
+<span class="talk-year-label">2020</span>
 
-.badge {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.75rem;
-  border-radius: 50px;
-  background: #f5f5f5;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
+<div class="talk-item">
+  <h3 class="talk-title">How Data Impacts Our Life</h3>
+  <div class="talk-meta">Phandeeyer Institute · Myanmar</div>
+  <p class="talk-desc">Data literacy talk for pre-university students at the Phandeeyer Institute Learning Festival.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/12u8Z84XNzc4HEBxGWuK4BqYmDjoz38Q_/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-.badge-en {
-  background: #e3f2fd;
-  color: #1976d2;
-}
+<div class="talk-item">
+  <div class="talk-video">
+    <iframe src="https://www.youtube.com/embed/RUMMgeiEkVk" title="Age of ML & AI" allowfullscreen></iframe>
+  </div>
+  <h3 class="talk-title">Age of ML & AI — Preparing for Jobs</h3>
+  <div class="talk-meta">Alex Snow School</div>
+  <p class="talk-desc">ML and AI roles, employment opportunities, required skills, and preparation strategies for the next generation of engineers.</p>
+  <div class="talk-links">
+    <span class="talk-lang">Burmese</span>
+    <a href="https://drive.google.com/file/d/1dXRG6f4BaWc4n4a0XmbRJCUkuACVlQHg/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+  </div>
+</div>
 
-/* Buttons */
-.actions {
-  margin-top: auto;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
+<span class="talk-year-label">Posters</span>
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border-radius: 6px;
-  text-decoration: none !important;
-  transition: background 0.2s;
-}
-
-.btn i {
-  margin-right: 6px;
-}
-
-.btn-primary {
-  background: #ce942f;
-  color: #fff !important;
-  border: 1px solid #ce942f;
-}
-
-.btn-primary:hover {
-  background: #b58229;
-  border-color: #b58229;
-}
-
-.btn-secondary {
-  background: transparent;
-  color: #ce942f !important;
-  border: 1px solid #ce942f;
-}
-
-.btn-secondary:hover {
-  background: #fff8e1;
-}
-
-/* Poster Grid */
-.photo-viewer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 15px;
-}
-
-.photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.2s;
-  cursor: pointer;
-  aspect-ratio: 4/3; 
-  display: block;
-}
-
-.photo img:hover {
-   transform: scale(1.05);
-}
-
-@media (max-width: 600px) {
-  .talks-grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
+<div class="posters-grid">
+  <img src="/public/img/ai_unplugged_talk.jpg" alt="AI Unplugged talk poster" class="poster-img" loading="lazy">
+  <img src="/public/img/ai-tools-for-work.jpg" alt="AI Tools for Work poster" class="poster-img" loading="lazy">
+  <img src="/public/img/fin-ai-talk.jpg" alt="Finance AI talk poster" class="poster-img" loading="lazy">
+  <img src="/public/img/kd.jpg" alt="Knowledge Distillation poster" class="poster-img" loading="lazy">
+  <img src="/public/img/sa-mat.jpg" alt="Talk poster" class="poster-img" loading="lazy">
+  <img src="/public/img/woman-in-stem.jpg" alt="Women in STEM poster" class="poster-img" loading="lazy">
+  <img src="/public/img/life-long-learner.webp" alt="Life-long learner poster" class="poster-img" loading="lazy">
+  <img src="/public/img/brain.jpg" alt="Talk poster" class="poster-img" loading="lazy">
+</div>

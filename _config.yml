@@ -1,9 +1,9 @@
 # Site Info
-title: "လေ့လာမှု ခရီးစဥ်များ"
-tagline: "Alex Snow Learning Journey"
-description: 'Alex Snow Learning Journey. Made by <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow</a>.'
+title: "Alex Snow"
+tagline: "AI & LLM Consulting · German SMBs & Cultural Institutions"
+description: 'Practical AI, LLM, and Agentic Systems consulting for small and medium-sized businesses and cultural institutions (museums, galleries) in Germany. Knowledge sharing and insights from 13+ years of hands-on learning. By <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow</a>.'
 baseurl: ""
-url: "https://alexsnow348.github.io"
+url: "https://diekulturki.de"
 logo: "/public/logo.png"
 
 # Site configurations
@@ -29,45 +29,36 @@ tag:
 # About/contact
 author:
   name: "Alex Snow"
-
-  # description: A Youths' run school <strong>for empowering the next generation </strong>towards Myanmar economic and technological advancement</strong>.
-  description: <strong>ဘဝတစ််လျှောက် လေ့လာမိသမျှ၊ လုပ်မိသမျှ၊ တွေးမိသမျှတွေကို နောက်ပိုင်း အသက်ကြီးတဲ့အချိန် ရောက်လာတဲ့အခါ ပြန်လည်ဖတ်ပြီး ပြုံးပျော်နိုင်ဖို့ မှတ်တမ်းတင်ထားတာတွေ စုထားတဲ့ နေရာ‌လေး ဖြစ်ပါတယ်။</strong>
-  gravatar: a320402fa9d8fb397013d6f56da76b97 # md5 hash of your email address
-  contact:
-    github: https://github.com/alexsnowschool
-    linkedin: https://www.linkedin.com/company/alex-snow-school-for-myanmar-youths/
-    facebook: https://www.facebook.com/groups/alexsnowschool/
-    instagram: https://www.instagram.com/alexsnowschool/
-    anchor: https://anchor.fm/alexsnowschool/
+  description: <strong>AI & LLM Consultant</strong> based in Germany. Helping SMBs navigate artificial intelligence, large language models, and agentic systems — from strategy to production.
+  gravatar: a320402fa9d8fb397013d6f56da76b97
 
 # Navigation (2nd level links supported)
 nav:
-  ဆောင်းပါးများ:
-    - "/blog/"
-    - { ကျောင်းနှင့် ဆိုင်ရာများ: "/blog/alexsnowschool/" }
-    - { လူငယ်မှသည့် လူငယ်ဆီသို့: "/blog/fyby/" }
-  ပြောခဲ့သောပွဲများ:
-    - "/talks/index.html"
-  အသံထွက်ဖတ်စာများ:
-    - "/podcasts/index.html"
-  Writefulyours - စာပို့ကြစို့။:
-    - "https://writefullyours.my.canva.site/"
-  ပရော်ဂျက်များ:
-    - "/projects/index.html"
-  ကိုယ်ပိုင် အောင်လက်မှတ်များ:
+  About:
+    - "/about/"
+  Services:
+    - "/services/"
+  Articles:
+    - "/articles/"
+  Certifications:
     - "/own-certifications/index.html"
-  အတူတူစုစာလုပ် အောင်လက်မှတ်များ:
-    - "/together-certifications/index.html"
+  Projects:
+    - "/projects/"
+  Talks:
+    - "/talks/"
+  Myanmar Content:
+    - "/blog/alexsnowschool/"
+    - { "Articles (မြန်မာ)": "/blog/" }
+    - { "Tech & AI (မြန်မာ)": "/blog/alexsnowschool/" }
+    - { "For Youth, By Youth": "/blog/fyby/" }
+    - { "Podcasts": "/podcasts/index.html" }
+    - { "Together Certifications": "/together-certifications/index.html" }
 
 # Where are tags and categories displayed
 tag_page: "/blog/alexsnowschool/"
 category_page: "/blog/fyby/"
 
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
-
-# Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: "UA-167038249-1" # leave blank if you don't want google analytics
-disqus_short_name: # leave blank if you don't want disqus
+# Plugins
+mathjax: true
+google_analytics_token: "UA-167038249-1"
+disqus_short_name:

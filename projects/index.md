@@ -1,138 +1,215 @@
 ---
 layout: page
-title: ပရော်ဂျက်များ
+title: Projects
 ---
 
-## 2022
-* <strong><a href ="https://www.clubhouse.com/club/%E1%80%9D%E1%80%91%E1%80%91%E1%80%99%E1%80%94-%E1%80%80%E1%80%81%E1%80%94%E1%80%81%E1%80%84" target="_blank">📚🤗 ဝတ္ထုများနဲ့ ကခုန်ခြင်း - Weekly Burmese Novel Reading</a></strong>
+<style>
+  .projects-intro {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.85;
+    margin-bottom: 2.5rem;
+    max-width: 560px;
+    font-family: "Lora", Georgia, serif;
+  }
 
-	This program is for reading and discussing **various classical and post-modern burmese short novels** which intended to learn and grow as a Burmese community with the concepts of **“For the community, by the community”**.
-	
-	The panels discuss their opinions about selected short novel weekly at 8:00 pm Myanmar standard time zone.  Daily audiences range from 20 to 50 depending on the selected short novel. Podcasts made from the discussion can be found in <strong> <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iMGRjNDA1MC9wb2RjYXN0L3Jzcw" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexreadernotes" target="_blank">Anchor</a> </strong>platforms.
+  .project-year-label {
+    font-family: "Inter", sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #CE942F;
+    margin: 2rem 0 0.5rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #f0e8d8;
+    display: block;
+  }
 
-	အပတ်စဥ် တနင်္ဂနွေ၊ တနင်္လာနေ့ မြန်မာ အချိန် ည ၈ နာရီ မှာ Clubhouse မှတဆင့် အတူတူ ဆွေးနွေးကြတဲ့ အစီအစဥ်လေးပဲ ဖြစ်ပါတယ်။ အထူးသဖြင့် မြန်မာ ရှေဟောင်းနဲ့ ခေတ်ပေါ် ဝတ္ထုတိုစာအုပ်များကို  ရွေးပြီး  အတူတူ စုဖတ်ဆွေးနွေးကြပါတယ်။
-	
-	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
+  .project-item {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid #f5f5f5;
+  }
 
-	စိတ်ဝင်စားသူများအားလုံးကို <strong> <a href="https://www.clubhouse.com/club/%E1%80%9D%E1%80%91%E1%80%91%E1%80%99%E1%80%94-%E1%80%80%E1%80%81%E1%80%94%E1%80%81%E1%80%84" target="_blank">Clubhouse</a> </strong> ကို join ပြီး လာရောက် ဆွေးနွေးကြဖို့ ဖိတ်ခေါ်လိုက်ပါတယ်။
+  .project-item:last-child { border-bottom: none; }
 
-	အရင်က စုဖတ်ဆွေးနွေးထားတာတွေကိုလည်း Podcast အနေဖြင့် <strong> <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iMGRjNDA1MC9wb2RjYXN0L3Jzcw" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexreadernotes" target="_blank">Anchor</a> </strong>platforms တွေမှာ ပြန်လည် နာဆင်နိုင်ကြပါပြီး။
+  .project-title {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 0.3rem;
+  }
 
-## 2021
-* <strong><a href ="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">📚💸 တစ်ရက်တစ်ပုဒ် - Daily Read Program 🧠📚</a></strong>
+  .project-title a {
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #e0e0e0;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
 
-	This program is intended to learn and grow as a Burmese community with the concepts of **“For the community, by the community”** by sharing and discussing various topics which are related to Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies using Clubhouse social audio platform. 
-	
-	The panels discuss their views on various topics everyday at 6:30 pm Myanmar standard time zone.  Daily audiences range from 30 to 60 depending on the selected topics. Podcasts made from the discussion can be found in <strong> <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82NGMyYWU0OC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexsnowschool" target="_blank">Anchor</a> </strong>platforms.
+  .project-title a:hover {
+    color: #CE942F;
+    border-color: #CE942F;
+    text-decoration: none;
+  }
 
-	နေစဥ် မြန်မာအချိန် ညနေ ၆:၃၀  မှာ Clubhouse မှတဆင့် အတူတူ ဆွေးနွေးလေ့လာ ကြတဲ့ အစီအစဥ်လေးပဲ ဖြစ်ပါတယ်။
-	အထူးသဖြင့် ခုလက်တလောမှာ ဖြစ်နေတဲ့ Machine Learning, Artificial Intelligence, Finance, Economics and Cryptocurrencies တို့နှင့် ဆိုင်တဲ့ topics လေးတွေကို  ရွေးပြီး Telegram group မှာ Article လေးကို ကြိုရှယ်ပြီး အတူတူ  ပုံမှန်လေ့လာ ဆွေးနွေးနေကြတာပါ။
-	
-	For the community, by the community concepts ဖြင့် အချင်ချင် အတူတူ အမြင် မျှဝေးဖလှယ် လေ့လာဆွေးနွေးပြီး အားလုံးအတွက် အကျိုးပြု အသိပညာတိုးပွားလာစေရန် ဆိုတဲ့ ရည်ရွယ်ချက်ဖြင့် ဦးတည်လုပ်ဆောင်ထားခြင်း ဖြစ်ပါတယ်။
+  .project-desc {
+    font-family: "Lora", Georgia, serif;
+    font-size: 0.875rem;
+    color: #666;
+    line-height: 1.75;
+    margin: 0 0 0.5rem;
+  }
 
-	အရင်က ဆွေးနွေးထားတာတွေကိုလည်း Podcast အနေဖြင့် <strong> <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a></strong>, <strong> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy82NGMyYWU0OC9wb2RjYXN0L3Jzcw==" target="_blank">Google Podcast</a></strong> and <strong> <a href="https://anchor.fm/alexsnowschool" target="_blank">Anchor</a> </strong>platforms တွေမှာ ပြန်လည် နာဆင်နိုင်ကြပါပြီး။
+  .project-desc a {
+    color: #318F79;
+    text-decoration: none;
+    font-weight: 500;
+  }
 
-	> ***တစ်ရက်နည်းနည်းစီ တဖြည်းဖြည်း အတူတူလေ့လာကြစို့။*** 
+  .project-desc a:hover { text-decoration: underline; }
 
-## 2020
-* <strong><a href ="https://www.facebook.com/MSMEsBridge/" target="_blank">တံတား - Bridge</a></strong>
+  .project-tags {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
 
-	The need for development in SME sectors in developing countries are common problems these days. The project lists down three main problems to tickle. The three main problems facing in Myanmar are-
-	* lack of awareness of SME and its benefits
-	* lack of trust in government
-	* the inconvenience use of current SME registration portal developed by the ministry.
+  .project-tag {
+    font-family: "Inter", sans-serif;
+    font-size: 0.62rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
 
-	The project plan to provide the following solutions which are -
-	* SME Consultation  - to make it easier in registration process and to incentivize SMEs easily for their benefits and incentives by integrating widely used Payment Processors (mobile digital e-wallets) such as  - WaveMoney and KBZPay.
-	* Knowledge Hub - by developing a community where digital literates youths can share the tips and techniques in the community.
+  .tag-community  { color: #1f6b5b; background: #d4f0e8; }
+  .tag-education  { color: #1a5c8a; background: #d6ecf8; }
+  .tag-fintech    { color: #92650a; background: #fef3d6; }
+  .tag-social     { color: #5a3d8a; background: #ece5f8; }
+  .tag-ml         { color: #8a3d3d; background: #f8e5e5; }
+  .tag-award      { color: #7a4a2e; background: #f5e6d8; }
+</style>
 
+<p class="projects-intro">
+  Community platforms, educational initiatives, and technical tools — mostly built around Myanmar's youth, financial literacy, and AI/ML education.
+</p>
 
-	မြန်မာနိုင်ငံဟာဆိုရင်  SMEs အများစုနဲ့  စီးပွားရး လည်ပတ်နေတဲ့ နိုင်ငံဖြစ်ပါတယ်။ ဒါပေမဲ့လည်း လူတော်တော်များများက မိမိတို့ စီးပွားရေး လုပ်ငန်းက SMEs တစ်ခုဖြစ်နေတယ်ဆိုတာကို က အစ မသိတဲ့သူအများကြီး ရှိနေပါတယ်။ ဒါတင်မက နိုင်ငံတော်က ပေးထားတဲ့  SMEs နဲ့ သက်ဆိုင်တဲ့ အကျိုးခံစားခွင့် အခွင့်အလမ်းများစွာ ရှိနေတာကို လဲ မသိကြတာ များပါတယ်။ ပြီးတော့ SMEs ပိုင်ဆိုင်ပြီး ရသင့်တဲ့ အခွင့်အလမ်းတွေ ရဖို့ registration လုပ်ဆောင်မှုမှာလဲ လုပ်ငန်းရှင် တွေ အခက်အခဲများစွာနဲ့ ရင်ဆိုင်နေရတာကို သတိပြုမိပါတယ်။
+<span class="project-year-label">2022</span>
 
-	အဲဒီတော့  “တံတား - Bridge” Page လေးက မြန်မာနိုင်ငံမှာ ရှိတဲ့ SMEs တွေရဲ့ စီးပွားရေး လုပ်ငန်းပိုမိုတိုးတက်လာအောင် လုပ်ဆောင်တဲ့ နေရာမှာ အထောက် အကူ တစ်ခု အနေနဲ့ နိုင်ငံတော် စီးပွားရေး အကျိုးပြု အကျိုးဆောင်လုပ်ငန်းတွေ လုပ်ဖို့ တည်ထောင်လိုက်ရခြင်းဖြစ်ပါတယ်။
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://www.clubhouse.com/club/%E1%80%9D%E1%80%91%E1%80%91%E1%80%99%E1%80%94-%E1%80%80%E1%80%81%E1%80%94%E1%80%81%E1%80%84" target="_blank">Weekly Burmese Novel Reading</a>
+  </h3>
+  <p class="project-desc">Weekly Clubhouse discussions on classical and post-modern Burmese short novels. 20–50 daily listeners; sessions archived on <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a> and Google Podcasts.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-community">Community</span>
+    <span class="project-tag tag-social">Myanmar</span>
+  </div>
+</div>
 
-	အခုလောလောဆယ်  “တံတား -  Bridge” လေးက အောက်က service လေးများကို ဝန်းဆောင်မှုပေးဖို့ စီစဥ်ထားပါတယ်။
-	* SMEs နဲ့ ဆိုင်တဲ့ သိသင့် သိထိုက်တဲ့ အသိပညာတွေ မျှဝေပေးခြင်း
-	* SMEs Registration Consultation - ဘယ်လို SMEs စာရင်သွင်းရမလဲဆိုတာ ကူညီ အကြံပေး ဆောင်ရွတ်ပေးခြင်း
-	* SMEs တွေ အချင်းချင်း တစ်ယောက်ကို တစ်ယောက် ကူညီမျှဝေးပေတဲ့ community တစ်ခု တည်းထောင်ပေးခြင်း
-	စတာတွေကို အဓိက ထား လုပ်ဆောင် သွားမှာ ဖြစ်ပါတယ်။
+<span class="project-year-label">2021</span>
 
-	အဲဒီတော့
-	> ***SME တို့တိုးတက်ဖို့ ပေါင်းကူးလက်တွဲကူကြစို့***
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">Daily Read Program</a>
+  </h3>
+  <p class="project-desc">Daily Clubhouse discussions on ML, AI, finance, and economics for the Burmese community. 30–60 listeners per session; podcasts on <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a>.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-community">Community</span>
+    <span class="project-tag tag-ml">AI/ML</span>
+    <span class="project-tag tag-fintech">Finance</span>
+  </div>
+</div>
 
+<span class="project-year-label">2020</span>
 
-## 2019
-* <strong><a href ="https://www.alexsnowschool.org/" target="_blank">Alex Snow School - Multiple Awards Winning Project </a>
-  <br/>
-  <a href ="https://www.freiheit.org/yangon/falling-walls-lab-myanmar-2020" target="_blank"> - Falling Wall Lab Myanmar 2020 Winner  </a>
-  <br/>
-  <a href ="https://drive.google.com/file/d/1E7oaWmE9dL6iKVsMDkV77UqsnjFA_fUY/view?usp=sharing" target="_blank"> - Gold Medal in Startup Category @ RICES MMU 2020</a>
-  </strong>
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://www.facebook.com/MSMEsBridge/" target="_blank">Bridge</a>
+  </h3>
+  <p class="project-desc">SME support platform for Myanmar — simplifying business registration, integrating digital wallets (WaveMoney, KBZPay), and building a knowledge hub for digital-literate youth to help local entrepreneurs.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-social">Social Impact</span>
+    <span class="project-tag tag-fintech">FinTech</span>
+    <span class="project-tag tag-community">Myanmar</span>
+  </div>
+</div>
 
-	Getting decent employment in STEM fields is still very difficult for fresh graduates from rural technical universities and even from some of the famous public technological  universities in Myanmar even though the private sectors are in need of manpower resources  for the technological know-how for digital transformation.
+<span class="project-year-label">2019</span>
 
-	The two main reasons why technological university fresh graduates in Myanmar find it difficult to get a decent job are are due to- 
-	* a need for quality education especially in rural technical universities, and
-	* the lack of experiences and required up-to-date technological  skill-sets.
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://www.alexsnowschool.org/" target="_blank">Alex Snow School</a>
+  </h3>
+  <p class="project-desc">Peer-to-peer learning initiative for Myanmar STEM graduates — bridging the skills gap through AI/ML projects and financial literacy programs. Winner of <a href="https://www.freiheit.org/yangon/falling-walls-lab-myanmar-2020" target="_blank">Falling Walls Lab Myanmar 2020</a> and <a href="https://drive.google.com/file/d/1E7oaWmE9dL6iKVsMDkV77UqsnjFA_fUY/view?usp=sharing" target="_blank">Gold Medal at RICES MMU 2020</a>.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-education">Education</span>
+    <span class="project-tag tag-ml">AI/ML</span>
+    <span class="project-tag tag-community">Myanmar</span>
+    <span class="project-tag tag-award">Multi-Award Winner</span>
+  </div>
+</div>
 
-	The project  plans to tickle the skills-gap for fresh STEM graduates with long term and impact-based solutions utilizing **peer-to-peer community learning approaches by learning and doing projects to develop technical skill-sets while solving social problems.**
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://www.facebook.com/kayinmoneytransfercommunity/" target="_blank">Kayin Money Transfer Community</a>
+  </h3>
+  <p class="project-desc">Community-run money transfer platform serving Kayin State, Myanmar — providing in-village delivery to areas with no existing financial services.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-fintech">FinTech</span>
+    <span class="project-tag tag-community">Community</span>
+  </div>
+</div>
 
-	The project also plans to tickle **the lack of financial literacy among millennials and young professionals to enhance their awareness on personal finance as well as early investment for the future.**
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://www.facebook.com/fyby2019" target="_blank">For Youth, By Youth (FYBY)</a>
+  </h3>
+  <p class="project-desc">Peer knowledge-sharing platform for Myanmar youth — articles, life challenges, and community growth, written and run by young people.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-social">Youth</span>
+    <span class="project-tag tag-community">Community</span>
+  </div>
+</div>
 
-	အခုခေတ်မှာ မိမိတို့လို့ ကျောင်းပြီးပြီးချင်း လူငယ်တွေ အလုပ်အကိုင် ရှာဖွေတဲ့အခါ မြန်မာနိုင်ငံမှာ လူငယ်များအတွက် အလုပ်အကိုင်အခွင့်အလမ် အရမ်းနည်းပါးနေပါတာကို သတိပြုမိပါတယ်။
+<span class="project-year-label">2018</span>
 
-	ဒါအပြင့် မိမိတို့ လူငယ်တွေ ဘက်က ကြည့်မယ်ဆိုရင်လည် ကျောင်းတက်နေစဉ်အတောအတွင်း မိမိတို့ လုပ်ချင်တဲ့ အလုပ်ကို လျှောက်ဖို့ရာ လိုအပ်လာမယ့် skill-sets တွေကို လေ့လာလိုက်စားမှုတွေ လူငယ်တွေမှာ အရမ်းနည်းနေသေးတာကို သတိပြုမိပါတယ်။ 
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://github.com/alexsnow348/investment-for-all" target="_blank">Investment for All</a>
+  </h3>
+  <p class="project-desc">Exploring market participation for immigrants and undocumented workers who lack access to conventional financial systems.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-fintech">FinTech</span>
+    <span class="project-tag tag-social">Social Impact</span>
+  </div>
+</div>
 
-	အဲဒါတွေသာမက အလုပ်လုပ်နေပြီဆိုပါကလဲ မိမိတို့ ရတဲ့ လစာလေးကို နည်းနည်းစီ စုထားပြီး ပြန်လည် တိုးပွားအောင် လုပ်နိုင်ဖို့ရာ လုပ်ရမဲ့ နည်းလမ်းတွေကို ရှာဖွေရတာ အရမ်းခက်ပါတယ်။
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://github.com/alexsnow348/FX-Key-Eco-Event" target="_blank">Forex Economic Events Notifier</a>
+  </h3>
+  <p class="project-desc">Notification engine that alerts traders 3 minutes before key economic announcements — helping time entries and exits around market-moving events.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-fintech">Trading</span>
+    <span class="project-tag tag-ml">Automation</span>
+  </div>
+</div>
 
-	အထူးသဖြင့် မြန်မာနိုင်ငံမှာဆိုရင် ကိုယ့်ကို လိမ်သွားမယ့် စီးပွားရေးလုပ်ငန်းတွေက ခပ်များများရယ်ပါ။ ဘယ် စီးပွားရေးကို မိမိတို့ ရင်နှီးမြှပ်နှံ့ သင့်လဲ လို့ ဆုံဖြတ်နိုင်ဖို့ ကြပြန်တော့လဲ လိုအပ်တဲ့ စီးပွားရေး အသိပညာတွေ မိမိ တို့ လူငယ်တွေစီ မှာ အရမ်းနည်းပါးနေပါတယ်။
+<span class="project-year-label">2017</span>
 
-	အဲဒါကြောင့် မို့လို့ ဒီ page လေးက လူငယ်တွေ - 
-	* အခုလောလောဆယ် ခေတ်စားနေတဲ့ နည်းပညာအသစ်တွေကို လေ့လာနိုင်ရေး၊
-	* စီးပွားရေးနဲ့ ဆိုင်တဲ့ အသိပညာ တိုးပွားလာရေး၊
-	
-	စသည်တို့ဖြင့် မိမိတို့ လူငယ်များ မိမိတို့ အနာဂတ်အတွက် ပိုမို ကောင်းမွန်လာရန် လူငယ်များ ကိုယ်တိုင် ကြိုးစားရာမှာ အထောက်အကူ တစ်ခုအဖြင့် တည်ထောင်းလိုက်ခြင်းဖြစ်ပါတယ်။
-
-	> ***တစ်ရက်နည်းနည်းစီ တဖြည်းဖြည်း အတူတူလေ့လာကြစို့။*** 
-
-* <strong><a href ="https://www.facebook.com/kayinmoneytransfercommunity/" target="_blank">ကရင်ပြည်နယ် ငွေလွှဲရွာ -  Kayin Money Transfer Community</a></strong>
-
-	This is the platform **for the community by the community** where participants can easily transfer money to loved ones in Kayin State, Myanmar whereby the platform provides in-village delivery services especially for the places where no one is willing to serve.
-
-	မြန်မာနိုင်ငံ ကရင်ပြည်နယ် လှိုင်ဘွဲ မြို့ မှာ ရှိတဲ့ ဆင်းကူး၊ နို့ထဘောင်၊ ကျောက်တောင် ကျေးရွာ တာပေါင်ကျေးနယ် အုပ်စု များ သို့ ယုံကြည် စိတ်ချ စွာ တိုက်ရိုက် ငွေလွှဲ နိုင်ကြပါပြီ။
-
-
-
-* <strong><a href ="https://www.facebook.com/fyby2019" target="_blank">For Youth, By Youth - FYBY</a></strong>
-
-	A place for sharing experiences as a youth.<br />
-	A place for reading useful knowledge.<br />
-	A place for sharing life challenges.<br />
-	A place for helping each other to grow.<br />
-	This is what  For Youth, By Youth - FYBY is intended for.<br />
-
-	မြန်မာလူငယ်များ အသိပညာ တိုးပွားလာရန်၊<br />
-	တန်းဖိုးရှိ၊ ဘဝ ခွန်းအားပေး စာပေးများ ဖတ်ခြင်း အစပျို့ပေးနိုင်ရန်၊<br />
-	လူငယ်များ ကြုံတွေ့ ရင်ဆိုင်ရမည့် အခက်အခဲ့များအား အတူတကွ ရင်ဖွင့် တိုင်းပင် အကူးအညီးပေးနိုင်ရန်၊<br />
-	လူငယ်များ ဘဝ တိုးတက်ရေးလုပ်ဆောင်ရာဝယ် အထောက်အကူ တစ်ခု ဖြစ်စေရန်<br />
-	စသော ဦးတည်ချက်များဖြင့် For Youth, By Youth - FYBY အား တည်ထောင်းလိုက်ပါတယ်။<br />
-
-
-
-## 2018
-* <strong><a href ="https://github.com/alexsnow348/investment-for-all" target="_blank">Investment for all (immigrants and illegal workers)</a></strong>
-
-	The project aims to solve the problem where minorities: immigrants and illegal workers do not have enough privilege to participate in the market. Can we make a room for them where they can invest and grow their savings for themselves? This project plans to tickle the above question and hopefully will come out with a solution for their problem. 
-
-	မလေးရှားမှာ ရောက်ရှိနေတဲ့ မြန်မာ အလုပ်သမားများရဲ့ ဘဝ တိုးတက်ရေးအတွက် သူတို့ရဲ့ တစ််နေတာ လုပ်အားခများအား  ပြန်လည် ရင်နှီးမြှပ်နှံ့မှု လုပ်ဆောင်နိုင်မည့် နေရာတစ်ခု တည်ထောင်ရန်အတွက် ဦးတည်ပြီး ဒီပရောဂျက် ကို စတင်လိုက်ပါသည်။
-
-
-* <strong><a href ="https://github.com/alexsnow348/FX-Key-Eco-Event" target="_blank">Forex key economic events notification</a></strong>
-
-	A notification engine for alerting key economic events for the trading purposes. The engine sends out the notification 3 mins ahead to the registered phone to alert the user that there are key economic announcements that are going to be made soon. The information can be utilized to strategize for trading purposes. 
-
-
-## 2017
-* <strong><a href="https://wuthmone.shinyapps.io/ann_predictor_app/" target="_blank">Currency Exchange Rate Predictor</a></strong>
-
-	The project aims to forecast next day exchange rate value based on previous exchange rates data sets and built using <strong>R, and R Shiny.</strong> Models are constructed with Artificial Neural Networks techniques (ANN) such as <strong>MLP, RNN, RBF.</strong> Code implementation is available for both <strong> <a href="https://github.com/alexsnow348/Exchange-Rate-Forecasting-Using-Ensemble-ANN-Models" target="_blank">Models</a> </strong>  and  <strong><a href="https://github.com/alexsnow348/Exchange-Rate-Predictor-Web-App" target="_blank">Web App </a></strong> on GitHub.
+<div class="project-item">
+  <h3 class="project-title">
+    <a href="https://wuthmone.shinyapps.io/ann_predictor_app/" target="_blank">Currency Exchange Rate Predictor</a>
+  </h3>
+  <p class="project-desc">Next-day FX rate forecasting using ensemble ANN models (MLP, RNN, RBF) built in R, deployed as an interactive R Shiny web app. Code: <a href="https://github.com/alexsnow348/Exchange-Rate-Forecasting-Using-Ensemble-ANN-Models" target="_blank">models</a> · <a href="https://github.com/alexsnow348/Exchange-Rate-Predictor-Web-App" target="_blank">web app</a>.</p>
+  <div class="project-tags">
+    <span class="project-tag tag-ml">ML/AI</span>
+    <span class="project-tag tag-fintech">Finance</span>
+  </div>
+</div>
