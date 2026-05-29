@@ -110,7 +110,7 @@ def build_media_block(assets):
     return "\n\n".join(parts) + "\n\n" if parts else ""
 
 
-def build_front_matter(title, date, excerpt):
+def build_front_matter(title, date, slug, excerpt):
     title = title.replace('"', '\\"')
     excerpt = excerpt.replace('"', '\\"')
     return (
@@ -118,7 +118,8 @@ def build_front_matter(title, date, excerpt):
         "layout: article\n"
         f'title: "{title}"\n'
         f"date: {date}\n"
-        'categories: ["art"]\n'
+        f"permalink: /articles/{date}-{slug}/\n"
+        'categories: ["art-museum"]\n'
         "tags: []\n"
         "author: Alex Snow\n"
         f'excerpt: "{excerpt}"\n'
@@ -141,7 +142,12 @@ def main():
         if not name.endswith(".md") or name.startswith("."):
             continue
         if name in existing:
-            continue
+            # Re-process if the post was written with the old category
+            out_path = os.path.join(POSTS_DIR, name)
+            with open(out_path, encoding="utf-8") as fh:
+                old = fh.read()
+            if 'categories: ["art-museum"]' in old:
+                continue
 
         req = urllib.request.Request(
             safe_url(f["download_url"]), headers={"User-Agent": "sync-script"}
@@ -167,7 +173,7 @@ def main():
 
         assets = find_media(release_index, date, slug)
         media = build_media_block(assets)
-        front_matter = build_front_matter(title, date, excerpt)
+        front_matter = build_front_matter(title, date, slug, excerpt)
 
         out_path = os.path.join(POSTS_DIR, name)
         with open(out_path, "w", encoding="utf-8") as fh:

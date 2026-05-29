@@ -2,7 +2,7 @@
 layout: article
 title: "Chagall's lovers defy estimates in Christie's surprise"
 date: 2026-05-24
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?*"

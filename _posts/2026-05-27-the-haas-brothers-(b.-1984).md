@@ -2,7 +2,7 @@
 layout: article
 title: "Haas Brothers' roosters crow at Christie's: a 656% surprise"
 date: 2026-05-27
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*When a cheeky sculpture wildly outperforms estimates, what does it reveal about collector appetite for irreverent contemporary art?*"

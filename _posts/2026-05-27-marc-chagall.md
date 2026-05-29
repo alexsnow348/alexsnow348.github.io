@@ -2,7 +2,7 @@
 layout: article
 title: "Chagall's lovers defy estimate by over 750 percent"
 date: 2026-05-27
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?*"

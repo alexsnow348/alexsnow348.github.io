@@ -2,7 +2,7 @@
 layout: article
 title: "Blanche Hoschedé-Monet's Seine painting shatters estimates"
 date: 2026-05-29
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*A 593% price surge raises questions about overlooked Impressionist women and whether the market is finally catching up.*"

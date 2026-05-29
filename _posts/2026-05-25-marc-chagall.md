@@ -2,7 +2,7 @@
 layout: article
 title: "Chagall's modest still life explodes at auction"
 date: 2026-05-25
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*When a $12,000 estimate becomes $104,000, what's really driving the bidding — scarcity, sentiment, or something else entirely?*"

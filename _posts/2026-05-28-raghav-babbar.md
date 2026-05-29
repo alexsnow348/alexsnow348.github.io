@@ -2,7 +2,7 @@
 layout: article
 title: "Raghav Babbar's \"Listener\" shatters estimates at Sotheby's"
 date: 2026-05-28
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike.*"

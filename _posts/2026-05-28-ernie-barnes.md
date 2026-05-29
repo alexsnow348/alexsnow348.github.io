@@ -2,7 +2,7 @@
 layout: article
 title: "Ernie Barnes' \"At Last\" shatters estimates at Christie's"
 date: 2026-05-28
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*A 745% price surge raises questions about undervaluation, Black artist market momentum, and collector appetite for figurative work.*"

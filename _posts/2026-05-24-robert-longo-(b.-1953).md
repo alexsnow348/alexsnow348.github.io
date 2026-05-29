@@ -2,7 +2,7 @@
 layout: article
 title: "Robert Longo's \"Study of Eric\" shatters estimates at Christie's"
 date: 2026-05-24
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*A modest drawing explodes to $441K—what's driving collectors' appetite for Longo's figurative work right now?*"

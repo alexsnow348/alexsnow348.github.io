@@ -2,7 +2,7 @@
 layout: article
 title: "Piero Dorazio's untitled work shatters estimates at Christie's"
 date: 2026-05-27
-categories: ["art"]
+categories: ["art-museum"]
 tags: []
 author: Alex Snow
 excerpt: "*When a $1,500 estimate becomes an $8,190 sale, what does the market know that we don't?*"
