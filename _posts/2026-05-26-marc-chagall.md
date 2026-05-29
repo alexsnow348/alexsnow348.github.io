@@ -2,11 +2,13 @@
 layout: article
 title: "Chagall's modest still life shatters estimates by 1,200%"
 date: 2026-05-26
+permalink: /articles/2026-05-26-marc-chagall/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: Alex Snow
-excerpt: "*When a $12,000 estimate becomes a six-figure sale, what's really driving demand for this undervalued master?*"
+author: @thehammerprice
+excerpt: "When a $12,000 estimate becomes a six-figure sale, what's really driving demand for this undervalued master?"
 ---
+
 
 *When a $12,000 estimate becomes a six-figure sale, what's really driving demand for this undervalued master?*
 

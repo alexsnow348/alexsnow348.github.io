@@ -2,11 +2,13 @@
 layout: article
 title: "Piero Dorazio's surprise surge: when estimates miss the mark"
 date: 2026-05-24
+permalink: /articles/2026-05-24-piero-dorazio/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: Alex Snow
-excerpt: "*A modest abstract painting vastly outperformed expectations at Christie's. What's driving renewed interest in this Italian colorist?*"
+author: @thehammerprice
+excerpt: "A modest abstract painting vastly outperformed expectations at Christie's. What's driving renewed interest in this Italian colorist?"
 ---
+
 
 *A modest abstract painting vastly outperformed expectations at Christie's. What's driving renewed interest in this Italian colorist?*
 

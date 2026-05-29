@@ -2,13 +2,12 @@
 layout: article
 title: "Raghav Babbar's \"Listener\" shatters estimates at Sotheby's"
 date: 2026-05-28
+permalink: /articles/2026-05-28-raghav-babbar/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: Alex Snow
-excerpt: "*A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike.*"
+author: @thehammerprice
+excerpt: "A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike."
 ---
-
-![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/src_01.jpg)
 
 
 *A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike.*
@@ -32,6 +31,13 @@ The result suggests that Babbar's market is consolidating around fewer, higher-c
 
 ---
 
+![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/src_01.jpg)
+
+<video controls style="width:100%;max-width:720px">
+  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/reel.mp4" type="video/mp4">
+</video>
+
+
 ## The Work
 
 "Listener 聆聽者" represents a signature moment in Babbar's practice—a bilingual title that itself performs the artist's recurring investigation into how meaning migrates across languages and cultural registers. The work's medium and scale remain undisclosed in the sale catalogue, a lacuna that itself speaks to the opaque conditions surrounding emerging market breakouts at this price point. What we can infer from the hammer result is that the room recognized something beyond the artist's established oeuvre: either a conceptual refinement of his known concerns, or a decisive formal departure that signaled maturation.
@@ -41,10 +47,6 @@ The title's duality—English alongside Traditional Chinese characters—suggest
 The 750% jump above low estimate indicates not a typical collector skirmish but rather a decisive moment of market consensus: the room collectively identified this as the work that would define Babbar's market position going forward.
 
 ---
-
-<video controls style="width:100%;max-width:720px">
-  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/reel.mp4" type="video/mp4">
-</video>
 
 ## The Artist
 
