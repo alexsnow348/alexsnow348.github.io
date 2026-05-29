@@ -188,11 +188,12 @@ def md_to_tiptap(text):
 
 def post_to_substack(title, subtitle, content, token, publication):
     """Create a draft post on Substack. Returns True on success."""
-    url = f"https://{publication}.substack.com/api/v1/posts"
+    url = f"https://{publication}.substack.com/api/v1/drafts"
     payload = json.dumps({
         "draft_title": title,
         "draft_subtitle": subtitle,
         "draft_body": md_to_tiptap(content),
+        "draft_bylines": [],
         "type": "newsletter",
         "draft_section_id": None,
     }).encode()
