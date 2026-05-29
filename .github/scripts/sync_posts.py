@@ -2,15 +2,14 @@
 """
 Fetches markdown posts from the source repo's output/substack directory,
 matches each post to a GitHub Release (by date + artist name), injects
-Jekyll front matter, embeds the release video/image, writes the result
-to the local _posts directory, and creates a Substack draft for new posts.
+Jekyll front matter, embeds the release video/image, and writes the result
+to the local _posts directory.
 """
 
 import json
 import os
 import re
 import unicodedata
-import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -125,10 +124,9 @@ def insert_media_mid_content(content, media_block):
     return "\n".join(lines)
 
 
-def build_front_matter(title, date, slug, excerpt, substack_posted=False):
+def build_front_matter(title, date, slug, excerpt):
     title = title.replace('"', '\\"')
     excerpt = excerpt.replace('"', '\\"')
-    posted_line = "substack_posted: true\n" if substack_posted else ""
     return (
         "---\n"
         "layout: article\n"
@@ -139,95 +137,11 @@ def build_front_matter(title, date, slug, excerpt, substack_posted=False):
         'tags: ["Art Auction", "Collectors"]\n'
         "author: @thehammerprice\n"
         f'excerpt: "{excerpt}"\n'
-        f"{posted_line}"
         "---\n\n"
     )
 
 
-# ---------------------------------------------------------------------------
-# Substack
-# ---------------------------------------------------------------------------
-
-def md_to_tiptap(text):
-    """Convert markdown to Substack's TipTap JSON format (draft body)."""
-    nodes = []
-    blocks = [b.strip() for b in re.split(r"\n\n+", text.strip()) if b.strip()]
-
-    for block in blocks:
-        # Skip raw HTML blocks (video/img tags)
-        if block.lstrip().startswith("<"):
-            continue
-
-        # Headings
-        m = re.match(r"^(#{1,3})\s+(.+)$", block)
-        if m:
-            nodes.append({
-                "type": "heading",
-                "attrs": {"level": len(m.group(1))},
-                "content": [{"type": "text", "text": m.group(2).strip()}],
-            })
-            continue
-
-        # Horizontal rule
-        if re.match(r"^-{3,}$", block):
-            nodes.append({"type": "horizontalRule"})
-            continue
-
-        # Paragraph — strip inline markdown symbols
-        clean = re.sub(r"\*\*(.+?)\*\*", r"\1", block)
-        clean = re.sub(r"\*(.+?)\*", r"\1", clean)
-        clean = re.sub(r"`(.+?)`", r"\1", clean)
-        clean = re.sub(r"\[(.+?)\]\(.+?\)", r"\1", clean)
-        clean = clean.replace("\n", " ").strip()
-        if clean:
-            nodes.append({
-                "type": "paragraph",
-                "content": [{"type": "text", "text": clean}],
-            })
-
-    return json.dumps({"type": "doc", "content": nodes})
-
-
-def post_to_substack(title, subtitle, content, token, publication):
-    """Create a draft post on Substack. Returns True on success."""
-    try:
-        import cloudscraper
-        session = cloudscraper.create_scraper()
-    except ImportError:
-        print("  cloudscraper not installed — skipping Substack post.")
-        return False
-
-    url = f"https://{publication}.substack.com/api/v1/drafts"
-    session.cookies.set("substack.sid", token, domain=f"{publication}.substack.com")
-
-    resp = session.post(url, json={
-        "draft_title": title,
-        "draft_subtitle": subtitle,
-        "draft_body": md_to_tiptap(content),
-        "draft_bylines": [],
-        "type": "newsletter",
-        "draft_section_id": None,
-    })
-
-    if resp.status_code in (200, 201):
-        post_id = resp.json().get("id")
-        print(f"  Substack draft created (id={post_id}) — {title}")
-        return True
-
-    print(f"  Substack error {resp.status_code}: {resp.text[:200]}")
-    if resp.status_code in (401, 403):
-        print("  Token may have expired — update the SUBSTACK_TOKEN secret.")
-    return False
-
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
-
 def main():
-    substack_token = os.environ.get("SUBSTACK_TOKEN", "").strip()
-    substack_pub   = os.environ.get("SUBSTACK_PUBLICATION", "").strip()
-
     release_index = build_release_index()
     print(f"Loaded {len(release_index)} releases from source repo.")
 
@@ -252,7 +166,6 @@ def main():
                 'categories: ["art-museum"]' in old
                 and 'tags: ["Art Auction"' in old
                 and 'permalink: /articles/' in old
-                and 'substack_posted: true' in old
             ):
                 continue
 
@@ -281,24 +194,16 @@ def main():
         lines = [l.strip() for l in content.splitlines() if l.strip() and not l.startswith("#")]
         excerpt = re.sub(r"[*_`]", "", lines[0][:200]) if lines else ""
 
-        assets       = find_media(release_index, date, slug)
-        media        = build_media_block(assets)
-        body         = insert_media_mid_content(content, media)
-
-        # Post to Substack for new posts or posts not yet sent
-        substack_ok = False
-        if substack_token and substack_pub:
-            substack_ok = post_to_substack(title, excerpt, content, substack_token, substack_pub)
-
-        front_matter = build_front_matter(title, date, slug, excerpt, substack_posted=substack_ok)
+        assets = find_media(release_index, date, slug)
+        media  = build_media_block(assets)
+        body   = insert_media_mid_content(content, media)
 
         out_path = os.path.join(POSTS_DIR, name)
         with open(out_path, "w", encoding="utf-8") as fh:
-            fh.write(front_matter + body)
+            fh.write(build_front_matter(title, date, slug, excerpt) + body)
 
         label = "with media" if media else "no media"
         print(f"{'New' if is_new else 'Updated'}: {name} ({label})")
-
         new_count += 1
 
     print(f"Done. {new_count} post(s) processed.")
