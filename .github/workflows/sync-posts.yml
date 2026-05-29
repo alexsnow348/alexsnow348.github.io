@@ -18,14 +18,21 @@ jobs:
       - name: Fetch and write new posts
         run: |
           python3 - <<'EOF'
-          import os, json, re, unicodedata, urllib.request
+          import os, json, re, unicodedata, urllib.request, urllib.parse
 
           SOURCE_REPO = "alexsnowschool-business/alexsnowschool-business.github.io"
           SOURCE_PATH = "output/substack"
           POSTS_DIR   = "_posts"
 
+          def safe_url(url):
+              """Percent-encode non-ASCII characters in the URL path."""
+              p = urllib.parse.urlparse(url)
+              return urllib.parse.urlunparse(
+                  p._replace(path=urllib.parse.quote(p.path, safe="/:@!$&'()*+,;="))
+              )
+
           def fetch_json(url):
-              req = urllib.request.Request(url, headers={"User-Agent": "sync-script"})
+              req = urllib.request.Request(safe_url(url), headers={"User-Agent": "sync-script"})
               with urllib.request.urlopen(req) as r:
                   return json.loads(r.read())
 
