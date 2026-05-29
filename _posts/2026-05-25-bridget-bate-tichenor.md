@@ -2,11 +2,13 @@
 layout: article
 title: "Bridget Bate Tichenor's untitled work shatters estimates at Sotheby's"
 date: 2026-05-25
+permalink: /articles/2026-05-25-bridget-bate-tichenor/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: Alex Snow
-excerpt: "*A 733% spike raises questions about rediscovery, Latin American art market momentum, and who's driving demand for this overlooked modernist.*"
+author: @thehammerprice
+excerpt: "A 733% spike raises questions about rediscovery, Latin American art market momentum, and who's driving demand for this overlooked modernist."
 ---
+
 
 *A 733% spike raises questions about rediscovery, Latin American art market momentum, and who's driving demand for this overlooked modernist.*
 
