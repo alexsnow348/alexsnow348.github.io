@@ -2,11 +2,13 @@
 layout: article
 title: "Chagall's lovers defy estimates in Christie's surprise"
 date: 2026-05-24
+permalink: /articles/2026-05-24-marc-chagall/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: Alex Snow
-excerpt: "*When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?*"
+author: @thehammerprice
+excerpt: "When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?"
 ---
+
 
 *When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?*
 

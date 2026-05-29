@@ -2,11 +2,13 @@
 layout: article
 title: "Chagall's lovers defy estimate by over 750 percent"
 date: 2026-05-27
+permalink: /articles/2026-05-27-marc-chagall/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: Alex Snow
-excerpt: "*When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?*"
+author: @thehammerprice
+excerpt: "When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?"
 ---
+
 
 *When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?*
 
