@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a modest estimate becomes wildly wrong, what does it reveal about market appetite for Art Brut's most provocative voices?*"
 ---
 
-# Dubuffet's "Robinet" smashes estimates with 800% surge
-
 *When a modest estimate becomes wildly wrong, what does it reveal about market appetite for Art Brut's most provocative voices?*
 
 ---

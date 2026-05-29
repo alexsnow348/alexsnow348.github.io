@@ -162,7 +162,11 @@ def main():
             out_path = os.path.join(POSTS_DIR, name)
             with open(out_path, encoding="utf-8") as fh:
                 old = fh.read()
-            if 'categories: ["art-museum"]' in old and 'tags: ["Art auction"' in old:
+            if (
+                'categories: ["art-museum"]' in old
+                and 'tags: ["Art Auction"' in old
+                and not re.search(r"^# ", old, re.MULTILINE)
+            ):
                 continue
 
         req = urllib.request.Request(
@@ -183,9 +187,12 @@ def main():
         else:
             title = re.sub(r"\(.*?\)", "", slug).replace("-", " ").strip().title()
 
-        # Excerpt: first non-heading, non-empty line
+        # Remove the first H1 line — redundant with front matter title
+        content = re.sub(r"^# .+\n?", "", content, count=1, flags=re.MULTILINE)
+
+        # Excerpt: first non-heading, non-empty line — strip markdown symbols for plain YAML
         lines = [l.strip() for l in content.splitlines() if l.strip() and not l.startswith("#")]
-        excerpt = lines[0][:200] if lines else ""
+        excerpt = re.sub(r"[*_`]", "", lines[0][:200]) if lines else ""
 
         assets = find_media(release_index, date, slug)
         media = build_media_block(assets)

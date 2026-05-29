@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?*"
 ---
 
-# Chagall's lovers defy estimate by over 750 percent
-
 *When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?*
 
 ---

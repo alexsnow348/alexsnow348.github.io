@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*A 733% spike raises questions about rediscovery, Latin American art market momentum, and who's driving demand for this overlooked modernist.*"
 ---
 
-# Bridget Bate Tichenor's untitled work shatters estimates at Sotheby's
-
 *A 733% spike raises questions about rediscovery, Latin American art market momentum, and who's driving demand for this overlooked modernist.*
 
 ---

@@ -11,8 +11,6 @@ excerpt: "*A 593% price surge raises questions about overlooked Impressionist wo
 ![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-29-alltime-lot4/src_01.jpg)
 
 
-# Blanche Hoschedé-Monet's Seine painting shatters estimates
-
 *A 593% price surge raises questions about overlooked Impressionist women and whether the market is finally catching up.*
 
 ---

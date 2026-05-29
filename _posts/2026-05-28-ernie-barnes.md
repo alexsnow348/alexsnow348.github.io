@@ -8,7 +8,6 @@ author: Alex Snow
 excerpt: "*A 745% price surge raises questions about undervaluation, Black artist market momentum, and collector appetite for figurative work.*"
 ---
 
-# Ernie Barnes' "At Last" shatters estimates at Christie's
 
 *A 745% price surge raises questions about undervaluation, Black artist market momentum, and collector appetite for figurative work.*
 

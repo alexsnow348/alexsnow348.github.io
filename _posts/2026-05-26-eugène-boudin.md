@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a modest $20,000–$30,000 estimate becomes a quarter-million-dollar result, what's really driving collector demand for this Impressionist master?*"
 ---
 
-# Boudin's sky study shatters estimates at Christie's
-
 *When a modest $20,000–$30,000 estimate becomes a quarter-million-dollar result, what's really driving collector demand for this Impressionist master?*
 
 ---

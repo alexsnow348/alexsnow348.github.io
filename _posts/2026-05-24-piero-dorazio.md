@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*A modest abstract painting vastly outperformed expectations at Christie's. What's driving renewed interest in this Italian colorist?*"
 ---
 
-# Piero Dorazio's surprise surge: when estimates miss the mark
-
 *A modest abstract painting vastly outperformed expectations at Christie's. What's driving renewed interest in this Italian colorist?*
 
 ---

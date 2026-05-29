@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*A modest drawing explodes to $441K—what's driving collectors' appetite for Longo's figurative work right now?*"
 ---
 
-# Robert Longo's "Study of Eric" shatters estimates at Christie's
-
 *A modest drawing explodes to $441K—what's driving collectors' appetite for Longo's figurative work right now?*
 
 ---

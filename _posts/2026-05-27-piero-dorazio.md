@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a $1,500 estimate becomes an $8,190 sale, what does the market know that we don't?*"
 ---
 
-# Piero Dorazio's untitled work shatters estimates at Christie's
-
 *When a $1,500 estimate becomes an $8,190 sale, what does the market know that we don't?*
 
 ---

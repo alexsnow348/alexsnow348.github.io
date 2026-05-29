@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a work sells just above reserve, what does that signal about demand for scientific Warhol in today's market?*"
 ---
 
-# Warhol's physiological diagram barely budges off low estimate
-
 *When a work sells just above reserve, what does that signal about demand for scientific Warhol in today's market?*
 
 ---

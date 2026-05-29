@@ -11,9 +11,6 @@ excerpt: "*A 750% surge raises questions about speculative demand, artist moment
 ![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/src_01.jpg)
 
 
-
-# Raghav Babbar's "Listener" shatters estimates at Sotheby's
-
 *A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike.*
 
 ---

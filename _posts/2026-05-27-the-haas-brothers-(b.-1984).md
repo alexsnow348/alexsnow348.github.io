@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a cheeky sculpture wildly outperforms estimates, what does it reveal about collector appetite for irreverent contemporary art?*"
 ---
 
-# Haas Brothers' roosters crow at Christie's: a 656% surprise
-
 *When a cheeky sculpture wildly outperforms estimates, what does it reveal about collector appetite for irreverent contemporary art?*
 
 ---

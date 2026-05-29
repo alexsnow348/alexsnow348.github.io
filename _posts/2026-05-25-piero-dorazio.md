@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*How a modest estimate masked collector appetite for this Italian abstractionist's geometric compositions.*"
 ---
 
-# Piero Dorazio's untitled work shatters estimates at Christie's
-
 *How a modest estimate masked collector appetite for this Italian abstractionist's geometric compositions.*
 
 ---

@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a $40K estimate explodes to $403K, we need to ask: is this a market correction or a speculative bubble?*"
 ---
 
-# Jenna Gribbon's surprise surge: what $403K tells us
-
 *When a $40K estimate explodes to $403K, we need to ask: is this a market correction or a speculative bubble?*
 
 ---

@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a $12,000 estimate becomes a six-figure sale, what's really driving demand for this undervalued master?*"
 ---
 
-# Chagall's modest still life shatters estimates by 1,200%
-
 *When a $12,000 estimate becomes a six-figure sale, what's really driving demand for this undervalued master?*
 
 ---

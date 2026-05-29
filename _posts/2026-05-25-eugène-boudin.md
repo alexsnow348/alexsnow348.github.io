@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a modest Impressionist sketch clears $256,000, it raises a pointed question about how the market values intimacy over ambition.*"
 ---
 
-# Boudin's sky study sold for twelve times its estimate
-
 *When a modest Impressionist sketch clears $256,000, it raises a pointed question about how the market values intimacy over ambition.*
 
 ---

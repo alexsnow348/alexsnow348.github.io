@@ -8,8 +8,6 @@ author: Alex Snow
 excerpt: "*When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?*"
 ---
 
-# Chagall's lovers defy estimates in Christie's surprise
-
 *When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?*
 
 ---

@@ -118,7 +118,7 @@ description: "Practical perspectives on how generative AI is reshaping museums, 
     <div class="article-content">
       <a class="article-title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% if post.excerpt %}
-      <p class="article-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <p class="article-excerpt">{{ post.excerpt | markdownify | strip_html | truncatewords: 30 }}</p>
       {% endif %}
       <div class="article-meta-row">
         {% if post.tags %}
