@@ -1,0 +1,175 @@
+name: Sync posts from source repo
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch and write new posts
+        run: |
+          python3 - <<'EOF'
+          import os, json, re, unicodedata, urllib.request
+
+          SOURCE_REPO = "alexsnowschool-business/alexsnowschool-business.github.io"
+          SOURCE_PATH = "output/substack"
+          POSTS_DIR   = "_posts"
+
+          def fetch_json(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "sync-script"})
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          def normalize(s):
+              """Lowercase ASCII, strip accents and non-alphanumeric chars."""
+              s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+              return re.sub(r"[^a-z0-9]", "", s.lower())
+
+          # --- Build release index keyed by (tag_date, normalized_artist) ---
+          # Release names follow: "Artist — Painting Title — YYYY-MM-DD"
+          # Tag names follow:     "reel-weekly-YYYY-MM-DD-*"
+          releases = {}
+          page = 1
+          while True:
+              batch = fetch_json(
+                  f"https://api.github.com/repos/{SOURCE_REPO}/releases"
+                  f"?per_page=100&page={page}"
+              )
+              if not batch:
+                  break
+              for rel in batch:
+                  tag = rel.get("tag_name", "")
+                  date_m = re.search(r"\d{4}-\d{2}-\d{2}", tag)
+                  if not date_m:
+                      continue
+                  tag_date = date_m.group(0)
+
+                  rel_name = rel.get("name", "")
+                  parts = re.split(r"\s*—\s*", rel_name)  # em dash —
+                  if not parts:
+                      continue
+                  artist_key = normalize(parts[0])
+                  if not artist_key:
+                      continue
+
+                  key = (tag_date, artist_key)
+                  if key in releases:
+                      continue  # keep newest (API returns newest-first)
+
+                  assets = {a["name"]: a["browser_download_url"]
+                            for a in rel.get("assets", [])}
+                  mp4 = assets.get("reel.mp4")
+                  jpg = assets.get("src_01.jpg")
+                  if mp4 or jpg:
+                      releases[key] = {"mp4": mp4, "jpg": jpg}
+              page += 1
+
+          def find_media(date, slug):
+              """Return media dict for a post, or None if no match found."""
+              slug_norm = normalize(slug)
+              # 1. exact (date, artist) match
+              for (rel_date, rel_artist), assets in releases.items():
+                  if rel_date == date and rel_artist == slug_norm:
+                      return assets
+              # 2. partial artist match on same date
+              for (rel_date, rel_artist), assets in releases.items():
+                  if rel_date == date and rel_artist and rel_artist in slug_norm:
+                      return assets
+              return None
+
+          def media_block(assets):
+              parts = []
+              if assets.get("jpg"):
+                  parts.append(f'![]({{assets["jpg"]}})')
+              if assets.get("mp4"):
+                  parts.append(
+                      '<video controls style="width:100%;max-width:720px">\n'
+                      f'  <source src="{assets["mp4"]}" type="video/mp4">\n'
+                      '</video>'
+                  )
+              return "\n\n".join(parts) + "\n\n" if parts else ""
+
+          # --- Fetch and process markdown posts ---
+          files    = fetch_json(
+              f"https://api.github.com/repos/{SOURCE_REPO}/contents/{SOURCE_PATH}"
+          )
+          existing  = set(os.listdir(POSTS_DIR))
+          new_count = 0
+
+          for f in files:
+              name = f["name"]
+              if not name.endswith(".md") or name.startswith("."):
+                  continue
+              if name in existing:
+                  continue
+
+              req = urllib.request.Request(
+                  f["download_url"], headers={"User-Agent": "sync-script"}
+              )
+              with urllib.request.urlopen(req) as r:
+                  content = r.read().decode("utf-8")
+
+              m = re.match(r"^(\d{4}-\d{2}-\d{2})-(.+)\.md$", name)
+              if not m:
+                  continue
+              date, slug = m.group(1), m.group(2)
+
+              # Title: first heading, else derive from slug
+              title_m = re.search(r"^#{1,3}\s+(.+)$", content, re.MULTILINE)
+              if title_m:
+                  title = title_m.group(1).strip()
+              else:
+                  title = re.sub(r"\(.*?\)", "", slug).replace("-", " ").strip().title()
+
+              # Excerpt: first non-heading, non-empty line
+              lines  = [l.strip() for l in content.splitlines()
+                        if l.strip() and not l.startswith("#")]
+              excerpt = (lines[0][:200] if lines else "").replace('"', '\\"')
+              title   = title.replace('"', '\\"')
+
+              media   = find_media(date, slug)
+              m_block = media_block(media) if media else ""
+
+              front_matter = (
+                  "---\n"
+                  "layout: article\n"
+                  f'title: "{title}"\n'
+                  f"date: {date}\n"
+                  'categories: ["art"]\n'
+                  "tags: []\n"
+                  "author: Alex Snow\n"
+                  f'excerpt: "{excerpt}"\n'
+                  "---\n\n"
+              )
+
+              out_path = os.path.join(POSTS_DIR, name)
+              with open(out_path, "w", encoding="utf-8") as fh:
+                  fh.write(front_matter + m_block + content)
+
+              label = "with media" if m_block else "no media match"
+              print(f"Created: {name} ({label})")
+              new_count += 1
+
+          print(f"Total new posts: {new_count}")
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _posts/
+          if git diff --staged --quiet; then
+            echo "No new posts to commit."
+          else
+            git commit -m "sync: import new posts from source repo"
+            git push
+          fi
