@@ -125,9 +125,10 @@ def insert_media_mid_content(content, media_block):
     return "\n".join(lines)
 
 
-def build_front_matter(title, date, slug, excerpt):
+def build_front_matter(title, date, slug, excerpt, substack_posted=False):
     title = title.replace('"', '\\"')
     excerpt = excerpt.replace('"', '\\"')
+    posted_line = "substack_posted: true\n" if substack_posted else ""
     return (
         "---\n"
         "layout: article\n"
@@ -138,6 +139,7 @@ def build_front_matter(title, date, slug, excerpt):
         'tags: ["Art Auction", "Collectors"]\n'
         "author: @thehammerprice\n"
         f'excerpt: "{excerpt}"\n'
+        f"{posted_line}"
         "---\n\n"
     )
 
@@ -249,7 +251,8 @@ def main():
             if (
                 'categories: ["art-museum"]' in old
                 and 'tags: ["Art Auction"' in old
-                and not re.search(r"^# ", old, re.MULTILINE)
+                and 'permalink: /articles/' in old
+                and 'substack_posted: true' in old
             ):
                 continue
 
@@ -278,10 +281,16 @@ def main():
         lines = [l.strip() for l in content.splitlines() if l.strip() and not l.startswith("#")]
         excerpt = re.sub(r"[*_`]", "", lines[0][:200]) if lines else ""
 
-        assets     = find_media(release_index, date, slug)
-        media      = build_media_block(assets)
-        front_matter = build_front_matter(title, date, slug, excerpt)
-        body       = insert_media_mid_content(content, media)
+        assets       = find_media(release_index, date, slug)
+        media        = build_media_block(assets)
+        body         = insert_media_mid_content(content, media)
+
+        # Post to Substack for new posts or posts not yet sent
+        substack_ok = False
+        if substack_token and substack_pub:
+            substack_ok = post_to_substack(title, excerpt, content, substack_token, substack_pub)
+
+        front_matter = build_front_matter(title, date, slug, excerpt, substack_posted=substack_ok)
 
         out_path = os.path.join(POSTS_DIR, name)
         with open(out_path, "w", encoding="utf-8") as fh:
@@ -289,10 +298,6 @@ def main():
 
         label = "with media" if media else "no media"
         print(f"{'New' if is_new else 'Updated'}: {name} ({label})")
-
-        # Post to Substack only for brand-new posts
-        if is_new and substack_token and substack_pub:
-            post_to_substack(title, excerpt, content, substack_token, substack_pub)
 
         new_count += 1
 
