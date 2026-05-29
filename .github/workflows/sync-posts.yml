@@ -18,6 +18,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Sync posts
+        env:
+          SUBSTACK_TOKEN: ${{ secrets.SUBSTACK_TOKEN }}
+          SUBSTACK_PUBLICATION: ${{ secrets.SUBSTACK_PUBLICATION }}
         run: python3 .github/scripts/sync_posts.py
 
       - name: Commit and push
