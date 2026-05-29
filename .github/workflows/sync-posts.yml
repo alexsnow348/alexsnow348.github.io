@@ -17,6 +17,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: pip install cloudscraper --quiet
+
       - name: Sync posts
         env:
           SUBSTACK_TOKEN: ${{ secrets.SUBSTACK_TOKEN }}

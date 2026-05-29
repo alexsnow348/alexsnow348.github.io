@@ -188,37 +188,34 @@ def md_to_tiptap(text):
 
 def post_to_substack(title, subtitle, content, token, publication):
     """Create a draft post on Substack. Returns True on success."""
+    try:
+        import cloudscraper
+        session = cloudscraper.create_scraper()
+    except ImportError:
+        print("  cloudscraper not installed — skipping Substack post.")
+        return False
+
     url = f"https://{publication}.substack.com/api/v1/drafts"
-    payload = json.dumps({
+    session.cookies.set("substack.sid", token, domain=f"{publication}.substack.com")
+
+    resp = session.post(url, json={
         "draft_title": title,
         "draft_subtitle": subtitle,
         "draft_body": md_to_tiptap(content),
         "draft_bylines": [],
         "type": "newsletter",
         "draft_section_id": None,
-    }).encode()
+    })
 
-    req = urllib.request.Request(
-        url,
-        data=payload,
-        headers={
-            "Cookie": f"substack.sid={token}",
-            "Content-Type": "application/json",
-            "User-Agent": "sync-script",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(req) as r:
-            data = json.loads(r.read())
-            print(f"  Substack draft created (id={data.get('id')}) — {title}")
-            return True
-    except urllib.error.HTTPError as e:
-        err = e.read().decode()[:200]
-        print(f"  Substack error {e.code}: {err}")
-        if e.code in (401, 403):
-            print("  Token may have expired — update the SUBSTACK_TOKEN secret.")
-        return False
+    if resp.status_code in (200, 201):
+        post_id = resp.json().get("id")
+        print(f"  Substack draft created (id={post_id}) — {title}")
+        return True
+
+    print(f"  Substack error {resp.status_code}: {resp.text[:200]}")
+    if resp.status_code in (401, 403):
+        print("  Token may have expired — update the SUBSTACK_TOKEN secret.")
+    return False
 
 
 # ---------------------------------------------------------------------------
