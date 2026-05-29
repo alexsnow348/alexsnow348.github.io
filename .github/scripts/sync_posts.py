@@ -136,7 +136,7 @@ def build_front_matter(title, date, slug, excerpt):
         f"permalink: /articles/{date}-{slug}/\n"
         'categories: ["art-museum"]\n'
         'tags: ["Art Auction", "Collectors"]\n'
-        "author: Alex Snow\n"
+        "author: @thehammerprice\n"
         f'excerpt: "{excerpt}"\n'
         "---\n\n"
     )
