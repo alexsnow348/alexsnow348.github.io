@@ -5,7 +5,7 @@ date: 2026-05-24
 permalink: /articles/2026-05-24-marc-chagall/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a modest painting rockets 750% past expectations, what does it reveal about Chagall's enduring appeal to collectors?"
 ---
 

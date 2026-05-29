@@ -5,7 +5,7 @@ date: 2026-05-27
 permalink: /articles/2026-05-27-the-haas-brothers-(b.-1984)/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a cheeky sculpture wildly outperforms estimates, what does it reveal about collector appetite for irreverent contemporary art?"
 ---
 

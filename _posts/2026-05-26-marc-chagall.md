@@ -5,7 +5,7 @@ date: 2026-05-26
 permalink: /articles/2026-05-26-marc-chagall/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a $12,000 estimate becomes a six-figure sale, what's really driving demand for this undervalued master?"
 ---
 

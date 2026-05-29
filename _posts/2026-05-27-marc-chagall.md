@@ -5,7 +5,7 @@ date: 2026-05-27
 permalink: /articles/2026-05-27-marc-chagall/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a modest estimate crumbles, what does it reveal about Chagall's enduring appeal to collectors?"
 ---
 

@@ -5,7 +5,7 @@ date: 2026-05-28
 permalink: /articles/2026-05-28-raghav-babbar/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike."
 ---
 

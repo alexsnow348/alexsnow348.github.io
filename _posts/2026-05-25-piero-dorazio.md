@@ -5,7 +5,7 @@ date: 2026-05-25
 permalink: /articles/2026-05-25-piero-dorazio/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "How a modest estimate masked collector appetite for this Italian abstractionist's geometric compositions."
 ---
 

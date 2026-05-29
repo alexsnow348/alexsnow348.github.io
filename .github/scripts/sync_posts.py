@@ -92,25 +92,27 @@ def find_media(release_index, date, slug):
     return None
 
 
-def build_media_block(assets):
-    """Return markdown/HTML string for image + video, or empty string."""
-    if not assets:
-        return ""
-    parts = []
-    if assets.get("jpg"):
-        parts.append(f'![]({assets["jpg"]})')
-    if assets.get("mp4"):
-        parts.append(
+def build_image_block(assets):
+    """Return markdown string for the image only, or empty string."""
+    if assets and assets.get("jpg"):
+        return f'![]({assets["jpg"]})\n\n'
+    return ""
+
+
+def build_video_block(assets):
+    """Return HTML string for the video only, or empty string."""
+    if assets and assets.get("mp4"):
+        return (
             '<video controls style="width:100%;max-width:720px">\n'
             f'  <source src="{assets["mp4"]}" type="video/mp4">\n'
-            "</video>"
+            "</video>\n\n"
         )
-    return "\n\n".join(parts) + "\n\n" if parts else ""
+    return ""
 
 
-def insert_media_mid_content(content, media_block):
-    """Splice media block before the second ## heading; fall back to midpoint."""
-    if not media_block:
+def insert_video_mid_content(content, video_block):
+    """Splice video block before the second ## heading; fall back to midpoint."""
+    if not video_block:
         return content
     lines = content.split("\n")
     h2_indices = [i for i, l in enumerate(lines) if re.match(r"^## ", l)]
@@ -120,7 +122,7 @@ def insert_media_mid_content(content, media_block):
         insert_at = h2_indices[0]
     else:
         insert_at = len(lines) // 2
-    lines.insert(insert_at, media_block)
+    lines.insert(insert_at, video_block)
     return "\n".join(lines)
 
 
@@ -135,7 +137,7 @@ def build_front_matter(title, date, slug, excerpt):
         f"permalink: /articles/{date}-{slug}/\n"
         'categories: ["art-museum"]\n'
         'tags: ["Art Auction", "Collectors"]\n'
-        "author: @thehammerprice\n"
+        "author: "@thehammerprice"\n"
         f'excerpt: "{excerpt}"\n'
         "---\n\n"
     )
@@ -194,15 +196,16 @@ def main():
         lines = [l.strip() for l in content.splitlines() if l.strip() and not l.startswith("#")]
         excerpt = re.sub(r"[*_`]", "", lines[0][:200]) if lines else ""
 
-        assets = find_media(release_index, date, slug)
-        media  = build_media_block(assets)
-        body   = insert_media_mid_content(content, media)
+        assets      = find_media(release_index, date, slug)
+        image_block = build_image_block(assets)
+        video_block = build_video_block(assets)
+        body        = insert_video_mid_content(content, video_block)
 
         out_path = os.path.join(POSTS_DIR, name)
         with open(out_path, "w", encoding="utf-8") as fh:
-            fh.write(build_front_matter(title, date, slug, excerpt) + body)
+            fh.write(build_front_matter(title, date, slug, excerpt) + image_block + body)
 
-        label = "with media" if media else "no media"
+        label = "with media" if (image_block or video_block) else "no media"
         print(f"{'New' if is_new else 'Updated'}: {name} ({label})")
         new_count += 1
 

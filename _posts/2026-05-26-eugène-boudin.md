@@ -5,7 +5,7 @@ date: 2026-05-26
 permalink: /articles/2026-05-26-eugène-boudin/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a modest $20,000–$30,000 estimate becomes a quarter-million-dollar result, what's really driving collector demand for this Impressionist master?"
 ---
 
