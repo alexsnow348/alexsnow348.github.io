@@ -3,7 +3,7 @@ layout: article
 title: "Piero Dorazio's untitled work shatters estimates at Christie's"
 date: 2026-05-25
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*How a modest estimate masked collector appetite for this Italian abstractionist's geometric compositions.*"
 ---

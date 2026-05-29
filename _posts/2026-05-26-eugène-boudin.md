@@ -3,7 +3,7 @@ layout: article
 title: "Boudin's sky study shatters estimates at Christie's"
 date: 2026-05-26
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*When a modest $20,000–$30,000 estimate becomes a quarter-million-dollar result, what's really driving collector demand for this Impressionist master?*"
 ---

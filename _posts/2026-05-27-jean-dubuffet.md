@@ -3,7 +3,7 @@ layout: article
 title: "Dubuffet's \"Robinet\" smashes estimates with 800% surge"
 date: 2026-05-27
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*When a modest estimate becomes wildly wrong, what does it reveal about market appetite for Art Brut's most provocative voices?*"
 ---

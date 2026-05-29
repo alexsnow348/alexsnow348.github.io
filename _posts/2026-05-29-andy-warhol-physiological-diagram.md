@@ -3,7 +3,7 @@ layout: article
 title: "Warhol's physiological diagram barely budges off low estimate"
 date: 2026-05-29
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*When a work sells just above reserve, what does that signal about demand for scientific Warhol in today's market?*"
 ---

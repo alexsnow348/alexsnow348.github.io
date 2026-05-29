@@ -110,6 +110,22 @@ def build_media_block(assets):
     return "\n\n".join(parts) + "\n\n" if parts else ""
 
 
+def insert_media_mid_content(content, media_block):
+    """Splice media block before the second ## heading; fall back to midpoint."""
+    if not media_block:
+        return content
+    lines = content.split("\n")
+    h2_indices = [i for i, l in enumerate(lines) if re.match(r"^## ", l)]
+    if len(h2_indices) >= 2:
+        insert_at = h2_indices[1]
+    elif h2_indices:
+        insert_at = h2_indices[0]
+    else:
+        insert_at = len(lines) // 2
+    lines.insert(insert_at, media_block)
+    return "\n".join(lines)
+
+
 def build_front_matter(title, date, slug, excerpt):
     title = title.replace('"', '\\"')
     excerpt = excerpt.replace('"', '\\"')
@@ -120,7 +136,7 @@ def build_front_matter(title, date, slug, excerpt):
         f"date: {date}\n"
         f"permalink: /articles/{date}-{slug}/\n"
         'categories: ["art-museum"]\n'
-        "tags: []\n"
+        'tags: ["Art Auction", "Collectors"]\n'
         "author: Alex Snow\n"
         f'excerpt: "{excerpt}"\n'
         "---\n\n"
@@ -146,7 +162,7 @@ def main():
             out_path = os.path.join(POSTS_DIR, name)
             with open(out_path, encoding="utf-8") as fh:
                 old = fh.read()
-            if 'categories: ["art-museum"]' in old:
+            if 'categories: ["art-museum"]' in old and 'tags: ["Art auction"' in old:
                 continue
 
         req = urllib.request.Request(
@@ -174,10 +190,11 @@ def main():
         assets = find_media(release_index, date, slug)
         media = build_media_block(assets)
         front_matter = build_front_matter(title, date, slug, excerpt)
+        body = insert_media_mid_content(content, media)
 
         out_path = os.path.join(POSTS_DIR, name)
         with open(out_path, "w", encoding="utf-8") as fh:
-            fh.write(front_matter + media + content)
+            fh.write(front_matter + body)
 
         label = "with media" if media else "no media match"
         print(f"Created: {name} ({label})")

@@ -3,16 +3,14 @@ layout: article
 title: "Raghav Babbar's \"Listener\" shatters estimates at Sotheby's"
 date: 2026-05-28
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike.*"
 ---
 
 ![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/src_01.jpg)
 
-<video controls style="width:100%;max-width:720px">
-  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/reel.mp4" type="video/mp4">
-</video>
+
 
 # Raghav Babbar's "Listener" shatters estimates at Sotheby's
 
@@ -46,6 +44,10 @@ The title's duality—English alongside Traditional Chinese characters—suggest
 The 750% jump above low estimate indicates not a typical collector skirmish but rather a decisive moment of market consensus: the room collectively identified this as the work that would define Babbar's market position going forward.
 
 ---
+
+<video controls style="width:100%;max-width:720px">
+  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/reel.mp4" type="video/mp4">
+</video>
 
 ## The Artist
 

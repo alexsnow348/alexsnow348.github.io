@@ -3,7 +3,7 @@ layout: article
 title: "Jenna Gribbon's surprise surge: what $403K tells us"
 date: 2026-05-25
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*When a $40K estimate explodes to $403K, we need to ask: is this a market correction or a speculative bubble?*"
 ---

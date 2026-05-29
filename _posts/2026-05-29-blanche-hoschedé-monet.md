@@ -3,16 +3,13 @@ layout: article
 title: "Blanche Hoschedé-Monet's Seine painting shatters estimates"
 date: 2026-05-29
 categories: ["art-museum"]
-tags: []
+tags: ["Art Auction", "Collectors"]
 author: Alex Snow
 excerpt: "*A 593% price surge raises questions about overlooked Impressionist women and whether the market is finally catching up.*"
 ---
 
 ![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-29-alltime-lot4/src_01.jpg)
 
-<video controls style="width:100%;max-width:720px">
-  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-29-alltime-lot4/reel.mp4" type="video/mp4">
-</video>
 
 # Blanche Hoschedé-Monet's Seine painting shatters estimates
 
@@ -38,6 +35,10 @@ The jump from low to hammer also reflects scarcity premium. Works on paper by Ho
 This result suggests that secondary-market Impressionist specialists continue to undershoot demand, particularly for works by artists whose historical recovery remains incomplete.
 
 ---
+
+<video controls style="width:100%;max-width:720px">
+  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-29-alltime-lot4/reel.mp4" type="video/mp4">
+</video>
 
 ## The Work
 
