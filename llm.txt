@@ -3,7 +3,7 @@
 ## Overview
 AI and LLM consulting for German SMBs and cultural institutions (museums, galleries, archives). Specialising in practical GenAI applications, MLOps, and agentic systems — from strategy to production.
 
-**URL:** https://diekulturki.de
+**URL:** https://alexsnow348.github.io
 **Author:** Alex Snow (Wuthmoneh Ninhlaing)
 **Location:** Germany (DACH region)
 **Languages:** English, German (elementary), Burmese (native)
