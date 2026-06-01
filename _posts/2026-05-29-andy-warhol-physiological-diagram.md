@@ -5,7 +5,7 @@ date: 2026-05-29
 permalink: /articles/2026-05-29-andy-warhol-physiological-diagram/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a work sells just above reserve, what does that signal about demand for scientific Warhol in today's market?"
 ---
 

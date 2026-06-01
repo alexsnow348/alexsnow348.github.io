@@ -5,7 +5,7 @@ date: 2026-05-29
 permalink: /articles/2026-05-29-marc-chagall-concert-nocturne/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a modest $6,000 estimate becomes a $41,000 sale, what's really driving collector demand for this lyrical modernist?"
 ---
 
@@ -30,13 +30,6 @@ What drives this kind of pressure is typically a combination of scarcity percept
 The result suggests that specialist estimates on mid-market Chagall remain conservative, or that collector appetite for the artist outpaces what the secondary market has priced in.
 
 ---
-
-![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-29-alltime-lot4/src_01.jpg)
-
-<video controls style="width:100%;max-width:720px">
-  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-29-alltime-lot4/reel.mp4" type="video/mp4">
-</video>
-
 
 ## The Work
 

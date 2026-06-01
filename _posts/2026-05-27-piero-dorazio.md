@@ -5,7 +5,7 @@ date: 2026-05-27
 permalink: /articles/2026-05-27-piero-dorazio/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a $1,500 estimate becomes an $8,190 sale, what does the market know that we don't?"
 ---
 

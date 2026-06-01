@@ -5,7 +5,7 @@ date: 2026-05-25
 permalink: /articles/2026-05-25-bridget-bate-tichenor/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "A 733% spike raises questions about rediscovery, Latin American art market momentum, and who's driving demand for this overlooked modernist."
 ---
 

@@ -5,7 +5,7 @@ date: 2026-05-29
 permalink: /articles/2026-05-29-blanche-hoschedé-monet/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "A 593% price surge raises questions about overlooked Impressionist women and whether the market is finally catching up."
 ---
 

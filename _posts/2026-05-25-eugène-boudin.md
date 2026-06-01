@@ -5,7 +5,7 @@ date: 2026-05-25
 permalink: /articles/2026-05-25-eugène-boudin/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "When a modest Impressionist sketch clears $256,000, it raises a pointed question about how the market values intimacy over ambition."
 ---
 

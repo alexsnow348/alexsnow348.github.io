@@ -5,7 +5,7 @@ date: 2026-05-28
 permalink: /articles/2026-05-28-ernie-barnes/
 categories: ["art-museum"]
 tags: ["Art Auction", "Collectors"]
-author: @thehammerprice
+author: "@thehammerprice"
 excerpt: "A 745% price surge raises questions about undervaluation, Black artist market momentum, and collector appetite for figurative work."
 ---
 
