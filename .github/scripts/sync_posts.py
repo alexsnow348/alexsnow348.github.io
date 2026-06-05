@@ -83,13 +83,23 @@ def build_release_index():
 
 def find_media(release_index, date, slug):
     """Return the best-matching release assets for a post, or None."""
-    slug_norm = normalize(slug)
+    slug_clean = re.sub(r"\([^)]*\)", "", slug)
+    slug_norm = normalize(slug_clean)
     for (rel_date, rel_artist), assets in release_index.items():
         if rel_date == date and rel_artist == slug_norm:
             return assets
     for (rel_date, rel_artist), assets in release_index.items():
-        if rel_date == date and rel_artist and rel_artist in slug_norm:
-            return assets
+        if rel_date == date and rel_artist:
+            if rel_artist in slug_norm:
+                return assets
+            # Fallback: common prefix for truncated/variant artist names in slugs
+            pfx = 0
+            for a, b in zip(rel_artist, slug_norm):
+                if a != b:
+                    break
+                pfx += 1
+            if pfx >= min(len(rel_artist), 10):
+                return assets
     return None
 
 
