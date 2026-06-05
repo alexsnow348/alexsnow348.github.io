@@ -63,7 +63,8 @@ def build_release_index():
             tag_date = date_m.group(0)
 
             parts = re.split(r"\s*—\s*", rel.get("name", ""))  # em dash —
-            artist_key = normalize(parts[0]) if parts else ""
+            artist_raw = re.sub(r"\s*\([^)]*\)", "", parts[0]) if parts else ""
+            artist_key = normalize(artist_raw) if artist_raw else ""
             if not artist_key:
                 continue
 
