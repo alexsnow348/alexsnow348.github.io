@@ -40,7 +40,7 @@ def normalize(s):
 
 def build_release_index():
     """
-    Returns dict keyed by (tag_date, normalized_artist) →
+    Returns dict keyed by (tag_date, normalized_artist, normalized_title) →
     {"mp4": url_or_None, "jpg": url_or_None}.
 
     Release tag format:  reel-weekly-YYYY-MM-DD-*
@@ -68,7 +68,12 @@ def build_release_index():
             if not artist_key:
                 continue
 
-            key = (tag_date, artist_key)
+            # Include title so multiple works by the same artist on the same day
+            # each get their own index entry instead of the first one winning.
+            title_raw = re.sub(r"\s*\([^)]*\)", "", parts[1]) if len(parts) >= 2 else ""
+            title_key = normalize(title_raw)
+
+            key = (tag_date, artist_key, title_key)
             if key in index:
                 continue  # API returns newest-first; keep the first (newest)
 
@@ -85,14 +90,24 @@ def find_media(release_index, date, slug):
     """Return the best-matching release assets for a post, or None."""
     slug_clean = re.sub(r"\([^)]*\)", "", slug)
     slug_norm = normalize(slug_clean)
-    for (rel_date, rel_artist), assets in release_index.items():
+
+    # Pass 1: exact slug match against (artist + title) combined
+    for (rel_date, rel_artist, rel_title), assets in release_index.items():
         if rel_date == date and rel_artist == slug_norm:
             return assets
-    for (rel_date, rel_artist), assets in release_index.items():
+
+    # Pass 2: both artist and title substrings present in slug (most specific)
+    for (rel_date, rel_artist, rel_title), assets in release_index.items():
+        if rel_date == date and rel_artist and rel_title:
+            if rel_artist in slug_norm and rel_title in slug_norm:
+                return assets
+
+    # Pass 3: artist substring match only (fallback for posts with no title overlap)
+    for (rel_date, rel_artist, rel_title), assets in release_index.items():
         if rel_date == date and rel_artist:
             if rel_artist in slug_norm:
                 return assets
-            # Fallback: common prefix for truncated/variant artist names in slugs
+            # Common prefix for truncated/variant artist names in slugs
             pfx = 0
             for a, b in zip(rel_artist, slug_norm):
                 if a != b:
