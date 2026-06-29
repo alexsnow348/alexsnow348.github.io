@@ -308,7 +308,7 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
   <li>
     <h4>LLMs & Frameworks</h4>
     <ul>
-      <li>OpenAI GPT-4 / GPT-4o</li>
+      <li>OpenAI GPT models</li>
       <li>Anthropic Claude</li>
       <li>Open-source LLMs</li>
       <li>LangChain / LangGraph</li>

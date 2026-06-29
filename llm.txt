@@ -1,7 +1,7 @@
 # Alex Snow — AI & LLM Consultant
 
 ## Overview
-AI and LLM consulting for German SMBs and cultural institutions (museums, galleries, archives). Specialising in practical GenAI applications, MLOps, and agentic systems — from strategy to production.
+AI and LLM consulting for SMBs and cultural institutions (museums, galleries, archives). Specialising in practical GenAI applications, MLOps, and agentic systems — from strategy to production.
 
 **URL:** https://alexsnow348.github.io
 **Author:** Alex Snow (Wuthmoneh Ninhlaing)
