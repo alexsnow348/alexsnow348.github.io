@@ -9,6 +9,8 @@ author: "@thehammerprice"
 excerpt: "A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike."
 ---
 
+![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/src_01.jpg)
+
 
 *A 750% surge raises questions about speculative demand, artist momentum, and whether this result signals a genuine market shift or a momentary spike.*
 
@@ -30,8 +32,6 @@ What's instructive is the mechanism. A 750 percent premium doesn't emerge from i
 The result suggests that Babbar's market is consolidating around fewer, higher-conviction buyers willing to pay substantially above what recent sales history would justify.
 
 ---
-
-![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/src_01.jpg)
 
 <video controls style="width:100%;max-width:720px">
   <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-weekly-2026-05-28-alltime-lot3/reel.mp4" type="video/mp4">

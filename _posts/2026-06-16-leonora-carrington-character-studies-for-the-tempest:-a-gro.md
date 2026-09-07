@@ -9,7 +9,7 @@ author: "@thehammerprice"
 excerpt: "Strong buyer demand for the surrealist's theatrical works signals growing collector appetite for her lesser-known commissions."
 ---
 
-![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-16_leonora-carrington_character-studies-fo_alltime_lot2/src_01.jpg)
+![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-16_leonora-carrington_les-distractions-de_alltime/src_01.jpg)
 
 
 *Strong buyer demand for the surrealist's theatrical works signals growing collector appetite for her lesser-known commissions.*
@@ -34,7 +34,7 @@ This sale reveals that Carrington scholarship is outpacing inventory, and collec
 ---
 
 <video controls style="width:100%;max-width:720px">
-  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-16_leonora-carrington_character-studies-fo_alltime_lot2/reel.mp4" type="video/mp4">
+  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-16_leonora-carrington_les-distractions-de_alltime/reel.mp4" type="video/mp4">
 </video>
 
 

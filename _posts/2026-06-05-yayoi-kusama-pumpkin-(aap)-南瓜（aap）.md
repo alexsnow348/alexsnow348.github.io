@@ -9,7 +9,7 @@ author: "@thehammerprice"
 excerpt: "As Kusama prices surge past predictions, what does this $4.7M result reveal about demand for the artist's iconic motifs?"
 ---
 
-![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-05_yayoi-kusama_pumpkin-aap-aap_alltime_lot3/src_01.jpg)
+![](https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-05_yayoi-kusama_pumpkin_alltime_lot2/src_01.jpg)
 
 
 *As Kusama prices surge past predictions, what does this $4.7M result reveal about demand for the artist's iconic motifs?*
@@ -34,7 +34,7 @@ The gap indicates that specialists and bidders no longer share the same reading 
 ---
 
 <video controls style="width:100%;max-width:720px">
-  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-05_yayoi-kusama_pumpkin-aap-aap_alltime_lot3/reel.mp4" type="video/mp4">
+  <source src="https://github.com/alexsnowschool-business/alexsnowschool-business.github.io/releases/download/reel-2026-06-05_yayoi-kusama_pumpkin_alltime_lot2/reel.mp4" type="video/mp4">
 </video>
 
 
