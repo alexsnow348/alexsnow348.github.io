@@ -28,8 +28,16 @@ categories:
 tag:
 
 # Keep unpublished draft posts out of the production build
+# NOTE: setting `exclude` here overrides Jekyll's built-in defaults,
+# so we must re-list them alongside drafts/.
 exclude:
   - drafts/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - "*.gemspec"
+  - "*.gem"
 
 # About/contact
 author:
