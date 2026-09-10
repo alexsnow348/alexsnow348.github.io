@@ -76,15 +76,19 @@ Was sich nicht günstig bauen lässt, ist *gute* Qualität. Die Investition stec
 ## Häufig gestellte Fragen
 
 **Warum scheitern Museums-Chatbot-Pilotprojekte häufig?**
+
 Die meisten basieren auf generischen LLMs ohne Verankerung in der eigenen Sammlung, sodass sie entweder generische Wikipedia-Niveau-Antworten liefern oder Details zu konkreten Objekten halluzinieren — die das kuratorische Team anschließend korrigieren muss.
 
 **Was macht einen Museums-Chatbot „verankert"?**
+
 Retrieval-Augmented Generation (RAG): Der Chatbot ruft relevante Fragmente aus den eigenen Katalogdaten, Restaurierungsnotizen und Forschungsergebnissen des Museums ab, bevor er eine Antwort erzeugt — statt sich auf das allgemeine Trainingswissen des Modells zu verlassen.
 
 **Kann ein Chatbot Besucher in mehreren Sprachen bedienen?**
+
 Ja — ein RAG-System kann präzise mehrsprachige Antworten aus denselben deutschen Katalogdaten erzeugen, wobei kunsthistorische Terminologie und deutscher kultureller Kontext für nicht-deutsche Besucher oft zusätzliche Behandlung brauchen.
 
 **Wie viel kostet ein Museums-Chatbot-Pilotprojekt?**
+
 Ein gut abgegrenztes Pilotprojekt für eine Galerie oder Sammlung lässt sich im ersten Jahr für unter 10.000 € aufbauen und betreiben, inklusive Entwicklung und API-Kosten — die eigentliche Investition steckt aber in der Datenaufbereitung, nicht in Rechenleistung.
 
 Wenn Ihre Institution kein eigenes Tech-Team hat, [beginnen Sie bei den Grundlagen]({% post_url 2026-09-10-ki-start-kleines-museum-ohne-tech-team %}), bevor Sie ein Chatbot-Projekt abgrenzen.

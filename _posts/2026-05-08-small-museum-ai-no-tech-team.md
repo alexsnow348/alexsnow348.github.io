@@ -99,15 +99,19 @@ The value is real. It's just quieter than the conference presentations suggest.
 ## Frequently Asked Questions
 
 **Can a small museum use AI without any IT staff?**
+
 Yes — content drafting with general-purpose AI, DeepL-based translation, and FAQ chatbots for logistics questions all work with no technical infrastructure, just a monthly subscription and a staff member to review outputs.
 
 **What AI projects still require outside technical help?**
+
 Two: cataloguing at scale (processing hundreds or thousands of records) and visitor-facing chatbots grounded in your own collection data. Both are one-time, fixed-scope builds rather than ongoing retainers.
 
 **How much time or cost savings can a small museum realistically expect from AI?**
+
 A 30–50% reduction in time spent on routine content drafting, affordable translation into 2–3 additional languages, and fewer routine enquiries reaching staff — not a full transformation of the visitor experience overnight.
 
 **What should a museum check before hiring outside AI help?**
+
 Whether the catalogue is digitised, whether a staff member will own and review the tool, and whether there's one specific, well-defined task the AI is meant to solve.
 
 ---

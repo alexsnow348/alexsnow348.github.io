@@ -67,15 +67,19 @@ Der Rückstau ist der Engpass. GenAI macht seine Auflösung realistisch.
 ## Häufig gestellte Fragen
 
 **Kann GenAI Kuratorinnen und Kuratoren bei der Katalogisierung ersetzen?**
+
 Nein. Sie übernimmt die arbeitsintensive Vorarbeit — Entwürfe, Feldnormalisierung, Übersetzung —, während das kuratorische Personal prüft, korrigiert und Interpretation hinzufügt. Ziel ist weniger Zeit pro Objekt, nicht der Wegfall kuratorischer Urteilskraft.
 
 **Welche KI-Modelle können Metadaten aus Objektfotografien erzeugen?**
+
 Aktuelle Vision-Language-Modelle wie Claude, GPT-5 und Gemini können hochauflösende Bilder analysieren und strukturierte Datensatzentwürfe erzeugen — jede Ausgabe braucht jedoch vor Veröffentlichung eine kuratorische Prüfung.
 
 **Müssen Sammlungsdaten die EU verlassen, um GenAI zu nutzen?**
+
 Nein — DSGVO und institutionelle Richtlinien verlangen für Provenienzdaten häufig EU-Datenresidenz, daher lohnt sich neben US-basierten APIs auch die Prüfung von Azure OpenAI, Mistral und anderen EU-gehosteten Optionen.
 
 **Wie groß sollte ein erstes Katalogisierungs-Pilotprojekt sein?**
+
 500–2.000 Objekte mit einigermaßen vollständigen Bestandsdaten — genug, um die Ausgabequalität zu kalibrieren und einen Prüfworkflow aufzubauen, bevor auf die gesamte Sammlung skaliert wird.
 
 Wenn Ihre Institution über gar kein eigenes Tech-Team verfügt, [beginnen Sie hier]({% post_url 2026-09-10-ki-start-kleines-museum-ohne-tech-team %}) mit einem niedrigschwelligeren Einstieg.

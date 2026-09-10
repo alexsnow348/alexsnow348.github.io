@@ -83,15 +83,19 @@ Was die Technologie leistet, ist Forschenden und Institutionen die Fähigkeit zu
 ## Häufig gestellte Fragen
 
 **Kann KI Restitutionsentscheidungen für Raubkunst treffen?**
+
 Nein. RAG-Systeme finden und zitieren relevante Belege aus Archiven, aber juristische Entscheidungen, Glaubwürdigkeitsbewertungen und Verhandlungen über eine „faire und gerechte Lösung" bleiben vollständig Sache menschlicher Urteilskraft.
 
 **Warum ist Fraktur-OCR für die Provenienzforschung wichtig?**
+
 Die meisten deutschen Dokumente vor 1945 verwenden Frakturschrift, mit der Standard-OCR schlecht zurechtkommt. Zeit für Fraktur-fähige OCR — etwa Tesseracts Fraktur-Modelle — und Qualitätskorrektur einzuplanen ist vor der Indexierung von Archiven unerlässlich.
 
 **Wie unterscheidet sich RAG von der Stichwortsuche bei der Archivrecherche?**
+
 RAG sucht per semantischer Ähnlichkeit und erfasst dadurch auch Verweise bei unterschiedlicher Terminologie — derselbe Vorgang kann in verschiedenen Dokumenten als „Verkauf", „Übergabe" oder „Einlieferung" erscheinen —, was eine Stichwortsuche übersehen würde.
 
 **Um wie viel schneller ist RAG-gestützte Provenienzforschung im Vergleich zu manueller Archivarbeit?**
+
 Recherchen, die Monate manueller Archivbesuche erfordern könnten, lassen sich oft in Tagen bewältigen — Zeit, die Forschende dann in Interpretation und Verifikation statt in Dokumentenrecherche investieren können.
 
 Dieser Beitrag ist Teil eines größeren Musters — siehe auch, [wie GenAI die Sammlungskatalogisierung]({% post_url 2026-09-10-ki-museumssammlung-katalogisierung %}) grundlegender verändert.

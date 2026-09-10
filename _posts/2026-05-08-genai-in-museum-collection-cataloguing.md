@@ -66,15 +66,19 @@ The backlog is the bottleneck. GenAI makes clearing it tractable.
 ## Frequently Asked Questions
 
 **Can GenAI replace museum curators for cataloguing?**
+
 No. It handles the labour-intensive groundwork — draft descriptions, field normalisation, translation — while curators review, correct, and add interpretation. The goal is reducing time-per-object, not removing curatorial judgement.
 
 **Which AI models can generate metadata from object photographs?**
+
 Current-generation vision-language models such as Claude, GPT-5, and Gemini can analyse high-resolution images and produce structured draft records, though every output still needs curatorial review before publication.
 
 **Does collection data have to leave the EU to use GenAI?**
+
 No — GDPR and institutional policy often require EU data residency for provenance records, so Azure OpenAI, Mistral, and other EU-hosted options are worth evaluating alongside US-based APIs.
 
 **How big should a first cataloguing pilot be?**
+
 500–2,000 objects with reasonably complete existing records — enough to calibrate output quality and build a review workflow before scaling to the full collection.
 
 If your institution has no in-house tech team at all, [start here]({% post_url 2026-05-08-small-museum-ai-no-tech-team %}) for a lower-lift path in.

@@ -100,15 +100,19 @@ Der Mehrwert ist real. Er ist nur leiser, als es die Konferenzvorträge nahelege
 ## Häufig gestellte Fragen
 
 **Kann ein kleines Museum KI ohne eigenes IT-Personal nutzen?**
+
 Ja — Textentwürfe mit KI-Allzweckwerkzeugen, DeepL-basierte Übersetzung und FAQ-Chatbots für Logistikfragen funktionieren alle ohne technische Infrastruktur, nur mit einem monatlichen Abonnement und einer Person, die die Ausgaben prüft.
 
 **Welche KI-Projekte brauchen weiterhin externe technische Hilfe?**
+
 Zwei: Katalogisierung im großen Maßstab (Verarbeitung Hunderter oder Tausender Datensätze) und besucherorientierte Chatbots auf Basis der eigenen Sammlungsdaten. Beide sind einmalige Projekte mit festem Umfang, kein laufendes Abonnement.
 
 **Wie viel Zeit- oder Kostenersparnis kann ein kleines Museum realistisch von KI erwarten?**
+
 Eine Zeitersparnis von 30–50 % bei routinemäßigen Textentwürfen, wirtschaftliche Übersetzung in 2–3 zusätzliche Sprachen und weniger Routineanfragen bei den Mitarbeitenden — keine vollständige Transformation der Besuchererfahrung über Nacht.
 
 **Was sollte ein Museum vor der Beauftragung externer KI-Hilfe prüfen?**
+
 Ob der Katalog digitalisiert ist, ob eine Mitarbeiterin oder ein Mitarbeiter das Tool verantwortet und prüft, und ob es eine konkrete, klar umrissene Aufgabe gibt, die die KI lösen soll.
 
 ---

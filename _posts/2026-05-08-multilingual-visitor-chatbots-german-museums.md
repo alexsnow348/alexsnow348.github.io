@@ -75,15 +75,19 @@ What it cannot be built cheaply is *well*. The investment is in data preparation
 ## Frequently Asked Questions
 
 **Why do museum chatbot pilots often fail?**
+
 Most are built on generic LLMs with no grounding in the museum's own collection, so they either give generic Wikipedia-level answers or hallucinate details about specific objects — which curators then have to correct.
 
 **What makes a museum chatbot "grounded"?**
+
 Retrieval-Augmented Generation (RAG): the chatbot retrieves relevant fragments from the museum's own catalogue records, conservation notes, and research before generating an answer, rather than relying on the model's general training knowledge.
 
 **Can one chatbot serve visitors in multiple languages?**
+
 Yes — a RAG system can generate accurate multilingual responses from the same German catalogue records, though art-historical terminology and German cultural context often need extra handling for non-German visitors.
 
 **How much does a museum chatbot pilot cost?**
+
 A well-scoped pilot covering one gallery or collection can be built and run for under €10,000 in the first year, including development and API costs — though data preparation, not compute, is where the real investment goes.
 
 If your institution has no in-house tech team, [start with the fundamentals]({% post_url 2026-05-08-small-museum-ai-no-tech-team %}) before scoping a chatbot project.

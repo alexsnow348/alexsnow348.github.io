@@ -82,15 +82,19 @@ What the technology does is give researchers and institutions the ability to fin
 ## Frequently Asked Questions
 
 **Can AI make restitution decisions for looted art?**
+
 No. RAG systems surface and cite relevant evidence from archives, but legal determinations, credibility assessments, and "fair and just solution" negotiations remain entirely a matter of human judgement.
 
 **Why is Fraktur OCR important for provenance research?**
+
 Most pre-1945 German documents use Fraktur typeface, which standard OCR handles poorly. Budgeting time for Fraktur-capable OCR — such as Tesseract's Fraktur models — and quality correction is essential before indexing archives.
 
 **How is RAG different from keyword search for archival research?**
+
 RAG retrieves by semantic similarity, so it captures references even when terminology varies — the same transaction might appear as "Verkauf," "Übergabe," or "Einlieferung" across different documents — something keyword search would miss.
 
 **How much faster is RAG-assisted provenance research than manual archive work?**
+
 Research that might take months of manual archive visits can often be covered in days, freeing researchers to focus on interpretation and verification rather than document retrieval.
 
 This is one piece of a wider pattern — see also [how GenAI is transforming collection cataloguing]({% post_url 2026-05-08-genai-in-museum-collection-cataloguing %}) more broadly.
