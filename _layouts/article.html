@@ -144,7 +144,8 @@ layout: default
   <h1 class="article-title">{{ page.title }}</h1>
   <div class="article-meta">
     {% if page.lang == "de" %}
-    <span>{{ page.date | date: "%-d" }}. {{ site.data.de_months[page.date | date: "%m"] }} {{ page.date | date: "%Y" }}</span>
+    {% assign de_month_key = page.date | date: "%m" %}
+    <span>{{ page.date | date: "%-d" }}. {{ site.data.de_months[de_month_key] }} {{ page.date | date: "%Y" }}</span>
     {% else %}
     <span>{{ page.date | date: "%B %-d, %Y" }}</span>
     {% endif %}

@@ -116,7 +116,8 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
 {% if art_posts_de.size > 0 %}
   {% for post in art_posts_de %}
   <div class="article-row">
-    <span class="article-date">{{ post.date | date: "%-d" }}. {{ site.data.de_months[post.date | date: "%m"] }} {{ post.date | date: "%Y" }}</span>
+    {% assign de_month_key = post.date | date: "%m" %}
+    <span class="article-date">{{ post.date | date: "%-d" }}. {{ site.data.de_months[de_month_key] }} {{ post.date | date: "%Y" }}</span>
     <div class="article-content">
       <a class="article-title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% if post.excerpt %}
