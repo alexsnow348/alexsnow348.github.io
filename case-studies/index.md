@@ -8,7 +8,7 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
 
 <style>
   .cs-intro {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Lora", Georgia, serif;
     font-size: 0.95rem;
     color: #555;
     line-height: 1.85;
@@ -17,7 +17,7 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
   }
 
   .cs-note {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.75rem;
     color: #bbb;
     margin-bottom: 2.5rem;
@@ -57,7 +57,7 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
   }
 
   .cs-tag {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.62rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
@@ -75,14 +75,14 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
   .tag-llm        { color: #8a3d3d; background: #f8e5e5; }
 
   .cs-meta {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.72rem;
     color: #bbb;
     margin-bottom: 1rem;
   }
 
   .cs-body {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Lora", Georgia, serif;
     font-size: 0.9rem;
     color: #555;
     line-height: 1.8;
@@ -98,7 +98,7 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
   }
 
   .cs-outcomes li {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.82rem;
     color: #444;
     padding: 0.3rem 0;
@@ -112,7 +112,7 @@ description: "Anonymised examples of AI and MLOps projects across automotive, in
   }
 
   .cs-section-label {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.65rem;
     font-weight: 700;
     letter-spacing: 1.5px;

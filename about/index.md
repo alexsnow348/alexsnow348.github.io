@@ -25,7 +25,7 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
     font-weight: 600;
     display: block;
     margin-bottom: 0.75rem;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     letter-spacing: 0.3px;
   }
 
@@ -53,7 +53,7 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
     border-top: 1px solid #eee;
     padding-top: 2rem;
     margin: 2.5rem 0 1.25rem;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   .expertise-list {
@@ -72,7 +72,7 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin: 0 0 0.5rem;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   .expertise-list li ul {
@@ -111,14 +111,14 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
     font-weight: 700;
     color: #CE942F;
     display: block;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     margin-bottom: 0.1rem;
   }
 
   .timeline-company {
     font-size: 0.75rem;
     color: #aaa;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   .timeline-content { color: #444; line-height: 1.65; }
@@ -149,7 +149,7 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
     color: #CE942F;
     font-size: 0.75rem;
     flex-shrink: 0;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   /* Personal */
@@ -192,7 +192,7 @@ description: "Alex Snow — MLOps Architect and AI/LLM Consultant based in Germa
     text-decoration: none;
     border-bottom: 2px solid #CE942F;
     padding-bottom: 1px;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   .connect-links a:hover { color: #CE942F; text-decoration: none; }

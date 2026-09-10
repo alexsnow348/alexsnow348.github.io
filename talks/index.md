@@ -5,7 +5,7 @@ title: Talks
 
 <style>
   .talks-intro {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Lora", Georgia, serif;
     font-size: 0.95rem;
     color: #555;
     line-height: 1.85;
@@ -14,7 +14,7 @@ title: Talks
   }
 
   .talk-year-label {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.65rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -60,14 +60,14 @@ title: Talks
   }
 
   .talk-meta {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.72rem;
     color: #aaa;
     margin-bottom: 0.5rem;
   }
 
   .talk-desc {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Lora", Georgia, serif;
     font-size: 0.875rem;
     color: #666;
     line-height: 1.75;
@@ -82,7 +82,7 @@ title: Talks
   }
 
   .talk-link {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.75rem;
     font-weight: 600;
     color: #CE942F;
@@ -98,7 +98,7 @@ title: Talks
   }
 
   .talk-lang {
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-size: 0.62rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;

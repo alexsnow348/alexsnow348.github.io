@@ -45,7 +45,7 @@ description: "KI-Strategie, LLM-Entwicklung, agentische Systeme und MLOps-Beratu
   .service-tag {
     font-size: 0.68rem;
     font-weight: 600;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     padding: 0.2rem 0.55rem;
     border-radius: 3px;
     letter-spacing: 0.3px;
@@ -66,7 +66,7 @@ description: "KI-Strategie, LLM-Entwicklung, agentische Systeme und MLOps-Beratu
     color: #aaa;
     margin: 2.5rem 0 1.25rem;
     display: block;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   .engagement-grid {
@@ -105,7 +105,7 @@ description: "KI-Strategie, LLM-Entwicklung, agentische Systeme und MLOps-Beratu
 
   .engagement-card .duration {
     font-size: 0.7rem;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     color: #aaa;
     text-transform: uppercase;
@@ -130,7 +130,7 @@ description: "KI-Strategie, LLM-Entwicklung, agentische Systeme und MLOps-Beratu
     display: block;
     margin-bottom: 1.25rem;
     margin-top: 2.5rem;
-    font-family: "Reddit Mono", monospace;
+    font-family: "Inter", sans-serif;
   }
 
   .cta-block {
