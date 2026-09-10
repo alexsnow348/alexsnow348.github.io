@@ -45,7 +45,7 @@ description: "AI strategy, LLM application development, agentic workflow design,
   .service-tag {
     font-size: 0.68rem;
     font-weight: 600;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     padding: 0.2rem 0.55rem;
     border-radius: 3px;
     letter-spacing: 0.3px;
@@ -85,7 +85,7 @@ description: "AI strategy, LLM application development, agentic workflow design,
     color: #aaa;
     margin: 2.5rem 0 1.25rem;
     display: block;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
   }
 
   .engagement-grid {
@@ -126,7 +126,7 @@ description: "AI strategy, LLM application development, agentic workflow design,
 
   .engagement-card .duration {
     font-size: 0.7rem;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     font-weight: 600;
     color: #aaa;
     text-transform: uppercase;
@@ -182,7 +182,7 @@ description: "AI strategy, LLM application development, agentic workflow design,
     display: block;
     margin-bottom: 1.25rem;
     margin-top: 2.5rem;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
   }
 </style>
 

@@ -23,7 +23,7 @@ description: "Alex Snow — MLOps-Architekt und KI/LLM-Berater in Deutschland. 9
     font-weight: 600;
     display: block;
     margin-bottom: 0.75rem;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     letter-spacing: 0.3px;
   }
 
@@ -51,7 +51,7 @@ description: "Alex Snow — MLOps-Architekt und KI/LLM-Berater in Deutschland. 9
     border-top: 1px solid #eee;
     padding-top: 2rem;
     margin: 2.5rem 0 1.25rem;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
   }
 
   .timeline { margin: 0; padding: 0; list-style: none; }
@@ -74,14 +74,14 @@ description: "Alex Snow — MLOps-Architekt und KI/LLM-Berater in Deutschland. 9
     font-weight: 700;
     color: #CE942F;
     display: block;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     margin-bottom: 0.1rem;
   }
 
   .timeline-company {
     font-size: 0.75rem;
     color: #aaa;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
   }
 
   .timeline-content { color: #444; line-height: 1.65; }
@@ -126,7 +126,7 @@ description: "Alex Snow — MLOps-Architekt und KI/LLM-Berater in Deutschland. 9
     text-decoration: none;
     border-bottom: 2px solid #CE942F;
     padding-bottom: 1px;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
   }
 
   .connect-links a:hover { color: #CE942F; text-decoration: none; }

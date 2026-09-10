@@ -10,11 +10,11 @@ title: Projects
     line-height: 1.85;
     margin-bottom: 2.5rem;
     max-width: 560px;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
   }
 
   .project-year-label {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     font-size: 0.65rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -55,7 +55,7 @@ title: Projects
   }
 
   .project-desc {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     font-size: 0.875rem;
     color: #666;
     line-height: 1.75;
@@ -77,7 +77,7 @@ title: Projects
   }
 
   .project-tag {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Reddit Mono", monospace;
     font-size: 0.62rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
