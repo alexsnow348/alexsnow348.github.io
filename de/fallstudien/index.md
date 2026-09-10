@@ -8,7 +8,7 @@ description: "Anonymisierte Projektbeispiele aus Industrie, Telekommunikation un
 
 <style>
   .cs-intro {
-    font-family: "Lora", Georgia, serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.95rem;
     color: #555;
     line-height: 1.85;
@@ -17,7 +17,7 @@ description: "Anonymisierte Projektbeispiele aus Industrie, Telekommunikation un
   }
 
   .cs-note {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.75rem;
     color: #bbb;
     margin-bottom: 2.5rem;
@@ -52,7 +52,7 @@ description: "Anonymisierte Projektbeispiele aus Industrie, Telekommunikation un
   .cs-tags { display: flex; gap: 0.35rem; flex-wrap: wrap; flex-shrink: 0; }
 
   .cs-tag {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.62rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
@@ -69,14 +69,14 @@ description: "Anonymisierte Projektbeispiele aus Industrie, Telekommunikation un
   .tag-llm        { color: #8a3d3d; background: #f8e5e5; }
 
   .cs-meta {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.72rem;
     color: #bbb;
     margin-bottom: 1rem;
   }
 
   .cs-body {
-    font-family: "Lora", Georgia, serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.9rem;
     color: #555;
     line-height: 1.8;
@@ -92,7 +92,7 @@ description: "Anonymisierte Projektbeispiele aus Industrie, Telekommunikation un
   }
 
   .cs-outcomes li {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.82rem;
     color: #444;
     padding: 0.3rem 0;
@@ -102,7 +102,7 @@ description: "Anonymisierte Projektbeispiele aus Industrie, Telekommunikation un
   .cs-outcomes li::before { content: "→ "; color: #CE942F; font-weight: 700; }
 
   .cs-section-label {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.65rem;
     font-weight: 700;
     letter-spacing: 1.5px;

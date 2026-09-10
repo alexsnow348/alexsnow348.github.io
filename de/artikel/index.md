@@ -8,7 +8,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
 
 <style>
   .articles-intro {
-    font-family: "Lora", Georgia, serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.95rem;
     color: #555;
     line-height: 1.85;
@@ -17,7 +17,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
   }
 
   .articles-label {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.68rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -41,7 +41,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
   .article-row:last-child { border-bottom: none; }
 
   .article-date {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.72rem;
     color: #bbb;
     padding-top: 0.15rem;
@@ -65,7 +65,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
   .article-title-link:hover { color: #CE942F; text-decoration: none; }
 
   .article-excerpt {
-    font-family: "Lora", Georgia, serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.85rem;
     color: #777;
     line-height: 1.7;
@@ -80,7 +80,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
   }
 
   .article-tag {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.6rem;
     font-weight: 600;
     padding: 0.12rem 0.45rem;
@@ -92,13 +92,13 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
   }
 
   .article-read-time {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.68rem;
     color: #bbb;
   }
 
   .articles-empty {
-    font-family: "Inter", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 0.875rem;
     color: #bbb;
     padding: 2rem 0;

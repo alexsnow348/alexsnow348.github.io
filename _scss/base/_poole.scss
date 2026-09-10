@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Lora", Georgia, serif;
+  font-family: "JetBrains Mono", monospace;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -391,7 +391,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-family: "JetBrains Mono", monospace;
   color: #ccc;
   text-align: center;
 }
