@@ -6,6 +6,8 @@ categories: ["art-museum"]
 tags: ["Strategy", "Small Museums", "Getting Started", "GenAI"]
 read_time: 7
 author: Alex Snow
+lang: en
+lang_alt: /de/artikel/ki-start-kleines-museum-ohne-tech-team/
 excerpt: "The AI conversation in the museum sector is dominated by large institutions with dedicated digital teams. But 80% of Germany's 6,800+ cultural institutions have no in-house tech staff at all. Here's what starting with AI actually looks like for them."
 ---
 

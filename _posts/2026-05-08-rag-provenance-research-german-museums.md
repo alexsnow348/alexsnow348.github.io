@@ -6,6 +6,8 @@ categories: ["art-museum"]
 tags: ["RAG", "Provenance", "Archives", "LLM"]
 read_time: 7
 author: Alex Snow
+lang: en
+lang_alt: /de/artikel/rag-provenienzforschung-deutsche-museen/
 excerpt: "Germany holds some of the world's most significant — and most fragmented — records on Nazi-era art displacement. RAG systems don't solve the moral complexity of restitution, but they can collapse the years of archival research into weeks."
 ---
 

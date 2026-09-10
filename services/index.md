@@ -251,6 +251,10 @@ description: "AI strategy, LLM application development, agentic workflow design,
 
 <span class="domain-label">For Museums, Galleries & Archives</span>
 
+<p class="services-intro" style="margin-bottom: 1.5rem;">
+  For a closer look at how this plays out in practice, see my <a href="/articles/">articles on GenAI in museum contexts</a> — collection cataloguing, provenance research, and visitor chatbots.
+</p>
+
 <div class="service-item">
   <h3>Collection Intelligence</h3>
   <p>AI-powered cataloguing, metadata enrichment, and tagging for artwork and artifact collections. Transform decades of unstructured records into searchable, queryable knowledge systems.</p>

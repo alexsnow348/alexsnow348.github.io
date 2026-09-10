@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Articles
-description: "Practical perspectives on how generative AI is reshaping museums, galleries, and archives — from collection cataloguing and provenance research to visitor engagement and accessibility."
+title: Artikel
+lang: de
+lang_alt: /articles/
+description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien und Archive verändert — von der Sammlungskatalogisierung und Provenienzforschung bis zum Besuchererlebnis und zur Barrierefreiheit."
 ---
 
 <style>
@@ -104,17 +106,17 @@ description: "Practical perspectives on how generative AI is reshaping museums, 
 </style>
 
 <p class="articles-intro">
-  Practical perspectives on how generative AI is reshaping cultural institutions — from collection cataloguing and visitor engagement to provenance research and conservation. Written in English.
+  Praxisnahe Perspektiven darauf, wie generative KI Kultureinrichtungen verändert — von der Sammlungskatalogisierung und dem Besuchererlebnis bis zur Provenienzforschung und Barrierefreiheit. Auf Deutsch verfasst.
 </p>
 
-<span class="articles-label">AI × Art &amp; Museum</span>
+<span class="articles-label">KI × Kunst &amp; Museum</span>
 
-{% assign art_posts = site.posts | where_exp: "post", "post.categories contains 'art-museum'" | where_exp: "post", "post.lang != 'de'" %}
+{% assign art_posts_de = site.posts | where_exp: "post", "post.categories contains 'art-museum'" | where_exp: "post", "post.lang == 'de'" %}
 
-{% if art_posts.size > 0 %}
-  {% for post in art_posts %}
+{% if art_posts_de.size > 0 %}
+  {% for post in art_posts_de %}
   <div class="article-row">
-    <span class="article-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <span class="article-date">{{ post.date | date: "%-d. %B %Y" }}</span>
     <div class="article-content">
       <a class="article-title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% if post.excerpt %}
@@ -127,15 +129,15 @@ description: "Practical perspectives on how generative AI is reshaping museums, 
           {% endfor %}
         {% endif %}
         {% if post.read_time %}
-        <span class="article-read-time">{{ post.read_time }} min read</span>
+        <span class="article-read-time">{{ post.read_time }} Min. Lesezeit</span>
         {% endif %}
         {% if post.lang_alt %}
-        <a class="article-read-time" href="{{ site.baseurl }}{{ post.lang_alt }}">Auf Deutsch</a>
+        <a class="article-read-time" href="{{ site.baseurl }}{{ post.lang_alt }}">In English</a>
         {% endif %}
       </div>
     </div>
   </div>
   {% endfor %}
 {% else %}
-  <p class="articles-empty">No articles yet — the first one is coming soon.</p>
+  <p class="articles-empty">Noch keine Artikel — der erste folgt in Kürze.</p>
 {% endif %}

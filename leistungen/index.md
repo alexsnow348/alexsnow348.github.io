@@ -230,6 +230,10 @@ description: "KI-Strategie, LLM-Entwicklung, agentische Systeme und MLOps-Beratu
 
 <span class="domain-label">Für Museen, Galerien & Archive</span>
 
+<p class="services-intro" style="margin-bottom: 1.5rem;">
+  Wie sich das in der Praxis konkret anfühlt, zeigen meine <a href="/de/artikel/">Artikel zu GenAI im Museumskontext</a> — Sammlungskatalogisierung, Provenienzforschung und Besucher-Chatbots.
+</p>
+
 <div class="service-item">
   <h3>Sammlungsintelligenz</h3>
   <p>KI-gestützte Katalogisierung, Metadaten-Anreicherung und Verschlagwortung für Kunst- und Objektsammlungen. Jahrzehnte unstrukturierter Datensätze werden in durchsuchbare, abfragbare Wissenssysteme verwandelt.</p>

@@ -6,6 +6,8 @@ categories: ["art-museum"]
 tags: ["GenAI", "Collections", "RAG", "Metadata"]
 read_time: 6
 author: Alex Snow
+lang: en
+lang_alt: /de/artikel/ki-museumssammlung-katalogisierung/
 excerpt: "Most museum collections are sitting on decades of inconsistent metadata — free-text descriptions, abbreviations, missing fields. GenAI doesn't just automate the backlog; it changes what's possible."
 ---
 

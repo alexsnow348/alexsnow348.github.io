@@ -29,6 +29,7 @@ AI and LLM consulting for SMBs and cultural institutions (museums, galleries, ar
 - /services/ — Consulting services for SMBs and cultural institutions (English)
 - /leistungen/ — Consulting services in German (KMU & Kultureinrichtungen)
 - /articles/ — English articles on GenAI applications in art and museum contexts
+- /de/artikel/ — German translations of the same GenAI × museum articles
 - /case-studies/ — Anonymised project case studies across automotive, industrial, telecom, and cultural sectors
 - /own-certifications/ — Searchable list of 81+ certifications with filters
 - /projects/ — Community and technical projects (2017–2022)
@@ -40,6 +41,9 @@ Each includes a "Key Takeaways" summary and an FAQ section for quick reference.
 - "RAG Systems for Provenance Research: Making Restitution Archives Searchable" — Nazi-era art displacement records, Fraktur OCR, semantic retrieval
 - "Multilingual Visitor Chatbots for German Museums: What Actually Works" — RAG-grounded chatbots, multilingual output, scoping and economics
 - "Starting With AI When You Have No Tech Team: A Guide for Small German Museums" — practical first steps, off-the-shelf tools, scoping for small institutions
+
+## Artikel (Deutsch, KI × Kunst & Museum)
+Vollständige deutsche Übersetzungen der vier englischen Artikel, jeweils mit "Das Wichtigste in Kürze" und FAQ-Abschnitt, unter /de/artikel/.
 
 ## Case Studies
 - Industrial: Computer vision QA pipeline for precision manufacturing (Germany)

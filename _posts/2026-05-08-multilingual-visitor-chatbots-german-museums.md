@@ -6,6 +6,8 @@ categories: ["art-museum"]
 tags: ["Chatbots", "LLM", "Visitor Experience", "Multilingual"]
 read_time: 6
 author: Alex Snow
+lang: en
+lang_alt: /de/artikel/mehrsprachige-besucher-chatbots-deutsche-museen/
 excerpt: "Most museum chatbot pilots fail for the same reason: they're built on generic LLMs with no grounding in the collection. A visitor asking about a specific Cranach altarpiece gets a Wikipedia summary. That's not good enough."
 ---
 

@@ -75,6 +75,8 @@ nav_de:
     - "/de/"
   Leistungen:
     - "/leistungen/"
+  Artikel:
+    - "/de/artikel/"
   Über mich:
     - "/de/uber-mich/"
   Fallstudien:
