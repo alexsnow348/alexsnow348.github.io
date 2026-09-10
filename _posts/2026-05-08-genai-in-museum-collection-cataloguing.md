@@ -23,7 +23,7 @@ The result: objects sit in storage, undiscoverable to researchers and the public
 
 Generative AI doesn't replace curators. It handles the labour-intensive groundwork so curators can focus on interpretation and context.
 
-**Metadata enrichment from image input.** Vision-language models (GPT-4o, Claude, Gemini) can analyse high-resolution photographs of objects and produce structured draft records — material, technique, period estimation, iconographic elements, condition notes. A curator reviews and confirms rather than writes from scratch.
+**Metadata enrichment from image input.** Current-generation vision-language models (Claude, GPT-5, Gemini) can analyse high-resolution photographs of objects and produce structured draft records — material, technique, period estimation, iconographic elements, condition notes. A curator reviews and confirms rather than writes from scratch.
 
 **Normalising legacy records.** Decades of free-text descriptions can be processed through an LLM pipeline to extract and standardise fields: creator, date range, provenance, dimensions, acquisition source. The model flags ambiguous entries for human review rather than guessing.
 

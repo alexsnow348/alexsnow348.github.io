@@ -17,7 +17,7 @@ The ones that work are built differently.
 
 ## The Problem with Generic LLMs
 
-A general-purpose language model like GPT-4o or Claude knows a great deal about art history in aggregate. It can discuss the Northern Renaissance, explain chiaroscuro, and describe typical iconography in German altar paintings. What it cannot do reliably is answer questions about *your* specific collection — the acquisition history of object 1994.037, why the restoration on the Flemish panel in Gallery 3 used that particular varnish, or what the handwritten note on the back of the sketch in the study collection says.
+A general-purpose language model like GPT-5 or Claude knows a great deal about art history in aggregate. It can discuss the Northern Renaissance, explain chiaroscuro, and describe typical iconography in German altar paintings. What it cannot do reliably is answer questions about *your* specific collection — the acquisition history of object 1994.037, why the restoration on the Flemish panel in Gallery 3 used that particular varnish, or what the handwritten note on the back of the sketch in the study collection says.
 
 For a visitor chatbot to be genuinely useful, it needs to be grounded in your collection data. That means RAG — Retrieval-Augmented Generation — not a bare LLM.
 
