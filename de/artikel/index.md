@@ -31,7 +31,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
 
   .article-row {
     display: grid;
-    grid-template-columns: 90px 1fr;
+    grid-template-columns: auto 1fr;
     gap: 1rem;
     padding: 1rem 0;
     border-bottom: 1px solid #f5f5f5;
@@ -116,7 +116,7 @@ description: "Praxisnahe Perspektiven darauf, wie generative KI Museen, Galerien
 {% if art_posts_de.size > 0 %}
   {% for post in art_posts_de %}
   <div class="article-row">
-    <span class="article-date">{{ post.date | date: "%-d. %B %Y" }}</span>
+    <span class="article-date">{{ post.date | date: "%-d" }}. {{ site.data.de_months[post.date | date: "%m"] }} {{ post.date | date: "%Y" }}</span>
     <div class="article-content">
       <a class="article-title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       {% if post.excerpt %}

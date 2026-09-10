@@ -140,13 +140,17 @@ layout: default
 </style>
 
 <div class="article-header">
-  <span class="article-eyebrow">AI × Art &amp; Museum</span>
+  <span class="article-eyebrow">{% if page.lang == "de" %}KI × Kunst &amp; Museum{% else %}AI × Art &amp; Museum{% endif %}</span>
   <h1 class="article-title">{{ page.title }}</h1>
   <div class="article-meta">
+    {% if page.lang == "de" %}
+    <span>{{ page.date | date: "%-d" }}. {{ site.data.de_months[page.date | date: "%m"] }} {{ page.date | date: "%Y" }}</span>
+    {% else %}
     <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+    {% endif %}
     {% if page.read_time %}
     <span class="meta-sep">·</span>
-    <span>{{ page.read_time }} min read</span>
+    <span>{{ page.read_time }} {% if page.lang == "de" %}Min. Lesezeit{% else %}min read{% endif %}</span>
     {% endif %}
     {% if page.author %}
     <span class="meta-sep">·</span>
@@ -160,7 +164,11 @@ layout: default
 </div>
 
 <div class="article-footer">
+  {% if page.lang == "de" %}
+  <a href="/de/artikel/" class="article-back">← Alle Artikel</a>
+  {% else %}
   <a href="/articles/" class="article-back">← All Articles</a>
+  {% endif %}
   {% if page.tags %}
   <div class="article-tags">
     {% for tag in page.tags %}
