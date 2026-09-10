@@ -42,17 +42,17 @@ title: Blogs
 <div class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">ဒီထက်အသစ်များ</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Previous</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">ဒီထက်အသစ်များ</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Previous</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">ဒီထက်အသစ်များ</span>
+    <span class="pagination-item newer">Previous</span>
   {% endif %}
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">ဒီထက််အဟောင်းများ</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Next</a>
   {% else %}
-    <span class="pagination-item older">ဒီထက််အဟောင်းများ</span>
+    <span class="pagination-item older">Next</span>
   {% endif %}
 
 </div>
