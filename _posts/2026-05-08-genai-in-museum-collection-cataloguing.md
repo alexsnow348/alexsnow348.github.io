@@ -13,6 +13,13 @@ Most museum collections are sitting on decades of inconsistent metadata — free
 
 <!-- more -->
 
+**Key takeaways:**
+
+- Vision-language models can turn object photographs into structured draft metadata — material, technique, period, condition — for curator review, not curator replacement.
+- LLM pipelines can normalise decades of inconsistent free-text records into standardised fields, flagging ambiguous entries for human review instead of guessing.
+- RAG makes provenance archives queryable in natural language, replacing manual cross-referencing across scattered documents.
+- Start with a bounded pilot of 500–2,000 objects, keep a human-in-the-loop review step, and check EU data residency requirements before choosing a model provider.
+
 ## The Scale of the Problem
 
 Germany alone has over 6,800 cultural institutions. The Staatliche Museen zu Berlin holds over five million objects. The Germanisches Nationalmuseum in Nuremberg — another three million. For smaller regional museums, even a collection of 20,000 objects can represent decades of backlogged cataloguing work, because most institutions lack the curatorial staff to keep pace.
@@ -29,7 +36,7 @@ Generative AI doesn't replace curators. It handles the labour-intensive groundwo
 
 **Multilingual metadata generation.** For institutions targeting international researchers or tourists, GenAI can generate German, English, and French metadata variants from a single authoritative record — consistent in tone and accurate in terminology.
 
-**RAG-powered provenance research.** Retrieval-Augmented Generation systems can make thousands of scanned auction records, dealer invoices, and correspondence queryable. A curator asks "show me all records referencing Galerie Flechtheim between 1925 and 1933" — the system retrieves and surfaces relevant fragments across digitised archives.
+**RAG-powered provenance research.** Retrieval-Augmented Generation systems can make thousands of scanned auction records, dealer invoices, and correspondence queryable. A curator asks "show me all records referencing Galerie Flechtheim between 1925 and 1933" — the system retrieves and surfaces relevant fragments across digitised archives. I go into this in more depth in [my piece on RAG for provenance research]({% post_url 2026-05-08-rag-provenance-research-german-museums %}).
 
 ## A Realistic Implementation Path
 
@@ -49,10 +56,26 @@ A well-structured digital collection is not just a curatorial asset — it's inf
 
 - Power semantic search for researchers (find by concept, not just keyword)
 - Generate accessible image descriptions for visually impaired visitors
-- Build multilingual audio guides grounded in your own collection data
+- Build [multilingual visitor chatbots]({% post_url 2026-05-08-multilingual-visitor-chatbots-german-museums %}) grounded in your own collection data
 - Surface collection items relevant to temporary exhibitions automatically
 
 The backlog is the bottleneck. GenAI makes clearing it tractable.
+
+## Frequently Asked Questions
+
+**Can GenAI replace museum curators for cataloguing?**
+No. It handles the labour-intensive groundwork — draft descriptions, field normalisation, translation — while curators review, correct, and add interpretation. The goal is reducing time-per-object, not removing curatorial judgement.
+
+**Which AI models can generate metadata from object photographs?**
+Current-generation vision-language models such as Claude, GPT-5, and Gemini can analyse high-resolution images and produce structured draft records, though every output still needs curatorial review before publication.
+
+**Does collection data have to leave the EU to use GenAI?**
+No — GDPR and institutional policy often require EU data residency for provenance records, so Azure OpenAI, Mistral, and other EU-hosted options are worth evaluating alongside US-based APIs.
+
+**How big should a first cataloguing pilot be?**
+500–2,000 objects with reasonably complete existing records — enough to calibrate output quality and build a review workflow before scaling to the full collection.
+
+If your institution has no in-house tech team at all, [start here]({% post_url 2026-05-08-small-museum-ai-no-tech-team %}) for a lower-lift path in.
 
 ---
 

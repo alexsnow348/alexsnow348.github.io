@@ -35,7 +35,8 @@ AI and LLM consulting for SMBs and cultural institutions (museums, galleries, ar
 - /talks/ — Public talks on AI, ML, and career development
 
 ## Articles (English, AI × Art & Museum)
-- "How GenAI Is Transforming Museum Collection Cataloguing" — metadata enrichment, vision-language models, RAG pipelines
+Each includes a "Key Takeaways" summary and an FAQ section for quick reference.
+- "How GenAI Is Transforming Museum Collection Cataloguing" — metadata enrichment, vision-language models, RAG pipelines, EU data residency
 - "RAG Systems for Provenance Research: Making Restitution Archives Searchable" — Nazi-era art displacement records, Fraktur OCR, semantic retrieval
 - "Multilingual Visitor Chatbots for German Museums: What Actually Works" — RAG-grounded chatbots, multilingual output, scoping and economics
 - "Starting With AI When You Have No Tech Team: A Guide for Small German Museums" — practical first steps, off-the-shelf tools, scoping for small institutions
@@ -49,4 +50,4 @@ AI and LLM consulting for SMBs and cultural institutions (museums, galleries, ar
 LinkedIn: https://www.linkedin.com/in/wuthmonehninhlaing/
 
 ---
-Last Updated: May 2026
+Last Updated: September 2026

@@ -15,6 +15,13 @@ The ones that work are built differently.
 
 <!-- more -->
 
+**Key takeaways:**
+
+- Generic LLM chatbots fail because they aren't grounded in a museum's actual collection data — visitors get Wikipedia-level answers, or worse, hallucinated provenance details.
+- A grounded chatbot needs three parts: collection data as a vector-searchable knowledge base, the LLM as a language layer (not a knowledge source), and graceful fallbacks when information is missing.
+- A well-built RAG system handles multiple visitor languages automatically once the underlying catalogue data is accurate — but terminology and cultural context still need deliberate handling.
+- A scoped pilot — one gallery, two languages, three months — can be built and run for under €10,000 in year one.
+
 ## The Problem with Generic LLMs
 
 A general-purpose language model like GPT-5 or Claude knows a great deal about art history in aggregate. It can discuss the Northern Renaissance, explain chiaroscuro, and describe typical iconography in German altar paintings. What it cannot do reliably is answer questions about *your* specific collection — the acquisition history of object 1994.037, why the restoration on the Flemish panel in Gallery 3 used that particular varnish, or what the handwritten note on the back of the sketch in the study collection says.
@@ -49,7 +56,7 @@ The practical considerations:
 
 If your institution is starting from zero, the sequence that works:
 
-1. **Audit your collection data quality.** A chatbot is only as good as the records behind it. If your catalogue has 60% incomplete descriptions, fix that first — or accept that the chatbot will be correspondingly limited.
+1. **Audit your collection data quality.** A chatbot is only as good as the records behind it. If your catalogue has 60% incomplete descriptions, fix that first — or accept that the chatbot will be correspondingly limited. My [piece on GenAI for collection cataloguing]({% post_url 2026-05-08-genai-in-museum-collection-cataloguing %}) covers how to close that gap.
 
 2. **Start with a scoped pilot.** Pick one gallery or one thematic collection. Build the chatbot grounded in that subset of records. Run it for three months with real visitors and measure what they actually ask versus what you anticipated.
 
@@ -62,6 +69,22 @@ If your institution is starting from zero, the sequence that works:
 The economics of a museum chatbot have shifted significantly in the past two years. The infrastructure costs — vector database hosting, LLM API calls — are now well within reach of institutions with annual operating budgets of €500,000+. A well-scoped pilot can be built and run for under €10,000 in the first year, including development and API costs.
 
 What it cannot be built cheaply is *well*. The investment is in data preparation and careful prompt engineering, not in compute. That's where the difference between a pilot that embarrasses the institution and one that becomes a genuine visitor service actually lies.
+
+## Frequently Asked Questions
+
+**Why do museum chatbot pilots often fail?**
+Most are built on generic LLMs with no grounding in the museum's own collection, so they either give generic Wikipedia-level answers or hallucinate details about specific objects — which curators then have to correct.
+
+**What makes a museum chatbot "grounded"?**
+Retrieval-Augmented Generation (RAG): the chatbot retrieves relevant fragments from the museum's own catalogue records, conservation notes, and research before generating an answer, rather than relying on the model's general training knowledge.
+
+**Can one chatbot serve visitors in multiple languages?**
+Yes — a RAG system can generate accurate multilingual responses from the same German catalogue records, though art-historical terminology and German cultural context often need extra handling for non-German visitors.
+
+**How much does a museum chatbot pilot cost?**
+A well-scoped pilot covering one gallery or collection can be built and run for under €10,000 in the first year, including development and API costs — though data preparation, not compute, is where the real investment goes.
+
+If your institution has no in-house tech team, [start with the fundamentals]({% post_url 2026-05-08-small-museum-ai-no-tech-team %}) before scoping a chatbot project.
 
 ---
 

@@ -17,6 +17,12 @@ The answer is yes. But the path looks very different from what the conference sp
 
 <!-- more -->
 
+**Key takeaways:**
+
+- Off-the-shelf AI tools — no infrastructure, no vendor contracts — already deliver real value for small museums, starting with content drafting, translation, and FAQ automation.
+- Collection cataloguing at scale and collection-grounded chatbots are the two use cases that genuinely need outside technical help, but as a one-time build, not ongoing support.
+- Before spending anything, confirm three things: your catalogue is digitised, a specific staff member will own the tool, and there's one clear task it's meant to solve.
+
 ## Start With the Problem, Not the Technology
 
 The most common mistake smaller institutions make when approaching AI is technology-first thinking: "we should do something with ChatGPT." This leads to unfocused pilots that produce nothing usable.
@@ -59,9 +65,9 @@ Tools like Tidio, Intercom, or even a well-structured FAQ page built with AI ass
 
 Two levels of AI application genuinely require external technical support:
 
-**1. Collection cataloguing at scale.** If you want to use AI to process and enrich hundreds or thousands of catalogue records — as described in my previous piece on collection cataloguing — you need someone who can build and run the pipeline. This is a one-time project cost, not ongoing infrastructure. A well-scoped engagement of 4–8 weeks can produce an enriched, machine-readable catalogue that serves the institution for years.
+**1. Collection cataloguing at scale.** If you want to use AI to process and enrich hundreds or thousands of catalogue records — as described in [my piece on GenAI for collection cataloguing]({% post_url 2026-05-08-genai-in-museum-collection-cataloguing %}) — you need someone who can build and run the pipeline. This is a one-time project cost, not ongoing infrastructure. A well-scoped engagement of 4–8 weeks can produce an enriched, machine-readable catalogue that serves the institution for years.
 
-**2. Visitor-facing chatbots grounded in collection data.** A chatbot that answers questions about specific objects in your collection — rather than just logistics — requires RAG infrastructure connecting to your catalogue. Again, this is a build-once, maintain-lightly project for a small institution, not an ongoing operational commitment.
+**2. Visitor-facing chatbots grounded in collection data.** A chatbot that answers questions about specific objects in your collection — rather than just logistics — requires RAG infrastructure connecting to your catalogue, as described in [my piece on multilingual visitor chatbots]({% post_url 2026-05-08-multilingual-visitor-chatbots-german-museums %}). Again, this is a build-once, maintain-lightly project for a small institution, not an ongoing operational commitment.
 
 For both, the right model is a fixed-scope engagement with an external consultant or agency, not an ongoing retainer. Small institutions don't need permanent AI infrastructure support; they need help building something that then runs with minimal maintenance.
 
@@ -87,6 +93,20 @@ For a small German museum with no tech staff, AI realistically delivers:
 What it does not deliver: a transformation of the visitor experience overnight, autonomous systems that run without human oversight, or savings large enough to justify staff reductions in an already lean organisation.
 
 The value is real. It's just quieter than the conference presentations suggest.
+
+## Frequently Asked Questions
+
+**Can a small museum use AI without any IT staff?**
+Yes — content drafting with general-purpose AI, DeepL-based translation, and FAQ chatbots for logistics questions all work with no technical infrastructure, just a monthly subscription and a staff member to review outputs.
+
+**What AI projects still require outside technical help?**
+Two: cataloguing at scale (processing hundreds or thousands of records) and visitor-facing chatbots grounded in your own collection data. Both are one-time, fixed-scope builds rather than ongoing retainers.
+
+**How much time or cost savings can a small museum realistically expect from AI?**
+A 30–50% reduction in time spent on routine content drafting, affordable translation into 2–3 additional languages, and fewer routine enquiries reaching staff — not a full transformation of the visitor experience overnight.
+
+**What should a museum check before hiring outside AI help?**
+Whether the catalogue is digitised, whether a staff member will own and review the tool, and whether there's one specific, well-defined task the AI is meant to solve.
 
 ---
 
