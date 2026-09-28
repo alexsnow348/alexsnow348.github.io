@@ -235,3 +235,7 @@ in the blog listing too
 ---
 
 and add filter to all post burmese to burmse post only and all post english to english post only  from the home page
+
+---
+
+good, commit and push it
