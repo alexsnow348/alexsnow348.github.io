@@ -1,0 +1,9 @@
+for the date and tag display in mobile view, can you remove the verticle line and make it side by side
+
+---
+
+i mean in blogs post
+
+---
+
+and remove the first letter ornament too
