@@ -1,0 +1,5 @@
+why the date format is not consistance August 7, 2019 and 28 Sep 2026 ·
+
+---
+
+make it like the first one
