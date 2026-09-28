@@ -119,10 +119,55 @@ title: Talks
     border-radius: 4px;
     display: block;
     border: 1px solid var(--border);
+    cursor: zoom-in;
+    transition: opacity .15s ease;
+  }
+
+  .poster-img:hover {
+    opacity: .85;
   }
 
   @media (max-width: 600px) {
     .posters-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .poster-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    cursor: zoom-out;
+  }
+
+  .poster-lightbox.is-open {
+    display: flex;
+  }
+
+  .poster-lightbox img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .5);
+  }
+
+  .poster-lightbox-close {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--text);
+    cursor: pointer;
+    opacity: .8;
+  }
+
+  .poster-lightbox-close:hover {
+    opacity: 1;
   }
 </style>
 
@@ -283,12 +328,37 @@ title: Talks
 <span class="talk-year-label">Posters</span>
 
 <div class="posters-grid">
-  <img src="/public/img/ai_unplugged_talk.jpg" alt="AI Unplugged talk poster" class="poster-img" loading="lazy">
-  <img src="/public/img/ai-tools-for-work.jpg" alt="AI Tools for Work poster" class="poster-img" loading="lazy">
-  <img src="/public/img/fin-ai-talk.jpg" alt="Finance AI talk poster" class="poster-img" loading="lazy">
-  <img src="/public/img/kd.jpg" alt="Knowledge Distillation poster" class="poster-img" loading="lazy">
-  <img src="/public/img/sa-mat.jpg" alt="Talk poster" class="poster-img" loading="lazy">
-  <img src="/public/img/woman-in-stem.jpg" alt="Women in STEM poster" class="poster-img" loading="lazy">
-  <img src="/public/img/life-long-learner.webp" alt="Life-long learner poster" class="poster-img" loading="lazy">
-  <img src="/public/img/brain.jpg" alt="Talk poster" class="poster-img" loading="lazy">
+  <img src="/public/img/ai_unplugged_talk.jpg" alt="AI Unplugged talk poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/ai-tools-for-work.jpg" alt="AI Tools for Work poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/fin-ai-talk.jpg" alt="Finance AI talk poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/kd.jpg" alt="Knowledge Distillation poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/sa-mat.jpg" alt="Talk poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/woman-in-stem.jpg" alt="Women in STEM poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/life-long-learner.webp" alt="Life-long learner poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
+  <img src="/public/img/brain.jpg" alt="Talk poster" class="poster-img" loading="lazy" onclick="openPosterLightbox(this)">
 </div>
+
+<div class="poster-lightbox" id="poster-lightbox" onclick="closePosterLightbox()">
+  <span class="poster-lightbox-close">&times;</span>
+  <img id="poster-lightbox-img" src="" alt="">
+</div>
+
+<script>
+  function openPosterLightbox(img) {
+    var lightbox = document.getElementById('poster-lightbox');
+    var lightboxImg = document.getElementById('poster-lightbox-img');
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightbox.classList.add('is-open');
+  }
+
+  function closePosterLightbox() {
+    var lightbox = document.getElementById('poster-lightbox');
+    lightbox.classList.remove('is-open');
+    document.getElementById('poster-lightbox-img').src = '';
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closePosterLightbox();
+  });
+</script>
