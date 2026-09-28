@@ -1,0 +1,65 @@
+{
+  "cli_version": "0.10.6",
+  "checkpoint_id": "01M3KQ9YCJ5C7YGG8SNPTBP66N",
+  "session_id": "187e8cfd-b69f-4f4e-a08d-4dc48d6ba23a",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-28T09:59:59.070628Z",
+  "branch": "master",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "_posts/2026-05-08-genai-in-museum-collection-cataloguing.md",
+    "_posts/2026-05-08-multilingual-visitor-chatbots-german-museums.md",
+    "_posts/2026-05-08-rag-provenance-research-german-museums.md",
+    "_posts/2026-05-08-small-museum-ai-no-tech-team.md",
+    "llm.txt"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "d0364e5b9fbc",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 808,
+    "cache_creation_tokens": 475747,
+    "cache_read_tokens": 115957129,
+    "output_tokens": 221677,
+    "api_call_count": 404
+  },
+  "session_metrics": {
+    "turn_count": 34
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-28T09:59:58.901112Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 2,
+    "human_removed": 1244,
+    "total_committed": 0,
+    "total_lines_changed": 1658,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 24,
+      "user_lines_removed": 820,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      },
+      "user_removed_per_file": {
+        "_posts/2026-05-08-genai-in-museum-collection-cataloguing.md": 88,
+        "_posts/2026-05-08-multilingual-visitor-chatbots-german-museums.md": 97,
+        "_posts/2026-05-08-rag-provenance-research-german-museums.md": 104,
+        "_posts/2026-05-08-small-museum-ai-no-tech-team.md": 119,
+        "_posts/2026-09-10-ki-museumssammlung-katalogisierung.md": 89,
+        "_posts/2026-09-10-ki-start-kleines-museum-ohne-tech-team.md": 120,
+        "_posts/2026-09-10-mehrsprachige-besucher-chatbots-deutsche-museen.md": 98,
+        "_posts/2026-09-10-rag-provenienzforschung-deutsche-museen.md": 105
+      }
+    }
+  ]
+}

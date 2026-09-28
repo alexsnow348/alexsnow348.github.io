@@ -1,0 +1,265 @@
+i want to transform into my blog to this format https://david.alvarezrosa.com/posts/about-this-site/ can you plan and design draft for me
+
+---
+
+I only want blog, certifacts, and projects only, can you move the rest into draft folder and redesign the whole site wht suggested implemation
+
+---
+
+how can i test run it
+
+---
+
+<task-notification>
+<task-id>bq5ogbyhz</task-id>
+<tool-use-id>REDACTED</tool-use-id>
+<output-file>/private/tmp/claude-501/-Users-asnow-Documents-development-alexsnow348-github-io/187e8cfd-b69f-4f4e-a08d-4dc48d6ba23a/tasks/bq5ogbyhz.output</output-file>
+<status>completed</status>
+<summary>Background command "Start Jekyll dev server to preview the site" completed (exit code 0)</summary>
+</task-notification>
+
+---
+
+<task-notification>
+<task-id>bbf4l0b42</task-id>
+<tool-use-id>REDACTED</tool-use-id>
+<output-file>/private/tmp/claude-501/-Users-asnow-Documents-development-alexsnow348-github-io/187e8cfd-b69f-4f4e-a08d-4dc48d6ba23a/tasks/bbf4l0b42.output</output-file>
+<status>completed</status>
+<summary>Background command "Start Jekyll dev server on port 4000" completed (exit code 0)</summary>
+</task-notification>
+
+---
+
+i wants similar style [Image #1]
+
+---
+
+follow the exact font structure from provide image
+
+---
+
+the font is not the same
+
+---
+
+i want similar home page [Image #2]
+
+---
+
+lets show split on english post and burmese post seperatedly and for english post use the exact font like in the image and for burmese post use original font before you started the edit
+
+---
+
+the font is still the old one, maybe it is being overide?
+
+---
+
+and make orniment bigger too
+
+---
+
+can you remove nav bar and only link in the footer
+
+---
+
+and change different ornrment too
+
+---
+
+use this https://david.alvarezrosa.com/images/ornament.svg ornament
+
+---
+
+okay then, keep the one you suggested.
+
+---
+
+add my personal github instead of school github
+
+---
+
+@alexsnow348
+
+---
+
+and remove Get in Touch session
+
+---
+
+for nav footer, use lower case
+
+---
+
+for blog post, remove my name and titile line
+
+---
+
+remove from article too
+
+---
+
+i still see my name  and AI/ML notes when i click specific blog or article
+
+---
+
+limit the read next into only 2 items
+
+---
+
+and make all color into black
+
+---
+
+remove the color theme and make it only black and gray
+
+---
+
+i want to use 
+
+<pasted_content id="5466">
+.padauk-regular {
+  font-family: "Padauk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.padauk-bold {
+  font-family: "Padauk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+</pasted_content id="5466">
+
+ for burmese content
+
+---
+
+remove the underline from the link
+
+---
+
+let redesign for http://127.0.0.1:4000/own-certifications/index.html and projects
+
+---
+
+remove the name and title too
+
+---
+
+check for spacing
+
+---
+
+check for the font in filter options too
+
+---
+
+check spacing in project index file
+
+---
+
+burmese font are not appling in the blog pagination
+
+---
+
+and apply font to newer and older filter too
+
+---
+
+commit it
+
+---
+
+push it
+
+---
+
+can you make link bold
+
+---
+
+commit and push
+
+---
+
+how do i differnt it is english or burmese post
+
+---
+
+for the read next can you point the post from before the current post
+
+---
+
+for the blog, i want just simply the list of the blog with year catagory
+
+---
+
+list all the blog post link
+
+---
+
+remove line split
+
+---
+
+add line split only to the year
+
+---
+
+help me remove all emoji from the post
+
+---
+
+add bulleting points as well
+
+---
+
+add a burmese or english langguage filter
+
+---
+
+remove the bullet points
+
+---
+
+make the tile to sentense case
+
+---
+
+for the english title, make it title case not all cap
+
+---
+
+in the blog listing too
+
+---
+
+and add filter to all post burmese to burmse post only and all post english to english post only  from the home page
+
+---
+
+good, commit and push it
+
+---
+
+add like Posts similar like my name and title ornament in blog page too
+
+---
+
+add  tech, life, art and culture
+
+---
+
+i meant as a subline under post title
+
+---
+
+commit and push it
+
+---
+
+remove the posts starting from 2026-05-8
+
+---
+
+good and commit and push
