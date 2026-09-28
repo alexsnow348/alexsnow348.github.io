@@ -106,7 +106,7 @@ body {
 }
 
 .site-main {
-  a { color: var(--link); }
+  a { color: var(--link); font-weight: 700; }
   a:hover { background: var(--link-hover-bg); }
 }
 
