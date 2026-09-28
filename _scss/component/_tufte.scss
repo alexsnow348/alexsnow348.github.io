@@ -1,0 +1,475 @@
+/*
+ * Tufte-style site chrome: header, nav, post/article body, listings, footer.
+ * Color tokens switch automatically with the OS light/dark preference.
+ */
+
+:root {
+  color-scheme: light dark;
+  --bg: #fcfcfc;
+  --text: #111;
+  --link: #111;
+  --link-hover-bg: #eee;
+  --accent: #111;
+  --border: #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16161a;
+    --text: #d6d6d6;
+    --link: #d6d6d6;
+    --link-hover-bg: #2a2a2e;
+    --accent: #d6d6d6;
+    --border: #3a3a3a;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.site-wrap {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  font-family: $font-body;
+
+  /* Posts/articles get a wider wrap so sidenotes have room in the margin */
+  &.has-sidenotes {
+    max-width: 62rem;
+
+    .post-header,
+    .post-body,
+    .post-footer-nav,
+    .read-next {
+      margin-right: 20rem;
+    }
+
+    @media (max-width: 860px) {
+      max-width: 42rem;
+
+      .post-header,
+      .post-body,
+      .post-footer-nav,
+      .read-next {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 3rem;
+
+  .site-title {
+    font-family: $font-sc;
+    text-transform: lowercase;
+    font-size: 2.2rem;
+    letter-spacing: .05rem;
+    color: var(--text);
+    text-decoration: none;
+    display: block;
+  }
+
+  .site-tagline {
+    font-style: italic;
+    color: var(--text);
+    opacity: .7;
+    margin: .3rem 0 1.5rem;
+  }
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav a {
+  font-family: $font-body;
+  font-size: 1rem;
+  text-transform: lowercase;
+  letter-spacing: .03rem;
+  color: var(--text);
+  text-decoration: none;
+
+  &.active,
+  &:hover {
+    border-bottom: 1px solid var(--accent);
+  }
+}
+
+.site-main {
+  a { color: var(--link); }
+  a:hover { background: var(--link-hover-bg); }
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  font-size: .8rem;
+
+  .site-nav {
+    margin-bottom: 1.2rem;
+    opacity: 1;
+  }
+
+  p {
+    margin: .4rem 0;
+    opacity: .75;
+  }
+
+  a { color: var(--text); }
+}
+
+/* Section marks (§ Read Next, § Recent Posts) */
+.section-mark {
+  color: var(--accent);
+}
+
+/* Ornament divider above post/article titles */
+.ornament {
+  width: 20rem;
+  aspect-ratio: 480 / 60;
+  margin: 0 auto 1.8rem;
+  background-color: var(--text);
+  opacity: .85;
+  -webkit-mask: url("/public/images/ornament.svg") center / contain no-repeat;
+  mask: url("/public/images/ornament.svg") center / contain no-repeat;
+}
+
+/* Post / article body */
+.tufte-post {
+  .post-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+
+    .eyebrow {
+      display: block;
+      font-family: $font-sc;
+      text-transform: lowercase;
+      letter-spacing: .04rem;
+      color: var(--accent);
+      margin-bottom: .5rem;
+    }
+
+    h1 {
+      font-family: $font-sc;
+      font-weight: 700;
+      text-transform: lowercase;
+      font-size: 2rem;
+      letter-spacing: .04rem;
+      margin: 0 0 .5rem;
+    }
+
+    .subtitle {
+      font-style: italic;
+      opacity: .8;
+      margin: 0 0 .6rem;
+    }
+
+    /* Byline sits in the side margin, roughly level with the opening
+       paragraph, instead of centered under the title. */
+    .byline {
+      text-align: left;
+      font-size: .85rem;
+      opacity: .8;
+      margin-top: .75rem;
+      line-height: 1.7;
+
+      span { display: block; }
+
+      .author { text-transform: lowercase; font-family: $font-sc; }
+      .tags { text-transform: lowercase; letter-spacing: .02rem; }
+      .tags a, .tags { color: inherit; }
+    }
+  }
+
+  .post-body {
+    font-size: 1.05rem;
+    line-height: 1.85;
+
+    h2 {
+      font-family: $font-sc;
+      font-weight: 700;
+      text-transform: lowercase;
+      font-size: 1.15rem;
+      letter-spacing: .03rem;
+      margin: 2.4rem 0 1rem;
+    }
+
+    h3 {
+      font-family: $font-sc;
+      font-weight: 700;
+      text-transform: lowercase;
+      font-size: 1rem;
+      letter-spacing: .02rem;
+      margin: 1.8rem 0 .7rem;
+    }
+
+    code { font-family: $font-mono; color: var(--accent); }
+
+    pre {
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--border);
+      padding: .8rem 1rem;
+      overflow-x: auto;
+      background: transparent;
+
+      code { color: inherit; }
+    }
+
+    blockquote {
+      border-left: 3px solid var(--border);
+      color: inherit;
+      opacity: .85;
+    }
+
+    /* Illuminated-style drop cap on the post's opening paragraph */
+    &.dropcap > p:first-of-type::first-letter {
+      font-family: $font-sc;
+      float: left;
+      font-size: 3.4rem;
+      line-height: .8;
+      padding: .1rem .35rem 0 0;
+      margin-right: .1rem;
+      border: 1px solid var(--text);
+      box-shadow: 2px 2px 0 var(--text);
+    }
+  }
+
+  .post-footer-nav {
+    margin-top: 2.5rem;
+    font-size: .9rem;
+  }
+}
+
+/* Burmese post listing keeps the pre-redesign layout, but renders the
+   Myanmar script itself with Padauk rather than a random system fallback. */
+.post-body .legacy-posts h2.post-title {
+  font-family: $font-burmese;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  color: $title-color;
+  font-size: 1.3rem;
+  margin: 0 0 .2rem;
+}
+
+.post-body .legacy-posts .post {
+  margin-bottom: 2rem;
+  font-family: $font-burmese;
+}
+
+/* Burmese blog posts (no `lang` front matter) render in Padauk instead
+   of the Latin Alegreya/Alegreya SC stack used for English/German posts. */
+.tufte-post.lang-my {
+  font-family: $font-burmese;
+
+  .post-header h1 {
+    font-family: $font-burmese;
+    text-transform: none;
+    font-weight: 700;
+  }
+
+  .post-body {
+    font-family: $font-burmese;
+
+    h2, h3 {
+      font-family: $font-burmese;
+      text-transform: none;
+    }
+
+    &.dropcap > p:first-of-type::first-letter {
+      font-family: $font-burmese;
+      float: none;
+      font-size: inherit;
+      line-height: inherit;
+      padding: 0;
+      margin-right: 0;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+/* Homepage: portrait sits in the margin next to the intro paragraphs;
+   recent-posts list shows date/tags in the margin, aligned per item. */
+.home-page {
+  .home-portrait {
+    margin-bottom: 1rem;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  }
+
+  .home-post-list {
+    .post-list-item {
+      border-bottom: none;
+      padding: .4rem 0;
+    }
+
+    .post-list-meta {
+      text-align: left;
+    }
+
+    .post-list-date {
+      display: block;
+      margin-bottom: 0;
+    }
+
+    .post-list-title {
+      font-family: $font-body;
+      text-transform: none;
+      font-weight: 400;
+      font-size: 1.05rem;
+      color: var(--link);
+      letter-spacing: normal;
+
+      &:hover { background: var(--link-hover-bg); }
+    }
+
+    .post-list-desc {
+      font-style: normal;
+      opacity: 1;
+    }
+  }
+}
+
+/* Figures / diagrams with a bordered box and a margin caption */
+figure {
+  margin: 1.5rem 0;
+
+  pre, img {
+    border: 1px solid var(--border);
+    padding: .8rem 1rem;
+  }
+}
+
+figcaption {
+  font-size: .85rem;
+  opacity: .8;
+  margin-top: .4rem;
+}
+
+.has-sidenotes figcaption {
+  @extend .side;
+}
+
+/* Sidenotes (margin notes) */
+.sidenote-number {
+  vertical-align: super;
+  font-size: .7rem;
+  color: var(--accent);
+}
+
+.side {
+  display: block;
+  float: right;
+  clear: right;
+  width: 40%;
+  margin-right: -45%;
+  font-size: .85rem;
+  line-height: 1.5;
+  opacity: .85;
+}
+
+@media (max-width: 860px) {
+  .side {
+    float: none;
+    width: auto;
+    margin: .5rem 0;
+    display: block;
+    border-left: 2px solid var(--border);
+    padding-left: .75rem;
+  }
+}
+
+/* Post listings (blog index, homepage recent posts, read-next) */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.post-list-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+
+  &:last-child { border-bottom: none; }
+}
+
+.post-list-date {
+  display: block;
+  font-size: .8rem;
+  opacity: .65;
+  margin-bottom: .25rem;
+
+  .tags { text-transform: lowercase; }
+}
+
+.post-list-title {
+  display: block;
+  font-family: $font-sc;
+  text-transform: lowercase;
+  font-size: 1.2rem;
+  letter-spacing: .02rem;
+  color: var(--text);
+  text-decoration: none;
+  margin-bottom: .25rem;
+
+  &:hover { background: var(--link-hover-bg); }
+}
+
+/* Burmese entries in mixed-language listings (blog index, read-next)
+   render in Padauk instead of the Latin Alegreya SC small-caps look. */
+.post-list-item.lang-my {
+  .post-list-title {
+    font-family: $font-burmese;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .post-list-date,
+  .post-list-desc {
+    font-family: $font-burmese;
+  }
+}
+
+.post-list-desc {
+  display: block;
+  font-style: italic;
+  opacity: .8;
+  font-size: .95rem;
+}
+
+.read-next h2 {
+  font-family: $font-sc;
+  text-transform: lowercase;
+  font-size: 1.3rem;
+  margin: 3rem 0 1rem;
+  text-align: center;
+}
+
+/* Homepage intro */
+.home-intro {
+  .lead { font-size: 1.1rem; }
+}
+
+.home-recent h2 {
+  font-family: $font-sc;
+  text-transform: lowercase;
+  font-size: 1.3rem;
+  margin: 2.5rem 0 1rem;
+}

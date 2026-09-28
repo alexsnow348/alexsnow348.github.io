@@ -1,7 +1,7 @@
 # Site Info
 title: "Alex Snow"
-tagline: "AI & LLM Consulting · German SMBs & Cultural Institutions"
-description: 'Practical AI, LLM, and Agentic Systems consulting for small and medium-sized businesses and cultural institutions (museums, galleries) in Germany. Knowledge sharing and insights from 13+ years of hands-on learning. By <a href="https://github.com/alexsnowschool" target="_blank">Alex Snow</a>.'
+tagline: "AI/ML Notes · Projects · Certifications"
+description: 'Notes on AI, LLMs, and MLOps, plus projects and certifications. By <a href="https://github.com/alexsnow348" target="_blank">Alex Snow</a>.'
 baseurl: ""
 url: "https://alexsnow348.github.io"
 logo: "/public/logo.png"
@@ -42,54 +42,22 @@ exclude:
 # About/contact
 author:
   name: "Alex Snow"
-  description: <strong>AI & LLM Consultant</strong> based in Germany. Helping SMBs navigate artificial intelligence, large language models, and agentic systems — from strategy to production.
+  description: <strong>AI Solution Architect</strong> based in Germany.
   gravatar: a320402fa9d8fb397013d6f56da76b97
 
 # Navigation (2nd level links supported)
 nav:
-  About:
-    - "/about/"
-  Services:
-    - "/services/"
-  Articles:
-    - "/articles/"
-  Case Studies:
-    - "/case-studies/"
-  Certifications:
-    - "/own-certifications/index.html"
+  Home:
+    - "/"
+  Blog:
+    - "/blog/"
   Projects:
     - "/projects/"
-  Talks:
-    - "/talks/"
-  Myanmar Content:
-    - "/blog/alexsnowschool/"
-    - { "Articles (မြန်မာ)": "/blog/" }
-    - { "Tech & AI (မြန်မာ)": "/blog/alexsnowschool/" }
-    - { "For Youth, By Youth": "/blog/fyby/" }
-    - { "Podcasts": "/podcasts/index.html" }
-    - { "Together Certifications": "/together-certifications/index.html" }
-
-# German navigation
-nav_de:
-  Startseite:
-    - "/de/"
-  Leistungen:
-    - "/leistungen/"
-  Artikel:
-    - "/de/artikel/"
-  Über mich:
-    - "/de/uber-mich/"
-  Fallstudien:
-    - "/de/fallstudien/"
-  Zertifizierungen:
+  Certifications:
     - "/own-certifications/index.html"
-  Myanmar Content:
-    - "/blog/alexsnowschool/"
-    - { "Artikel (မြန်မာ)": "/blog/" }
-    - { "Tech & KI (မြန်မာ)": "/blog/alexsnowschool/" }
-    - { "For Youth, By Youth": "/blog/fyby/" }
-    - { "Podcasts": "/podcasts/index.html" }
-    - { "Together Certifications": "/together-certifications/index.html" }
+    - { "learning": "/together-certifications/index.html" }
+  RSS:
+    - "/atom.xml"
 
 # Where are tags and categories displayed
 tag_page: "/blog/alexsnowschool/"

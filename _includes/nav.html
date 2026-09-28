@@ -1,0 +1,16 @@
+<nav class="site-nav">
+  <ul>
+    {% for item in site.nav %}
+      {% assign main_url = item[1][0] %}
+      <li><a href="{{ site.baseurl }}{{ main_url }}" {% if page.url == main_url %}class="active"{% endif %}>{{ item[0] }}</a></li>
+      {% assign sub_len = item[1] | size | minus: 1 %}
+      {% if sub_len > 0 %}
+        {% for i in (1..sub_len) %}
+          {% for sub in item[1][i] %}
+            <li><a href="{{ site.baseurl }}{{ sub[1] }}" {% if page.url == sub[1] %}class="active"{% endif %}>{{ sub[0] }}</a></li>
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

@@ -5,70 +5,63 @@ title: Projects
 
 <style>
   .projects-intro {
-    font-size: 0.95rem;
-    color: #555;
+    font-size: 1.05rem;
     line-height: 1.85;
     margin-bottom: 2.5rem;
     max-width: 560px;
-    font-family: "Lora", Georgia, serif;
+    font-style: italic;
+    opacity: .85;
   }
 
   .project-year-label {
-    font-family: "Inter", sans-serif;
-    font-size: 0.65rem;
+    font-family: "Alegreya SC", Georgia, serif;
     font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #CE942F;
+    text-transform: lowercase;
+    font-size: 1.05rem;
+    letter-spacing: .02rem;
     margin: 2rem 0 0.5rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid #f0e8d8;
+    border-bottom: 1px solid var(--border);
     display: block;
   }
 
   .project-item {
     padding: 0.9rem 0;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid var(--border);
   }
 
   .project-item:last-child { border-bottom: none; }
 
-  .project-title {
-    font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: 1rem;
+  .project-item h3.project-title {
+    font-family: inherit;
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 1.05rem;
     font-weight: 700;
-    color: #111;
     margin: 0 0 0.3rem;
   }
 
   .project-title a {
-    color: #111;
+    color: var(--text);
     text-decoration: none;
-    border-bottom: 1px solid #e0e0e0;
-    transition: color 0.15s ease, border-color 0.15s ease;
+    border-bottom: 1px solid var(--border);
   }
 
   .project-title a:hover {
-    color: #CE942F;
-    border-color: #CE942F;
-    text-decoration: none;
+    background: var(--link-hover-bg);
   }
 
   .project-desc {
-    font-family: "Lora", Georgia, serif;
-    font-size: 0.875rem;
-    color: #666;
+    font-size: 0.95rem;
+    opacity: .85;
     line-height: 1.75;
     margin: 0 0 0.5rem;
   }
 
   .project-desc a {
-    color: #318F79;
-    text-decoration: none;
+    color: var(--link);
     font-weight: 500;
   }
-
-  .project-desc a:hover { text-decoration: underline; }
 
   .project-tags {
     display: flex;
@@ -77,22 +70,17 @@ title: Projects
   }
 
   .project-tag {
-    font-family: "Inter", sans-serif;
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
     border-radius: 3px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.3px;
     white-space: nowrap;
+    color: var(--text);
+    background: var(--link-hover-bg);
+    border: 1px solid var(--border);
   }
-
-  .tag-community  { color: #1f6b5b; background: #d4f0e8; }
-  .tag-education  { color: #1a5c8a; background: #d6ecf8; }
-  .tag-fintech    { color: #92650a; background: #fef3d6; }
-  .tag-social     { color: #5a3d8a; background: #ece5f8; }
-  .tag-ml         { color: #8a3d3d; background: #f8e5e5; }
-  .tag-award      { color: #7a4a2e; background: #f5e6d8; }
 </style>
 
 <p class="projects-intro">
@@ -103,7 +91,7 @@ title: Projects
 
 <div class="project-item">
   <h3 class="project-title">
-    <a href="https://www.clubhouse.com/club/%E1%80%9D%E1%80%91%E1%80%91%E1%80%99%E1%80%94-%E1%80%80%E1%80%81%E1%80%94%E1%80%81%E1%80%84" target="_blank">Weekly Burmese Novel Reading</a>
+    <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Weekly Burmese Novel Reading</a>
   </h3>
   <p class="project-desc">Weekly Clubhouse discussions on classical and post-modern Burmese short novels. 20–50 daily listeners; sessions archived on <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a> and Google Podcasts.</p>
   <div class="project-tags">

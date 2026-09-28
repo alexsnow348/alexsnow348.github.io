@@ -2,63 +2,35 @@
 layout: default
 ---
 
-<style type="text/css">
-.post-tag {
-  font-family: 'century-burma', sans-serif;;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'century-burma', sans-serif;;
-}
-</style>
+<article class="tufte-post{% unless page.lang %} lang-my{% endunless %}">
+  <header class="post-header">
+    <div class="ornament"></div>
+    <h1>{{ page.title }}</h1>
+    <p class="byline side">
+      <span class="date">
+        {% if page.lang == "de" %}
+          {% assign de_month_key = page.date | date: "%m" %}
+          {{ page.date | date: "%-d" }}. {{ site.data.de_months[de_month_key] }} {{ page.date | date: "%Y" }}
+        {% else %}
+          {{ page.date | date: "%B %-d, %Y" }}
+        {% endif %}
+      </span>
+      {% if page.tags %}
+      <span class="tags">
+        {% for tag in page.tags %}<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      </span>
+      {% endif %}
+      {% for tag in page.categories %}
+      <span class="tags"><a href="{{ site.baseurl }}{{ site.category_page }}#{{ tag | slugify }}">{{ tag }}</a></span>
+      {% endfor %}
+    </p>
+  </header>
 
-<div class="post">
-  <h2 class="post-title">{{ page.title }}</h2>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {% if page.tags %} |
-  {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-  {% endfor %}
-  {% for tag in page.categories %}
-    <a href="{{ site.baseurl }}{{ site.category_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-  {% endfor %}
-  {% endif %}
-  <article>
+  <div class="post-body dropcap">
     {{ content }}
-  </article>
-</div>
+  </div>
 
-{% if site.disqus_short_name %}
-<div class="comments">
-  <h2>Comments</h2>
-  <div id="disqus_thread"></div>
-  <script>
-var disqus_config = function () {
-  this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-(function() {
-  var d = document, s = d.createElement('script');
-  s.src = '//{{ site.disqus_short_name }}.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-})();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
+  <p class="post-footer-nav"><a href="{{ site.baseurl }}/blog/">&larr; All Posts</a></p>
+</article>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h6>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h6>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
+{% include read-next.html %}

@@ -1,58 +1,46 @@
 ---
 layout: default
-title: Blogs
+title: Blog
 ---
-<style type="text/css">
-.post-tag {
-  font-family: 'century-burma', sans-serif;;
-}
-</style>
-<div class="posts">
+
+<ul class="post-list">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    {% if post.tags %} |
-    {% for tag in post.tags %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-    {% for tag in post.categories %}
-    <a href="{{ site.baseurl }}{{ site.category_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-    {% endif %}
-
-    <article>
-      {{ post.excerpt | markdownify }}
-    <article>
-    <div class="post-more">
-      {% if site.disqus_short_name %}
-      <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
+  <li class="post-list-item{% unless post.lang %} lang-my{% endunless %}">
+    <span class="post-list-date">
+      {% if post.lang == "de" %}
+        {% assign de_month_key = post.date | date: "%m" %}
+        {{ post.date | date: "%-d" }}. {{ site.data.de_months[de_month_key] }} {{ post.date | date: "%Y" }}
+      {% else %}
+        {{ post.date | date: "%B %-d, %Y" }}
       {% endif %}
-      <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
-    </div>
-  </div>
+      {% if post.tags %}&middot;
+      {% for tag in post.tags %}<span class="tags">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {% endif %}
+      {% for tag in post.categories %}&middot; <span class="tags">{{ tag }}</span>{% endfor %}
+    </span>
+    <a class="post-list-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    {% if post.description %}
+    <span class="post-list-desc">{{ post.description }}</span>
+    {% else %}
+    <span class="post-list-desc">{{ post.excerpt | strip_html | truncate: 140 }}</span>
+    {% endif %}
+  </li>
   {% endfor %}
-</div>
+</ul>
 
-<div class="pagination">
+<nav class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">Previous</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/">&larr; Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{paginator.previous_page}}">Previous</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/blog/page{{ paginator.previous_page }}">&larr; Newer</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Previous</span>
+    <span class="pagination-item newer">&larr; Newer</span>
   {% endif %}
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{paginator.next_page}}">Next</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}/blog/page{{ paginator.next_page }}">Older &rarr;</a>
   {% else %}
-    <span class="pagination-item older">Next</span>
+    <span class="pagination-item older">Older &rarr;</span>
   {% endif %}
-
-</div>
+</nav>

@@ -5,7 +5,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=century-burma:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Alegreya+SC:wght@500;700&family=Inconsolata:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&family=Padauk:wght@400;700&display=swap"
     rel="stylesheet"
   />
   <!-- Enable responsiveness on mobile devices-->
@@ -23,7 +23,19 @@
     /* Burmese text sections preserve Myanmar script font */
     .myanmar-text,
     .myanmar-text * {
-      font-family: "century-burma", sans-serif;
+      font-family: "Padauk", sans-serif;
+    }
+
+    .padauk-regular {
+      font-family: "Padauk", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .padauk-bold {
+      font-family: "Padauk", sans-serif;
+      font-weight: 700;
+      font-style: normal;
     }
   </style>
 
@@ -45,8 +57,8 @@
         "url": "https://alexsnow348.github.io",
         "image": "https://www.gravatar.com/avatar/a320402fa9d8fb397013d6f56da76b97?s=400",
         "jobTitle": "AI & LLM Consultant",
-        "description": "AI and LLM consultant helping German SMBs and cultural institutions apply machine learning and large language models — from strategy to production.",
-        "knowsAbout": ["Artificial Intelligence", "Large Language Models", "MLOps", "RAG Systems", "Agentic AI", "Databricks", "Museum Technology", "GenAI"],
+        "description": "AI and LLM consultant writing notes on machine learning, large language models, and MLOps.",
+        "knowsAbout": ["Artificial Intelligence", "Large Language Models", "MLOps", "RAG Systems", "Agentic AI", "Databricks", "GenAI"],
         "knowsLanguage": ["en", "de", "my"],
         "alumniOf": {
           "@type": "CollegeOrUniversity",
@@ -54,38 +66,13 @@
         },
         "sameAs": [
           "https://www.linkedin.com/in/wuthmonehninhlaing/",
-          "https://github.com/alexsnowschool"
+          "https://github.com/alexsnow348"
         ],
         "worksFor": {
           "@type": "Organization",
           "name": "ControlExpert GmbH"
         }
-      },
-      {
-        "@type": "ProfessionalService",
-        "@id": "https://alexsnow348.github.io/#service",
-        "name": "Alex Snow — AI & LLM Consulting",
-        "url": "https://alexsnow348.github.io",
-        "description": "Practical AI, LLM, and agentic systems consulting for small and medium-sized businesses and cultural institutions in Germany and the DACH region.",
-        "provider": { "@id": "https://alexsnow348.github.io/#person" },
-        "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": { "@type": "GeoCoordinates", "addressCountry": "DE" },
-          "description": "Germany and DACH region"
-        },
-        "serviceType": ["AI Consulting", "LLM Development", "MLOps", "AI Strategy", "Museum Technology"],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Consulting Services",
-          "itemListElement": [
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI Strategy & Roadmapping" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "LLM Application Development" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Agentic Workflow Design" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "MLOps & Model Deployment" } },
-            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Workshops & Team Training" } }
-          ]
-        }
-      }{% if page.layout == "article" %},
+      }{% if page.layout == "article" or page.layout == "post" %},
       {
         "@type": "Article",
         "headline": "{{ page.title | escape }}",

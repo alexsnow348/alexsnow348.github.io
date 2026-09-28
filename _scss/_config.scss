@@ -15,11 +15,11 @@ $white:      #fff;
 $lightgrey:  #eee;
 $black:      #000;
 
-$theme-color: $blue;
+$theme-color: $default;
 $theme-color-dark: darken($theme-color, 10%);
 
 $post-date-color: #9a9a9a;
-$title-color: #ce942f;
+$title-color: #333;
 $masthead-title-small-color: #c0c0c0;
 
 /* Layout */
@@ -31,3 +31,9 @@ $font-serif: "Lora", Georgia, "Times New Roman", serif;
 $font-sans: "Cormorant Garamond", Georgia, serif;
 $font-ui: "Inter", "Helvetica Neue", Helvetica, sans-serif;
 $font-font-awesome: FontAwesome;
+
+/* Tufte-style blog/site-chrome font stack (blog, projects, certifications) */
+$font-body: "Alegreya", Georgia, serif;
+$font-sc: "Alegreya SC", Georgia, serif;
+$font-mono: "Inconsolata", Menlo, Monaco, monospace;
+$font-burmese: "Padauk", sans-serif;

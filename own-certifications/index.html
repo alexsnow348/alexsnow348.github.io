@@ -16,45 +16,43 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
     flex-wrap: wrap;
     margin-bottom: 2.5rem;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border);
   }
 
   .cert-stat-num {
-    font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: 2rem;
+    font-family: "Alegreya SC", Georgia, serif;
     font-weight: 700;
-    color: #CE942F;
+    font-size: 2rem;
     display: block;
     line-height: 1;
     margin-bottom: 0.2rem;
   }
 
   .cert-stat-label {
-    font-family: "Inter", sans-serif;
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
-    color: #aaa;
+    opacity: .6;
   }
 
   /* Controls */
   .cert-search {
     width: 100%;
     padding: 0.65rem 0.85rem;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 4px;
-    font-family: "Inter", sans-serif;
-    font-size: 0.85rem;
-    color: #333;
+    background: var(--bg);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.95rem;
     margin-bottom: 1.25rem;
     box-sizing: border-box;
-    transition: border-color 0.15s ease;
   }
 
   .cert-search:focus {
     outline: none;
-    border-color: #CE942F;
+    border-color: var(--text);
   }
 
   .filter-group {
@@ -66,12 +64,11 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
   }
 
   .filter-group-label {
-    font-family: "Inter", sans-serif;
-    font-size: 0.65rem;
+    font-size: 0.72rem;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
-    color: #bbb;
+    opacity: .6;
     padding-top: 0.25rem;
     white-space: nowrap;
   }
@@ -84,33 +81,31 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
   }
 
   .filter-pill {
-    font-family: "Inter", sans-serif;
-    font-size: 0.7rem;
+    font-family: inherit;
+    font-size: 0.78rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--border);
     border-radius: 20px;
-    background: #fff;
-    color: #666;
+    background: var(--bg);
+    color: var(--text);
     cursor: pointer;
-    transition: all 0.15s ease;
   }
 
   .filter-pill:hover {
-    border-color: #CE942F;
-    color: #CE942F;
+    border-color: var(--text);
   }
 
   .filter-pill.active {
-    background: #CE942F;
-    border-color: #CE942F;
-    color: #fff;
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
   }
 
   .cert-controls {
     margin-bottom: 1.75rem;
     padding-bottom: 1.25rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border);
   }
 
   .cert-controls-footer {
@@ -118,28 +113,28 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
     justify-content: space-between;
     align-items: center;
     padding-top: 0.75rem;
-    border-top: 1px solid #f5f5f5;
+    border-top: 1px solid var(--border);
     margin-top: 0.5rem;
   }
 
   .cert-count {
-    font-family: "Inter", sans-serif;
-    font-size: 0.75rem;
-    color: #bbb;
+    font-size: 0.8rem;
+    opacity: .6;
   }
 
   .reset-link {
-    font-family: "Inter", sans-serif;
-    font-size: 0.72rem;
-    color: #bbb;
+    font-family: inherit;
+    font-size: 0.78rem;
+    opacity: .7;
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
     text-decoration: underline;
+    color: var(--text);
   }
 
-  .reset-link:hover { color: #CE942F; }
+  .reset-link:hover { opacity: 1; }
 
   /* Year sections */
   .cert-year-section {
@@ -151,15 +146,14 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
   }
 
   .cert-year-heading {
-    font-family: "Inter", sans-serif;
-    font-size: 0.65rem;
+    font-family: "Alegreya SC", Georgia, serif;
     font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #CE942F;
+    text-transform: lowercase;
+    font-size: 1.05rem;
+    letter-spacing: .02rem;
     margin: 0 0 0.5rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid #f0e8d8;
+    border-bottom: 1px solid var(--border);
     line-height: 1.2;
   }
 
@@ -170,26 +164,24 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
     justify-content: space-between;
     gap: 1rem;
     padding: 0.6rem 0;
-    border-bottom: 1px solid #f5f5f5;
-    transition: background 0.1s ease;
+    border-bottom: 1px solid var(--border);
   }
 
   .cert-row:last-child { border-bottom: none; }
 
-  .cert-row:hover { background: #fafaf8; }
+  .cert-row:hover { background: var(--link-hover-bg); }
 
   .cert-title-link {
-    font-size: 0.9rem;
-    color: #222;
+    font-size: 1rem;
+    color: var(--text);
     text-decoration: none;
     line-height: 1.45;
     flex: 1;
     min-width: 0;
     word-break: break-word;
-    transition: color 0.15s ease;
   }
 
-  .cert-title-link:hover { color: #CE942F; text-decoration: none; }
+  .cert-title-link:hover { text-decoration: underline; }
 
   .cert-badges {
     display: flex;
@@ -199,41 +191,25 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
     padding-top: 0.15rem;
   }
 
-  /* Badge colours by platform */
+  /* Badges: monochrome, differentiated by border only */
   .badge {
-    font-family: "Inter", sans-serif;
-    font-size: 0.62rem;
+    font-size: 0.68rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
     border-radius: 3px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.3px;
     white-space: nowrap;
+    color: var(--text);
+    background: var(--link-hover-bg);
+    border: 1px solid var(--border);
   }
-
-  .badge-coursera   { color: #1f6b5b; background: #d4f0e8; }
-  .badge-databricks { color: #1a5c8a; background: #d6ecf8; }
-  .badge-udacity    { color: #92650a; background: #fef3d6; }
-  .badge-ibm        { color: #5a3d8a; background: #ece5f8; }
-  .badge-bloomberg  { color: #5a3d8a; background: #ece5f8; }
-  .badge-other      { color: #888;    background: #f5f5f5; }
-
-  .badge-ml        { color: #8a3d3d; background: #f8e5e5; }
-  .badge-data      { color: #1a5c8a; background: #d6ecf8; }
-  .badge-ops       { color: #5a3d8a; background: #ece5f8; }
-  .badge-math      { color: #1f6b5b; background: #d4f0e8; }
-  .badge-finance   { color: #92650a; background: #fef3d6; }
-  .badge-web       { color: #888;    background: #f5f5f5; }
-  .badge-pm        { color: #92650a; background: #fef3d6; }
-  .badge-general   { color: #888;    background: #f5f5f5; }
-  .badge-art       { color: #7a4a2e; background: #f5e6d8; }
 
   /* No results */
   .cert-empty {
     padding: 3rem 0;
-    color: #bbb;
-    font-size: 0.875rem;
-    font-family: "Inter", sans-serif;
+    opacity: .6;
+    font-size: 0.9rem;
     text-align: center;
   }
 
