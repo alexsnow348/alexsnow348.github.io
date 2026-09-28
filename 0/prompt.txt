@@ -251,3 +251,7 @@ add  tech, life, art and culture
 ---
 
 i meant as a subline under post title
+
+---
+
+commit and push it
