@@ -1,0 +1,1 @@
+apply font for tag as well

@@ -1,0 +1,54 @@
+{
+  "cli_version": "0.10.6",
+  "checkpoint_id": "01M3KR18EBC3Z6SS7MMJSDFDJM",
+  "session_id": "187e8cfd-b69f-4f4e-a08d-4dc48d6ba23a",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-28T10:12:42.472075Z",
+  "branch": "master",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [
+    "_posts/2021-04-07-thetenrulesofikigai.md",
+    "_scss/component/_tufte.scss"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "a0db90f3e160",
+  "checkpoint_transcript_start": 3244,
+  "transcript_lines_at_start": 3244,
+  "compact_transcript_start": 503,
+  "token_usage": {
+    "input_tokens": 14,
+    "cache_creation_tokens": 6109,
+    "cache_read_tokens": 3638179,
+    "output_tokens": 4296,
+    "api_call_count": 7
+  },
+  "session_metrics": {
+    "turn_count": 39
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-28T10:12:42.292041Z",
+    "agent_lines": 9,
+    "agent_removed": 1,
+    "human_added": 1,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 10,
+    "total_lines_changed": 12,
+    "agent_percentage": 83.33333333333334,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 24,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      }
+    }
+  ]
+}
