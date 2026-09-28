@@ -1,0 +1,9 @@
+add a talk page too, rewrite talks page from existing draft
+
+---
+
+add in nav too
+
+---
+
+check for spacing, it is a bit too much space at the moment
