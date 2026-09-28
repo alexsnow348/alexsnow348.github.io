@@ -1,0 +1,5 @@
+commit and push it
+
+---
+
+i want add @public/attribute.png  as under copyright
