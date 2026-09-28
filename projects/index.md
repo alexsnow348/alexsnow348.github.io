@@ -84,7 +84,7 @@ title: Projects
 </style>
 
 <p class="projects-intro">
-  Community platforms, educational initiatives, and technical tools — mostly built around Myanmar's youth, financial literacy, and AI/ML education.
+  Community platforms, educational initiatives, and technical tools mostly built around Myanmar's youth, financial literacy, and AI/ML education.
 </p>
 
 <span class="project-year-label">2022</span>

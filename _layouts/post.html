@@ -4,7 +4,7 @@ layout: default
 
 <article class="tufte-post{% unless page.lang %} lang-my{% endunless %}">
   <header class="post-header">
-    <div class="ornament"></div>
+    <a class="ornament" href="{{ site.baseurl }}/" aria-label="Home"></a>
     <h1>{{ page.title }}</h1>
     <p class="byline side">
       <span class="date">
@@ -15,7 +15,7 @@ layout: default
           {{ page.date | date: "%B %-d, %Y" }}
         {% endif %}
       </span>
-      {% if page.tags %}
+      {% if page.tags.size > 0 %}
       <span class="tags">
         {% for tag in page.tags %}<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
       </span>

@@ -80,7 +80,7 @@
         "author": { "@id": "https://alexsnow348.github.io/#person" },
         "publisher": { "@id": "https://alexsnow348.github.io/#person" },
         "datePublished": "{{ page.date | date_to_xmlschema }}",
-        "url": "{{ site.url }}{{ page.url }}"{% if page.tags %},
+        "url": "{{ site.url }}{{ page.url }}"{% if page.tags.size > 0 %},
         "keywords": "{{ page.tags | join: ', ' }}"{% endif %}
       }{% endif %}
     ]

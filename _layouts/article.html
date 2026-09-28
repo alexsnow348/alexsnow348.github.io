@@ -4,7 +4,7 @@ layout: default
 
 <article class="tufte-post">
   <header class="post-header">
-    <div class="ornament"></div>
+    <a class="ornament" href="{{ site.baseurl }}/" aria-label="Home"></a>
     {% if page.eyebrow %}<span class="eyebrow">{{ page.eyebrow }}</span>
     {% elsif page.lang == "de" %}<span class="eyebrow">KI &times; Kunst &amp; Museum</span>
     {% else %}<span class="eyebrow">AI &times; Art &amp; Museum</span>{% endif %}
@@ -21,7 +21,7 @@ layout: default
       {% if page.read_time %}
       <span class="read-time">{{ page.read_time }} {% if page.lang == "de" %}Min. Lesezeit{% else %}min read{% endif %}</span>
       {% endif %}
-      {% if page.tags %}
+      {% if page.tags.size > 0 %}
       <span class="tags">
         {% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}
       </span>

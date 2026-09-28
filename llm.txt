@@ -20,7 +20,7 @@ AI and LLM consulting for SMBs and cultural institutions (museums, galleries, ar
 - MLOps Engineer at LPKF Laser & Electronics SE (2023–2026)
 - Lead Back End / ML Engineer at TM Research & Development, Malaysia (2017–2023)
 - M.Sc. Data Analytics, Stiftung Universität Hildesheim (2023–2025)
-- Founder, Alex Snow School — award-winning AI/ML education initiative for Myanmar youth
+- Founder, Alex Snow School: award-winning AI/ML education initiative for Myanmar youth
 - 81+ professional certifications across Coursera, Databricks, Udacity, IBM, and others
 - Winner, Falling Walls Lab Myanmar 2020
 

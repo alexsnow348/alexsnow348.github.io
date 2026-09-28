@@ -136,6 +136,7 @@ body {
 
 /* Ornament divider above post/article titles */
 .ornament {
+  display: block;
   width: 20rem;
   aspect-ratio: 480 / 60;
   margin: 0 auto 1.8rem;
@@ -143,6 +144,14 @@ body {
   opacity: .85;
   -webkit-mask: url("/public/images/ornament.svg") center / contain no-repeat;
   mask: url("/public/images/ornament.svg") center / contain no-repeat;
+
+  /* Anchor now, not a plain div — override the generic link-hover
+     background (which would otherwise repaint the masked shape's fill
+     color instead of the icon behind it). */
+  &:hover {
+    opacity: 1;
+    background-color: var(--text) !important;
+  }
 }
 
 /* Post / article body */
