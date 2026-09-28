@@ -1,0 +1,9 @@
+make the same for tag and catagory apperance. i wan t look and feel the same like english post list
+
+---
+
+in @index.html  fiel
+
+---
+
+in home page, date and tag under post list, i want those to disply the same style

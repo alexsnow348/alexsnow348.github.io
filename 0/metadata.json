@@ -1,0 +1,84 @@
+{
+  "cli_version": "0.10.6",
+  "checkpoint_id": "01M3M2AY5DD6ES6R75XXTVHQZ4",
+  "session_id": "138a2bf7-60ed-4fee-be96-b01916e0c74f",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-28T13:12:45.809031Z",
+  "branch": "master",
+  "checkpoints_count": 2,
+  "save_step_count": 2,
+  "files_touched": [
+    "_posts/2019-08-07-it-is-too-much-to-hope-for.md",
+    "_posts/2021-03-08-desiderata.md",
+    "_posts/2021-04-07-thetenrulesofikigai.md",
+    "blog/alexsnowschool.html",
+    "blog/fyby.html",
+    "index.html"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "7d0a2fa45684",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 64,
+    "cache_creation_tokens": 55115,
+    "cache_read_tokens": 1914489,
+    "output_tokens": 9598,
+    "api_call_count": 32
+  },
+  "session_metrics": {
+    "turn_count": 2
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-28T13:12:45.783755Z",
+    "agent_lines": 57,
+    "agent_removed": 62,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 3,
+    "total_committed": 57,
+    "total_lines_changed": 122,
+    "agent_percentage": 97.54098360655738,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 28,
+      "user_lines_removed": 3,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24,
+        "_posts/2019-08-07-it-is-too-much-to-hope-for.md": 2,
+        "_posts/2021-03-08-desiderata.md": 1,
+        "_posts/2021-04-07-thetenrulesofikigai.md": 1
+      },
+      "user_removed_per_file": {
+        "_posts/2019-08-07-it-is-too-much-to-hope-for.md": 1,
+        "_posts/2021-03-08-desiderata.md": 1,
+        "_posts/2021-04-07-thetenrulesofikigai.md": 1
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 24,
+      "user_lines_removed": 0,
+      "agent_lines_added": 57,
+      "agent_lines_removed": 58,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 24,
+      "user_lines_removed": 0,
+      "agent_lines_added": 64,
+      "agent_lines_removed": 65,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      }
+    }
+  ]
+}
