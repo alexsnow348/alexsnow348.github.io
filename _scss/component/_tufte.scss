@@ -427,6 +427,14 @@ figcaption {
   .tags { text-transform: lowercase; }
 }
 
+/* Tag/category values are sometimes Burmese script even on posts that
+   are otherwise English (e.g. a lang:en post with a Burmese category) —
+   fall back to Padauk for any glyphs Alegreya doesn't cover. */
+.tags,
+.post-tag {
+  font-family: $font-body, $font-burmese;
+}
+
 /* Simple year-grouped link list (blog index) — no divider lines */
 .blog-year-heading {
   font-family: $font-sc;

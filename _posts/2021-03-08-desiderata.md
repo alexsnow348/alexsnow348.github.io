@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desiderata"
-categories:  ["ဘဝခရီးလမ်း"]
+categories:  ["life"]
 lang: en
 ---
 
