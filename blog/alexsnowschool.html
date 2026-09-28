@@ -1,33 +1,33 @@
 ---
-layout: page
-title: တစ်ရက်နည်းနည်းစီ တဖြေးဖြေး အတူတူလေ့လာကြစို့။ 
+layout: default
+title: Tags
 ---
-<style type="text/css">
-.post-tag {
-  font-family: 'century-burma', sans-serif;;
-}
-</style>
-<div class="tags-expo">
-  <div class="tags-expo-list">
+
+<div class="tufte-post">
+  <header class="post-header">
+    <a class="ornament" href="{{ site.baseurl }}/" aria-label="Home"></a>
+    <h1>Tags</h1>
+    <p class="subtitle">Browse posts by tag</p>
+  </header>
+
+  <div class="post-body">
+    <p class="post-links-list">
+      {% for tag in site.tags %}<a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+    </p>
+
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
-    {% endfor %}
-  </div>
-  <div class="tags-expo-section">
-    {% for tag in site.tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    <br/>
-    <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
-      <br />
-      {% endfor %}
-    </ul>
+    <div class="blog-year-block">
+      <h2 class="blog-year-heading" id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+      <ul class="post-list post-links-list">
+        {% assign tag_posts = tag[1] | sort: "date" | reverse %}
+        {% for post in tag_posts %}
+        <li class="post-list-item{% unless post.lang %} lang-my{% endunless %}">
+          <a class="post-list-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <span class="post-list-date">{{ post.date | date_to_string }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     {% endfor %}
   </div>
 </div>

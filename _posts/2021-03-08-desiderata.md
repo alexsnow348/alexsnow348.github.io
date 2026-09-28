@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desiderata"
-categories:  ["life"]
+categories:  ["poem"]
 lang: en
 ---
 

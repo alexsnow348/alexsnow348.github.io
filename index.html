@@ -50,19 +50,19 @@ title: Home
     <p><a href="{{ site.baseurl }}/blog/?lang=en">All posts &rarr;</a></p>
 
     <h2>Recent Posts (Burmese)</h2>
-    <div class="posts legacy-posts">
+    <ul class="post-list home-post-list">
       {% for post in burmese_posts limit:5 %}
-      <div class="post">
-        <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        <span class="post-date">
+      <li class="post-list-item lang-my">
+        <a class="post-list-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <span class="post-list-date">
           {{ post.date | date_to_string }}
           {% if post.categories.size > 0 %}
-          &middot; {% for tag in post.categories %}<a class="post-tag">{{ tag }}</a>{% endfor %}
+          &middot; <span class="tags">{% for tag in post.categories %}{{ tag }}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</span>
           {% endif %}
         </span>
-      </div>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
     <p><a href="{{ site.baseurl }}/blog/?lang=my">All posts &rarr;</a></p>
   </div>
 </div>
