@@ -1,0 +1,5 @@
+make poster clickable and viewable
+
+---
+
+can you make background transpaernt instead of black
