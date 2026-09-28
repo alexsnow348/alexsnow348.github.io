@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Certifications
-description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data engineering, and cloud platforms — Coursera, Databricks, Udacity, IBM, and more. Updated 2026."
+description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data engineering, and more. Updated 2026."
 ---
 
 <style>
@@ -231,25 +231,17 @@ description: "81+ professional certifications in AI, ML, LLMOps, MLOps, data eng
       <span class="cert-stat-label">Years of Learning</span>
     </div>
     <div>
-      <span class="cert-stat-num">8+</span>
-      <span class="cert-stat-label">Platforms</span>
-    </div>
-    <div>
       <span class="cert-stat-num">2026</span>
       <span class="cert-stat-label">Latest</span>
     </div>
   </div>
 
   <div class="cert-controls">
-    <input type="text" id="cert-search" class="cert-search" placeholder="Search by title, platform, or topic…" />
+    <input type="text" id="cert-search" class="cert-search" placeholder="Search by title or topic…" />
 
     <div class="filter-group">
       <span class="filter-group-label">Year</span>
       <div class="filter-pills" id="year-filters"></div>
-    </div>
-    <div class="filter-group">
-      <span class="filter-group-label">Platform</span>
-      <div class="filter-pills" id="platform-filters"></div>
     </div>
     <div class="filter-group">
       <span class="filter-group-label">Topic</span>
@@ -380,15 +372,6 @@ const certifications = [
 // Dynamic years count from 2014 (first cert) to current year
 document.getElementById('stat-years').textContent = new Date().getFullYear() - 2014 + 1;
 
-const platformBadgeClass = {
-  'Coursera':   'badge-coursera',
-  'Databricks': 'badge-databricks',
-  'Udacity':    'badge-udacity',
-  'IBM':        'badge-ibm',
-  'Bloomberg':  'badge-bloomberg',
-  'Other':      'badge-other',
-};
-
 const categoryBadgeClass = {
   'ML/AI':              'badge-ml',
   'Data Engineering':   'badge-data',
@@ -401,10 +384,9 @@ const categoryBadgeClass = {
   'Other':              'badge-general',
 };
 
-let state = { year: 'All', platform: 'All', category: 'All', search: '' };
+let state = { year: 'All', category: 'All', search: '' };
 
 const years      = ['All', ...new Set(certifications.map(c => c.year).sort((a,b) => b-a))];
-const platforms  = ['All', ...new Set(certifications.map(c => c.platform).sort())];
 const categories = ['All', ...new Set(certifications.map(c => c.category).sort())];
 
 function buildPills(containerId, items, key) {
@@ -417,12 +399,10 @@ function buildPills(containerId, items, key) {
 function filtered() {
   return certifications.filter(c => {
     if (state.year !== 'All' && c.year !== state.year) return false;
-    if (state.platform !== 'All' && c.platform !== state.platform) return false;
     if (state.category !== 'All' && c.category !== state.category) return false;
     if (state.search) {
       const q = state.search.toLowerCase();
       if (!c.title.toLowerCase().includes(q) &&
-          !c.platform.toLowerCase().includes(q) &&
           !c.category.toLowerCase().includes(q)) return false;
     }
     return true;
@@ -460,7 +440,6 @@ function render() {
         <div class="cert-row">
           <a class="cert-title-link" href="${c.url}" target="_blank">${c.title}</a>
           <div class="cert-badges">
-            <span class="badge ${platformBadgeClass[c.platform] || 'badge-other'}">${c.platform}</span>
             <span class="badge ${categoryBadgeClass[c.category] || 'badge-general'}">${c.category}</span>
           </div>
         </div>
@@ -471,7 +450,6 @@ function render() {
 
 function rebuildPills() {
   buildPills('year-filters',     years,      'year');
-  buildPills('platform-filters', platforms,  'platform');
   buildPills('category-filters', categories, 'category');
 }
 
@@ -491,7 +469,7 @@ document.getElementById('cert-search').addEventListener('input', e => {
 });
 
 document.getElementById('reset-btn').addEventListener('click', () => {
-  state = { year: 'All', platform: 'All', category: 'All', search: '' };
+  state = { year: 'All', category: 'All', search: '' };
   document.getElementById('cert-search').value = '';
   rebuildPills();
   render();

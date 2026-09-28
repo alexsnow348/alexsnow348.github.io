@@ -54,7 +54,6 @@ nav:
     - "/talks/"
   Certifications:
     - "/own-certifications/index.html"
-    - { "learning": "/together-certifications/index.html" }
   RSS:
     - "/atom.xml"
 
