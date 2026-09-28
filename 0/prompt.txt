@@ -1,0 +1,5 @@
+make tag next to the date
+
+---
+
+do the same for burmese post too
