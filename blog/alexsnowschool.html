@@ -23,7 +23,7 @@ title: Tags
         {% for post in tag_posts %}
         <li class="post-list-item{% unless post.lang %} lang-my{% endunless %}">
           <a class="post-list-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          <span class="post-list-date">{{ post.date | date_to_string }}</span>
+          <span class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</span>
         </li>
         {% endfor %}
       </ul>
