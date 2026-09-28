@@ -183,7 +183,7 @@ title: Talks
   </div>
   <h3 class="talk-title">AI Unplugged: The Art of Prompt Engineering</h3>
   <div class="talk-meta">American Center, Yangon</div>
-  <p class="talk-desc">Fundamentals of prompt engineering and AI's impact on society — delivered to youth audiences with a focus on workforce readiness.</p>
+  <p class="talk-desc">Fundamentals of prompt engineering and AI's impact on society, delivered to youth audiences with a focus on workforce readiness.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
   </div>
@@ -195,7 +195,7 @@ title: Talks
   </div>
   <h3 class="talk-title">AI Tools for Work</h3>
   <div class="talk-meta">Alex Snow School</div>
-  <p class="talk-desc">How AI works behind the scenes and practical tools for professional use — from AI evolution basics to hands-on application.</p>
+  <p class="talk-desc">How AI works behind the scenes and practical tools for professional use from AI evolution basics to hands-on application.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
     <a href="https://drive.google.com/file/d/1rpXtwOLW8D8Y55AR-qBOZyTc8feBgn_h/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
@@ -207,7 +207,7 @@ title: Talks
 <div class="talk-item">
   <h3 class="talk-title">The Use of AI/GenAI in Financial Markets</h3>
   <div class="talk-meta">Alex Snow School</div>
-  <p class="talk-desc">LSTMs, GANs, and LLMs like FinGPT for sentiment analysis and risk prediction — with a look at ethical and regulatory challenges.</p>
+  <p class="talk-desc">LSTMs, GANs, and LLMs like FinGPT for sentiment analysis and risk prediction with a look at ethical and regulatory challenges.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
     <a href="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
@@ -220,7 +220,7 @@ title: Talks
   </div>
   <h3 class="talk-title">Knowledge Distillation: Streamlining AI</h3>
   <div class="talk-meta">Alex Snow School</div>
-  <p class="talk-desc">Teacher-student frameworks for creating smaller, efficient AI models — covering distillation schemes and applications in NLP and object detection.</p>
+  <p class="talk-desc">Teacher-student frameworks for creating smaller, efficient AI models covering distillation schemes and applications in NLP and object detection.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
     <a href="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank" class="talk-link">Slides &rarr;</a>
@@ -246,7 +246,7 @@ title: Talks
   </div>
   <h3 class="talk-title">The Usages of AI in Daily Life</h3>
   <div class="talk-meta">Alex Snow School</div>
-  <p class="talk-desc">AI's role in social media, entertainment, education, and healthcare — with practical tips for leveraging it effectively.</p>
+  <p class="talk-desc">AI's role in social media, entertainment, education, and healthcare with practical tips for leveraging it effectively.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
     <a href="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
@@ -274,7 +274,6 @@ title: Talks
   <p class="talk-desc">Career advice and opportunities in STEM fields, organised by Friedrich Naumann Foundation Yangon.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank" class="talk-link">Listen on SoundCloud &rarr;</a>
   </div>
 </div>
 
