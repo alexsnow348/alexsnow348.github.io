@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "📚 Life-long Learner တစ်ယောက်ဖြစ်ဖို့ - IT"
+title: "Life-long Learner တစ်ယောက်ဖြစ်ဖို့ - IT"
 categories: ["လေ့လာမှု"]
 ---
 

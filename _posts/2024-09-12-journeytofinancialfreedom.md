@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🐛 မိမိ၏ အားသာချက်ကို ရှာပါ။"
+title: "မိမိ၏ အားသာချက်ကို ရှာပါ။"
 tag: ["လူငယ်မှသည် လူချမ်းသာဆီသို့"]
 ---
 "Discover your comparative advantage."

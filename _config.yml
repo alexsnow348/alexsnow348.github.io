@@ -9,7 +9,6 @@ image: "/public/logo.png"
 
 # Site configurations
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-font-awesome-sass
@@ -21,8 +20,6 @@ excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss
-paginate: 3
-paginate_path: "/blog/page:num"
 permalink: pretty
 categories:
 tag:

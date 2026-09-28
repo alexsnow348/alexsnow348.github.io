@@ -162,11 +162,10 @@ body {
     }
 
     h1 {
-      font-family: $font-sc;
+      font-family: $font-body;
       font-weight: 700;
-      text-transform: lowercase;
       font-size: 2rem;
-      letter-spacing: .04rem;
+      letter-spacing: normal;
       margin: 0 0 .5rem;
     }
 
@@ -419,12 +418,58 @@ figcaption {
   .tags { text-transform: lowercase; }
 }
 
+/* Simple year-grouped link list (blog index) — no divider lines */
+.blog-year-heading {
+  font-family: $font-sc;
+  font-weight: 700;
+  text-transform: lowercase;
+  font-size: 1.3rem;
+  letter-spacing: .02rem;
+  margin: 2.4rem 0 .6rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.lang-filter {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.lang-filter-btn {
+  font-family: inherit;
+  font-size: .85rem;
+  padding: .25rem .8rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+
+  &:hover { border-color: var(--text); }
+
+  &.active {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
+  }
+}
+
+.post-links-list {
+  margin-bottom: 1rem;
+
+  .post-list-item {
+    padding: .3rem 0;
+    border-bottom: none;
+  }
+}
+
 .post-list-title {
   display: block;
-  font-family: $font-sc;
-  text-transform: lowercase;
+  font-family: $font-body;
+  font-weight: 700;
   font-size: 1.2rem;
-  letter-spacing: .02rem;
+  letter-spacing: normal;
   color: var(--text);
   text-decoration: none;
   margin-bottom: .25rem;
