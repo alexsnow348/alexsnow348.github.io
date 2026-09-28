@@ -93,7 +93,7 @@ title: Projects
   <h3 class="project-title">
     <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Weekly Burmese Novel Reading</a>
   </h3>
-  <p class="project-desc">Weekly Clubhouse discussions on classical and post-modern Burmese short novels. 20–50 daily listeners; sessions archived on <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a> and Google Podcasts.</p>
+  <p class="project-desc">Weekly discussions on classical and post-modern Burmese short novels. 20–50 daily listeners; sessions archived on <a href="https://open.spotify.com/show/0sGc9BkYaGhIOUDEmd0Prq" target="_blank">Spotify</a> and Google Podcasts.</p>
   <div class="project-tags">
     <span class="project-tag tag-community">Community</span>
     <span class="project-tag tag-social">Myanmar</span>
@@ -104,9 +104,9 @@ title: Projects
 
 <div class="project-item">
   <h3 class="project-title">
-    <a href="https://www.clubhouse.com/club/ml-ai-fin-eco-burmese" target="_blank">Daily Read Program</a>
+    <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Daily Read Program</a>
   </h3>
-  <p class="project-desc">Daily Clubhouse discussions on ML, AI, finance, and economics for the Burmese community. 30–60 listeners per session; podcasts on <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a>.</p>
+  <p class="project-desc">Daily discussions on ML, AI, finance, and economics for the Burmese community. 30–60 listeners per session; podcasts on <a href="https://open.spotify.com/show/1iQWUbRlOhPTvDfmMh4U0K" target="_blank">Spotify</a>.</p>
   <div class="project-tags">
     <span class="project-tag tag-community">Community</span>
     <span class="project-tag tag-ml">AI/ML</span>
