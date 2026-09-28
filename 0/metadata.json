@@ -1,0 +1,81 @@
+{
+  "cli_version": "0.10.6",
+  "checkpoint_id": "01M3KQXCNVEW2MV2656W1V6R94",
+  "session_id": "187e8cfd-b69f-4f4e-a08d-4dc48d6ba23a",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-28T10:10:35.838235Z",
+  "branch": "master",
+  "checkpoints_count": 4,
+  "save_step_count": 4,
+  "files_touched": [
+    "Gemfile.lock",
+    "_includes/head.html",
+    "_includes/read-next.html",
+    "_layouts/article.html",
+    "_layouts/page.html",
+    "_layouts/post.html",
+    "_scss/component/_tufte.scss",
+    "blog/index.html",
+    "index.html",
+    "projects/index.md",
+    "together-certifications/index.md"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-5",
+  "turn_id": "96d5f326e256",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 916,
+    "cache_creation_tokens": 516116,
+    "cache_read_tokens": 142774839,
+    "output_tokens": 248113,
+    "api_call_count": 458
+  },
+  "session_metrics": {
+    "turn_count": 38
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-28T10:10:35.674057Z",
+    "agent_lines": 40,
+    "agent_removed": 45,
+    "human_added": 1,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 41,
+    "total_lines_changed": 87,
+    "agent_percentage": 97.70114942528735,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 24,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      }
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 24,
+      "user_lines_removed": 0,
+      "agent_lines_added": 40,
+      "agent_lines_removed": 5,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      }
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 24,
+      "user_lines_removed": 0,
+      "agent_lines_added": 14,
+      "agent_lines_removed": 5,
+      "user_added_per_file": {
+        ".claude/settings.local.json": 24
+      }
+    }
+  ]
+}
