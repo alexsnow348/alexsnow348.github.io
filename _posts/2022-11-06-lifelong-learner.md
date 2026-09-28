@@ -21,16 +21,8 @@ categories: ["လေ့လာမှု"]
 
 နောက်ဆုံးပိတ်အနေဖြင့် ပြောရမယ်ဆိုရင် ဘယ်နယ်ပယ်ကိုပဲ လေ့လာလိုက်စားမှုတွေလုပ်လုပ် အရေးကြီးဆုံး မသိတာကိုသိလိုစိတ်ရှိဖို့၊ နားလည်ဖို့ ခက်လာတဲ့ အရာတွေ တွေ့ရင် လွယ်လွယ်အရှုံးမပေးချင်စိတ်ရှိဖို့၊ discipline ရှိရှိ လေ့လာဖို့ အရေးကြီးဆုံးပဲ ဖြစ်ပါတယ်။
 
-![Lifelong learner](/public/img/life_long_learner.png)
 
 စိတ်ဝင်စားဖို့ကောင်းတဲ့ A New Career Direction with Lifelong Learning  ဆိုတာလေကို သဘောကျလို့ ရှယ်ပေးလိုက်ပါတယ်။
 
-<div class="container">
-  <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/O_4g-CSVjTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
 > တစ်ရက်နည်းနည်းစီတဖြေးဖြေးအတူတူလေ့လာကြစို့။
 >
-အဲလက်စ်စနိုး\\
-ဟေလ်ဒစ်(စ်)ဟိုင်း၊ ဒွိုင်(ခ်ျ)လန်(ဒ်)

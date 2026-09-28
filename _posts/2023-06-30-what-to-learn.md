@@ -21,6 +21,3 @@ categories:  ["ပေါ်လာသမျှ အတွေးများ"]
 ဒါပေမဲ့ ပြဿနာက ဘယ် အရာက ကိုယ့်အတွက် လုပ်နေရင် အချိန်မှန် မသိ ကုန်သွားမျိုးကို ဖြစ်တဲ့အရာမျိုးကို အခုချိန်ထိ ရှာမတွေ့သေးတာကိုပဲ။ ဒါပေမဲ့ သေချာတာ တစ်ခုက ဘာကိုမှ လျှောက်မလုပ်နေရင် အဲအရာကို ဘယ်တော့မှ တွေ့နိုင်မှာ မဟုတ်ဘူးဆိုတာကိုပဲ။
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002105081855016961?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-အဲလက်စ်စနိုး\\
-ဟေလ်ဒစ်(စ်)ဟိုင်း၊ ဒွိုင်(ခ်ျ)လန်(ဒ်)

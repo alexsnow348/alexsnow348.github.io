@@ -40,9 +40,3 @@ categories:  ["ပေါ်လာသမျှ အတွေးများ"]
 
 References -
 1. [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html){:target="_blank"}
-
-
-
-
-အဲလက်စ်စနိုး\\
-ဟေလ်ဒစ်(စ်)ဟိုင်း၊ ဒွိုင်(ခ်ျ)လန်(ဒ်)
