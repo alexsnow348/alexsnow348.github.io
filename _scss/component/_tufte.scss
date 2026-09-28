@@ -319,6 +319,22 @@ body {
       width: 100%;
       height: auto;
       border-radius: 4px;
+      transition: transform 0.4s ease;
+
+      &:hover {
+        transform: scale(1.05) rotate(4deg);
+      }
+    }
+
+    @media (max-width: 860px) {
+      width: 120px;
+      margin: 0 auto 1rem;
+      border-left: none;
+      padding-left: 0;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
