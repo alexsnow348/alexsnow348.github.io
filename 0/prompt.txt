@@ -163,3 +163,7 @@ burmese font are not appling in the blog pagination
 ---
 
 and apply font to newer and older filter too
+
+---
+
+commit it
