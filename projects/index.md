@@ -120,7 +120,7 @@ title: Projects
   <h3 class="project-title">
     <a href="https://www.facebook.com/MSMEsBridge/" target="_blank">Bridge</a>
   </h3>
-  <p class="project-desc">SME support platform for Myanmar — simplifying business registration, integrating digital wallets (WaveMoney, KBZPay), and building a knowledge hub for digital-literate youth to help local entrepreneurs.</p>
+  <p class="project-desc">Myanmar SME support platform for simplifying business registration, integrating digital wallets (WaveMoney, KBZPay), and building a knowledge hub for digital-literate youth to help local entrepreneurs.</p>
   <div class="project-tags">
     <span class="project-tag tag-social">Social Impact</span>
     <span class="project-tag tag-fintech">FinTech</span>
@@ -134,7 +134,7 @@ title: Projects
   <h3 class="project-title">
     <a href="https://www.alexsnowschool.org/" target="_blank">Alex Snow School</a>
   </h3>
-  <p class="project-desc">Peer-to-peer learning initiative for Myanmar STEM graduates — bridging the skills gap through AI/ML projects and financial literacy programs. Winner of <a href="https://www.freiheit.org/yangon/falling-walls-lab-myanmar-2020" target="_blank">Falling Walls Lab Myanmar 2020</a> and <a href="https://drive.google.com/file/d/1E7oaWmE9dL6iKVsMDkV77UqsnjFA_fUY/view?usp=sharing" target="_blank">Gold Medal at RICES MMU 2020</a>.</p>
+  <p class="project-desc">Peer-to-peer learning initiative for Myanmar STEM graduates to bridge the skills gap through AI/ML projects and financial literacy programs. Winner of <a href="https://www.freiheit.org/yangon/falling-walls-lab-myanmar-2020" target="_blank">Falling Walls Lab Myanmar 2020</a> and <a href="https://drive.google.com/file/d/1E7oaWmE9dL6iKVsMDkV77UqsnjFA_fUY/view?usp=sharing" target="_blank">Gold Medal at RICES MMU 2020</a>.</p>
   <div class="project-tags">
     <span class="project-tag tag-education">Education</span>
     <span class="project-tag tag-ml">AI/ML</span>
@@ -147,7 +147,7 @@ title: Projects
   <h3 class="project-title">
     <a href="https://www.facebook.com/kayinmoneytransfercommunity/" target="_blank">Kayin Money Transfer Community</a>
   </h3>
-  <p class="project-desc">Community-run money transfer platform serving Kayin State, Myanmar — providing in-village delivery to areas with no existing financial services.</p>
+  <p class="project-desc">Community-run money transfer platform serving Kayin State, Myanmar for providing in-village delivery to areas with no existing financial services.</p>
   <div class="project-tags">
     <span class="project-tag tag-fintech">FinTech</span>
     <span class="project-tag tag-community">Community</span>
@@ -158,7 +158,7 @@ title: Projects
   <h3 class="project-title">
     <a href="https://www.facebook.com/fyby2019" target="_blank">For Youth, By Youth (FYBY)</a>
   </h3>
-  <p class="project-desc">Peer knowledge-sharing platform for Myanmar youth — articles, life challenges, and community growth, written and run by young people.</p>
+  <p class="project-desc">Peer knowledge-sharing platform for Myanmar youth to share articles, life challenges, and community growth, written and run by young people.</p>
   <div class="project-tags">
     <span class="project-tag tag-social">Youth</span>
     <span class="project-tag tag-community">Community</span>
@@ -182,7 +182,7 @@ title: Projects
   <h3 class="project-title">
     <a href="https://github.com/alexsnow348/FX-Key-Eco-Event" target="_blank">Forex Economic Events Notifier</a>
   </h3>
-  <p class="project-desc">Notification engine that alerts traders 3 minutes before key economic announcements — helping time entries and exits around market-moving events.</p>
+  <p class="project-desc">Notification engine that alerts traders 3 minutes before key economic announcements for helping time entries and exits around market-moving events.</p>
   <div class="project-tags">
     <span class="project-tag tag-fintech">Trading</span>
     <span class="project-tag tag-ml">Automation</span>
