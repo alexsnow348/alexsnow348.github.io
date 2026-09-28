@@ -3,25 +3,35 @@ layout: default
 title: Blog
 ---
 
-<div class="lang-filter" id="lang-filter">
-  <button class="lang-filter-btn active" data-lang="all">All</button>
-  <button class="lang-filter-btn" data-lang="en">English</button>
-  <button class="lang-filter-btn" data-lang="my">Burmese</button>
-</div>
+<div class="tufte-post">
+  <header class="post-header">
+    <div class="ornament"></div>
+    <h1>Posts</h1>
+    <p class="subtitle">Tech, Life, Art &amp; Culture</p>
+  </header>
 
-{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-{% for year in posts_by_year %}
-<div class="blog-year-block" data-year="{{ year.name }}">
-  <h2 class="blog-year-heading">{{ year.name }}</h2>
-  <ul class="post-list post-links-list">
-    {% for post in year.items %}
-    <li class="post-list-item{% unless post.lang %} lang-my{% endunless %}" data-post-lang="{% if post.lang %}en{% else %}my{% endif %}">
-      <a class="post-list-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
+  <div class="post-body">
+    <div class="lang-filter" id="lang-filter">
+      <button class="lang-filter-btn active" data-lang="all">All</button>
+      <button class="lang-filter-btn" data-lang="en">English</button>
+      <button class="lang-filter-btn" data-lang="my">Burmese</button>
+    </div>
+
+    {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% for year in posts_by_year %}
+    <div class="blog-year-block" data-year="{{ year.name }}">
+      <h2 class="blog-year-heading">{{ year.name }}</h2>
+      <ul class="post-list post-links-list">
+        {% for post in year.items %}
+        <li class="post-list-item{% unless post.lang %} lang-my{% endunless %}" data-post-lang="{% if post.lang %}en{% else %}my{% endif %}">
+          <a class="post-list-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
 </div>
-{% endfor %}
 
 <script>
 (function() {
