@@ -1,0 +1,13 @@
+rotate the profile here when there is mouse hover
+
+---
+
+180 degree rotate, and make the picture small in the case of mobile device
+
+---
+
+instead of 180 degree, can you do different effect
+
+---
+
+remove the verticle line in the case of mobible view
