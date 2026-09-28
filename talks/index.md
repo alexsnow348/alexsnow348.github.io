@@ -5,30 +5,29 @@ title: Talks
 
 <style>
   .talks-intro {
-    font-family: "Lora", Georgia, serif;
-    font-size: 0.95rem;
-    color: #555;
+    font-size: 1.05rem;
     line-height: 1.85;
     margin-bottom: 2.5rem;
     max-width: 560px;
+    font-style: italic;
+    opacity: .85;
   }
 
   .talk-year-label {
-    font-family: "Inter", sans-serif;
-    font-size: 0.65rem;
+    font-family: "Alegreya SC", Georgia, serif;
     font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #CE942F;
+    text-transform: lowercase;
+    font-size: 1.05rem;
+    letter-spacing: .02rem;
     margin: 2.5rem 0 0.75rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid #f0e8d8;
+    border-bottom: 1px solid var(--border);
     display: block;
   }
 
   .talk-item {
     padding: 1.25rem 0;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid var(--border);
   }
 
   .talk-item:last-child { border-bottom: none; }
@@ -40,7 +39,7 @@ title: Talks
     margin-bottom: 0.85rem;
     border-radius: 4px;
     overflow: hidden;
-    background: #f5f5f5;
+    background: var(--link-hover-bg);
   }
 
   .talk-video iframe {
@@ -50,26 +49,25 @@ title: Talks
     border: none;
   }
 
-  .talk-title {
-    font-family: "Cormorant Garamond", Georgia, serif;
+  .talk-item h3.talk-title {
+    font-family: inherit;
+    text-transform: none;
+    letter-spacing: normal;
     font-size: 1.05rem;
     font-weight: 700;
-    color: #111;
     margin: 0 0 0.25rem;
     line-height: 1.35;
   }
 
   .talk-meta {
-    font-family: "Inter", sans-serif;
-    font-size: 0.72rem;
-    color: #aaa;
+    font-size: 0.8rem;
+    opacity: .6;
     margin-bottom: 0.5rem;
   }
 
   .talk-desc {
-    font-family: "Lora", Georgia, serif;
-    font-size: 0.875rem;
-    color: #666;
+    font-size: 0.95rem;
+    opacity: .85;
     line-height: 1.75;
     margin: 0 0 0.65rem;
   }
@@ -82,36 +80,28 @@ title: Talks
   }
 
   .talk-link {
-    font-family: "Inter", sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 600;
-    color: #CE942F;
+    color: var(--text);
     text-decoration: none;
-    border-bottom: 1px solid #f0d9a8;
+    border-bottom: 1px solid var(--border);
     padding-bottom: 1px;
-    transition: border-color 0.15s ease;
   }
 
   .talk-link:hover {
-    border-color: #CE942F;
-    text-decoration: none;
+    background: var(--link-hover-bg);
   }
 
   .talk-lang {
-    font-family: "Inter", sans-serif;
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     font-weight: 600;
     padding: 0.15rem 0.5rem;
     border-radius: 3px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 0.3px;
-    background: #f5f5f5;
-    color: #888;
-  }
-
-  .talk-lang-en {
-    background: #d6ecf8;
-    color: #1a5c8a;
+    color: var(--text);
+    background: var(--link-hover-bg);
+    border: 1px solid var(--border);
   }
 
   /* Posters section */
@@ -128,7 +118,7 @@ title: Talks
     object-fit: cover;
     border-radius: 4px;
     display: block;
-    border: 1px solid #eee;
+    border: 1px solid var(--border);
   }
 
   @media (max-width: 600px) {
@@ -137,7 +127,7 @@ title: Talks
 </style>
 
 <p class="talks-intro">
-  Public talks on AI, machine learning, and career development — mostly in Burmese for Myanmar's tech community, with occasional English sessions.
+  Public talks on AI, machine learning, and career development mostly in Burmese for Myanmar's tech community, with occasional English sessions.
 </p>
 
 <span class="talk-year-label">2025</span>
@@ -163,7 +153,7 @@ title: Talks
   <p class="talk-desc">How AI works behind the scenes and practical tools for professional use — from AI evolution basics to hands-on application.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1rpXtwOLW8D8Y55AR-qBOZyTc8feBgn_h/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1rpXtwOLW8D8Y55AR-qBOZyTc8feBgn_h/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -175,7 +165,7 @@ title: Talks
   <p class="talk-desc">LSTMs, GANs, and LLMs like FinGPT for sentiment analysis and risk prediction — with a look at ethical and regulatory challenges.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/18GRYC2YsePyo6wLdQlYBuR2bflnDSxob/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -188,7 +178,7 @@ title: Talks
   <p class="talk-desc">Teacher-student frameworks for creating smaller, efficient AI models — covering distillation schemes and applications in NLP and object detection.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1qoMhFWrcDK3jjOuWnv2863XeJwIs1bJ5/view?usp=drive_link" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -201,7 +191,7 @@ title: Talks
   <p class="talk-desc">A philosophy of continuous growth drawing from Richard Hamming — with a structured framework for learning in public.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1vMYo4bSP2HRdlYonGH1FPGVgFIZBlxKP/view?usp=drive_link" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1vMYo4bSP2HRdlYonGH1FPGVgFIZBlxKP/view?usp=drive_link" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -214,7 +204,7 @@ title: Talks
   <p class="talk-desc">AI's role in social media, entertainment, education, and healthcare — with practical tips for leveraging it effectively.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1PQG7MvaSdHmIN4ElyBNbpmPIMAhZx2Qk/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -227,7 +217,7 @@ title: Talks
   <p class="talk-desc">A practical roadmap for aspiring AI engineers — foundational skills, LLMOps, deployment, and learning resources.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1lWQ5S4v1owEAjWH-3GgzBVIRfUQtdl_4/view?usp=drive_link" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1lWQ5S4v1owEAjWH-3GgzBVIRfUQtdl_4/view?usp=drive_link" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -235,11 +225,11 @@ title: Talks
 
 <div class="talk-item">
   <h3 class="talk-title">Talking about Women in STEM</h3>
-  <div class="talk-meta">Friedrich Naumann Foundation · Yangon</div>
+  <div class="talk-meta">Friedrich Naumann Foundation &middot; Yangon</div>
   <p class="talk-desc">Career advice and opportunities in STEM fields, organised by Friedrich Naumann Foundation Yangon.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank" class="talk-link">Listen on SoundCloud →</a>
+    <a href="https://soundcloud.com/fnf-mm/episode-11-talking-about-women-in-stem" target="_blank" class="talk-link">Listen on SoundCloud &rarr;</a>
   </div>
 </div>
 
@@ -249,7 +239,7 @@ title: Talks
   <p class="talk-desc">Introduction to ML pipelines with a hands-on demo predicting loan risk using Google Cloud Vertex AI AutoML.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1mLHQW-5RX5GZexJkwipNVjD4zZ-0VuKi/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -257,11 +247,11 @@ title: Talks
 
 <div class="talk-item">
   <h3 class="talk-title">Why Study Computer Science?</h3>
-  <div class="talk-meta">Albukhary International University · Malaysia</div>
+  <div class="talk-meta">Albukhary International University &middot; Malaysia</div>
   <p class="talk-desc">Career orientation for CS students — future prospects, job landscape, and what to expect from a CS career.</p>
   <div class="talk-links">
-    <span class="talk-lang talk-lang-en">English</span>
-    <a href="https://drive.google.com/file/d/1dIExMOXvcdwiDlgeXONoLbC93xj0_Asu/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <span class="talk-lang">English</span>
+    <a href="https://drive.google.com/file/d/1dIExMOXvcdwiDlgeXONoLbC93xj0_Asu/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -269,11 +259,11 @@ title: Talks
 
 <div class="talk-item">
   <h3 class="talk-title">How Data Impacts Our Life</h3>
-  <div class="talk-meta">Phandeeyer Institute · Myanmar</div>
+  <div class="talk-meta">Phandeeyer Institute &middot; Myanmar</div>
   <p class="talk-desc">Data literacy talk for pre-university students at the Phandeeyer Institute Learning Festival.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/12u8Z84XNzc4HEBxGWuK4BqYmDjoz38Q_/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/12u8Z84XNzc4HEBxGWuK4BqYmDjoz38Q_/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 
@@ -281,12 +271,12 @@ title: Talks
   <div class="talk-video">
     <iframe src="https://www.youtube.com/embed/RUMMgeiEkVk" title="Age of ML & AI" allowfullscreen></iframe>
   </div>
-  <h3 class="talk-title">Age of ML & AI — Preparing for Jobs</h3>
+  <h3 class="talk-title">Age of ML &amp; AI — Preparing for Jobs</h3>
   <div class="talk-meta">Alex Snow School</div>
   <p class="talk-desc">ML and AI roles, employment opportunities, required skills, and preparation strategies for the next generation of engineers.</p>
   <div class="talk-links">
     <span class="talk-lang">Burmese</span>
-    <a href="https://drive.google.com/file/d/1dXRG6f4BaWc4n4a0XmbRJCUkuACVlQHg/view?usp=sharing" target="_blank" class="talk-link">Slides →</a>
+    <a href="https://drive.google.com/file/d/1dXRG6f4BaWc4n4a0XmbRJCUkuACVlQHg/view?usp=sharing" target="_blank" class="talk-link">Slides &rarr;</a>
   </div>
 </div>
 

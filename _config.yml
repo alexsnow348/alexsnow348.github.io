@@ -1,7 +1,7 @@
 # Site Info
 title: "Alex Snow"
-tagline: "AI/ML Notes · Projects · Certifications"
-description: 'Notes on AI, LLMs, and MLOps, plus projects and certifications. By <a href="https://github.com/alexsnow348" target="_blank">Alex Snow</a>.'
+tagline: "Notes · Projects · Talks"
+description: 'Notes on tech, life, art & culture By <a href="https://github.com/alexsnow348" target="_blank">Alex Snow</a>.'
 baseurl: ""
 url: "https://alexsnow348.github.io"
 logo: "/public/logo.png"
@@ -50,6 +50,8 @@ nav:
     - "/blog/"
   Projects:
     - "/projects/"
+  Talks:
+    - "/talks/"
   Certifications:
     - "/own-certifications/index.html"
     - { "learning": "/together-certifications/index.html" }
