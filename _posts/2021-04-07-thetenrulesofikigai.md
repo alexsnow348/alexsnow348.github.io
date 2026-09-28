@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The ten rules of ikigai"
-categories:  ["poem"]
+categories:  ["life"]
 lang: en
 ---
 
