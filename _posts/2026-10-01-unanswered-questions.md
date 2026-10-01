@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Unanswered questions "
+categories: ["life questions"]
+lang: "en"
+---
+
+Why all the business ideas today are about advising, consulting others to _**do consulting and advising to others?**_   To be a guide, a mentor, a consultant about some hyper specialised  domain is the new business of the age in the year 2026. The main reasons are these kind of business are lowest cost to start with just few hours per week,  and of course, all the best AI tools are at your disposal to be your hyper efficient agent. Not to mention you can be anywhere in the planet for these kinds of job too. You just need good track records at something, or good company name backed at your name. They all seem to be **_selling  to people the desires to be like them_**, meanwhile they themself are trying to run away or escape from their current positions and situations which is he main reason they started their consulting/advising business in the first place. 
+
+Further more, apart from people are _**showing the ways**_ on how to do this, how to do that, there is also new business idea on the street: _**here is my journey so far business**_. I will show you how I am doing right now, and you will get inspired to start your very own "here is my journey so far business". 
+
+The question popping up in my mind these days is that **are these all available viable options for those of us with no money and no background network connections backing to start something small or big**. Common advice you could find are: Do something, start small, start local, keep going. Be fearless. You are just as entitled as anyone to have the life you want. Keep doing what you enjoy. What you enjoy....! Caveat here is that what you enjoy must be something beneficial to the society  so that you can make living out of it. 
+
+I do enjoy reading about people life and the way they live. For me, learning about the journey of specific person is so enlightening. Especially, reading their journey about how they are confronting their own ego, in other word, how they are swimming or navigating  their own ocean. The Ocean here might represent the society of their time, their own consciousness, their own definition of success. As Susan Sontag called it, **As Consciousness is Harnessed to Flesh**. 
+
+What is my definition of success? I want to be independent from other people control. In other word, spend my time as I seem fit. How about the situation now compared to what I want? Are all dependencies are bad? The struggle of prediction your own way of life to live? How am I sure about which is the best or which is not? Roads should I have taken? Am I comparing myself with other people ideas of success? One thing I am sure is that I don't want those unanswered thoughts killing my very own living. And I don't want to live with constant worrying/fears and draining energy of mine and people around me especially those I love.  I want to be a cultured person, an intellectual, a femme fatale. For that, I need time to learn, read, and figure out my own thought process. I need to not rush. I will find my own definition of success. 
