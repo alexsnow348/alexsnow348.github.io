@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alexsnow348.github.io/sitemap.xml
+Sitemap: https://blog.alexsnowschool.org/sitemap.xml

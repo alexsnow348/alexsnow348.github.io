@@ -3,7 +3,7 @@
 ## Overview
 AI and LLM consulting for SMBs and cultural institutions (museums, galleries, archives). Specialising in practical GenAI applications, MLOps, and agentic systems — from strategy to production.
 
-**URL:** https://alexsnow348.github.io
+**URL:** https://blog.alexsnowschool.org
 **Author:** Alex Snow (Wuthmoneh Ninhlaing)
 **Location:** Germany (DACH region)
 **Languages:** English, German (elementary), Burmese (native)

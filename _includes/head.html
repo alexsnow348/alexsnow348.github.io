@@ -51,10 +51,10 @@
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://alexsnow348.github.io/#person",
+        "@id": "https://blog.alexsnowschool.org/#person",
         "name": "Alex Snow",
         "alternateName": "Wuthmoneh Ninhlaing",
-        "url": "https://alexsnow348.github.io",
+        "url": "https://blog.alexsnowschool.org",
         "image": "https://www.gravatar.com/avatar/a320402fa9d8fb397013d6f56da76b97?s=400",
         "jobTitle": "AI Solution Architect",
         "description": "AI Solution Architect writing notes on machine learning, large language models, and MLOps.",
@@ -77,8 +77,8 @@
         "@type": "Article",
         "headline": "{{ page.title | escape }}",
         "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | escape }}",
-        "author": { "@id": "https://alexsnow348.github.io/#person" },
-        "publisher": { "@id": "https://alexsnow348.github.io/#person" },
+        "author": { "@id": "https://blog.alexsnowschool.org/#person" },
+        "publisher": { "@id": "https://blog.alexsnowschool.org/#person" },
         "datePublished": "{{ page.date | date_to_xmlschema }}",
         "url": "{{ site.url }}{{ page.url }}"{% if page.tags.size > 0 %},
         "keywords": "{{ page.tags | join: ', ' }}"{% endif %}

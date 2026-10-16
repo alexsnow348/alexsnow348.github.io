@@ -2,7 +2,7 @@
 
 A Youths' run school for empowering the next generation towards Myanmar economic and technological advancement.
 
-Please visit the blog [here](https://alexsnow348.github.io/).
+Please visit the blog [here](https://blog.alexsnowschool.org/).
 
 ### LLM Context
 This site includes an [llm.txt](llm.txt) file for AI/LLM consumption, providing structured information about the site's content, structure, and purpose.
